@@ -87,6 +87,7 @@ In attendance:  `Ginger Morgan`_ (clerk), `Carlton Gamer`_,
     d. `Education Committee`_: The filmed play continues.
     e. `Meeting Home`_ no report
     f. `Library`_ no report
+    
 4. Old business
     a. Follow up from Lessons Learned.  The `minutes`_ were approved. `Ginger`_ 
        suggested that we consider scheduling Soup and Sharing or Potluck Sharing 
@@ -94,22 +95,84 @@ In attendance:  `Ginger Morgan`_ (clerk), `Carlton Gamer`_,
        Meeting regarding acquisition of Meeting Home.  She asked, 
        Are there other outcomes from this meeting to discuss as we find our way forward?.  
 
-       Please add to the minutes of the special meeting that the song at the end of the gathering was .Sweet, Sweet Spirit..
-	We were reminded that we wanted to have some intentional conversations as a meeting about being ready and proceeding in the process of finding a home for the meeting.
-	Bill Durland remarked on the value and importance of having a good record of the conversation and thanked Molly wingate for her work.
-	Genie Durland pointed out that she would like to focus next winter.s adult education class on the testimonies, and she thought this discussion might help with the question of a meeting house.
-	Molly Wingate asked that we have conversation about renting a space.  The more she has thought of it, the better the idea of renting sounds.
-	Ginger asked if we should have the next potluck on the question of renting.  Bill asked Ginger to craft a query for the discussion that includes the idea of growth and being .evangelical and significant in our community..
-	Sarah Callbeck reminded us of the comment that discerning who we are as a meeting and what our identity is will inform what sort of edifice we will inhabit.  Just wanting a meeting house is not quite enough to get us in one, and finding out who we are might help us get there.
-	Genie added that getting a place would help us express ourselves and find out who we are.
-	Joyce Doyle concurred that there needs to be a clearer sense of a .mission statement. for why we exist, and she is interested in the action of the meeting.  She feels we are missing a clear sense of why this particular meeting exists. She is encouraged that she is hearing the words and ideas she has been waiting for. 
-	Bill pointed out the challenge of talking about what we are before we act.  It is easy to have a great and important conversation but have it not result in action.
-	Genie pointed out the challenge of Quakerism inclusiveness and having a specific identity. 
-	Molly talked about how her identity as a Friend has been a reflection of what is going on in the world and how she has engaged in it. She commented that the continual unfolding of God.s message and direction are central to Quakerism and thus Quakerism changes.    
-	Carlton pointed out that testimonies are the things that we can all agree with and they are a foundation for our identity.  He urged us to come to an understanding of who we are individually and have a regular conversation about each of us.  He agreed that we can use the testimonies to find the kind of building we want to be in.  He talked about us as Hicksite Friends and how we differ from the Friends Church. This question was not adequately addressed in other meetings and lead to a permanent split. Carlton suggested that we have a series of conversations where one Friend addresses how they became Quakers, what being a Quaker means to them, and how their lives reflect their Quakerism.  
-	We generally agreed that it would be a great to have such discussions. So what steps do we take to ensure this happens. Use the next potluck for one person to tell his/her story or use the potluck for planning?  Ginger pulled us back from the conversation to say that she will hold all these ideas and get back to us about the next potluck. We had silence. 
+       Please add to the minutes of the special meeting that the song at
+       the end of the gathering was `Sweet, Sweet Spirit`_. We were 
+       reminded that we wanted to have some intentional conversations as
+       a meeting about being ready and proceeding in the process 
+       of finding a home for the meeting.
+       
+       `Bill Durland`_ remarked on the value and importance of having a 
+       good record of the conversation and thanked `Molly Wingate`_ for 
+       her work. `Genie Durland`_ pointed out that she would like to 
+       focus next winter's adult education class on the `testimonies`_, 
+       and she thought this discussion might help with the question of 
+       a meeting house.
+       
+	   `Molly Wingate`_ asked that we have conversation about renting a 
+	   space.  The more she has thought of it, the better the idea of 
+	   renting sounds.
+	
+	   `Ginger`_ asked if we should have the next potluck on the 
+	   question of renting.  `Bill`_ asked `Ginger`_ to craft a query 
+	   for the discussion that includes the idea of growth and being 
+	   *evangelical and significant in our community*.
+	   
+	   `Sarah Callbeck`_ reminded us of the comment that discerning who 
+	   we are as a meeting and what our identity is will inform what 
+	   sort of edifice we will inhabit.  Just wanting a meeting house 
+	   is not quite enough to get us in one, and finding out who we are 
+	   might help us get there.
+	   
+	   `Genie`_ added that getting a place would help us express 
+	   ourselves and find out who we are.
+	   
+	   `Joyce Doyle`_ concurred that there needs to be a clearer sense 
+	   of a **mission statement** for why we exist, and she is 
+	   interested in the action of the meeting.  She feels we are 
+	   missing a clear sense of why this particular meeting exists. She 
+	   is encouraged that she is hearing the words and ideas she has 
+	   been waiting for. 
+	   
+	   `Bill`_ pointed out the challenge of talking about what we are 
+	   before we act.  It is easy to have a great and important 
+	   conversation but have it not result in action.
+	   
+	   `Genie`_ pointed out the challenge of Quakerism inclusiveness 
+	   and having a specific identity. 
+	   
+	   `Molly`_ talked about how her identity as a `Friend`_ has been a 
+	   reflection of what is going on in the world and how she has 
+	   engaged in it. She commented that the continual unfolding of 
+	   God's message and direction are central to `Quakerism`_ and thus 
+	   `Quakerism`_ changes.
+	   
+	    `Carlton`_ pointed out that `testimonies`_ are the things that 
+	    we can all agree with and they are a foundation for our 
+	    identity.  He urged us to come to an understanding of who we 
+	    are individually and have a regular conversation about each of 
+	    us.  He agreed that we can use the `testimonies`_ to find the 
+	    kind of building we want to be in.  He talked about us as 
+	    `Hicksite Friends`_ and how we differ from the 
+	    `Friends Church`_. This question was not adequately addressed 
+	    in other meetings and lead to a permanent split. `Carlton`_ 
+	    suggested that we have a series of conversations where one 
+	    Friend addresses how they became `Quakers`_, what being a 
+	    `Quaker`_ means to them, and how their lives reflect their 
+	    `Quakerism`_.
+	     
+	     We generally agreed that it would be a great to have such 
+	     discussions. So what steps do we take to ensure this happens. 
+	     Use the next potluck for one person to tell his/her story or 
+	     use the potluck for planning?  
+	     
+	     `Ginger`_ pulled us back from the conversation to say that she 
+	     will hold all these ideas and get back to us about the next 
+	     potluck. 
+	     
+	     We had silence. 
 5. New Business
-	a.  Member records: The matter of making sure our records about each member are accurate can wait until next meeting.
+	a.  Member records: The matter of making sure our records about 
+	    each member are accurate can wait until next meeting.
 
 We closed in silence at 1:15.
 
@@ -123,6 +186,7 @@ We closed in silence at 1:15.
 .. _`Joyce Doyle`: http://coloradospringsquakers.org/Friends/JoyceDoyle/
 .. _`Sarah`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
 .. _`Sarah Callbeck`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
+.. _`Carlton`: http://coloradospringsquakers.org/Friends/CarltonGamer/
 .. _`Carlton Gamer`: http://coloradospringsquakers.org/Friends/CarltonGamer/
 .. _`Lisa`: http://coloradospringsquakers.org/Friends/LisaLister/
 .. _`Lisa Lister`: http://coloradospringsquakers.org/Friends/LisaLister/
@@ -136,14 +200,21 @@ We closed in silence at 1:15.
 .. _`minutes`: http://coloradospringsquakers.org/minutes/2012/01/special
 .. _`Colorado Regional Meeting`: http://coloradospringsquakers.org/ColoradoRegionalMeeting/
 .. _`Education Committee`: http://coloradospringsquakers.org/FirstDaySchool
+.. _`Friend`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
+.. _`Friends Church`: http://coloradospringsquakers.org/locations/FriendsChurch
 .. _`finance Committee`: http://coloradospringsquakers.org/committees/Finance/
 .. _`Finance Committee`: http://coloradospringsquakers.org/committees/Finance/
+.. _`Hicksite Friends`: http://coloradospringsquakers.org/history/Hicksite
 .. _`Intermountain Yearly Meeting`: http://coloradospringsquakers.org/imym/
 .. _`IMYM Continuing Committee`: http://coloradospringsquakers.org/imym/committees/Continuing
 .. _`Library`: http://coloradospringsquakers.org/Library
 .. _`Meeting Home`: http://coloradospringsquakers.org/committees/MeetingHome
 .. _`Ministry and Oversight`: http://coloradospringsquakers.org/committees/M&O/
 .. _`M&O`: http://coloradospringsquakers.org/committees/M&O/
+.. _`Quaker`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
+.. _`Quakers`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
+.. _`Quakerism`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
 .. _`Nominating Committee`: http://coloradospringsquakers.org/committees/Nominating/
+.. _`Sweet, Sweet Spirit`: 
 .. _`REA`: http://coloradospringsquakers.org/committees/rea
 .. _`Religious Education and Action`: http://coloradospringsquakers.org/committees/rea

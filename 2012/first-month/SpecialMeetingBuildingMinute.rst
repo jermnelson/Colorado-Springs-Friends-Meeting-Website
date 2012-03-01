@@ -17,7 +17,7 @@ have to bring the electrical and plumbing up to the current building codes with 
 
 
 The church is still being used by a dwindling congregation who wish to sell at a price of $95,000. Due to 
-the low cost and time sensitivity involved with this property, Molly requested from the Meeting  a conditional
+the low cost and time sensitivity involved with this property, `Molly`_ requested from the Meeting  a conditional
 contract be put together by attorneys associated with the Meeting such that negotiations can begin with 
 the current owners. `Ginger`_ brought the matter before the assembled members and attenders as a special Minute. 
 The consensus was that the Meeting should go forward with this conditional contract with the understanding 
@@ -36,6 +36,7 @@ Respectfully submitted in the light,
 .. _`Peter LeVar`: http://coloradospringsquakers.org/friends/PeterLeVar/
 .. _`Maria Melendez`: http://coloradospringsquakers.org/friends/MariaMelendez/
 .. _`Ginger Morgan`: http://coloradospringsquakers.org/friends/GingerMorgan/
+.. _`Molly`: http://coloradospringsquakers.org/friends/MollyWingate/
 .. _`Molly Wingate`: http://coloradospringsquakers.org/friends/MollyWingate/
 .. _`950 E. Cimarron`: http://coloradospringsquakers.org/locations/950ECimarron/
 .. _`Business Meeting`: http://coloradospringsquakers.org/2012/02/19/business/
