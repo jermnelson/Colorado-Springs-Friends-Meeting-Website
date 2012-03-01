@@ -1,8 +1,0 @@
-*.user
-*.swp
-*.suo
-bin
-obj
-_ReSharper.*
-*.userprefs
-*.pidb
