@@ -9,7 +9,7 @@ In attendance: `Ginger Morgan`_ (out going clerk), `Martha Lutz`_,
 
 Meeting opened in silence.
 
-With `Ginger`_’s acceptance to serve as Clerk of the Meeting, `M&O`_ 
+With `Ginger`_'s acceptance to serve as Clerk of the Meeting, `M&O`_ 
 discussed with new members the customary duties and business that `M&O`_ 
 oversees, including contacting individual members and attenders annually
 by phone, visiting or calling home bound Friends, Friends with 
@@ -35,7 +35,7 @@ and attendance; and participation in `Quaker conferences`_, `programs`_
 or roles beyond the monthly meeting.
 
 We began conversation about the request by the Meeting to draft a 
-charge for the committee recommended for Religious Education in Action.  
+charge for the committee recommended for `Religious Education`_ in Action.  
 Further conversation, seasoning and clarification will be necessary 
 before a proposal is made to the meeting for business.
 
@@ -48,12 +48,17 @@ In the Light,
 `Ginger Morgan`_
 Outgoing Clerk of `M&O`_
 
-.. _`Bill Durland`: http://coloradospringsquakers.org/friends/BillDurland/
-.. _`Peter LeVar`: http://coloradospringsquakers.org/friends/PeterLeVar/
-.. _`Martha Lutz`: http://coloradospringsquakers.org/friends/MarthaLutz/
-.. _`Ginger Morgan`: http://coloradospringsquakers.org/friends/GingerMorgan/
-.. _`Jeremy Nelson`: http://coloradospringsquakers.org/friends/JeremyNelson/
-.. _`M&O`: http://coloradospringsquakers.org/committees/m&o/
+.. _`Bill Durland`: http://coloradospringsquakers.org/Friends/BillDurland/
+.. _`Peter LeVar`: http://coloradospringsquakers.org/Friends/PeterLeVar/
+.. _`Martha Lutz`: http://coloradospringsquakers.org/Friends/MarthaLutz/
+.. _`Ginger`: http://coloradospringsquakers.org/Friends/GingerMorgan/
+.. _`Ginger Morgan`: http://coloradospringsquakers.org/Friends/GingerMorgan/
+.. _`Jeremy Nelson`: http://coloradospringsquakers.org/Friends/JeremyNelson/
+.. _`First Day school`: http://coloradospringsquakers.org/FirstDaySchool/
+.. _`Religious Education`: http://coloradospringsquakers.org/committees/ReligiousEducation/
+.. _`M&O`: http://coloradospringsquakers.org/committees/M&O/
 .. _`Kapiti Meeting`: http://quaker.org.nz/meeting/kapiti
+.. _`programs`: http://coloradospringsquakers.org/programs/
+.. _`Quaker conferences`: http://coloradospringsquakers.org/conferences/
 .. _`Salt Lake Friends Meeting`: http://www.saltlakequakers.org/
 .. _`testimonies`: http://coloradospringsquakers.org/testimonies

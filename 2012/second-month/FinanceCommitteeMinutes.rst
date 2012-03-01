@@ -20,7 +20,7 @@ willing to do the advance work to get the books set up properly in
 Quicken, but the Meeting needs to approve the purchase of a license to 
 this software.
 
-`Ann`_’s work life has been intensely busy and she is no longer able to 
+`Ann`_'s work life has been intensely busy and she is no longer able to 
 handle bookkeeper duties for the meeting.  We thank her heartily for her
 dedicated past work and we continue to appreciate her ongoing work as 
 the Meeting’s realtor.  Sarah will handle the preparation of financial 
@@ -39,5 +39,6 @@ Finance Committee Recorder
 
 .. _`Ann Daugherty`: http://coloradospringsquakers.org/friends/AnnDaugherty/
 .. _`Sarah Callbeck`: http://coloradospringsquakers.org/friends/SarahCallbeck/
+.. _`Lisa`: http://coloradospringsquakers.org/friends/LisaLister/
 .. _`Lisa Lister`: http://coloradospringsquakers.org/friends/LisaLister/
 .. _`Ginger Morgan`: http://coloradospringsquakers.org/friends/GingerMorgan/
