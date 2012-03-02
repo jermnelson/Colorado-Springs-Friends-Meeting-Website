@@ -71,16 +71,18 @@
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
-            {% if user %}
+            {% ifequal user None%}
             <p class="navbar-text pull-right">Logged in as <a href="#">username</a>
                                                            <a href="{{ logout_url }}">logout</a></p>
             {% else %}
-             <form class="well form-inline" action="{{ login_url }}" method="POST">
+            <p class="navbar-text pull-right">
+             <form class="form-inline" action="{{ login_url }}" method="POST">
                 <input type="text" class="input-small" placeholder="Email">
                 <input type="password" class="input-small" placeholder="Password">
                 <button type="submit" class="btn">Go</button>
             </form>
-            {% endif %}
+            </p>
+            {% endifequal %}
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -88,20 +90,22 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
+		{% block sidebar-nav %}
         <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">Testimonies</li>
               <li {% comment %}class="active"{% endcomment %}><a href="/testimonies/simplicity">Simplicity</a></li>
               <li><a href="/testimonies/peace">Peace</a></li>
-              <li><a href="/testimonies/integrity">Integrty</a></li>
+              <li><a href="/testimonies/integrity">Integrity</a></li>
+              <li><a href="/testimonies/truth">Truth</a></li>
               <li><a href="/testimonies/community">Community</a></li>
               <li><a href="/testimonies/equality">Equality</a></li>
               <li class="nav-header">Friends Meetings</li>
               <li><a href="/worship">Worship</a></li>
               <li><a href="/business">Business</a></li>
               <li><a href="/special">Special</a></li>
-              <li><a href="/imym">Intermountain Yearly Meeting</a></li>
+              <li><a href="http://www.imym.org/">Intermountain Yearly Meeting</a></li>
               <li><a href="/fgc">Friends General Conference</a></li>
               <li class="nav-header">Our History</li>
               <li><a href="/history/origin">Origin</a></li>
@@ -118,8 +122,9 @@
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
+        {% endblock %}
         <div class="span9">
-          {% block hero-unit %}
+		  {% block hero-unit %}
           <div class="hero-unit">
             <h1>Colorado Springs Quakers</h1>
             <p>Colorado Springs <a href="/ReligiousSocietyOfFriends">Religious Society of Friends</a>, 
@@ -146,15 +151,14 @@
             {% block one-two-box %}
             <div class="span4">
               <h2>Testimonies</h2>
-              <p>The Quaker Testimonies are the bedrock values for 
+              <p>The Quaker Testimonies are bedrock values for 
                <a href="/ReligiousSocietyOfFriends">Religious Society of Friends</a>.
                They are know informally as <strong>SPICE</strong> and are as follows:
               </p>
               <ul>
                 <li><a href="/testimonies/simplicity">Simplicity</a></li>
                 <li><a href="/testimonies/peace">Peace</a></li>
-                <li><a href="/testimonies/integrity">Integrity</a>/
-                    <a href="/testimonies/truth">Truth</a></li>
+                <li><a href="/testimonies/integrity">Integrity</a>/<a href="/testimonies/truth">Truth</a></li>
                 <li><a href="/testimonies/community">Community</a></li>
                 <li><a href="/testimonies/community">Equality</a></li>
               </ul>
