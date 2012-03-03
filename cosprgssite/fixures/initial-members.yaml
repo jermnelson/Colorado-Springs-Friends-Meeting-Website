@@ -1,0 +1,165 @@
+- model: django.contrib.auth.models.User
+  pk: 1
+  fields:
+    username: AllisonEdwards
+    email: allison.j.edwards@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 2
+  fields:
+    username: AnnDaugherty
+    email: anndaugherty@hermangroup.net
+- model: django.contrib.auth.models.User
+  pk: 3
+  fields:
+    username: AnnGrantMartin
+    email: ann.grantfarms@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 4
+  fields:
+    username: BarbaraBowen
+    email: Barboe1@msn.com
+- model: django.contrib.auth.models.User
+  pk: 5
+  fields:
+    username: BarbaraWill-Wallace
+    email: foothillgal44@yahoo.com
+- model: django.contrib.auth.models.User
+  pk: 6
+  fields:
+    username: BillDurland
+    email: durlandwe@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 7
+  fields:
+    username: BillWerling
+    email: Bill@s-t-w.org
+- model: django.contrib.auth.models.User
+  pk: 8
+  fields:
+    username: CarltonGamer
+    email: CGamer@coloradocollege.edu
+- model: django.contrib.auth.models.User
+  pk: 9
+  fields:
+    username: ConnieKreider
+    email: edu_connie@yahoo.com
+- model: django.contrib.auth.models.User
+  pk: 10
+  fields:
+    username: ConnieWilliams
+    email: SaltCreekTradingPost@wildblue.net
+- model: django.contrib.auth.models.User
+  pk: 11
+  fields:
+    username: DebGimpelson
+    email: halndeb@mac.com
+- model: django.contrib.auth.models.User
+  pk: 12
+  fields:
+    username: DeirdreLaRouche-Donnellan
+    email: unique_corne@yahoo.com
+- model: django.contrib.auth.models.User
+  pk: 13
+  fields:
+    username: GingerMorgan
+    email: gmorgan@coloradocollege.edu
+- model: django.contrib.auth.models.User
+  pk: 14
+  fields:
+    username: JaneMilburn
+    email: sprucetree23@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 15
+  fields:
+    username: JohnGallagher
+    email: Johngee115@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 16
+  fields:
+    username: JoyceDoyle
+    email: joycedoyle330@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 17
+  fields:
+    username: JulieRoten-Valdez
+    email: jrotenvaldez@msn.com
+- model: django.contrib.auth.models.User
+  pk: 18
+  fields:
+    username: KimWerling
+    email: KCC232@hotmail.com
+- model: django.contrib.auth.models.User
+  pk: 19
+  fields:
+    username: LindaSeger
+    email: lsseger@aol.com
+- model: django.contrib.auth.models.User
+  pk: 20
+  fields:
+    username: LisaBeckrich
+    email: lbeckrich@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 21
+  fields:
+    username: LisaLister
+    email: llister@coloradocollege.edu
+- model: django.contrib.auth.models.User
+  pk: 22
+  fields:
+    username: MariaMelendez
+    email: melendezpoetry@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 23
+  fields:
+    username: MarthaLutz
+    email: Marthalutz8@yahoo.com
+- model: django.contrib.auth.models.User
+  pk: 24
+  fields:
+    username: MollyWingate
+    email: molly@wingate-consulting.com
+- model: django.contrib.auth.models.User
+  pk: 25
+  fields:
+    username: NancyAndrew
+    email: nandrew007@aol.com
+- model: django.contrib.auth.models.User
+  pk: 26
+  fields:
+    username: NateBower
+    email: nbower@coloradocollege.edu
+- model: django.contrib.auth.models.User
+  pk: 27
+  fields:
+    username: PaulKonik
+    email: paulkonik@comcast.net
+- model: django.contrib.auth.models.User
+  pk: 28
+  fields:
+    username: PeterLeVar
+    email: phlevar@aol.com
+- model: django.contrib.auth.models.User
+  pk: 29
+  fields:
+    username: SarahCallbeck
+    email: 98chinamom@comcast.net
+- model: django.contrib.auth.models.User
+  pk: 30
+  fields:
+    username: SebastianTsocanos
+    email: sebastian.tsocanos@gmail.com
+- model: django.contrib.auth.models.User
+  pk: 31
+  fields:
+    username: SherryMacMahon
+    email: vinita@q.com
+- model: django.contrib.auth.models.User
+  pk: 32
+  fields:
+    username: GenieDurland
+    email: geniedurland@test.com
+- model: django.contrib.auth.models.User
+  pk: 33
+  fields:
+    username: HalGimpelson
+    email: halndeb@mac.com

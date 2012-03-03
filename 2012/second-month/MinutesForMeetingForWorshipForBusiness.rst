@@ -5,7 +5,7 @@ February 19, 2012
 -----------------
 
 In attendance: `Ginger Morgan`_ , `Carlton Gamer`_, `Sarah Callbeck`_, 
-`Bill Durland`_, `Genie Durland`_, `Jeremy Nelson`_, `Joyce`_, `Julie`_,  
+`Bill Durland`_, `Genie Durland`_, `Molly`_, `Jeremy Nelson`_, `Joyce`_, `Julie`_,  
 
 1. Open Worship in Silence at 11:35am
    Ginger opened with a line from Reka? " it is inside ourselves that God learns" 
@@ -183,18 +183,19 @@ iii. IMYM 2012 Census
 
 Closed in silence. 
 
-.. _`Ann`: http://coloradospringsquakers.org/friends/AnnDaugherty/
-.. _`Ann Daugherty`: http://coloradospringsquakers.org/friends/AnnDaugherty/
-.. _`Sarah`: http://coloradospringsquakers.org/friends/SarahCallbeck/
-.. _`Sarah Callbeck`: http://coloradospringsquakers.org/friends/SarahCallbeck/
+.. _`Ann`: http://coloradospringsquakers.org/Friends/AnnDaugherty/
+.. _`Ann Daugherty`: http://coloradospringsquakers.org/Friends/AnnDaugherty/
+.. _`Sarah`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
+.. _`Sarah Callbeck`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
 .. _`Bill Durland`: http://coloradospringsquakers.org/Friends/BillDurland/
 .. _`Genie Durland`: http://coloradospringsquakers.org/Friends/GenieDurland/
 .. _`Carlton Gamer`: http://coloradospringsquakers.org/friends/CarltonGamer/
 .. _`Dede`: http://coloradospringsquakers.org/Friends/Dede
+.. _`Ginger`: http://coloradospringsquakers.org/Friends/GingerMorgan/
 .. _`Ginger Morgan`: http://coloradospringsquakers.org/Friends/GingerMorgan/
 .. _`Jeremy Nelson`: http://coloradospringsquakers.org/Friends/JeremyNelson/
 .. _`M&O`: http://coloradospringsquakers.org/committees/M&O/
-.. _`finance committee`: http://coloradospringsquakers.org/committees/finance/
+.. _`finance committee`: http://coloradospringsquakers.org/committees/Finance/
 .. _`January minutes`: http://coloradospringsquakers.org/minutes/2012/01/14/business
 .. _`Special Minute`: http://coloradospringsquakers.org/minutes/2012/01/19/special/
 .. _`Religious Education and Action Committee`: http://coloradospringsquakers.org/committees/REA/

@@ -35,7 +35,7 @@ and attendance; and participation in `Quaker conferences`_, `programs`_
 or roles beyond the monthly meeting.
 
 We began conversation about the request by the Meeting to draft a 
-charge for the committee recommended for `Religious Education`_ in Action.  
+charge for the committee recommended for `Religious Education and Action`_.  
 Further conversation, seasoning and clarification will be necessary 
 before a proposal is made to the meeting for business.
 
@@ -55,7 +55,7 @@ Outgoing Clerk of `M&O`_
 .. _`Ginger Morgan`: http://coloradospringsquakers.org/Friends/GingerMorgan/
 .. _`Jeremy Nelson`: http://coloradospringsquakers.org/Friends/JeremyNelson/
 .. _`First Day school`: http://coloradospringsquakers.org/FirstDaySchool/
-.. _`Religious Education`: http://coloradospringsquakers.org/committees/ReligiousEducation/
+.. _`Religious Education`: http://coloradospringsquakers.org/committees/ReligiousEducationAndAction/
 .. _`M&O`: http://coloradospringsquakers.org/committees/M&O/
 .. _`Kapiti Meeting`: http://quaker.org.nz/meeting/kapiti
 .. _`programs`: http://coloradospringsquakers.org/programs/

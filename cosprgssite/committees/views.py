@@ -34,17 +34,16 @@ def default(request):
                                'committees/index.html',
                                {'user':user})
 
-def display_report(request,
-                   year,
-                   month,
-                   day,
-                   report_name):
+
+def display_monthly_report(request,
+                           committee,
+                           year,
+                           month):
      """
      Function displays a reStructured Committee report
 
      :param year: YYYY four year digit string
      :param month: MM 01-12 digit 
-     :param day: DD 01-31 digit
      :param report_name: Name of rst report (filename)
      :rtype: Generated HTML
      """
@@ -54,9 +53,8 @@ def display_report(request,
           user = None
      report_dir = os.path.join(settings.PROJECTBASE_DIR,
                                year,
-                               month,
-                               day)
-     report_path = "%/%s" % (report_dir,report_name)
+                               month)
+     report_path = "%/%s.rst" % (report_dir,report_name)
      if os.path.exists(report_path):
           # Should check datastore to see report protect,
           report_rst = get_report(report_path)
@@ -65,4 +63,12 @@ def display_report(request,
      return direct_to_template(request,
                                'committees/report.html',
                                {'user':user,
-                                'report_rst':report_rst})
+                                'report':{'name':report_name,
+                                          'contents':report_rst}})
+
+def display_yearly_report(request,committee,year):
+    return direct_to_template(request,
+                              'committees/report.html',
+                              {'user':None,
+                               'report':{'name':'%s Yearly Report %s' % (year,committee),
+                                         'contents':'Yearly Report Contents'}})

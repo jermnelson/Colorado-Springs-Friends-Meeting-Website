@@ -1,5 +1,9 @@
+local_settings.*
 *.pyc
 doc/_build
 doc/make.bat
 log/
 aristotle/local_*
+200*
+201*
+*.db

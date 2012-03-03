@@ -2,6 +2,7 @@
 import os.path
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+PROJECTBASE_DIR = os.path.split(PROJECT_ROOT)[0]
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -86,8 +87,6 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
-# Make this unique, and don't share it with anybody.
-SECRET_KEY = 'yl#1()fyq1y78i$tr3^+59hmzkar8gbrmj^c$)qvz-j$td^7%q'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -121,10 +120,12 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.markup',
+    # All Colorado Springs Religious Society of Friends installed apps
+    'committees',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -149,3 +150,8 @@ LOGGING = {
         },
     }
 }
+
+try:
+    from local_settings import *
+except ImportError:
+    pass
