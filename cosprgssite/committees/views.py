@@ -6,7 +6,7 @@ import os,settings
 from django.contrib.auth import authenticate
 from django.http import HttpResponseNotFound
 from django.views.generic.simple import direct_to_template
-from committees.models import Committee,CommitteeMember,CommitteeReports,Position
+from committees.models import Committee,CommitteeMember,CommitteeReport,Position
 
 def get_report(rst_path):
      """

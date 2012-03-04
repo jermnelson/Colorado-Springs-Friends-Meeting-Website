@@ -122,6 +122,10 @@ INSTALLED_APPS = (
     'django.contrib.markup',
     # All Colorado Springs Religious Society of Friends installed apps
     'committees',
+    'location',
+    'meetings',
+    'testimonies',
+    'Friends',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

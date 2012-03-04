@@ -8,6 +8,6 @@ from django.contrib import admin
 
 admin.site.register(Committee)
 admin.site.register(CommitteeMember)
-admin.site.register(CommitteeReports)
+admin.site.register(CommitteeReport)
 admin.site.register(Position)
 

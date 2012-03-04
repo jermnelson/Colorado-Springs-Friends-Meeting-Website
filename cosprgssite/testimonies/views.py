@@ -7,7 +7,15 @@ from django.views.generic.simple import direct_to_template
 
 
 def community(request):
-    pass
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+    return direct_to_template(request,
+                              'testimonies/community.html',
+                              {'user':user,
+                               'page':{'name':'Quaker Community Testimony',
+                                       'title':'Colorado Springs Quaker Meeting - Community Testimony'}})
 
 def default(request):
     if request.user.is_authenticated():
@@ -29,10 +37,26 @@ def default(request):
                                
 
 def equality(request):
-    pass
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+    return direct_to_template(request,
+                              'testimonies/equality.html',
+                              {'user':user,
+                               'page':{'name':'Quaker Equality Testimony',
+                                       'title':'Colorado Springs Quaker Meeting - Equality Testimony'}})
 
 def integrity(request):
-    pass
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+    return direct_to_template(request,
+                              'testimonies/integrity.html',
+                              {'user':user,
+                               'page':{'name':'Quaker Integrity and Truth Testimony',
+                                       'title':'Colorado Springs Quaker Meeting - Integrity Testimony'}})
 
 
 def peace(request):
@@ -43,7 +67,8 @@ def peace(request):
     return direct_to_template(request,
                               'testimonies/peace.html',
                               {'user':user,
-                               'page':{'name':'Quaker Peace Testimony'}})
+                               'page':{'name':'Quaker Peace Testimony',
+                                       'title':'Colorado Springs Quaker Meeting - Peace Testimony'}})
 
 def simplicity(request):
     if request.user.is_authenticated():
@@ -53,8 +78,16 @@ def simplicity(request):
     return direct_to_template(request,
                               'testimonies/simplicity.html',
                               {'user':user,
-                               'page':{'name':'Quaker Simplicity Testimony'}})
+                               'page':{'name':'Quaker Simplicity Testimony',
+                                       'title':'Colorado Springs Quaker Meeting - Simplicity Testimony'}})
 
 
 def truth(request):
-    pass
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+    return direct_to_template(request,
+                              'testimonies/integrity.html',
+                              {'user':user,
+                               'page':{'name':'Quaker Integrity and Truth Testimony'}})
