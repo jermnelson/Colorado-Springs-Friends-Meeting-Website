@@ -21,11 +21,7 @@ class CommitteeMember(models.Model):
                                  null=True)
     
 class Position(models.Model):
-    value = models.IntegerField(choices=((0,"attender"),
-                                         (1,"clerk"),
-                                         (2,"member"),
-                                         (3,"recording clerk"),
-                                         (4,"treasurer")))
+    value = models.CharField(max_length=45)
                      
 class CommitteeReports(models.Model):
     authors = models.ManyToManyField(CommitteeMember)

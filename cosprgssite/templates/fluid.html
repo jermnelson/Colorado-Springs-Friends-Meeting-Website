@@ -105,20 +105,22 @@
               <li><a href="/worship">Worship</a></li>
               <li><a href="/business">Business</a></li>
               <li><a href="/special">Special</a></li>
+              <li><a href="/committees">Committees</a></li>
               <li><a href="http://www.imym.org/">Intermountain Yearly Meeting</a></li>
               <li><a href="/fgc">Friends General Conference</a></li>
               <li class="nav-header">Our History</li>
-              <li><a href="/history/origin">Origin</a></li>
+              <li><a href="/history/origin">George Fox and the First Quakers</a></li>
+              <li><a href="/history/Hicksite">Hicksite Split</a></li>
+              <li><a href="/history/EmancipationAndSuffrage">Emancipation &amp; Suffrage</a></li>
               <li><a href="/history/ColoradoSprings">In Colorado Springs</a></li>
               <li class="nav-header">Current Friends</li>
               <li><a href="/community/all">Members and Attenders</a></li>
-              <li><a href="/community/young">Young Friends</li>
+              <li><a href="/community/young">Young Friends</a></li>
               <li class="nav-header">Committees</li>
               <li><a href="/committees/m&o/">Minestry and Oversight</a></li>
               <li><a href="/committees/education/">Education</a></li>
               <li><a href="/committees/finance">Finance</a></li>
-              <li><a href="/committees/housing">Finance</a></li>
-              <li class="nav-header">Advocacy and Social Concerns</li>
+              <li><a href="/committees/housing">Meeting House</a></li>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
@@ -132,6 +134,8 @@
             <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
           </div>
           {% endblock %}
+          
+          {% block first-row %}
           <div class="row-fluid">
             {% block one-one-box %}
             <div class="span4">
@@ -174,6 +178,8 @@
             </div><!--/span-->
            {% endblock %}
           </div><!--/row-->
+          {% endblock %}
+          {% block second-row %}
           <div class="row-fluid">
            {% block two-one-box %}
             <div class="span4">
@@ -199,7 +205,7 @@
           </div><!--/row-->
         </div><!--/span-->
       </div><!--/row-->
-
+      {% endblock %}
       <hr>
 
       {% block footer %}

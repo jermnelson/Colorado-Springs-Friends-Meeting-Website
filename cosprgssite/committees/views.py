@@ -4,8 +4,9 @@
 __author__ = "Jeremy Nelson"
 import os,settings
 from django.contrib.auth import authenticate
+from django.http import HttpResponseNotFound
 from django.views.generic.simple import direct_to_template
-
+from committees.models import Committee,CommitteeMember,CommitteeReports,Position
 
 def get_report(rst_path):
      """
@@ -24,7 +25,7 @@ def get_report(rst_path):
 
 def default(request):
      """
-     Displays for committees of Meeting and Related organizations
+     Displays Committees of Meeting and Related organizations
      """
      if request.user.is_authenticated():
           user = request.user
@@ -34,6 +35,22 @@ def default(request):
                                'committees/index.html',
                                {'user':user})
 
+
+def display_committee(request,
+                      committee):
+     """
+     Function displays a detail view for a single committee
+
+     :param committee: Name of committee
+     """
+     committees = Committee.objects.filter(name=committee)
+     if len(committees) < 1:
+          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
+     return direct_to_template(request,
+                               'committee/detail.html',
+                               {'committee':committees[0]})
+                               
+     
 
 def display_monthly_report(request,
                            committee,

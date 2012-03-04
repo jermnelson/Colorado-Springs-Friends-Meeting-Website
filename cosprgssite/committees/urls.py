@@ -11,8 +11,9 @@ from django.conf.urls.defaults import *
 
 urlpatterns = patterns('committees.views',
     url(r"^$","default",name='Committee Home'),
+##    url(r"(?P<committee>)/$","display_committee"),
     url(r"^(\w+)/(\d+)/$","display_yearly_report"),
-    url(r'^(?P<year>\d+)/(?P<month>\d+)/$','display_monthly_report'),
+    url(r'^(?P<committee>\w+)/(?P<year>\d+)/(?P<month>\d+)/$','display_monthly_report'),
 )
 ##    url(r'equality$','equality'),
 ##    url(r'integrity$','integrity'),
