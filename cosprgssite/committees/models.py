@@ -6,15 +6,15 @@ __author__ = 'Jeremy Nelson'
 
 from django.db import models
 from django.contrib.auth.models import User
-from Friends.models import Friend
 
 class Committee(models.Model):
     date_created = models.DateTimeField()
     name = models.CharField(max_length=150)
-    members = models.ManyToManyField('CommitteeMember')
+    
 
 class CommitteeMember(models.Model):
-    user = models.ForeignKey(Friend,unique=True)
+    committee = models.ForeignKey(Committee)
+    user = models.ForeignKey(User)
     date_joined = models.DateField()
     date_left = models.DateField(blank=True,null=True)
     

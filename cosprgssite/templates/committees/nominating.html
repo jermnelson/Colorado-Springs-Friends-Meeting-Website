@@ -1,0 +1,48 @@
+{% extends 'fluid.html' %}
+
+{% block hero-unit %}
+{% comment %}STAR M&O-main DIV{% endcomment %}
+ <div class="hero-unit">
+  <h1>Nominating</h1>
+  <p>Nominating committees are concerned with how the gifts of
+   members and attenders may best serve the meeting's needs for clerks,
+   committee members, and responsible positions.
+   <small>IMYM Faith and Practice page 62</small>
+ {% comment %}END M&O-main DIV{% endcomment %}
+ </div>
+{% endblock %}
+
+{% block one-one-box %}
+ <div class="span4">
+ <h2>Responsibilities</h2>
+ <p></p>
+ </div>
+{% endblock %}
+
+{% block one-two-box %}
+<div class="span4">
+<h2>Current Members</h2>
+<ul>
+{% for friend in committee.members %}
+ <li><a href="/Friends/{{ friend.user.username }}">{{ friend.short_name }}</a> {% if position %}({{ position.value }}){% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+{% block one-three-box %}
+<div class="span4">
+<h2>Recent Reports and Minutes</h2>
+<ul>
+{% for report in committee_reports %}
+ <li><a href="/committees/Nominating/{{ report.year }}/{{ report.month }}/{{ report.name }}">
+     {{ report.year }}/{{ report.month }}/{{ report.name }}</a>
+ </li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+{% block two-two-box %}{% endblock %}
+{% block two-three-box %}{% endblock %}

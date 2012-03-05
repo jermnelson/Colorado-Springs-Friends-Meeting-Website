@@ -53,8 +53,14 @@ def display_committee(request,
      :param committee: Name of committee
      """
      committees_query = Committee.objects.filter(name=committee)
+     
      if len(committees_query) > 0:
           committee_info = committees_query[0]
+          member_query = CommitteeMember.objects.filter(committee=committee_info)
+          committee_info = committee_info
+          members = member_query
+                                                         
+          
      else:
           committee_info = {'name':committee,
                             'members':[]}
@@ -63,7 +69,8 @@ def display_committee(request,
 ##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
      return direct_to_template(request,
                                committee_templates[committee],
-                               {'committee':committee_info})
+                               {'committee':committee_info,
+                                'members':members})
                                
      
 

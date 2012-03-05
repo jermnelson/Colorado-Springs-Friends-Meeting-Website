@@ -1,0 +1,53 @@
+{% extends 'fluid.html' %}
+
+{% block hero-unit %}
+{% comment %}STAR M&O-main DIV{% endcomment %}
+ <div class="hero-unit">
+  <h1>Finance</h1>
+  <p>Monthly meetings must have income to pay for rent or maintenance of
+     space, communication, outreach, insurance, educational materials,
+     and other expenses.</p>
+   <small>IMYM Faith and Practice page 65</small>
+ {% comment %}END M&O-main DIV{% endcomment %}
+ </div>
+{% endblock %}
+
+{% block one-one-box %}
+ <div class="span4">
+ <h2>Responsibilities</h2>
+ <ul>
+  <li>Oversee the maintenance of orderly accounts and expenditure 
+      procedures</li>
+  <li>Advice the monthly meeting on the financial 
+     aspects of its affairs</li>
+  </ul>
+ </div>
+{% endblock %}
+
+{% block one-two-box %}
+<div class="span4">
+<h2>Current Members</h2>
+<ul>
+{% for friend in members %}
+ <li><a href="/Friends/{{ friend.username }}">{{ friend.username }}</a> {% if position %}({{ position.value }}){% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+{% block one-three-box %}
+<div class="span4">
+<h2>Recent Reports and Minutes</h2>
+<ul>
+{% for report in committee_reports %}
+ <li><a href="/committees/Nominating/{{ report.year }}/{{ report.month }}/{{ report.name }}">
+     {{ report.year }}/{{ report.month }}/{{ report.name }}</a>
+ </li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+{% block two-two-box %}{% endblock %}
+{% block two-three-box %}{% endblock %}

@@ -1,0 +1,283 @@
+[
+  {
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "username": "AllisonEdwards",
+      "email": "allison.j.edwards@gmail.com",
+      "first_name": "Allison",
+      "last_name": "Edwards"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+       "username": "AnnDaugherty",
+       "email": "anndaugherty@hermangroup.net",
+       "is_active":true
+       
+    }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "username": "AnnGrantMartin",
+    "email": "ann.grantfarms@gmail.com",
+    "is_active":true
+   }
+},  
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "username": "BarbaraBowen",
+    "email": "Barboe1@msn.com",
+    "is_active":true
+   }
+},
+{
+ "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "username": "BarbaraWill-Wallace",
+    "email": "foothillgal44@yahoo.com"
+   }
+ },
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "username": "BillDurland",
+    "email": "durlandwe@gmail.com",
+    "is_active":true
+    }
+ },
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "username": "BillWerling",
+    "email": "Bill@s-t-w.org",
+    "is_active": true
+    }
+},
+{  
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "username": "CarltonGamer",
+    "email": "CGamer@coloradocollege.edu",
+    "is_active":true
+   }
+ },
+ {
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "username": "ConnieKreider",
+    "email": "edu_connie@yahoo.com"
+  }
+},   
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "username": "ConnieWilliams",
+    "email": "SaltCreekTradingPost@wildblue.net"
+   }
+ },  
+ {
+ "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "username": "DebGimpelson",
+    "email": "halndeb@mac.com"
+   }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "username": "GingerMorgan",
+    "email": "gmorgan@coloradocollege.edu",
+    "is_active":true
+   }
+}, 
+{
+"model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "username": "JaneMilburn",
+    "email": "sprucetree23@gmail.com",
+    "is_active":true
+ }
+},
+{
+ "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "username": "JohnGallagher",
+    "email": "Johngee115@gmail.com",
+    "is_active":true
+    }
+ },
+ {
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "username": "JoyceDoyle",
+    "email": "joycedoyle330@gmail.com",
+    "is_active":true
+    }
+  },
+ {
+"model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "username": "JulieRoten-Valdez",
+    "email": "jrotenvaldez@msn.com",
+    "is_active":true
+     }
+  },  
+  {
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "username": "KimWerling",
+    "email": "KCC232@hotmail.com",
+    "is_active": true
+    }
+  },
+  {
+   "model": "auth.user",
+   "pk": 19,
+   "fields": {
+      "username": "LindaSeger",
+      "email": "lsseger@aol.com",
+      "is_active": true
+    }
+  },
+  {  
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "username": "LisaBeckrich",
+    "email": "lbeckrich@gmail.com"
+    }
+   },
+   {
+     "model": "auth.user",
+     "pk": 21,
+     "fields": {
+        "username": "LisaLister",
+        "email": "llister@coloradocollege.edu",
+        "is_active": true
+     }
+  },
+  {
+  "model": "auth.user",
+  "pk": 22,
+  "fields": {
+    "username": "MariaMelendez",
+    "email": "melendezpoetry@gmail.com",
+    "is_active": true
+   }
+  }, 
+  {
+  "model": "auth.user",
+  "pk": 23,
+  "fields": {
+    "username": "MarthaLutz",
+    "email": "Marthalutz8@yahoo.com",
+    "is_active": true
+    }
+  },
+  {
+  "model": "auth.user",
+  "pk": 24,
+  "fields": {
+    "username": "MollyWingate",
+    "email": "molly@wingate-consulting.com",
+    "is_active": true
+   }
+  },
+   
+  {  
+  "model": "auth.user",
+  "pk": 25,
+  "fields": {
+    "username": "NancyAndrew",
+    "email": "nandrew007@aol.com",
+    "is_active": true
+   }
+  },
+  {
+  "model": "auth.user",
+  "pk": 26,
+  "fields": {
+    "username": "NateBower",
+    "email": "nbower@coloradocollege.edu"
+    }
+  },
+  {  
+  "model": "auth.user",
+  "pk": 27,
+  "fields": {
+    "username": "PaulKonik",
+    "email": "paulkonik@comcast.net"
+   }
+  },
+  {
+  "model": "auth.user",
+  "pk": 28,
+  "fields": {
+    "username": "PeterLeVar",
+    "email": "phlevar@aol.com",
+    "is_active": true
+    }
+  },
+  {
+  "model": "auth.user",
+  "pk": 29,
+  "fields": {
+    "username": "SarahCallbeck",
+    "email": "98chinamom@comcast.net",
+    "is_active": true
+    }
+  },
+  {
+   "model": "auth.user",
+   "pk": 30,
+   "fields": {
+     "username": "SebastianTsocanos",
+     "email": "sebastian.tsocanos@gmail.com"
+   }
+  },
+  {
+   "model": "auth.user",
+   "pk": 31,
+   "fields": {
+      "username": "SherryMacMahon",
+      "email": "vinita@q.com"
+     }
+  },
+  {
+    "model": "auth.user",
+    "pk": 32,
+    "fields": {
+       "username": "GenieDurland",
+        "email": "geniedurland@test.com",
+        "is_active": true
+     }
+   }, 
+   {
+     "model": "auth.user",
+     "pk": 33,
+     "fields": {
+        "username": "HalGimpelson",
+        "email": "halndeb@mac.com"
+       }
+    }
+]
