@@ -2,11 +2,20 @@
  :mod:views Colorado Springs Friends Meeting Committee View
 """
 __author__ = "Jeremy Nelson"
+
 import os,settings
 from django.contrib.auth import authenticate
 from django.http import HttpResponseNotFound
 from django.views.generic.simple import direct_to_template
 from committees.models import Committee,CommitteeMember,CommitteeReport,Position
+
+committee_templates = {'Education':'committees/education.html',
+                       'Finance':'committees/finance.html',
+                       'Meeting House':'committees/meeting-house.html',
+                       'MinistryAndOversight':'committees/ministry-and-oversight.html',
+                       'Nominating':'committees/nominating.html',
+                       'Religious Education and Action':'rea.html'}
+                       
 
 def get_report(rst_path):
      """
@@ -43,12 +52,18 @@ def display_committee(request,
 
      :param committee: Name of committee
      """
-     committees = Committee.objects.filter(name=committee)
-     if len(committees) < 1:
-          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
+     committees_query = Committee.objects.filter(name=committee)
+     if len(committees_query) > 0:
+          committee_info = committees_query[0]
+     else:
+          committee_info = {'name':committee,
+                            'members':[]}
+##   
+##     if len(committees) < 1:
+##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
      return direct_to_template(request,
-                               'committee/detail.html',
-                               {'committee':committees[0]})
+                               committee_templates[committee],
+                               {'committee':committee_info})
                                
      
 
