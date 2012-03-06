@@ -5,8 +5,11 @@ from django.http import HttpResponse
 def default(request):
     return HttpResponse("NEEDS CONTENT -- History Index Page")
 
-def emancipation_and_suffrage(request):
-    return HttpResponse("NEEDS CONTENT -- Emancipation and Suffrage")
+def abolition_and_suffrage(request):
+    return HttpResponse("NEEDS CONTENT -- Abolition and Suffrage")
+
+def colorado_springs(request):
+    return HttpResponse("NEEDS CONTENT -- Local Quaker history in Colorado Springs")
 
 def hicksite(request):
     return HttpResponse("NEEDS CONTENT -- Hicksite Split")

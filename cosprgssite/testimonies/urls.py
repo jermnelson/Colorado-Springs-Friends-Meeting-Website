@@ -10,7 +10,7 @@ urlpatterns = patterns('testimonies.views',
     url(r'[c|C]ommunity$','community'),
     url(r'[e|E]quality$','equality'),
     url(r'[i|I]ntegrity$','integrity'),
-    url(r'peace$','peace'),
+    url(r'[p|P]eace$','peace'),
     url(r'[s|S]implicity$','simplicity'),
     url(r'[t|T]ruth$','truth'),
 )

@@ -11,10 +11,11 @@ from committees.models import Committee,CommitteeMember,CommitteeReport,Position
 
 committee_templates = {'Education':'committees/education.html',
                        'Finance':'committees/finance.html',
-                       'Meeting House':'committees/meeting-house.html',
+                       'MeetingHouse':'committees/meeting-house.html',
                        'MinistryAndOversight':'committees/ministry-and-oversight.html',
                        'Nominating':'committees/nominating.html',
-                       'Religious Education and Action':'rea.html'}
+                       'REA':'committees/rea.html',
+                       'ReligiousEducationAndAction':'committees/rea.html'}
                        
 
 def get_report(rst_path):

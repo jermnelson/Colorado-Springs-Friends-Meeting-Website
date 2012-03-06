@@ -1,0 +1,45 @@
+{% extends 'fluid.html' %}
+
+{% block hero-unit %}
+{% comment %}STAR REA main DIV{% endcomment %}
+ <div class="hero-unit">
+  <h1>Religious Education and Access</h1>
+   <p></p>
+ {% comment %}END REA DIV{% endcomment %}
+ </div>
+{% endblock %}
+
+{% block one-one-box %}
+ <div class="span4">
+ <h2>Recent &amp; Upcoming Sessions</h2>
+ <p></p>
+ </div>
+{% endblock %}
+
+{% block one-two-box %}
+<div class="span4">
+<h2>Current Members</h2>
+<ul>
+{% for friend in committee.members %}
+ <li><a href="/Friends/{{ friend.user.username }}">{{ friend.short_name }}</a> {% if position %}({{ position.value }}){% endif %}</li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+{% block one-three-box %}
+<div class="span4">
+<h2>Recent Reports and Minutes</h2>
+<ul>
+{% for report in committee_reports %}
+ <li><a href="/committees/Nominating/{{ report.year }}/{{ report.month }}/{{ report.name }}">
+     {{ report.year }}/{{ report.month }}/{{ report.name }}</a>
+ </li>
+{% endfor %}
+</ul>
+</div>
+{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+{% block two-two-box %}{% endblock %}
+{% block two-three-box %}{% endblock %}

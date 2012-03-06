@@ -3,6 +3,7 @@
 """
 __author__ = 'Jeremy Nelson'
 from django.contrib.auth import authenticate
+from django.http import HttpResponse
 from django.views.generic.simple import direct_to_template
 
 def default(request):
@@ -14,6 +15,12 @@ def default(request):
                               {'business':[],
                                'special':[],
                                'worship':[]})
+
+def advices_and_queries(request):
+    """
+    Advices and Queries View for Specific Committee
+    """
+    return HttpResponse("NEEDS IMPLEMENTATION - advices and queries")
 
 def business(request):
     """
