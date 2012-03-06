@@ -12,7 +12,7 @@ silence. Previously, the Meeting approved the hire of part-time
 bookkeeping services to handle financial record management for the 
 Meeting, as there is no one within the Meeting who is able to take on 
 this role.  Before this is done, however, `Sarah`_ believes that now is the
- right time to move our financial bookkeeping from Excel to Quicken 
+right time to move our financial bookkeeping from Excel to Quicken 
 Books, as Excel for this purpose is no longer the professional standard,
 and is quite awkward.  It will also shorten the amount of time a new 
 bookkeeper will have to spend each month on our books.  `Sarah`_ is 
@@ -37,8 +37,12 @@ In the Light,
 `Lisa`_
 Finance Committee Recorder
 
-.. _`Ann Daugherty`: http://coloradospringsquakers.org/friends/AnnDaugherty/
-.. _`Sarah Callbeck`: http://coloradospringsquakers.org/friends/SarahCallbeck/
-.. _`Lisa`: http://coloradospringsquakers.org/friends/LisaLister/
-.. _`Lisa Lister`: http://coloradospringsquakers.org/friends/LisaLister/
+.. _`Ann`: http://coloradospringsquakers.org/Friends/AnnDaugherty/
+.. _`Ann Daugherty`: http://coloradospringsquakers.org/Friends/AnnDaugherty/
+.. _`Sarah`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
+.. _`Sarah Callbeck`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
+.. _`Lisa`: http://coloradospringsquakers.org/Friends/LisaLister/
+.. _`Lisa Lister`: http://coloradospringsquakers.org/Friends/LisaLister/
+.. _`Ginger`: http://coloradospringsquakers.org/Friends/GingerMorgan/
 .. _`Ginger Morgan`: http://coloradospringsquakers.org/friends/GingerMorgan/
+.. _`IMYM`: http://www.imym.org

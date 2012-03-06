@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'cosprgssite.views.home', name='home'),
     url(r'^committees/', include('cosprgssite.committees.urls')),
+    url(r'^meetings/', include('cosprgssite.meetings.urls')),
     url(r'^testimonies/', include('cosprgssite.testimonies.urls')),
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

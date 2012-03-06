@@ -1,0 +1,41 @@
+{% extends 'fluid.html' %}
+
+{% block hero-unit %}
+<div class="hero-unit">
+ <h1>{{ meeting.name }}</h1>
+ <p>
+  {{ meeting.description }}
+ </p>
+</div>
+{% endblock %}
+
+{% block one-one-box %}
+{% if minutes %}
+ <div class="span4">
+  <h2>Minutes</h2>
+  <ul>
+  {% for report in minutes %}
+    <li><a href="{{ report.url }}">{{ report.name }} {{ report.meeting_date }}</a></li>
+  {% endfor %}
+  </ul>
+ </div>
+{% endif %}
+{% endblock %}
+
+{% block one-two-box %}
+{% if reports %}
+<div class="span4">
+  <h2>Reports</h2>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block one-three-box %}
+{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+
+{% block two-two-box %}
+{% endblock %}
+
+{% block two-three-box %}{% endblock %}

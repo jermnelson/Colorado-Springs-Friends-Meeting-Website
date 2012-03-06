@@ -3,7 +3,7 @@
 """
 __author__ = "Jeremy Nelson"
 
-import os,settings
+import os,settings,logging
 from django.contrib.auth import authenticate
 from django.http import HttpResponseNotFound
 from django.views.generic.simple import direct_to_template
@@ -28,7 +28,8 @@ def get_report(rst_path):
           rst_contents = rst_file.read()
           rst_file.close()
      except:
-          rst_file.close()
+          raise
+          #rst_file.close()
      return rst_contents
      
 
@@ -53,34 +54,35 @@ def display_committee(request,
      :param committee: Name of committee
      """
      committees_query = Committee.objects.filter(name=committee)
-     
      if len(committees_query) > 0:
           committee_info = committees_query[0]
           member_query = CommitteeMember.objects.filter(committee=committee_info)
           committee_info = committee_info
           members = member_query
-                                                         
-          
+          current_reports = CommitteeReport.objects.filter(committee=committee_info)     
      else:
-          committee_info = {'name':committee,
-                            'members':[]}
+          committee_info = {'name':committee}
+          members,current_reports = [],[]
 ##   
 ##     if len(committees) < 1:
 ##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
      return direct_to_template(request,
                                committee_templates[committee],
                                {'committee':committee_info,
-                                'members':members})
+                                'committee_members':members,
+                                'reports':current_reports})
                                
      
 
 def display_monthly_report(request,
                            committee,
                            year,
-                           month):
+                           month,
+                           report_name):
      """
      Function displays a reStructured Committee report
 
+     :param committee: Name of committee
      :param year: YYYY four year digit string
      :param month: MM 01-12 digit 
      :param report_name: Name of rst report (filename)
@@ -90,12 +92,14 @@ def display_monthly_report(request,
           user = request.user
      else:
           user = None
-     report_dir = os.path.join(settings.PROJECTBASE_DIR,
-                               year,
-                               month)
-     report_path = "%/%s.rst" % (report_dir,report_name)
-     if os.path.exists(report_path):
+     committee_query = Committee.objects.filter(name=committee)
+     committee_obj = committee_query[0]
+     reports = CommitteeReport.objects.filter(committee=committee_obj,name=report_name)
+     if len(reports) > 0:
           # Should check datastore to see report protect,
+          report_path = os.path.join(settings.PROJECTBASE_DIR,
+                                     reports[0].rstFileLocation)
+          logging.error("REPORT path is %s" % settings.PROJECTBASE_DIR)
           report_rst = get_report(report_path)
      else:
           report_rst = '''Report %s does not exist''' % report_name

@@ -20,9 +20,9 @@
  <div class="span4">
  <h2>Responsibilities</h2>
  <ul>
-  <li><strong>Care for the <a href="/meetings/Worship">Meeting of Worship</a></strong></li>
-  <li><strong>Care for the <a href="/meetings/Business">Meeting for Business</a></strong></li>
-  <li><strong>Care for Individual Lives</strong></li>
+  <li>Care for the <a href="/meetings/Worship">Meeting of Worship</a></li>
+  <li>Care for the <a href="/meetings/Business">Meeting for Business</a></li>
+  <li>Care for Individual Lives</li>
  </ul>
  </div>
 {% endblock %}
@@ -32,7 +32,7 @@
 <h2>Current Members</h2>
 <ul>
 {% for friend in committee_members %}
- <li><a href="/Friends/{{ friend.user.username }}">{{ friend.short_name }}</a> {% if position %}({{ position.value }}){% endif %}</li>
+ <li><a href="/Friends/{{ friend.user.username }}">{{ friend.user}}</a> {% if position %}({{ position.value }}){% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -43,7 +43,7 @@
 <h2>Recent Reports and Minutes</h2>
 <ul>
 {% for report in committee_reports %}
- <li><a href="/committees/M&O/{{ report.year }}/{{ report.month }}/{{ report.name }}">
+ <li><a href="/committees/MinistryAndOversight/{{ report.report_date.year }}/{{ report.report_date.month }}/{{ report.name }}">
      {{ report.year }}/{{ report.month }}/{{ report.name }}</a>
  </li>
 {% endfor %}

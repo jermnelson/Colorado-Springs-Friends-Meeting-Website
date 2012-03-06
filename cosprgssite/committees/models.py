@@ -31,6 +31,7 @@ class CommitteeReport(models.Model):
     committee = models.ForeignKey(Committee)
     ingested_date = models.DateTimeField(auto_now=True,
                                          auto_now_add=True)
+    name = models.CharField(max_length=50)
     rstFileLocation = models.CharField(max_length=255)
     report_date = models.DateTimeField()
     
