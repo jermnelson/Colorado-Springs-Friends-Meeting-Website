@@ -54,21 +54,49 @@
           </a>
           <a class="brand" href="/">{% block page-nav-name %}{% if page.name %}{{ page.name }}{% else %}{% trans "Colorado Springs Quakers" %}{% endif %}{% endblock %}</a>
           <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
+            <ul class="nav secondary-nav">
+              <li class="active"><a href="/">Home</a></li>
               <li class="dropdown">
-		  <a href="#" class="dropdown-toggle" 
-		     data-toggle="dropdown">Testimonies<b class="caret"></b></a>
-		  <ul class="dropdown-menu">
-		   <li><a href="/testimonies/Simplicity">Simplicity</a></li>
+		       <a href="#" class="dropdown-toggle" 
+		         data-toggle="dropdown">Testimonies<b class="caret"></b></a>
+		         <ul class="dropdown-menu">
+		           <li><a href="/testimonies/Simplicity">Simplicity</a></li>
                    <li><a href="/testimonies/Peace">Peace</a></li>
-                   <li><a href="/testimonies/Integrity">Integrty</a></li>
+                   <li><a href="/testimonies/Integrity">Integrity</a></li>
                    <li><a href="/testimonies/Community">Community</a></li>
                    <li><a href="/testimonies/Equality">Equality</a></li>
-		  </ul>
-	     </li>
-              <li><a href="/committees">Committees</a></li>
-              <li><a href="/about">About</a></li>
+		        </ul>
+	          </li>
+	          {% comment %}START Committee drop-down LI{% endcomment %}
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" 
+		         data-toggle="dropdown">Committees<b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+                  <li><a href="/committees/MinistryAndOversight/">Ministry and Oversight</a></li>
+                  <li><a href="/committees/Education/">Education</a></li>
+                  <li><a href="/committees/Finance">Finance</a></li>
+                  <li><a href="/committees/MeetingHouse">Meeting House</a></li>
+                  <li><a href="/committees/Nominating">Nominating</a></li>
+                  <li><a href="/committees/REA/">Religious Education &amp; Action</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/committees/">Committees Home</a></li>
+                  
+		        </ul>
+		      {% comment %}END Committee drop-down LI{% endcomment %}   
+		      </li>
+		      {% comment %}START About drop-down LI{% endcomment %}   
+              <li class="dropdown">
+				<a href="#" class="dropdown-toggle" 
+		         data-toggle="dropdown">About<b class="caret"></b></a>
+		        <ul class="dropdown-menu">
+		         <li><a href="/history">History</a></li>
+		         <li><a href="/ReligiousSocietyOfFriends">Religious Society of Friends</a></li>
+		         <li><a href="/meetings/">Meetings</a></li>
+		         <li><a href="/Friends">Current Friends</a></li>
+		         <li><a href="/donate">Donate</a></li>
+		        </ul>
+			  {% comment %}END About drop-down LI{% endcomment %}   
+			  </li>
               <li><a href="/contact">Contact</a></li>
             </ul>
             {% ifequal user None%}
@@ -195,15 +223,22 @@
            {% block two-two-box %}
             <div class="span4">
               <h2>Friends</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p>Friends are made up of <a href="/Friends/Attenders">Attenders</a>,
+                 <a href="/Friends/Members">Members</a>, and 
+                 <a href="/Friends/Young">Young Friends</a>.</p>
+              <p><a class="btn btn-info btn-large" href="#">Donate!</a></p>
+               
             </div><!--/span-->
            {% endblock %}
            {% block two-three-box %}
             <div class="span4">
-              <h2>About &amp; Contact</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <h2>Contact</h2>
+              <p>Our postal address is:</p>
+              <div class="alert alert-block">P.O. Box 2514
+                    Colorado Springs, Colorado
+                    80903</div>
+               <p>Our telephone is <span class="alert alert-info">719.685.5548</span></p>
+              <p><a class="btn" href="#">Email Us</a></p>
             </div><!--/span-->
            {% endblock %}
           </div><!--/row-->
