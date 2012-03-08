@@ -15,7 +15,10 @@
     "fields": {
        "username": "AnnDaugherty",
        "email": "anndaugherty@hermangroup.net",
-       "is_active":true
+       "is_active":true,
+       "is_superuser":true,
+       "first_name": "Ann",
+       "last_name": "Daugherty"
        
     }
 },
@@ -25,7 +28,9 @@
   "fields": {
     "username": "AnnGrantMartin",
     "email": "ann.grantfarms@gmail.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Ann",
+    "last_name": "Martin"
    }
 },  
 {
@@ -34,7 +39,9 @@
   "fields": {
     "username": "BarbaraBowen",
     "email": "Barboe1@msn.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Barbara",
+    "last_name": "Bowen"
    }
 },
 {
@@ -51,7 +58,9 @@
   "fields": {
     "username": "BillDurland",
     "email": "durlandwe@gmail.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Bill",
+    "last_name": "Durland"
     }
  },
 {
@@ -60,7 +69,9 @@
   "fields": {
     "username": "BillWerling",
     "email": "Bill@s-t-w.org",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Bill",
+    "last_name": "Werling"
     }
 },
 {  
@@ -69,7 +80,9 @@
   "fields": {
     "username": "CarltonGamer",
     "email": "CGamer@coloradocollege.edu",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Carlton",
+    "last_name": "Gamer"
    }
  },
  {
@@ -102,7 +115,10 @@
   "fields": {
     "username": "GingerMorgan",
     "email": "gmorgan@coloradocollege.edu",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Ginger",
+    "last_name": "Morgan",
+    "is_superuser":true
    }
 }, 
 {
@@ -111,7 +127,9 @@
   "fields": {
     "username": "JaneMilburn",
     "email": "sprucetree23@gmail.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Ginger",
+    "last_name": "Morgan"
  }
 },
 {
@@ -120,7 +138,9 @@
   "fields": {
     "username": "JohnGallagher",
     "email": "Johngee115@gmail.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "John",
+    "last_name": "Gallagher"
     }
  },
  {
@@ -129,7 +149,9 @@
   "fields": {
     "username": "JoyceDoyle",
     "email": "joycedoyle330@gmail.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Joyce",
+    "last_name": "Doyle"
     }
   },
  {
@@ -138,7 +160,10 @@
   "fields": {
     "username": "JulieRoten-Valdez",
     "email": "jrotenvaldez@msn.com",
-    "is_active":true
+    "is_active":true,
+    "first_name": "Julie",
+    "last_name": "Roten-Valdez"
+    
      }
   },  
   {
@@ -147,7 +172,9 @@
   "fields": {
     "username": "KimWerling",
     "email": "KCC232@hotmail.com",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Kim",
+    "last_name": "Werling"
     }
   },
   {
@@ -156,7 +183,9 @@
    "fields": {
       "username": "LindaSeger",
       "email": "lsseger@aol.com",
-      "is_active": true
+      "is_active": true,
+      "first_name": "Linda",
+      "last_name": "Seger"
     }
   },
   {  
@@ -173,7 +202,10 @@
      "fields": {
         "username": "LisaLister",
         "email": "llister@coloradocollege.edu",
-        "is_active": true
+        "is_active": true,
+        "first_name": "Lisa",
+        "last_name": "Lister",
+        "is_superuser":true
      }
   },
   {
@@ -182,7 +214,9 @@
   "fields": {
     "username": "MariaMelendez",
     "email": "melendezpoetry@gmail.com",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Maria",
+    "last_name": "Melendez"
    }
   }, 
   {
@@ -191,7 +225,9 @@
   "fields": {
     "username": "MarthaLutz",
     "email": "Marthalutz8@yahoo.com",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Martha",
+    "last_name": "Lutz"
     }
   },
   {
@@ -200,7 +236,10 @@
   "fields": {
     "username": "MollyWingate",
     "email": "molly@wingate-consulting.com",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Molly",
+    "last_name": "Wingate",
+    "is_superuser":true
    }
   },
    
@@ -210,7 +249,9 @@
   "fields": {
     "username": "NancyAndrew",
     "email": "nandrew007@aol.com",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Nancy",
+    "last_name": "Andrew"
    }
   },
   {
@@ -235,7 +276,10 @@
   "fields": {
     "username": "PeterLeVar",
     "email": "phlevar@aol.com",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Peter",
+    "last_name": "LeVar",
+    "is_superuser":true
     }
   },
   {
@@ -244,7 +288,10 @@
   "fields": {
     "username": "SarahCallbeck",
     "email": "98chinamom@comcast.net",
-    "is_active": true
+    "is_active": true,
+    "first_name": "Sarah",
+    "last_name": "Callbeck",
+    "is_superuser":true
     }
   },
   {
@@ -269,7 +316,9 @@
     "fields": {
        "username": "GenieDurland",
         "email": "geniedurland@test.com",
-        "is_active": true
+        "is_active": true,
+        "first_name": "Genie",
+        "last_name": "Durland"
      }
    }, 
    {

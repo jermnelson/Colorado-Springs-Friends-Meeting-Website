@@ -9,5 +9,5 @@ from django.contrib import admin
 admin.site.register(Committee)
 admin.site.register(CommitteeMember)
 admin.site.register(CommitteeReport)
-admin.site.register(Position)
+admin.site.register(Officer)
 

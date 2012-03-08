@@ -6,6 +6,17 @@
 <p>
   
 </p>
+{% if user.is_superuser %}
+<h3>Committee Management</h3>
+<div class="btn-group">
+ <a href="#" class="btn btn-small" onclick="$('#add_committee').modal('show')">Add</a>
+ <a href="#" class="btn btn-small" onclick="$('#edit_committees').modal('show')">Edit</a>
+ <a href="#" class="btn btn-small">Delete</a>
+ <a href="#" class="btn btn-small">Membership</a>
+ <a href="#" class="btn btn-small">Reports</a>
+</div>
+
+{% endif %}
 </div>
 {% endblock %}
 
@@ -61,4 +72,51 @@
  <h2>Other Committees</h2> 
  <p></p>
  <p><a href="/" class="btn">Read more &raquo;</a></p>
+{% endblock %}
+
+{% block dialogs %}
+{% if user.is_superuser %}
+{% comment %}START Committee Managment Modal{% endcomment %}
+<div class="span5">
+<div class="modal hide fade" id="add_committee">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>Add Committee</h2>
+ </div>
+ <form action="/committees/save" method="POST">
+ {% csrf_token %}
+ <div class="modal-body">
+  {{ forms.committee_form }}
+ </div>
+ <div class="modal-footer">
+ <input type="submit" class="btn btn-primary" value="Save" />
+ <a href="#" onclick="$('#add_committee').modal('hide')" class="btn">Close</a>
+ </div>
+ </form>
+</div>
+</div>
+{% comment %}END Committee Managment Modal{% endcomment %}
+{% endif %}
+{% comment %}START Committee Managment Modal{% endcomment %}
+<div class="modal hide fade" id="edit_committees">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>Edit Committee</h2>
+ </div>
+ <form method="POST" action="/committees/save">
+ {% csrf_token %}
+ <div class="modal-body">
+  <select name="existing-committee">
+    {% for row in forms.committees %}
+    <option value="{{ row.pk }}">{{ row.name }}</option>
+    {% endfor %}
+   </select>
+   <label>New Name:</label>
+   <input type="text" name="name" id="id_name" class="span2" />
+ </div>
+ <div class="modal-footer">
+ <input type="submit" class="btn btn-primary" value="Save" />
+ <a href="#" onclick="$('#edit_committees').modal('hide')" class="btn">Close</a>
+ </div>
+</div>
 {% endblock %}

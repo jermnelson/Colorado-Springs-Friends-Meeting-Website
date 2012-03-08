@@ -71,6 +71,8 @@ STATIC_URL = '/static/'
 # Examples: "http://foo.com/static/admin/", "/static/admin/".
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
+AUTH_PROFILE_MODULE = "Friends.Friend"
+
 # Additional locations of static files
 STATICFILES_DIRS = (
    os.path.join(PROJECT_ROOT,'assets'),

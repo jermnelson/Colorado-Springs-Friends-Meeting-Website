@@ -101,18 +101,20 @@
 			  </li>
               <li><a href="/contact">Contact</a></li>
             </ul>
-            {% ifequal user None%}
-            <p class="navbar-text pull-right">Logged in as <a href="#">username</a>
-                                                           <a href="{{ logout_url }}">logout</a></p>
+            {% if user.is_authenticated %}
+            <p class="navbar-text pull-right">Logged in as <a href="#">{{ user.username }}</a>
+                                                           <a href="/accounts/logout?next=/">logout</a></p>
             {% else %}
             <p class="navbar-text pull-right">
-             <form class="form-inline" action="{{ login_url }}" method="POST">
-                <input type="text" class="input-small" placeholder="Email">
-                <input type="password" class="input-small" placeholder="Password">
+             <form class="form-inline" action="/accounts/login/" method="POST">
+				{% csrf_token %}
+                <input type="text" class="input-small" name="username" id="username" placeholder="Username">
+                <input type="password" class="input-small" name="password" id="password" placeholder="Password">
                 <button type="submit" class="btn">Go</button>
+                <input type="hidden" name="next" value="{{ next|escape }}" />
             </form>
             </p>
-            {% endifequal %}
+            {% endif %}
           </div><!--/.nav-collapse -->
         </div>
       </div>
@@ -276,6 +278,6 @@
     <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
     {% block more-js %}{% endblock %}
-
+    {% block dialogs %}{% endblock %}
   </body>
 </html>

@@ -19,7 +19,7 @@ class CommitteeMember(models.Model):
     date_left = models.DateField(blank=True,null=True)
     
     
-class Position(models.Model):
+class Officer(models.Model):
     committee_member = models.ForeignKey(CommitteeMember)
     date_ended = models.DateField(blank=True,null=True)
     date_started = models.DateField()

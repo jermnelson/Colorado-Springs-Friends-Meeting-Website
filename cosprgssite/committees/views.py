@@ -5,9 +5,11 @@ __author__ = "Jeremy Nelson"
 
 import os,settings,logging
 from django.contrib.auth import authenticate
-from django.http import HttpResponseNotFound
+from django.contrib.auth.models import User
+from django.http import HttpResponseNotFound,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
-from committees.models import Committee,CommitteeMember,CommitteeReport,Position
+from committees.models import *
+from committees.forms import *
 
 committee_templates = {'Education':'committees/education.html',
                        'Finance':'committees/finance.html',
@@ -38,13 +40,18 @@ def default(request):
      """
      Displays Committees of Meeting and Related organizations
      """
+     user,forms = None,None
      if request.user.is_authenticated():
           user = request.user
-     else:
-          user = None
+          if user.is_superuser:
+               committees = Committee.objects.all()
+               forms = {'committee_form':CommitteeForm(),
+                        'members_form':CommitteeMemberForm(),
+                        'committees':committees}
      return direct_to_template(request,
                                'committees/index.html',
-                               {'user':user})
+                               {'forms':forms,
+                                'user':user})
 
 
 def display_committee(request,
@@ -55,15 +62,22 @@ def display_committee(request,
      :param committee: Name of committee
      """
      committees_query = Committee.objects.filter(name=committee)
+     members_form = None
      if len(committees_query) > 0:
           committee_info = committees_query[0]
           member_query = CommitteeMember.objects.filter(committee=committee_info)
           committee_info = committee_info
           members = member_query
-          current_reports = CommitteeReport.objects.filter(committee=committee_info)     
+          current_reports = CommitteeReport.objects.filter(committee=committee_info)
+          if request.user.is_superuser:
+               members_form = CommitteeMemberForm(instance=committee_info)
+                                        
      else:
           committee_info = {'name':committee}
           members,current_reports = [],[]
+          if request.user.is_superuser:
+               members_form = CommitteeMemberForm()
+          
 ##   
 ##     if len(committees) < 1:
 ##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
@@ -71,6 +85,7 @@ def display_committee(request,
                                committee_templates[committee],
                                {'committee':committee_info,
                                 'committee_members':members,
+                                'members_form':members_form,
                                 'reports':current_reports})
                                
      
@@ -109,6 +124,35 @@ def display_monthly_report(request,
                                {'user':user,
                                 'report':{'name':report_name,
                                           'contents':report_rst}})
+
+def save_committee(request):
+     if request.user.is_superuser and request.method == 'POST':
+          if request.POST.has_key('existing-committee'):
+               committee = Committee.objects.get(pk=request.POST['existing-committee'])
+               new_name = request.POST.get('name')
+               committee.name = new_name
+               committee.save()
+          else:
+               committee_form = CommitteeForm(request.POST)
+               committee = committee_form.save()
+     return HttpResponseRedirect('/committees/')
+
+def add_members(request,committee):
+     if request.user.is_superuser and request.method == 'POST':
+          committee_obj = Committee.objects.filter(name=committee)[0]
+          friend = User.objects.get(pk=request.POST.get('user'))
+          new_member = CommitteeMember(committee=committee_obj,
+                                       user=friend,
+                                       date_joined=request.POST.get('date_joined'))
+          new_member.save()
+     return HttpResponseRedirect('/committees/%s/' % committee)
+     
+          
+                             
+          
+               
+     
+     
 
 def display_yearly_report(request,committee,year):
     return direct_to_template(request,
