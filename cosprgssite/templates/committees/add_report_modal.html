@@ -1,0 +1,19 @@
+{% load i18n %}
+{% comment %}START add_report DIV{% endcomment %}
+<div class="modal hide fade" id="add_report">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>{% trans "Add Report" %}</h2>
+ </div>
+ <form action="/committees/{{ committee.name }}/report/add" method="POST">
+ {% csrf_token %}
+ <div class="modal-body">
+
+ </div>
+ <div class="modal-footer">
+  <input type="submit" class="btn btn-primary" value="Save" />
+  <a href="#" onclick="$('#add_report').modal('hide')" class="btn">Close</a>
+ </div>
+ </form>
+{% comment %}END add_report DIV{% endcomment %}
+</div>

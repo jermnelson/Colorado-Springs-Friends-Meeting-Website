@@ -147,7 +147,16 @@ def add_members(request,committee):
           new_member.save()
      return HttpResponseRedirect('/committees/%s/' % committee)
      
-          
+def add_report(request,committee):
+    """
+    Add report view 
+
+    :param committee: Committee name 
+    """
+    if request.user.is_superuser and request.method == 'POST':
+        committee_obj = Committee.objects.filter(name=committee)
+    return HttpResponseRedirect('/committees/%s/' % committee)
+       
                              
           
                

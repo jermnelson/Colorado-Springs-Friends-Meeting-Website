@@ -41,23 +41,18 @@
 <div class="span4">
 <h2>Current Members</h2>
 {% if user.is_superuser %}
- <a href="#" class="btn btn-small" onclick="$('#add_membership').modal('show')">Add Membership</a>
+  {% include "committees/add_membership.html" %}
 {% endif %}
-<ul>
-{% for friend in committee_members %}
- <li><a href="/Friends/{{ friend.user.username }}">{{ friend.user.username }}</a> {% if position %}({{ position.value }}){% endif %}
- {% if user.is_superuser %}
- <a href="#" class="btn btn-small" onclick="$('#remove_membership').modal('show')"><i class="icon-remove"></i></a>
-{% endif %}
- </li>
-{% endfor %}
-</ul>
+{% include "committees/membership_list.html" %}
 </div>
 {% endblock %}
 
 {% block one-three-box %}
 <div class="span4">
 <h2>Recent Reports and Minutes</h2>
+{% if user.is_superuser %}
+ {% include "committees/add_report.html" %}
+{% endif %}
 <ul>
 {% for report in committee_reports %}
  <li><a href="/committees/MinistryAndOversight/{{ report.report_date.year }}/{{ report.report_date.month }}/{{ report.name }}">
@@ -74,29 +69,7 @@
 
 {% block dialogs %}
 {% if user.is_superuser %}
-{% comment %}START Add User Modal{% endcomment %}
-<div class="modal hide fade" id="add_membership">
- <div class="modal-header">
- <div class="modal-header">
-  <a class="close" data-dismiss="modal">×</a>
-  <h2>Add Committee Member</h2>
- </div>
- <form action="/committees/{{ committee.name }}/members/add" method="POST">
- {% csrf_token %}
- <div class="modal-body">
- {{ members_form.user.label }}
- {{ members_form.user }}
- <br/>
-  {{ members_form.date_joined.label }}
- {{ members_form.date_joined }}
-
- </div>
- <div class="modal-footer">
- <input type="submit" class="btn btn-primary" value="Save" />
- <a href="#" onclick="$('#add_membership').modal('hide')" class="btn">Close</a>
- </div>
- </form>
-{% comment %}END Add User Modal{% endcomment %}
-</div>
+ {% include "committees/add_membership_modal.html" %}
+ {% include "committees/add_report_modal.html" %}
 {% endif %}
 {% endblock %}

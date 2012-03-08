@@ -1,0 +1,23 @@
+{% load i18n %}
+{% comment %}START add_membership DIV{% endcomment %}
+<div class="modal hide fade" id="add_membership">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>{% trans "Add Committee Member" %}</h2>
+ </div>
+ <div class="modal-body">
+ <form action="/committees/{{ committee.name }}/members/add" method="POST">
+ {% csrf_token %}
+ {{ members_form.user.label }}
+ {{ members_form.user }}
+ <br/>
+  {{ members_form.date_joined.label }}
+  {{ members_form.date_joined }}
+ </div>
+ <div class="modal-footer">
+  <input type="submit" class="btn btn-primary" value="Save" />
+  <a href="#" onclick="$('#add_membership').modal('hide')" class="btn">Close</a>
+ </div>
+ </form>
+{% comment %}END add_report DIV{% endcomment %}
+</div>

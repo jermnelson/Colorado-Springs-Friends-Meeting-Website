@@ -1,0 +1,9 @@
+<ul>
+{% for friend in committee_members %} 
+<li><a href="/Friends/{{ friend.user.username }}">{{ friend.user.username }}</a> {% if position %}({{ position.value }}){% endif %}
+ {% if user.is_superuser %}
+ <a href="#" class="btn btn-small" onclick="$('#remove_membership').modal('show')"><i class="icon-remove"></i></a>
+{% endif %}
+ </li>
+{% endfor %}
+</ul>
