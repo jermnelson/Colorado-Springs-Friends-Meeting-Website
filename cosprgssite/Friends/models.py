@@ -6,6 +6,7 @@ __author__ = 'Jeremy Nelson'
 from django.db import models
 from django.contrib.auth.models import User
 from location.models import Address,Location
+from django.db.models.signals import post_save
 
 class Friend(models.Model):
     additional_name = models.CharField(max_length=60,blank=True,null=True)
@@ -24,11 +25,15 @@ class Friend(models.Model):
     maiden_name = models.CharField(max_length=60,blank=True,null=True)
     prefix = models.CharField(max_length=15,blank=True,null=True)
     short_name = models.CharField(max_length=30,blank=True,null=True)
-    user = models.ForeignKey(User)
+    user = models.OneToOneField(User)
     suffix = models.CharField(max_length=15,blank=True,null=True)
     yomi_additional_name = models.CharField(max_length=60,blank=True)
     yomi_given_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_family_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_name = models.CharField(max_length=60,blank=True,null=True)
     
+def create_user_profile(sender, instance, created, **kwargs):
+    if created is not None:
+        Friend.objects.create(user=instance)
 
+post_save.connect(create_user_profile, sender=User)

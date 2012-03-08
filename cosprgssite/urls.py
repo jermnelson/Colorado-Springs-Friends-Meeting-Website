@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     # Examples:
     url(r'^$', 'cosprgssite.views.home', name='home'),
     url(r'^committees/', include('cosprgssite.committees.urls')),
+    url(r'^Friends/',include('cosprgssite.Friends.urls')),
     url(r'^history/', include('cosprgssite.history.urls')),
     url(r'^meetings/', include('cosprgssite.meetings.urls')),
     url(r'^testimonies/', include('cosprgssite.testimonies.urls')),

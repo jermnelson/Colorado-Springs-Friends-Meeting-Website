@@ -1,0 +1,22 @@
+{% extends 'fluid.html' %}
+
+{% block hero-unit %}
+<div class="well">
+ <h1>{{ friend.username }}</h1>
+ {% if friend.image %}
+ <img src="{{ STATIC_URL }}Friend/img/{{ friend.image.filename }}" class="float:left" />
+ {% endif %}
+</div>
+{% endblock %}
+
+{% block one-one-box %}{% endblock %}
+{% block one-two-box %}{% endblock %}
+{% block one-three-box %}{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+{% block two-two-box %}{% endblock %}
+{% block two-three-box %}{% endblock %}
+
+
+
+
