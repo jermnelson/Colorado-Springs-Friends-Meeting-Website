@@ -1,14 +1,19 @@
 {% extends 'fluid.html' %}
 
+{% block more-breadcrumb-links %}
+  <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Finance</a></li>
+{% endblock %}
+
 {% block hero-unit %}
-{% comment %}STAR M&O-main DIV{% endcomment %}
+{% comment %}STAR finance DIV{% endcomment %}
  <div class="hero-unit">
   <h1>Finance</h1>
   <p>Monthly meetings must have income to pay for rent or maintenance of
      space, communication, outreach, insurance, educational materials,
      and other expenses.</p>
    <small>IMYM Faith and Practice page 65</small>
- {% comment %}END M&O-main DIV{% endcomment %}
+ {% comment %}END finance DIV{% endcomment %}
  </div>
 {% endblock %}
 
@@ -27,27 +32,30 @@
 {% block one-two-box %}
 <div class="span4">
 <h2>Current Members</h2>
-<ul>
-{% for friend in current_members %}
- <li><a href="/Friends/{{ friend.user.username }}">{{ friend.user.username }}</a> {% if position %}({{ position.value }}){% endif %}</li>
-{% endfor %}
-</ul>
+{% if user.is_superuser %}
+  {% include "committees/add_membership.html" %}
+{% endif %}
+{% include "committees/membership_list.html" %}
 </div>
 {% endblock %}
 
 {% block one-three-box %}
 <div class="span4">
 <h2>Recent Reports and Minutes</h2>
-<ul>
-{% for report in reports %}
- <li><a href="/committees/Finance/{{ report.report_date.year }}/{{ report.report_date.month }}/{{ report.name }}">
-     {{ report.report_date.year }}/{{ report.report_date.month }}/{{ report.name }}</a>
- </li>
-{% endfor %}
-</ul>
+{% if user.is_superuser %}
+ {% include "committees/add_report.html" %}
+{% endif %}
+{% include "committees/report_list.html" %}
 </div>
 {% endblock %}
 
 {% block two-one-box %}{% endblock %}
 {% block two-two-box %}{% endblock %}
 {% block two-three-box %}{% endblock %}
+
+{% block dialogs %}
+{% if user.is_superuser %}
+ {% include "committees/add_membership_modal.html" %}
+ {% include "committees/add_report_modal.html" %}
+{% endif %}
+{% endblock %}

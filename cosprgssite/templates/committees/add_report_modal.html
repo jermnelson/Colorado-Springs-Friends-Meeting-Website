@@ -5,10 +5,24 @@
   <a class="close" data-dismiss="modal">×</a>
   <h2>{% trans "Add Report" %}</h2>
  </div>
- <form action="/committees/{{ committee.name }}/report/add" method="POST">
+ <form action="/committees/{{ committee.name }}/reports/add" method="POST">
  {% csrf_token %}
  <div class="modal-body">
-
+  {% if report_form.errors %}
+  {% for error in form.errors %}
+  <div class="alert alert-error">{{ error }}</div>
+  {% endfor %}
+  {% endif %}
+  <h3>Report Form</h3>
+  <label>{{ report_form.report_type.label }}</label>{{ report_form.report_type }}
+  <label>{{ report_form.report_date.label }}</label>{{ report_form.report_date }}
+  <label>{{ report_form.rstFileLocation.label }}</label>{{ report_form.rstFileLocation }}
+  <label>{{ report_form.authors.label }}</label>
+  <select name="authors" id="id_authors" multiple="multiple" rows="4">
+  {% for member in committee_members %}
+   <option value="{{ member.1.pk }}">{{ member.user.username }}</option>
+  {% endfor %}
+  </select>
  </div>
  <div class="modal-footer">
   <input type="submit" class="btn btn-primary" value="Save" />

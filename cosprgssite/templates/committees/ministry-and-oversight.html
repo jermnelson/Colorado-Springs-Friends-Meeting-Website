@@ -1,15 +1,11 @@
 {% extends 'fluid.html' %}
 
+{% block more-breadcrumb-links %}
+  <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Ministry and Oversight</a></li>
+{% endblock %}
+
 {% block hero-unit %}
-<div class="row-fluid">
- <div class="span12">
-   <ul class="breadcrumb">
-    <li><a href="/">Home</a> <span class="divider">&raquo;</span></li>
-    <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
-    <li class="active"><a href="#">Ministry and Oversight</a></li>
-  </ul>
- </div>
-</div>
 <div class="row-fluid">
  {% comment %}STAR M&O-main DIV{% endcomment %}
  <div class="hero-unit">
@@ -54,12 +50,7 @@
  {% include "committees/add_report.html" %}
 {% endif %}
 <ul>
-{% for report in committee_reports %}
- <li><a href="/committees/MinistryAndOversight/{{ report.report_date.year }}/{{ report.report_date.month }}/{{ report.name }}">
-     {{ report.year }}/{{ report.month }}/{{ report.name }}</a>
- </li>
-{% endfor %}
-</ul>
+{% include "committees/report_list.html" %}
 </div>
 {% endblock %}
 

@@ -2,14 +2,28 @@
 
 {% block hero-unit %}
 <div class="well">
- <h1>{{ friend.username }}</h1>
+ <h1>{{ friend.first_name }} {{ friend.last_name }}</h1>
+ 
  {% if friend.image %}
  <img src="{{ STATIC_URL }}Friend/img/{{ friend.image.filename }}" class="float:left" />
  {% endif %}
 </div>
 {% endblock %}
 
-{% block one-one-box %}{% endblock %}
+{% block one-one-box %}
+{% if committees %}
+<div class="span4">
+ <ul>
+ <h2>Committees</h2>
+ {% for row in committees %}
+ <li><a href="/committees/{{ row.committee.name }}">{{ row.committee.name }}</a></li>
+ {% endfor %}
+ </ul>
+</div>
+{% else %}&nbsp;
+{% endif %}
+</div>
+{% endblock %}
 {% block one-two-box %}{% endblock %}
 {% block one-three-box %}{% endblock %}
 

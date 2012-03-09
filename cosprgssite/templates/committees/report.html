@@ -1,11 +1,19 @@
 {% extends 'fluid.html' %}
 {% load markup %}
+{% load committee_extras %}
 {% block sidebar-nav %}{% endblock %}
+
+{% block more-breadcrumb-links %}
+ <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
+ <li class="active">{{ report.report_type|get_report_type }} {{ report.report_date }}</li>
+{% endblock %}
 
 {% block hero-unit %}
 <div class="hero-unit">
-<h1>{{ report.name }}</h1>
-{{ report.contents|restructuredtext }}
+<h2>{{ report.committee.name }}</h2>
+<h1>{{ report.report_type|get_report_type }}</h1>
+<h3>{{ report.report_date }}</h3>
+{{ contents|restructuredtext }}
 </div>
 {% endblock %}
 

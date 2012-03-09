@@ -5,8 +5,13 @@
   <a class="close" data-dismiss="modal">×</a>
   <h2>{% trans "Add Committee Member" %}</h2>
  </div>
- <div class="modal-body">
  <form action="/committees/{{ committee.name }}/members/add" method="POST">
+ <div class="modal-body">
+  {% if report_form.errors %}
+  {% for error in form.errors %}
+  <div class="alert alert-error">{{ error }}</div>
+  {% endfor %}
+  {% endif %}
  {% csrf_token %}
  {{ members_form.user.label }}
  {{ members_form.user }}

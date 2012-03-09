@@ -2,9 +2,12 @@
  :mod:`views` Colorado Springs Quaker Meeting Friends View
 """
 __author__ = 'Jeremy Nelson'
+import sys,logging
+from django.contrib.auth.models import User
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import loader, TemplateDoesNotExist
 from django.views.generic.simple import direct_to_template
+from committees.models import CommitteeMember
 from Friends.forms import FriendForm
 from Friends.models import Friend
 
@@ -15,11 +18,29 @@ def display_friend(request,username):
     template_name = 'Friends/%s.html' % username
     try:
         template = loader.get_template('Friends/%s.html' % username)
+        return direct_to_template(request,
+                                  template_name,
+                                  {})
+                                  
     except TemplateDoesNotExist:
         template_name = 'Friends/person.html'
+    user_query = User.objects.filter(username=username)
+    friend,committees = None,[]
+    if len(user_query) == 1:
+        friend_user = user_query[0]
+        friend_query = Friend.objects.filter(user=friend_user)
+        if len(friend_query) > 0:
+            friend = friend_query[0]
+        else:
+            friend = friend_user
+        committee_query = CommitteeMember.objects.filter(user=friend_user)
+        logging.error(type(committee_query))
+        if len(committee_query) > 0:
+            committees = committee_query
     return direct_to_template(request,
                               template_name,
-                              {'friend':{'username':username}})
+                              {'committees':committees,
+                               'friend':friend})
 
 def display_profile(request):
     if request.user.is_authenticated():

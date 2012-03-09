@@ -162,6 +162,17 @@
         </div><!--/span-->
         {% endblock %}
         <div class="span9">
+		  {% block breadcrumbs %}
+		  <div class="row-fluid">
+           <div class="span12">
+            <ul class="breadcrumb">
+             <li><a href="/">Home</a> <span class="divider">&raquo;</span></li>
+             {% block more-breadcrumb-links %}{% endblock %}
+            </ul>
+           </div>
+          </div>
+		  {% endblock %}
+		  
 		  {% block hero-unit %}
           <div class="hero-unit">
             <h1>Colorado Springs Quakers</h1>

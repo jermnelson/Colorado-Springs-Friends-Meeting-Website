@@ -1,4 +1,5 @@
-﻿Finance Committee Minutes
+﻿=========================
+Finance Committee Minutes
 =========================
 February 7 at 5:15 at The Herman Group offices
 ----------------------------------------------
@@ -34,7 +35,9 @@ separately.  This year, will send an email out instead of a print letter.
 We ended the meeting with silence.
 
 In the Light,
+
 `Lisa`_
+
 Finance Committee Recorder
 
 .. _`Ann`: http://coloradospringsquakers.org/Friends/AnnDaugherty/
