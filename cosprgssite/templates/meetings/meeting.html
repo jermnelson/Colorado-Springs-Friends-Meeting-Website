@@ -1,4 +1,10 @@
 {% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">{{ meeting.name }}</a></li>
+{% endblock %}
 
 {% block hero-unit %}
 <div class="hero-unit">
@@ -10,9 +16,12 @@
 {% endblock %}
 
 {% block one-one-box %}
-{% if minutes %}
+{% if minutes or user.is_superuser %}
  <div class="span4">
   <h2>Minutes</h2>
+  {% if user.is_superuser %}
+  <a href="#" class="btn btn-small" onclick="$('#add_minute').modal('show')">Add Minute</a>
+ {% endif %}
   <ul>
   {% for report in minutes %}
     <li><a href="{{ report.url }}">{{ report.name }} {{ report.meeting_date }}</a></li>
@@ -39,3 +48,30 @@
 {% endblock %}
 
 {% block two-three-box %}{% endblock %}
+
+{% block dialogs %}
+{% comment %}START add_minute DIV{% endcomment %}
+<div class="modal hide fade" id="add_minute">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>{% trans "Add Minute" %} {{ meeting.name }}</h2>
+ </div>
+ <form action="/meetings/{{ meeting.type_of }}/minutes/add" method="POST">
+ <div class="modal-body">
+  {% csrf_token %}
+  <label>{{ minute_form.meeting_date.label }}</label>
+  {{ minute_form.meeting_date }}
+  <label>reStructured Text filename</label>
+  {{ minute_form.rstFileLocation }}
+  <label>{{ minute_form.report_type.label }}</label>
+  {{ minute_form.report_type }}
+  <input type="hidden" name="meeting_type" value="{{ meeting.type_of }}" id="id_meeting_type" />
+ </div>
+ <div class="modal-footer">
+ <input type="submit" class="btn btn-primary" value="Save" />
+  <a href="#" onclick="$('#add_minute').modal('hide')" class="btn">Close</a>
+ </div>
+ </form>
+{% comment %}END add_minute DIV{% endcomment %}
+</div> 
+{% endblock %}
