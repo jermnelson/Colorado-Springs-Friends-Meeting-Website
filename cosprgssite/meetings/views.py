@@ -45,6 +45,14 @@ def business(request):
                               {'meeting':meeting,
                                'minute_form':minute_form})
 
+
+def contact(request):
+    """
+    Displays Meeting's contact information
+    """
+    return direct_to_template(request,
+                              "meetings/contact.html")
+
 def special(request):
     """
     Displays Special Meeting view

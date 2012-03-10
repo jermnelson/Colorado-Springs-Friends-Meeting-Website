@@ -12,13 +12,12 @@ urlpatterns = patterns('',
     url(r"^accounts/logout/$", logout),
     url(r"^accounts/profile/$","cosprgssite.Friends.views.display_profile"),
     url(r'^committees/', include('cosprgssite.committees.urls')),
+    url(r'^contact/', "cosprgssite.meetings.views.contact"),
+    url(r'^donate/', include('cosprgssite.donate.urls')),
     url(r'^Friends/',include('cosprgssite.Friends.urls')),
     url(r'^history/', include('cosprgssite.history.urls')),
     url(r'^meetings/', include('cosprgssite.meetings.urls')),
     url(r'^testimonies/', include('cosprgssite.testimonies.urls')),
-    # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 )

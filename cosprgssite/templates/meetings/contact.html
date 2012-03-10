@@ -1,0 +1,67 @@
+{% extends 'fluid.html' %}
+{% load i18n %}
+
+{% block more-breadcrumb-links %}
+  <li class="active"><a href="#">Contact</a></li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="hero-unit">
+ <h1>Contact</h1>
+ <h2>Colorado Springs Friends Meeting</h2>
+  <div class="alert alert-block">P.O. Box 2514
+    Colorado Springs, Colorado
+    80903</div>
+ <p>Our telephone number is:</p>
+ <div class="alert alert-block alert-info">719.685.5548</div>
+ <p><a class="btn" href="#">Email Us</a></p>
+</div>
+{% endblock %}
+
+{% block one-one-box %}
+{% endblock %}
+
+{% block one-two-box %}
+{% if reports %}
+<div class="span4">
+  <h2>Reports</h2>
+</div>
+{% endif %}
+{% endblock %}
+
+{% block one-three-box %}
+{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+
+{% block two-two-box %}
+{% endblock %}
+
+{% block two-three-box %}{% endblock %}
+
+{% block dialogs %}
+{% comment %}START add_minute DIV{% endcomment %}
+<div class="modal hide fade" id="add_minute">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>{% trans "Add Minute" %} {{ meeting.name }}</h2>
+ </div>
+ <form action="/meetings/{{ meeting.type_of }}/minutes/add" method="POST">
+ <div class="modal-body">
+  {% csrf_token %}
+  <label>{{ minute_form.meeting_date.label }}</label>
+  {{ minute_form.meeting_date }}
+  <label>reStructured Text filename</label>
+  {{ minute_form.rstFileLocation }}
+  <label>{{ minute_form.report_type.label }}</label>
+  {{ minute_form.report_type }}
+  <input type="hidden" name="meeting_type" value="{{ meeting.type_of }}" id="id_meeting_type" />
+ </div>
+ <div class="modal-footer">
+ <input type="submit" class="btn btn-primary" value="Save" />
+  <a href="#" onclick="$('#add_minute').modal('hide')" class="btn">Close</a>
+ </div>
+ </form>
+{% comment %}END add_minute DIV{% endcomment %}
+</div> 
+{% endblock %}

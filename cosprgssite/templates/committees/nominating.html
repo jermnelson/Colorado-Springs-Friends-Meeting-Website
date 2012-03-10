@@ -1,5 +1,10 @@
 {% extends 'fluid.html' %}
 
+{% block more-breadcrumb-links %}
+  <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Nominating</a></li>
+{% endblock %}
+
 {% block hero-unit %}
 {% comment %}STAR M&O-main DIV{% endcomment %}
  <div class="hero-unit">
@@ -22,6 +27,9 @@
 {% block one-two-box %}
 <div class="span4">
 <h2>Current Members</h2>
+{% if user.is_superuser %}
+  {% include "committees/add_membership.html" %}
+{% endif %}
 <ul>
 {% for friend in committee.members %}
  <li><a href="/Friends/{{ friend.user.username }}">{{ friend.short_name }}</a> {% if position %}({{ position.value }}){% endif %}</li>
@@ -33,6 +41,9 @@
 {% block one-three-box %}
 <div class="span4">
 <h2>Recent Reports and Minutes</h2>
+{% if user.is_superuser %}
+ {% include "committees/add_report.html" %}
+{% endif %}
 <ul>
 {% for report in committee_reports %}
  <li><a href="/committees/Nominating/{{ report.year }}/{{ report.month }}/{{ report.name }}">
@@ -46,3 +57,10 @@
 {% block two-one-box %}{% endblock %}
 {% block two-two-box %}{% endblock %}
 {% block two-three-box %}{% endblock %}
+
+{% block dialogs %}
+{% if user.is_superuser %}
+ {% include "committees/add_membership_modal.html" %}
+ {% include "committees/add_report_modal.html" %}
+{% endif %}
+{% endblock %}

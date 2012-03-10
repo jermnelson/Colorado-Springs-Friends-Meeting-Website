@@ -48,17 +48,17 @@ In the Light,
 `Ginger Morgan`_
 Outgoing Clerk of `M&O`_
 
-.. _`Bill Durland`: http://coloradospringsquakers.org/Friends/BillDurland/
-.. _`Peter LeVar`: http://coloradospringsquakers.org/Friends/PeterLeVar/
-.. _`Martha Lutz`: http://coloradospringsquakers.org/Friends/MarthaLutz/
-.. _`Ginger`: http://coloradospringsquakers.org/Friends/GingerMorgan/
-.. _`Ginger Morgan`: http://coloradospringsquakers.org/Friends/GingerMorgan/
-.. _`Jeremy Nelson`: http://coloradospringsquakers.org/Friends/JeremyNelson/
-.. _`First Day school`: http://coloradospringsquakers.org/FirstDaySchool/
-.. _`Religious Education`: http://coloradospringsquakers.org/committees/ReligiousEducationAndAction/
-.. _`M&O`: http://coloradospringsquakers.org/committees/M&O/
+.. _`Bill Durland`: /Friends/BillDurland/
+.. _`Peter LeVar`: /Friends/PeterLeVar/
+.. _`Martha Lutz`: /Friends/MarthaLutz/
+.. _`Ginger`: /Friends/GingerMorgan/
+.. _`Ginger Morgan`: /Friends/GingerMorgan/
+.. _`Jeremy Nelson`: /Friends/JeremyNelson/
+.. _`First Day school`: /FirstDaySchool/
+.. _`Religious Education and Action`: /committees/ReligiousEducationAndAction/
+.. _`M&O`: /committees/MinistryAndOversight/
 .. _`Kapiti Meeting`: http://quaker.org.nz/meeting/kapiti
-.. _`programs`: http://coloradospringsquakers.org/programs/
-.. _`Quaker conferences`: http://coloradospringsquakers.org/conferences/
+.. _`programs`: /programs/
+.. _`Quaker conferences`: /conferences/
 .. _`Salt Lake Friends Meeting`: http://www.saltlakequakers.org/
-.. _`testimonies`: http://coloradospringsquakers.org/testimonies
+.. _`testimonies`: /testimonies

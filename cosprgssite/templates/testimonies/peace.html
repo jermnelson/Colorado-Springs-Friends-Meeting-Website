@@ -1,5 +1,10 @@
 {% extends 'fluid.html' %}
 
+{% block more-breadcrumb-links %}
+  <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Peace</a></li>
+{% endblock %}
+
 {% block hero-unit %}
 <div class="hero-unit">
  <h1>Peace</h1>
@@ -9,14 +14,11 @@
 {% endblock %}
 
 {% block one-one-box %}
-<div class="span4 well">
-<h2>Local Peace Advocacy</h2>
-<p>Members <a href="/Friends/BillDurland">Bill</a> and 
-<a href="/Friends/GenieDurland">Genie</a> Durland actively engage
-with Middle East, including the Palestinian humanitarian
-and land justice causes.
-</p>
-</div>
+ <div class="span4">
+  <blockquote class="pull-right">
+  <p><small> - IMYM <i>Faith and Practice</i> page </small></p>
+  </blockquote>
+ </div>
 {% endblock %}
 {% block one-two-box %}
 <div class="span6">
@@ -34,6 +36,14 @@ and land justice causes.
 </div>
 {% endblock %}
 {% block one-three-box %}{% endblock %}
-{% block two-one-box %}{% endblock %}
+{% block two-one-box %}
+<div class="span4 well">
+<h2>Local Peace Advocacy</h2>
+<p>Members <a href="/Friends/BillDurland">Bill</a> and 
+<a href="/Friends/GenieDurland">Genie</a> Durland actively engage
+with Middle East issues, including the Palestinian humanitarian crisis.
+</p>
+</div>
+{% endblock %}
 {% block two-two-box %}{% endblock %}
 {% block two-three-box %}{% endblock %}
