@@ -17,7 +17,7 @@
 {% endblock %}
 
 {% block one-one-box %}
-{% if minutes or user.is_superuser %}
+{% if meeting.minutes or user.is_superuser %}
  <div class="span4">
   <h2>Minutes</h2>
   {% if user.is_superuser %}
