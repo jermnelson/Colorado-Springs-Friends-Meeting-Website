@@ -88,7 +88,7 @@ def display_report(request,
         user = None
     meeting_type = get_type(MEETING_TYPES,meeting)
     report_type = get_type(REPORT_TYPES,report_name)
-    if month == 12:
+    if int(month) == 12:
         end_month = 1
         end_year = int(year) + 1
     else:
@@ -158,7 +158,7 @@ def special(request):
     meeting = {'name':'Special Called Meeting',
                'description':'A meeting called for Friends regarding a special topic or concern',
                'minutes':[],
-               'type_of':MEETING_TYPES_DICT['special']}
+               'type_of':MEETING_TYPES_DICT['Special']}
     return direct_to_template(request,
                               'meetings/meeting.html',
                               {'meeting':meeting})
@@ -170,7 +170,7 @@ def worship(request):
     meeting = {'name':'Meeting for Worship',
                'description':'A weekly meeting, usually held First Day, for shared communial worship in silence',
                'minutes':[],
-               'type_of':MEETING_TYPES_DICT['worship']}
+               'type_of':MEETING_TYPES_DICT['Worship']}
     return direct_to_template(request,
                               'meetings/meeting.html',
                               {'meeting':meeting})    

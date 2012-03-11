@@ -1,0 +1,46 @@
+{% extends 'fluid.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Education and First Day School</a></li>
+{% endblock %}
+
+{% block hero-unit %}
+{% comment %}STAR REA main DIV{% endcomment %}
+ <div class="hero-unit">
+  <h1>Education and First Day School</h1>
+   <p></p>
+ {% comment %}END REA DIV{% endcomment %}
+ </div>
+{% endblock %}
+
+{% block one-one-box %}
+ <div class="span5">
+ <h2>Recent &amp; Upcoming Sessions</h2>
+ <p></p>
+ </div>
+{% endblock %}
+
+{% block one-two-box %}
+<div class="span4">
+<h2>Current Members</h2>
+{% if user.is_superuser %}
+  {% include "committees/add_membership.html" %}
+{% endif %}
+{% include "committees/membership_list.html" %}
+</div>
+{% endblock %}
+
+{% block one-three-box %}
+{% endblock %}
+
+{% block two-one-box %}{% endblock %}
+{% block two-two-box %}{% endblock %}
+{% block two-three-box %}{% endblock %}
+
+{% block dialogs %}
+{% if user.is_superuser %}
+ {% include "committees/add_membership_modal.html" %}
+{% endif %}
+{% endblock %}
+

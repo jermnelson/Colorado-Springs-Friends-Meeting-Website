@@ -137,7 +137,7 @@ def display_monthly_report(request,
                report_type = row[0]
      reports = CommitteeReport.objects.filter(committee=committee_obj,
                                               report_type=report_type)
-     report,report_rst = get_reports(reports,year,month)
+     report,report_rst = get_report(reports,year,month)
      return direct_to_template(request,
                                'committees/report.html',
                                {'user':user,

@@ -4,7 +4,10 @@ November 13, 2011
 -----------------
 
 In attendance: `Linda Seger`_, `Bill Werling`_, `Jeremy Nelson`_, 
-`Lisa Lister`, Joyce Doyle, Genie Durland, Bill Durland, Ginger Morgan, Sarah Callbeck, Carlton Gamer (clerk), Molly Wingate (recording clerk)
+`Lisa Lister`, Joyce Doyle, Genie Durland, Bill Durland, 
+Ginger Morgan, Sarah Callbeck, Carlton Gamer (clerk), 
+Molly Wingate (recording clerk)
+
 We opened at 11:20 with a John Woolman reading from 1772: There is a principal which is pure, placed in the human minds, which in different places and ages hath had different names.  It is, however, pure and proceeds from God.  It is deep and inward, confined to no forms of religion, nor excluded from any, where the heart stands in perfect sincerity.  In whomsoever this takes root and grows, of what nation soever, they become brethren in the best sense of the expression.
 Followed by silence.
 1.       Approval of October Minutes – attached.  Accepted with thanks to Jeremy Nelson for standing in for Molly Wingate.

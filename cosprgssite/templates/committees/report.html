@@ -5,14 +5,14 @@
 
 {% block more-breadcrumb-links %}
  <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
- <li class="active">{{ report.report_type|get_report_type }} {{ report.report_date }}</li>
+ <li class="active">{{ report.report_type|get_report_type }} {{ report.report_date|date:"F d, Y" }}</li>
 {% endblock %}
 
 {% block hero-unit %}
 <div class="hero-unit">
 <h2>{{ report.committee.name }}</h2>
 <h1>{{ report.report_type|get_report_type }}</h1>
-<h3>{{ report.report_date }}</h3>
+<h3>{{ report.report_date|date:"F d, Y"}}</h3>
 {{ contents|restructuredtext }}
 </div>
 {% endblock %}

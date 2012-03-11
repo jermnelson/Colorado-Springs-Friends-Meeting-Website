@@ -19,7 +19,7 @@ QUAKER_MONTHS = {'01':'first-month',
                  '09':'ninth-month',
                  '10':'tenth-month',
                  '11':'eleventh-month',
-                 '12':'twelth-month'}
+                 '12':'twelfth-month'}
 
 REPORT_TYPES = ((1,"Advice and Queries"),
                 (2,"Minute"),
