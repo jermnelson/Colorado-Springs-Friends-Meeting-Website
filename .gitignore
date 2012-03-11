@@ -4,7 +4,5 @@ cosprgssite/assets/js/goog*
 doc/_build
 doc/make.bat
 log/
-200*
-201*
 *.db
 static/
