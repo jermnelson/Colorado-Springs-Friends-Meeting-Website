@@ -17,4 +17,7 @@ def hicksite(request):
 def religious_society_of_friends(request):
     return HttpResponse("NEEDS CONTENT -- Religious Society Of Friends")
 
+def worldwars_conscientious_objectors(request):
+    return HttpResponse("NEEDS CONTENT -- World Wars and Conscientious Objectors")
+
 

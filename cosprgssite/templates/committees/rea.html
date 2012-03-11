@@ -15,7 +15,7 @@
 {% endblock %}
 
 {% block one-one-box %}
- <div class="span3">
+ <div class="span5">
  <h2>Recent &amp; Upcoming Sessions</h2>
  <p></p>
  </div>
@@ -32,13 +32,6 @@
 {% endblock %}
 
 {% block one-three-box %}
-<div class="span4">
-<h2>Recent Reports and Minutes</h2>
-{% if user.is_superuser %}
- {% include "committees/add_report.html" %}
-{% endif %}
-{% include "committees/report_list.html" %}
-</div>
 {% endblock %}
 
 {% block two-one-box %}{% endblock %}
@@ -48,7 +41,6 @@
 {% block dialogs %}
 {% if user.is_superuser %}
  {% include "committees/add_membership_modal.html" %}
- {% include "committees/add_report_modal.html" %}
 {% endif %}
 {% endblock %}
 

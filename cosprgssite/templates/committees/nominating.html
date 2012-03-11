@@ -30,10 +30,7 @@
 {% if user.is_superuser %}
   {% include "committees/add_membership.html" %}
 {% endif %}
-<ul>
-{% for friend in committee.members %}
- <li><a href="/Friends/{{ friend.user.username }}">{{ friend.short_name }}</a> {% if position %}({{ position.value }}){% endif %}</li>
-{% endfor %}
+{% include "committees/membership_list.html" %}
 </ul>
 </div>
 {% endblock %}

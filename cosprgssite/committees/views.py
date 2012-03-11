@@ -20,20 +20,38 @@ committee_templates = {'Education':'committees/education.html',
                        'ReligiousEducationAndAction':'committees/rea.html'}
                        
 
-def get_report(rst_path):
+def get_report(query,
+               year,
+               month):
      """
-     Returns the reStructured text
+     Returns the reStructured text and report for query
 
-     :param rst_path: Path including file name of committee rst
+     :param query: QueryDict object
+     :param year: Year
+     :param month: Month
+     :rtype Object: Object from query
+     :rtype String: restructured Text from report
      """
-     try:
-          rst_file = open(rst_path,'rb')
-          rst_contents = rst_file.read()
-          rst_file.close()
-     except:
-          raise
-          #rst_file.close()
-     return rst_contents
+     if len(query) > 0:
+          # Should check datastore to see report permissions
+          report = query[0]
+          relative_path = os.path.join(year,
+                                       QUAKER_MONTHS[month],
+                                       report.rstFileLocation)
+          report_path = "%s/%s" % (settings.PROJECTBASE_DIR,
+                                   relative_path)
+          try:
+               rst_file = open(report_path,'rb')
+               report_rst = rst_file.read()
+               rst_file.close()
+          except:
+               raise
+     else:
+          report_rst = '''Report %s does not exist''' % report_name
+          report = {'report_type':-1,
+                    'report_date':datetime.date(year=year,month=month,day=1)}
+     return report,report_rst
+     
      
 
 def default(request):
@@ -117,26 +135,16 @@ def display_monthly_report(request,
      for row in REPORT_TYPES:
           if row[1] == report_name:
                report_type = row[0]
-     reports = CommitteeReport.objects.filter(committee=committee_obj,report_type=report_type)
-     if len(reports) > 0:
-          # Should check datastore to see report permissions
-          report = reports[0]
-          relative_path = os.path.join(year,
-                                       QUAKER_MONTHS[month],
-                                       report.rstFileLocation)
-          report_path = "%s/%s" % (settings.PROJECTBASE_DIR,
-                                  relative_path)
-          report_rst = get_report(os.path.normpath(report_path))
-     else:
-          report = {'report_type':-1,
-                    'report_date':datetime.date(year=year,month=month,day=1),
-                    'contents':report_rst}
-          report_rst = '''Report %s does not exist''' % report_name
+     reports = CommitteeReport.objects.filter(committee=committee_obj,
+                                              report_type=report_type)
+     report,report_rst = get_reports(reports,year,month)
      return direct_to_template(request,
                                'committees/report.html',
                                {'user':user,
                                 'report':report,
                                 'contents':report_rst})
+
+
 
 def save_committee(request):
      if request.user.is_superuser and request.method == 'POST':

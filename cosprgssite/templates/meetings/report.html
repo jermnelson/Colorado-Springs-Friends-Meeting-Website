@@ -1,0 +1,37 @@
+{% extends 'fluid.html' %}
+{% load markup %}
+{% load meeting_extras %}
+{% block sidebar-nav %}{% endblock %}
+
+{% block more-breadcrumb-links %}
+ <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
+ <li><a href="/meetings/{{ report.meeting_type|get_name }}">{{ report.meeting_type|get_name }}</a> <span class="divider">&raquo;</span></li>
+ <li class="active">{{ report.report_type|get_report }} for {{ report.meeting_date|date:"F j, Y" }}</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="hero-unit">
+<h2>{{ report.meeting_type|get_name }}</h2>
+<h1>{{ report.report_type|get_report }}</h1>
+<h3>{{ report.meeting_date|date:"F j, Y" }}</h3>
+{{ contents|restructuredtext }}
+</div>
+{% endblock %}
+
+{% block one-one-box %}
+{% endblock %}
+
+{% block one-two-box %}
+{% endblock %}
+
+{% block one-three-box %}
+{% endblock %}
+
+{% block two-one-box %}
+{% endblock %}
+
+{% block two-two-box %}
+{% endblock %}
+
+{% block two-three-box %}
+{% endblock %}

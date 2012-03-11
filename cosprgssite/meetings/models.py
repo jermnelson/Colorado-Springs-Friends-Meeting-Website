@@ -9,12 +9,22 @@ MEETING_TYPES = ((1,"Business"),
                  (2,"Worship"),
                  (3,"Special"))
 
-REPORT_TYPES = ((1,"Minute"),
+OFFICER_TYPES = ((1,"Clerk"),
+                 (2,"Recording Clerk"),
+                 (3,"Treasurer"))
+
+REPORT_TYPES = ((1,"Minutes"),
                 (2,"Report"),
                 (3,"Advice"),
                 (4,"Query"),
                 (5,"State of the Meeting"))
 
+
+class MeetingOfficer(models.Model):
+    date_started = models.DateField()
+    date_finished = models.DateField(blank=True,null=True)
+    friend = models.ForeignKey(User)
+    officer = models.IntegerField(choices=OFFICER_TYPES)
 
 class MeetingReport(models.Model):
     authors = models.ManyToManyField(User)

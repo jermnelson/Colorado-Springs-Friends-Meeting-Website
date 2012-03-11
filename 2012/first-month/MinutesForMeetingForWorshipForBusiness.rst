@@ -176,45 +176,45 @@ In attendance:  `Ginger Morgan`_ (clerk), `Carlton Gamer`_,
 
 We closed in silence at 1:15.
 
-.. _`Nancy Andrew`: http://coloradospringsquakers.org/Friends/NancyAndrew/
-.. _`Barbara Bowen`: http://coloradospringsquakers.org/Friends/BarbaraBowen/
-.. _`Ann Daugherty`: http://coloradospringsquakers.org/Friends/AnnDaugherty/
-.. _`Bill`: http://coloradospringsquakers.org/Friends/BillDurland/
-.. _`Bill Durland`: http://coloradospringsquakers.org/Friends/BillDurland/
-.. _`Genie`: http://coloradospringsquakers.org/Friends/GenieDurland/
-.. _`Genie Durland`: http://coloradospringsquakers.org/Friends/GenieDurland/
-.. _`Joyce Doyle`: http://coloradospringsquakers.org/Friends/JoyceDoyle/
-.. _`Sarah`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
-.. _`Sarah Callbeck`: http://coloradospringsquakers.org/Friends/SarahCallbeck/
-.. _`Carlton`: http://coloradospringsquakers.org/Friends/CarltonGamer/
-.. _`Carlton Gamer`: http://coloradospringsquakers.org/Friends/CarltonGamer/
-.. _`Lisa`: http://coloradospringsquakers.org/Friends/LisaLister/
-.. _`Lisa Lister`: http://coloradospringsquakers.org/Friends/LisaLister/
-.. _`Ginger`: http://coloradospringsquakers.org/Friends/GingerMorgan/
-.. _`Ginger Morgan`: http://coloradospringsquakers.org/Friends/GingerMorgan/
-.. _`Tup`: http://coloradospringsquakers.org/Friends/TupRoberts/
-.. _`Julie Roten-Valdez`: http://coloradospringsquakers.org/Friends/JulieRoten-Valdez/
-.. _`Molly`: http://coloradospringsquakers.org/Friends/MollyWingate/
-.. _`Molly Wingate: http://coloradospringsquakers.org/Friends/MollyWingate/
-.. _`December Minutes`: http://coloradospringsquakers.org/minutes/2011/12/10/business
-.. _`minutes`: http://coloradospringsquakers.org/minutes/2012/01/special
-.. _`Colorado Regional Meeting`: http://coloradospringsquakers.org/ColoradoRegionalMeeting/
-.. _`Education Committee`: http://coloradospringsquakers.org/FirstDaySchool
-.. _`Friend`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
-.. _`Friends Church`: http://coloradospringsquakers.org/locations/FriendsChurch
-.. _`finance Committee`: http://coloradospringsquakers.org/committees/Finance/
-.. _`Finance Committee`: http://coloradospringsquakers.org/committees/Finance/
-.. _`Hicksite Friends`: http://coloradospringsquakers.org/history/Hicksite
-.. _`Intermountain Yearly Meeting`: http://coloradospringsquakers.org/imym/
-.. _`IMYM Continuing Committee`: http://coloradospringsquakers.org/imym/committees/Continuing
-.. _`Library`: http://coloradospringsquakers.org/Library
-.. _`Meeting Home`: http://coloradospringsquakers.org/committees/MeetingHome
-.. _`Ministry and Oversight`: http://coloradospringsquakers.org/committees/M&O/
-.. _`M&O`: http://coloradospringsquakers.org/committees/M&O/
-.. _`Quaker`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
-.. _`Quakers`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
-.. _`Quakerism`: http://coloradospringsquakers.org/ReligiousSocietyOfFriends
-.. _`Nominating Committee`: http://coloradospringsquakers.org/committees/Nominating/
+.. _`Nancy Andrew`: /Friends/NancyAndrew/
+.. _`Barbara Bowen`: /Friends/BarbaraBowen/
+.. _`Ann Daugherty`: /Friends/AnnDaugherty/
+.. _`Bill`: /Friends/BillDurland/
+.. _`Bill Durland`: /Friends/BillDurland/
+.. _`Genie`: /Friends/GenieDurland/
+.. _`Genie Durland`: /Friends/GenieDurland/
+.. _`Joyce Doyle`: /Friends/JoyceDoyle/
+.. _`Sarah`: /Friends/SarahCallbeck/
+.. _`Sarah Callbeck`: /Friends/SarahCallbeck/
+.. _`Carlton`: /Friends/CarltonGamer/
+.. _`Carlton Gamer`: /Friends/CarltonGamer/
+.. _`Lisa`: /Friends/LisaLister/
+.. _`Lisa Lister`: /Friends/LisaLister/
+.. _`Ginger`: /Friends/GingerMorgan/
+.. _`Ginger Morgan`: /Friends/GingerMorgan/
+.. _`Tup`: /Friends/TupRoberts/
+.. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
+.. _`Molly`: /Friends/MollyWingate/
+.. _`Molly Wingate`: /Friends/MollyWingate/
+.. _`December Minutes`: /meetings/Business/2011/12/10/Minutes
+.. _`minutes`: /minutes/2012/01/special
+.. _`Colorado Regional Meeting`: /ColoradoRegionalMeeting/
+.. _`Education Committee`: /FirstDaySchool
+.. _`Friend`: /ReligiousSocietyOfFriends
+.. _`Friends Church`: /locations/FriendsChurch
+.. _`finance Committee`: /committees/Finance/
+.. _`Finance Committee`: /committees/Finance/
+.. _`Hicksite Friends`: /history/Hicksite
+.. _`Intermountain Yearly Meeting`: /imym/
+.. _`IMYM Continuing Committee`: /imym/committees/Continuing
+.. _`Library`: /Library
+.. _`Meeting Home`: /committees/MeetingHome
+.. _`Ministry and Oversight`: /committees/M&O/
+.. _`M&O`: /committees/M&O/
+.. _`Quaker`: /ReligiousSocietyOfFriends
+.. _`Quakers`: /ReligiousSocietyOfFriends
+.. _`Quakerism`: /ReligiousSocietyOfFriends
+.. _`Nominating Committee`: /committees/Nominating/
 .. _`Sweet, Sweet Spirit`: 
-.. _`REA`: http://coloradospringsquakers.org/committees/rea
-.. _`Religious Education and Action`: http://coloradospringsquakers.org/committees/rea
+.. _`REA`: /committees/rea
+.. _`Religious Education and Action`: /committees/rea

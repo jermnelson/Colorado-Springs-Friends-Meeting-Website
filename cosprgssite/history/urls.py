@@ -12,4 +12,5 @@ urlpatterns = patterns('history.views',
     url(r'[h|H]icksite$','hicksite'),
     url(r'[a|A]bolition[a|A]nd[s|S]uffrage$','abolition_and_suffrage'),
     url(r'[c|C]olorado[s|S]prings$','colorado_springs'),
+    url(r'[w|W]orldWars[a|A]nd[c|C]onscientious[o|O]bjectors$',"worldwars_conscientious_objectors"),
 )

@@ -1,5 +1,6 @@
 {% extends 'fluid.html' %}
 {% load i18n %}
+{% load meeting_extras %}
 
 {% block more-breadcrumb-links %}
   <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
@@ -23,8 +24,8 @@
   <a href="#" class="btn btn-small" onclick="$('#add_minute').modal('show')">Add Minute</a>
  {% endif %}
   <ul>
-  {% for report in minutes %}
-    <li><a href="{{ report.url }}">{{ report.name }} {{ report.meeting_date }}</a></li>
+  {% for report in meeting.minutes %}
+    <li><a href="/meetings/{{ report.meeting_type|get_name }}/{{ report.meeting_date.year }}/{{ report.meeting_date.month|pretty_month }}/{{ report.report_type|get_report }}">{{ report.name }} {{ report.meeting_date|date:"F j, Y" }}</a></li>
   {% endfor %}
   </ul>
  </div>
@@ -56,7 +57,7 @@
   <a class="close" data-dismiss="modal">×</a>
   <h2>{% trans "Add Minute" %} {{ meeting.name }}</h2>
  </div>
- <form action="/meetings/{{ meeting.type_of }}/minutes/add" method="POST">
+ <form action="/meetings/{{ meeting.type_of|get_name }}/report/add" method="POST">
  <div class="modal-body">
   {% csrf_token %}
   <label>{{ minute_form.meeting_date.label }}</label>
@@ -65,7 +66,8 @@
   {{ minute_form.rstFileLocation }}
   <label>{{ minute_form.report_type.label }}</label>
   {{ minute_form.report_type }}
-  <input type="hidden" name="meeting_type" value="{{ meeting.type_of }}" id="id_meeting_type" />
+  <label>{{ minute_form.authors.label }}</label>
+  {{ minute_form.authors }}
  </div>
  <div class="modal-footer">
  <input type="submit" class="btn btn-primary" value="Save" />
