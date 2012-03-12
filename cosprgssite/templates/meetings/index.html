@@ -1,4 +1,10 @@
 {% extends 'fluid.html' %}
+{% load meeting_extras %}
+
+{% block more-breadcrumb-links %}
+ <li class="active"><a href="#">Meetings</a></li>
+{% endblock %}
+
 
 {% block hero-unit %}
 <div class="hero-unit">
@@ -37,6 +43,12 @@
   <p>The Colorado Springs Friends Meeting currently has business
   meeting on the third First Day (or Sunday) of the month.</p> 
   <h3>Recent Minutes</h3>
+  <ul>
+  {% for report in business %}
+    <li><a href="/meetings/{{ report.meeting_type|get_name }}/{{ report.meeting_date.year }}/{{ report.meeting_date.month|pretty_month }}/{{ report.report_type|get_report }}">{{ report.name }} {{ report.meeting_date|date:"F j, Y" }}</a></li>
+  {% endfor %}
+  </ul>
+
 </div>
 {% endblock %}
 

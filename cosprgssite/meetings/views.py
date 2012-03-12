@@ -23,9 +23,13 @@ def default(request):
     """
     Default view for Meetings
     """
+    business_minutes = MeetingReport.objects.filter(
+        meeting_type=MEETING_TYPES_DICT['Business']
+    ).order_by('meeting_date')
+    logging.error("business minutes %s" % business_minutes)
     return direct_to_template(request,
                               'meetings/index.html',
-                              {'business':[],
+                              {'business':business_minutes,
                                'special':[],
                                'worship':[]})
 
