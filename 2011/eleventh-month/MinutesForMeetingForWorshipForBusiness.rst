@@ -4,19 +4,30 @@ November 13, 2011
 -----------------
 
 In attendance: `Linda Seger`_, `Bill Werling`_, `Jeremy Nelson`_, 
-`Lisa Lister`, Joyce Doyle, Genie Durland, Bill Durland, 
-Ginger Morgan, Sarah Callbeck, Carlton Gamer (clerk), 
-Molly Wingate (recording clerk)
+`Lisa Lister`, `Joyce Doyle`_, `Genie Durland`_, `Bill Durland`_, 
+`Ginger Morgan`_, `Sarah Callbeck`_, `Carlton Gamer`_ (clerk), 
+`Molly Wingate`_ (recording clerk)
 
-We opened at 11:20 with a John Woolman reading from 1772: There is a principal which is pure, placed in the human minds, which in different places and ages hath had different names.  It is, however, pure and proceeds from God.  It is deep and inward, confined to no forms of religion, nor excluded from any, where the heart stands in perfect sincerity.  In whomsoever this takes root and grows, of what nation soever, they become brethren in the best sense of the expression.
+We opened at 11:20 with a John Woolman reading from 1772:
+ 
+    There is a principal which is pure, placed in the human minds, which in 
+    different places and ages hath had different names.  It is, however, pure 
+    and proceeds from God.  It is deep and inward, confined to no forms of 
+    religion, nor excluded from any, where the heart stands in perfect 
+    sincerity.  In whomsoever this takes root and grows, of what nation 
+    soever, they become brethren in the best sense of the 
+    expression.
+
 Followed by silence.
 
 1. Approval of October Minutes – attached.  Accepted with thanks to 
    `Jeremy Nelson`_ for standing in for `Molly Wingate`_.
+
 2. Cash Flow Report :  see Finance Committee report (e)
 
 3. Committee Reports:
     a. **Finance Committee**
+
        1. A concern about Friends Journal subscription.  They have 
           raised their rate.  Conversation ensued about how we use the 
           resource. We decided that we will subscribe to Friends Journal
@@ -74,23 +85,26 @@ Followed by silence.
           meeting decided to add to what we donate to other 
           organizations.  If we have another surplus, they would do the 
           same.
-          
+         
+ 
     b. **Nominating Committee**
-    
+       
        1. Approved `Molly Wingate`_ to serve on the Colorado Regional 
           Meeting’s Nominating Committee.
           
        2. Please note that `Bill Werling`_ is serving at the CRM 
           representative to the IMYM Committee on Suffering.
-          
+         
        3. Several positions for the meeting will be coming open in 
           January.  They include clerk, recording clerk, and others. 
           Please See `Genie Durland`_ or `Julie Roten-Valdez`_ if you 
           wish to volunteer. We hope to approve the new service 
           positions at the December meeting.  
+
           
-    c. **Ministry and Oversight`**
-       Report on Clearness Committee re: transfer of `Jeremy Nelson`_’s 
+    c. **Ministry and Oversight**
+
+       Report on Clearness Committee re: transfer of `Jeremy Nelson`_'s 
        membership from `Salt Lake Meeting`_ to Colorado Springs. 
        Business meeting approved the transfer of membership.  December 
        potluck will be a welcome for `Jeremy Nelson`_.
@@ -109,7 +123,7 @@ Followed by silence.
        We asked `ministry and oversight`_ talk about the breaking of 
        meeting and bring us suggestions. 
        
-       `M & O`+ will follow up with Pueblo friends to see if we can be 
+       `M & O`_ will follow up with Pueblo friends to see if we can be 
        of service to them.
        
        They will also follow up with regular attenders as they make 
@@ -136,23 +150,25 @@ Followed by silence.
        scheduler to find a time for us to meet.
 
     f. **Library**
-    
+
+       No report.
+ 
 4. Old business
 
-    A. Friends expressed interest in a discussion group about a book 
+    a. Friends expressed interest in a discussion group about a book 
        offered by FGC The Wisdom to Know the Difference by Eileen Flanagan.  
        `Molly`_ will order books and schedule a discussion time in 
        January.  Please contact her so she can order enough books. Those
        interested will contact `Molly`_.
        
-    B. `Molly`_ will have queries from the IMYM documents concerning the 
+    b. `Molly`_ will have queries from the IMYM documents concerning the 
        IMYM Task Group Recommendations and FCNL representation ready in time
        for the December Potluck.
 
-    C. Hospitality time after meeting and 1st Sunday potlucks remain 
+    c. Hospitality time after meeting and 1st Sunday potlucks remain 
        Friendly times of fellowship. 
        
-    D. We returned to the question of the `Sheii Koeii`_ Quaker 
+    d. We returned to the question of the Sheii Koeii Quaker 
        Farming Community near Gardner, CO and how we can support them. 
        `Genie`_ suggested that the question is really for Mountain View to 
        decide and then ask us. `Bill`_ and `Genie`_ are not in a 
@@ -163,34 +179,36 @@ Followed by silence.
        up.  `Genie`_ is happy to share the contact information for 
        Friends to visit the group.  Meeting agreed.
        
-    E. We returned to the Joint Statement on Palestine from AFSC, QUONW 
+    e. We returned to the Joint Statement on Palestine from AFSC, QUONW 
        and FCNL that was brought to Friend’s attention last month.  `Bill`_ 
        clarified that this statement is not for our approval but for our
        information.  `Bill`_ discussed the issues of politics and 
        spirituality in Quakers.  We discussed an interest in having a 
        soup and sharing on the topic of politics and religion.  
 
+
 5. New Business
 
-    A. Our noisy neighbors.  The bar next door has begun opening at 10 
+    a. Our noisy neighbors.  The bar next door has begun opening at 10 
        AM on Sundays.  We have had only friendly contacts with employees
        and managers in an effort to reduce the level of the music during
        Meeting for Worship.  All requests have been honored.  `Molly`_ 
        spoke to the manager during the week and explained our needs, 
        and meeting was quiet on Sunday.
        
-    B. `Carlton`_ and `Ginger`_ are looking into the possibility of our 
+    b. `Carlton`_ and `Ginger`_ are looking into the possibility of our 
        moving on to Colorado College’s campus, if we need or want to. We
        discussed the pros and cons.
         
-    C. `Sarah`_ reported that `Jeremy`_ has begun to look at the Meeting’s
+    c. `Sarah`_ reported that `Jeremy`_ has begun to look at the Meeting’s
        website and he and Sarah will have some questions for the 
        Meeting next month.
 
-    D. `Sarah`_ also presented `Carlton`_ with the letter to send to Wells 
+    d. `Sarah`_ also presented `Carlton`_ with the letter to send to Wells 
        Fargo explaining that we are  closing our accounts because of our 
        beliefs.
    
+
 We closed at 2PM in silence.
 
 Presented in the Light,
@@ -209,21 +227,32 @@ Recording Clerk.
 .. _`Joyce Doyle`: /Friends/JoyceDoyle/
 .. _`Sarah`: /Friends/SarahCallbeck/
 .. _`Sarah Callbeck`: /Friends/SarahCallbeck/
+.. _`John`: /Friends/JohnGallagher
+.. _`John Gallagher`: /Friends/JohnGallagher
 .. _`Carlton`: /Friends/CarltonGamer/
 .. _`Carlton Gamer`: /Friends/CarltonGamer/
 .. _`Lisa`: /Friends/LisaLister/
 .. _`Lisa Lister`: /Friends/LisaLister/
+.. _`Jeremy`: /Friends/JeremyNelson/
+.. _`Jeremy Nelson`: /Friends/JeremyNelson/
 .. _`Ginger`: /Friends/GingerMorgan/
 .. _`Ginger Morgan`: /Friends/GingerMorgan/
 .. _`Tup`: /Friends/TupRoberts/
 .. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
+.. _`Linda`: /Friends/LindaSeger/
+.. _`Linda Seger`: /Friends/LindaSeger/
+.. _`Bill Werling`: /Friends/BillWerling
+.. _`Martha`: /Friends/MarthaLutz/
+.. _`Martha Lutz`: /Friends/MarthaLutz/
 .. _`Molly`: /Friends/MollyWingate/
 .. _`Molly Wingate`: /Friends/MollyWingate/
 .. _`December Minutes`: /meetings/Business/2011/12/10/Minutes
 .. _`minutes`: /minutes/2012/01/special
+.. _`Adult Education`: /committees/REA
 .. _`Colorado Regional Meeting`: /ColoradoRegionalMeeting/
-.. _`Education Committee`: /FirstDaySchool
-.. _`Friend`: /ReligiousSocietyOfFriends
+.. _`First Day School`: /committees/Education
+.. _`Education Committee`: /committees/Education
+.. _`Friend`: /history/ReligiousSocietyOfFriends
 .. _`Friends Church`: /locations/FriendsChurch
 .. _`finance Committee`: /committees/Finance/
 .. _`Finance Committee`: /committees/Finance/
@@ -232,13 +261,14 @@ Recording Clerk.
 .. _`IMYM Continuing Committee`: /imym/committees/Continuing
 .. _`Library`: /Library
 .. _`Meeting Home`: /committees/MeetingHome
-.. _`Ministry and Oversight`: /committees/M&O/
-.. _`M&O`: /committees/M&O/
+.. _`Ministry and Oversight`: /committees/MinistryAndOversight/
+.. _`M&O`: /committees/MinistryAndOversight/
+.. _`M & O`: /committees/MinistryAndOversight/
 .. _`Quaker`: /ReligiousSocietyOfFriends
 .. _`Quakers`: /ReligiousSocietyOfFriends
 .. _`Quakerism`: /ReligiousSocietyOfFriends
 .. _`Nominating Committee`: /committees/Nominating/
+.. _`Salt Lake Meeting`: http://www.saltlakequakers.org/
 .. _`Sweet, Sweet Spirit`: 
-.. _`REA`: /committees/rea
+.. _`REA`: /committees/REA
 .. _`Religious Education and Action`: /committees/rea
-.. _``Sheii Koeii`: /
