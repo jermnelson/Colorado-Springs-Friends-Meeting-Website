@@ -1,0 +1,31 @@
+ {% load cal_extras %}
+ <table class="allCalendar">
+    <tr>
+      <td>
+        <table class="calendar">
+          <tr>
+            <th><a href="{{ app.name }}/{{ cal.prev.0 }}/{{ cal.prev.1 }}">&laquo;</a></th>
+            <th colspan="5">{{ getMonthHeader.0 }} {{ cal.getMonthHeader.1 }}</th>
+            <th><a href="{{ app.name }}/{{ cal.next.0 }}/{{ cal.next.1 }}">&raquo;</a></th>
+          </tr>
+          <tr>
+            {% for wk in cal.getWeekHeader %}
+              <th>{{ wk }}</th>
+            {% endfor %}:q!
+          </tr>
+          {% for line in cal.getMonthCalendar %}
+          <tr>
+            {% for day in line %}
+              <td>
+                {% if day.1 %}
+                  <a href="?year={{ cal.curr.year }}&month={{ cal.curr.month }}&day={{ day.0 }}">{{ day.0 }}</a>
+                {% else %}
+                  {% if day.0 %}
+                    {{ day.0 }}
+                  {% endif %}
+                {% endif %}
+              </td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+</table>  

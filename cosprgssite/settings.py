@@ -128,7 +128,8 @@ INSTALLED_APPS = (
     'meetings',
     'testimonies',
     'Friends',
-    'kairios',
+    'cal',
+#    'kairios',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

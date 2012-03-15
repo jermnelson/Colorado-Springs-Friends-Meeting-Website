@@ -33,14 +33,20 @@
 {% endblock %}
 
 {% block one-two-box %}
+<div class="span3">
 {% if reports %}
-<div class="span4">
   <h2>Reports</h2>
-</div>
+{% else %}
+  &nbsp;
 {% endif %}
+</div>
+
 {% endblock %}
 
 {% block one-three-box %}
+<div class="span4">
+{% include "cal/calendar-snippet.html" %}
+</div>
 {% endblock %}
 
 {% block two-one-box %}{% endblock %}

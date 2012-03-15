@@ -31,7 +31,8 @@ REPORT_TYPES = ((1,"Advice and Queries"),
 
 
 class Committee(models.Model):
-    date_created = models.DateTimeField()
+    date_created = models.DateTimeField(auto_now=True,
+                                        auto_now_add=True)
     name = models.CharField(max_length=150)
     
 
