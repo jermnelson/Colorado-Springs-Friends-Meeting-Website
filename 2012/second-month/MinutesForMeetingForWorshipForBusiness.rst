@@ -10,7 +10,7 @@ In attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
 
 1. Open Worship in Silence at 11:35am
 
-   Ginger opened with a line from Reka? " it is inside ourselves that God learns" 
+   Ginger opened with the quote " it is inside ourselves that God learns" 
 
 2. `January minutes`_ and `Special Meeting Minute`_ approved with slight 
    adjustments for typos (name corrections).
@@ -21,7 +21,7 @@ In attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
    checking account, about to pay assessments for 2012, $35 from IMYM 42 per 
    member and attender In the emergency reserve $589.00. Special one time 
    dividend  $25.03 from Ent, moved to emergency reserve. Total savings with 
-   building Bottom line total $67,xxx. Thank-you for continued services by the 
+   building Bottom line total $67,739. Thank-you for continued services by the 
    `finance committee`_ work.
   
 4. Committee Reports
