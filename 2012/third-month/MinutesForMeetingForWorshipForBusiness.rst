@@ -9,25 +9,32 @@ In Attendance: Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
 `Jeremy Nelson`_ (recording clerk), `Joyce Doyle`_, `Brian Murphy`_, 
 
 1. Open Worship in Silence at 11:30am
+   `Ginger`_ opened with two quotes from IMYM's Faith and Practice
 
-  IMYM "I always end up going to Monthly Meeting because they do the darnest 
-    Barney Aldtrich
+   "I always go to monthly meeting becauses if I don't, they usually
+   end up doing some darn thing or other"
 
-  Nancy "For it is corporate Truth or Light for which Friends labor together,
-  not  
+   Barney Aldtrich
+
+   "For it is corporate Truth or Light for which Friends labor together,
+   not the proof or justification of the rightness of any particular position.
+   
+   Nancy Springer
+   
 
 2. Approval of February minutes
 
- Misuse of Forth in minutes.
+   `Molly`_ noted the improper misuse of Forth in minutes.
 
- Cashflow report second, assesment $35 $42, total. Don't pay assessments for 
- attenders. `Sarah`_ will send edits to Finance Committee report.
+   In the cashflow report the total is $42. Also, we eon't pay assessments for 
+   attenders. `Sarah`_ will send edits regarding the Finance Committee report
+   to the Recording Clerk.
 
 3. Cash Flow Report
  
- `Sarah`_ hopes Friend , end of Febr. $4,781, savings total $2,300.12, $65,989.88 account. Section
+ `Sarah`_ hopes Friend , end of Febr. $4,781, savings total $2,313.12. $65,989.88 account. Section
  in cash flow and other reports, Shift Library and First Day schools into a other reserves, can draw
- from $59.88 reserves. Building Fund, since end f$45,000 moved from Calvert to Ent Savings in anticipation
+ from $59.88 reserves. Building Fund, since end $45,000 moved from Calvert to Ent Savings in anticipation
  on closing on Meeting House. Setting the stage to be prepared, $40,000 wired to Empire Title Account on 
  Monday. $16,000 left in Calvert.
 
@@ -35,15 +42,14 @@ In Attendance: Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
 
    a. Finance Committee Report
       
-      Good deal of meeting was `Ann`_ bringing committee up-todate on Cimmirron Property. Finance committee
+      Good deal of meeting was `Ann`_ bringing committee up to date on CimmarronProperty. Finance committee
       ordered Quickbooks and has been received. Assessment letters will be emailed to Members in April. National
-      distribution this month, If planning to attend IMYM and need financial assistance, please send requests 
+      distribution this month, If Friends are planning to attend IMYM and need financial assistance, please send requests 
       to `Lisa`_, need to register and possible additional assistence from IMYM scholarship. We hope to increas
       
-
       `Lisa`_ passes around list of organization for donations for national disbursement. Asked about 
-      `Friends of Seville`.  `Molly`_ say support `Western Friends`_, `Friends of Seville`_, and `Friends Journal`_.
-      Split evenly between three organizations. 33.33, 33.33, 34.33 or 35, 35, 30. Agreement among friends for 
+      `Friends of Seville`.  `Molly`_ suggested we support `Western Friends`_, `Friends of Seville`_, and `Friends Journal`_.
+      Discussed was spliting evenly between three organizations. 33.33, 33.33, 34.33 or 35, 35, 30. Agreement among friends for 
       evenly split.     
 
    b. Ministry and Oversight
