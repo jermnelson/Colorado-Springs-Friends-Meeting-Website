@@ -217,6 +217,13 @@ In attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
  
 Closed in silence. 
 
+Respectfully submitted in the light,
+
+`Jeremy Nelson`_ 
+
+Recording Clerk
+
+
 .. _`Ann`: /Friends/AnnDaugherty/
 .. _`Ann Daugherty`: /Friends/AnnDaugherty/
 .. _`Bill`: /Friends/BillDurland/
