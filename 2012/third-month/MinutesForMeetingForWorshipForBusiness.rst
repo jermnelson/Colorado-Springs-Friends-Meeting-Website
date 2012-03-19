@@ -5,8 +5,9 @@ March 18, 2012
 --------------
 
 In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_, 
-`Bill Durland`_, `Genie Durland`_, `Molly Wingate`_ , `Peter LeVar`_, `Barbara`_
-`Jeremy Nelson`_ (recording clerk), `Joyce Doyle`_, `Brian Murphy`_, 
+`Bill Durland`_, `Genie Durland`_, `Molly Wingate`_ , `Peter LeVar`_, 
+`Barbara Bowen`_, `Jeremy Nelson`_ (recording clerk), `Joyce Doyle`_, 
+`Brian Murphy`_, 
 
 1. Open Worship in Silence at 11:30am
    `Ginger`_ opened with two quotes from IMYM's Faith and Practice:
@@ -59,7 +60,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
       `Lisa`_ passed around list of organization for donations for national 
       disbursement. Asked about `Friends of Seville`_, `Bill`_ responded that
       this was a Christian/Palestinian peace organization will worth our 
-      support. `Molly`_ suggested we support `Western Friends`_, 
+      support. `Molly`_ suggested we support `Western Friend`_, 
       `Friends of Seville`_, and `Friends Journal`_.
       
       Discussed was spliting evenly the $100 between three organizations with 
@@ -77,15 +78,16 @@ In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
          number topics, reported to Business meeting the topics that aren't 
          held in confidence. 
  
-         `Deb`_ wishes to removed from Meeting email list and from directory.
+         Deb wishes to removed from Meeting email list and from directory.
        
-     ii. Update on charge for proposed `Religious Education and Action`_ 
+     ii. Update on charge for proposed `Adult Religious Education and 
+         Social Action`_ 
          Committee
       
-         `Bill`_ report on charge for `Adult Education and Action`_ with three 
+         `Bill`_ reported on charge for `Adult Religious Education and Social Action`_ with three 
          possibilities for reorganization. Business meeting already rejected the
          option for combining the Education committees. `M&O` suggested name 
-         the name change to, `Adult Eduction and Social Action` committee and
+         the name change to, `Adult Religious Education and Social Action`_ committee and
          they also consider a need for a clerk for this committee. `M&O`_ 
          approved the structure for the new committee. 
 
@@ -356,7 +358,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
 7. Announcements
 
    1. Look at Rufus Jones and other Quakers for April's topic of  
-     `Adult Religious Education and Social Action`_ committee.
+      `Adult Religious Education and Social Action`_ committee.
       Not just a course for next years, but also have outside programs 
       with guest speakers. Clerk will work on this matter.
 
@@ -364,6 +366,50 @@ In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
        
 Meeting closed with celebratory silence at 1:23pm.
 
+Respectfully submitted in the light,
 
+Jeremy Nelson
+
+Recording Clerk
+
+.. _`Ann`: /Friends/AnnDaugherty/
+.. _`Ann Daugherty`: /Friends/AnnDaugherty/
+.. _`Barbara`: /Friends/BarbaraBowen/
+.. _`Barbara Bowen`: /Friends/BarbaraBowen/
+.. _`Brian`: /Friends/BrianMurphy/
+.. _`Brian Murphy`: /Friends/BrianMurphy/
+.. _`Bill`: /Friends/BillDurland/
+.. _`Bill Durland`: /Friends/BillDurland/
+.. _`Genie`: /Friends/GenieDurland/
+.. _`Genie Durland`: /Friends/GenieDurland/
+.. _`Carlton`: /Friends/CarltonGamer/
+.. _`Carlton Gamer`: /Friends/CarltonGamer/
+.. _`Dede`: /Friends/Dede
+.. _`Lisa`: /Friends/LisaLister/
+.. _`Ginger`: /Friends/GingerMorgan/
+.. _`Ginger Morgan`: /Friends/GingerMorgan/
+.. _`Jeremy`: /Friends/JeremyNelson/
 .. _`Jeremy Nelson`: /Friends/JeremyNelson/
+.. _`John`: /Friends/JohnGallegar
+.. _`Joyce`: /Friends/JoyceDoyle/
+.. _`Joyce Doyle`: /Friends/JoyceDoyle/
+.. _`Julie`: /Friends/JulieRoten-Valdez/
+.. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
+.. _`Linda`: /Friends/LindaSeger
+.. _`Linda Seger`: /Friends/LindaSeger
+.. _`Martha`: /Friends/MarthaLutz/
+.. _`Molly`: /Friends/MollyWingate/
+.. _`Molly Wingate`: /Friends/MollyWingate/
+.. _`Peter`: /Friends/PeterLeVar/
+.. _`Peter LeVar`: /Friends/PeterLeVar/
+.. _`Sarah`: /Friends/SarahCallbeck/
+.. _`Sarah Callbeck`: /Friends/SarahCallbeck/
 .. _`Adult Religious Education and Social Action`: /committees/REA
+.. _`First Day School`: /committees/Education
+.. _`Finance Committee`: /committees/Finance
+.. _`Friends Journal`: http://www.friendsjournal.org/
+.. _`Friends of Seville`: /
+.. _`Meeting Home`: /committees/MeetingHouse
+.. _`M&O`: /committees/MinistryAndOversight
+.. _`Western Friend`: http://westernfriend.org/
+.. _`Library`: /committees/Library
