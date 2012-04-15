@@ -1,0 +1,27 @@
+[
+  {"model":"committees.Committee",
+   "pk": 1,
+    "fields": {
+       "name":"MinistryAndOversight"
+    }
+   },
+   {"model":"committees.Committee",
+   "pk": 2,
+    "fields": {
+       "name":"Finance"
+    }
+   },
+   {"model":"committees.Committee",
+   "pk": 3,
+    "fields": {
+       "name":"MeetingHouse"
+    }
+   },
+   {"model":"committees.Committee",
+   "pk": 4,
+    "fields": {
+       "name":"Nominating"
+    }
+   }
+
+]
