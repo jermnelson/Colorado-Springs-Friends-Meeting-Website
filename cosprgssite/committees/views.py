@@ -4,6 +4,7 @@
 __author__ = "Jeremy Nelson"
 
 import os,settings,logging
+from datetime import date,datetime
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from django.http import HttpResponseNotFound,HttpResponseRedirect
@@ -36,6 +37,7 @@ def get_report(query,
           logging.error("IN GET REPORT %s" % query)
           # Should check datastore to see report permissions
           report = query[0]
+          logging.error("REPORT location is %s" % report.rstFileLocation)
           relative_path = os.path.join(year,
                                        QUAKER_MONTHS[month],
                                        report.rstFileLocation)
@@ -139,7 +141,8 @@ def display_monthly_report(request,
                report_type = row[0]
      
      reports = CommitteeReport.objects.filter(committee=committee_obj,
-                                              report_type=report_type)
+                                              report_type=report_type,
+                                              report_date__gte=datetime(int(year),int(month)-1,1))
      report,report_rst = get_report(reports,year,month)
      return direct_to_template(request,
                                'committees/report.html',

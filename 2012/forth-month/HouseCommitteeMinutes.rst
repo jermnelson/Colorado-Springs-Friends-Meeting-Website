@@ -3,7 +3,7 @@ Meeting Home Committee
 ======================
 
 April 2012 report
-=================
+-----------------
 
 We have completed our task.  The meeting has a meetinghouse. We closed 
 on March 23rd on the church at 950 E. Cimarron Avenue for $92,500.  We 
@@ -25,7 +25,7 @@ of starting to meet there on May 7, 2012.
 4. `Daniel Kidney`_ stabilized the fence.
 
 5. `Ann Daugherty`_ has been tracking down the details on everything, 
-    especially the roof.
+   especially the roof.
     
 We met on April 4th  to discuss our progress and next steps.  
 In attendance:  `Julie Roten-Valdez`_, `Carlton Gamer`_, 
@@ -40,7 +40,7 @@ us, too.
    Meeting on Sunday.
    
 2. We suggest that the `Meeting Home Committee`_ be put down and that a 
-   new `Meetinghouse Committee`_ is formed. `Meeting Home`_ has 
+   new `Meeting House Committee`_ is formed. `Meeting Home`_ has 
    completed its charge, and now we have many new things to do.
    
 We suggest that the Meetinghouse Committee have five areas of responsibility:
@@ -60,7 +60,7 @@ We suggest that the Meetinghouse Committee have five areas of responsibility:
 
 We thought it would be good to have a person in charge of each area and 
 for those people to gather helpers as needed. These areas will overlap.  
-When the meeting decides what to do, then the `nominating committee`_ 
+When the meeting decides what to do, then the `Nominating committee`_ 
 can fill the committee.  (feel free to volunteer!)
 
 
@@ -75,8 +75,8 @@ can fill the committee.  (feel free to volunteer!)
 
    4. Sell auditorium seats and large podium on ebay and craigslist.
 
-2 We would like to ask the members and attenders to consider donating 
-  items to the meetinghouse:
+2. We would like to ask the members and attenders to consider donating 
+   items to the meetinghouse:
 
    1. Area rug(s) for the basement
 
@@ -98,4 +98,19 @@ We closed in silence.
 
 `Molly Wingate`_, secretary for Meeting Home
 
+.. _`Sarah Callbeck`: /Friends/SarahCallbeck/
+.. _`Ann Daugherty`: /Friends/AnnDaugherty/ 
+.. _`Carlton Gamer`: /Friends/CarltonGamer/
+.. _`Daniel Kidney`: /Friends/DanielKidney/
+.. _`Ginger Morgan`: /Friends/GingerMorgan/
+.. _`Brian Murphy`: /Friends/BrianMurphy/
 .. _`Molly Wingate`: /Friends/MollyWingate/
+.. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
+.. _`Linda`: /Friends/LindaSeger
+.. _`Linda Seger`: /Friends/LindaSeger
+.. _`Fountain Valley Electrical`: http://fvelectric.com/
+.. _`Murphy Constructors`: http://www.murphyconstructors.com/
+.. _`Meeting Home`: /committees/MeetingHome/
+.. _`Meeting Home Committee`: /committees/MeetingHome/
+.. _`Meeting House Committee`: /committees/MeetingHouse/
+.. _`Nominating Committee`: /committees/Nominating/
