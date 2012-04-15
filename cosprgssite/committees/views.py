@@ -33,6 +33,7 @@ def get_report(query,
      :rtype String: restructured Text from report
      """
      if len(query) > 0:
+          logging.error("IN GET REPORT %s" % query)
           # Should check datastore to see report permissions
           report = query[0]
           relative_path = os.path.join(year,
@@ -125,6 +126,7 @@ def display_monthly_report(request,
      :param report_name: Name of rst report (filename)
      :rtype: Generated HTML
      """
+     logging.error("Report name is %s" % report_name)
      if request.user.is_authenticated():
           user = request.user
      else:
@@ -135,6 +137,7 @@ def display_monthly_report(request,
      for row in REPORT_TYPES:
           if row[1] == report_name:
                report_type = row[0]
+     
      reports = CommitteeReport.objects.filter(committee=committee_obj,
                                               report_type=report_type)
      report,report_rst = get_report(reports,year,month)

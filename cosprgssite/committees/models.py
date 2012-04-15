@@ -21,12 +21,12 @@ QUAKER_MONTHS = {'01':'first-month',
                  '11':'eleventh-month',
                  '12':'twelfth-month'}
 
-REPORT_TYPES = ((1,"Advice and Queries"),
+REPORT_TYPES = ((1,"AdviceAndQueries"),
                 (2,"Minute"),
-                (3,"Special Minute"),
+                (3,"SpecialMinute"),
                 (4,"Agenda"),
-                (5,"Cash flow"),
-                (6,"Balance sheet"))
+                (5,"CashFlow"),
+                (6,"BalanceSheet"))
 
 
 

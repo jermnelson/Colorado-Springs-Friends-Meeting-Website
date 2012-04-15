@@ -395,8 +395,8 @@ Recording Clerk
 .. _`Joyce Doyle`: /Friends/JoyceDoyle/
 .. _`Julie`: /Friends/JulieRoten-Valdez/
 .. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
-.. _`Linda`: /Friends/LindaSeger
-.. _`Linda Seger`: /Friends/LindaSeger
+.. _`Linda`: /Friends/LindaSeger/
+.. _`Linda Seger`: /Friends/LindaSeger/
 .. _`Martha`: /Friends/MarthaLutz/
 .. _`Molly`: /Friends/MollyWingate/
 .. _`Molly Wingate`: /Friends/MollyWingate/

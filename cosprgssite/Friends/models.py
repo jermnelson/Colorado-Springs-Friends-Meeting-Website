@@ -32,6 +32,8 @@ class Friend(models.Model):
     yomi_given_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_family_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_name = models.CharField(max_length=60,blank=True,null=True)
+
+
     
 ##def create_user_profile(sender, instance, created, **kwargs):
 ##    if created is not None:
