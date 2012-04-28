@@ -33,7 +33,19 @@ class Friend(models.Model):
     yomi_family_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_name = models.CharField(max_length=60,blank=True,null=True)
 
+class FriendCatagory(models.Model):
+    code = models.CharField(max_length=5)
+    label = models.CharField(max_length=155)
+    user = models.ForeignKey(User)
 
+class FriendPhoneNumbers(models.Model):
+    number = models.CharField(max_length=30)
+    phone_number_type = models.IntegerField(default=0,
+                                            choices=[(0,'Home'),
+                                                     (1,'Cell'),
+                                                     (2,'Business'),
+                                                     (3,'Other')])
+    user = models.ForeignKey(User)
     
 ##def create_user_profile(sender, instance, created, **kwargs):
 ##    if created is not None:
