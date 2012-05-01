@@ -14,6 +14,7 @@ class Friend(models.Model):
                                 related_name="friend_address",
                                 blank=True,
                                 null=True)
+    category = models.ForeignKey('FriendCategory',blank=True,null=True)
     birth_day = models.DateField(blank=True,null=True)
     
     initials = models.CharField(max_length=10,blank=True,null=True)
@@ -28,15 +29,17 @@ class Friend(models.Model):
     short_name = models.CharField(max_length=30,blank=True,null=True)
     suffix = models.CharField(max_length=15,blank=True,null=True)
     user = models.ForeignKey(User,unique=True)
+    young_friend = models.NullBooleanField(blank=True,null=True)
     yomi_additional_name = models.CharField(max_length=60,blank=True)
     yomi_given_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_family_name = models.CharField(max_length=60,blank=True,null=True)
     yomi_name = models.CharField(max_length=60,blank=True,null=True)
 
-class FriendCatagory(models.Model):
+class FriendCategory(models.Model):
     code = models.CharField(max_length=5)
+    friends = models.ManyToManyField(Friend)
     label = models.CharField(max_length=155)
-    user = models.ForeignKey(User)
+    
 
 class FriendPhoneNumbers(models.Model):
     number = models.CharField(max_length=30)

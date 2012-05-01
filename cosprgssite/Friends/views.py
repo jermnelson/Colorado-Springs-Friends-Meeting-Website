@@ -9,7 +9,13 @@ from django.template import loader, TemplateDoesNotExist
 from django.views.generic.simple import direct_to_template
 from committees.models import CommitteeMember
 from Friends.forms import FriendForm
-from Friends.models import Friend
+from Friends.models import Friend,FriendCategory
+
+def census(request):
+    attenders = FriendCategory.objects.filter(code="A")
+    return direct_to_template(request,
+                              'Friends/census.html',
+                              {'attenders':attenders[0]})
 
 def default(request):
     return HttpResponse("NEEDS DESIGN -- Index page for Friends")

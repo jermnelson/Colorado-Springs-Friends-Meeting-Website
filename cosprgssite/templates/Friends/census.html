@@ -1,0 +1,13 @@
+{% extends 'fluid.html' %}
+
+{% block hero-unit %}
+<div class="well">
+ <h1>Census</h1>
+ <h2>Attenders</h2>{{ attenders }}
+ <ul>
+ {% for attender in attenders.friends %}
+ <li>{{ attender.user.username }}</li>
+ {% endfor %}
+ </ul>
+</div>
+{% endblock %}
