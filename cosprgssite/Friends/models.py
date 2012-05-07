@@ -25,6 +25,7 @@ class Friend(models.Model):
                                  related_name="friend_location")
     nickname = models.CharField(max_length=10,blank=True,null=True)
     maiden_name = models.CharField(max_length=60,blank=True,null=True)
+    md5_key = models.CharField(max_length=32)
     prefix = models.CharField(max_length=15,blank=True,null=True)
     short_name = models.CharField(max_length=30,blank=True,null=True)
     suffix = models.CharField(max_length=15,blank=True,null=True)

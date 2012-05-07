@@ -4,9 +4,11 @@
 __author__ = 'Jeremy Nelson'
 
 import datetime
+from calendar import HTMLCalendar
 from django.contrib.auth import authenticate
 from django.views.generic.simple import direct_to_template
 from meetings.models import MeetingEvent
+
 
 class Events(object):
 
@@ -35,7 +37,9 @@ def home(request):
         user = None
     event_query = MeetingEvent.objects.all()
     events = Events()
+    today = datetime.datetime.today()
+    current_calendar = HTMLCalendar().formatmonth(today.year,today.month)
     return direct_to_template(request,
                               'index.html',
-                             {'events':events,
+                             {'current_calendar':current_calendar,
                               'user':user})

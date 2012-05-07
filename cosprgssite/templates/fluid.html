@@ -1,5 +1,5 @@
 {% load i18n %}
-
+{% load event_extras %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -223,7 +223,7 @@
             {% block one-three-box %}
             <div class="span4">
               <h2>News and Events</h2>
-
+               {{ "today"|get_calendar }}
               <p><a class="btn" href="#" onclick="alert('Needs Calendar Widget')">View details &raquo;</a></p>
             </div><!--/span-->
            {% endblock %}

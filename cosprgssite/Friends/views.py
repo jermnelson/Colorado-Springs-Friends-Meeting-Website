@@ -12,10 +12,11 @@ from Friends.forms import FriendForm
 from Friends.models import Friend,FriendCategory
 
 def census(request):
-    attenders = FriendCategory.objects.filter(code="A")
+    friends = Friend.objects.all().order_by('short_name')
     return direct_to_template(request,
                               'Friends/census.html',
-                              {'attenders':attenders[0]})
+                              {'friends':friends,
+                               'year': 2012})
 
 def default(request):
     return HttpResponse("NEEDS DESIGN -- Index page for Friends")
