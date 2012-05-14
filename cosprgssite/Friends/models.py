@@ -42,14 +42,16 @@ class FriendCategory(models.Model):
     label = models.CharField(max_length=155)
     
 
-class FriendPhoneNumbers(models.Model):
+class PhoneNumber(models.Model):
     number = models.CharField(max_length=30)
+    friends = models.ManyToManyField(Friend)
+    md5_key = models.CharField(max_length=32)
     phone_number_type = models.IntegerField(default=0,
                                             choices=[(0,'Home'),
                                                      (1,'Cell'),
                                                      (2,'Business'),
-                                                     (3,'Other')])
-    user = models.ForeignKey(User)
+                                                     (3,'Work'),
+                                                     (4,'Other')])
     
 ##def create_user_profile(sender, instance, created, **kwargs):
 ##    if created is not None:
