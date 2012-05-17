@@ -7,5 +7,7 @@
 <br/>
 {{ friend.address.street }}<br/>
 {{ friend.address.city }}, {{ friend.address.state }} {{ friend.address.postal_code }}
-{% endif %} 
+{% endif %}
+<br/>
+<a href="mailto:{{ friend.user.email }}">{{ friend.user.email }}</a>
 </p>

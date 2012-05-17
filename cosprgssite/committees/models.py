@@ -5,6 +5,7 @@ __author__ = 'Jeremy Nelson'
 
 
 from django.db import models
+from Friends.models import Friend
 from django.contrib.auth.models import User
 
 
@@ -38,7 +39,7 @@ class Committee(models.Model):
 
 class CommitteeMember(models.Model):
     committee = models.ForeignKey(Committee)
-    user = models.ForeignKey(User)
+    friend = models.ForeignKey(Friend)
     date_joined = models.DateField()
     date_left = models.DateField(blank=True,null=True)
     

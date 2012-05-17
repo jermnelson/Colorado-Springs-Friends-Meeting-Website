@@ -38,3 +38,17 @@ def get_friends(friend_keys):
         friend_query = Friend.objects.filter(md5_key=friend_key)
         friends.append(friend_query[0])
     return friends
+
+def load_windows():
+    ADDR_JSON = 'H:\\jermsmemory\\ColoradoSpringsMeeting\\2012\\friend-addresses.json'
+    CATEGORY_JSON = 'H:\\jermsmemory\\ColoradoSpringsMeeting\\2012\\friend-categories.json'
+    associate_addresses(ADDR_JSON)
+    associate_categories(CATEGORY_JSON)
+    # Sets admin to correct values
+    jeremy = Friend.objects.get(pk=1)
+    jeremy.first_name = 'Jeremy'
+    jeremy.last_name = 'Nelson'
+    jeremy.save()
+
+if __name__ == '__main__':
+    pass

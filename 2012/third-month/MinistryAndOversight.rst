@@ -20,12 +20,10 @@ Proposed agenda approved:
 4. Consideration of an M&O mission statement, including its relationship 
    to business meeting reports and issues of privacy and confidentiality.
 
-
 The following discussion and actions took place.
- 
 
 1. Meeting Clerk reported at business meeting prior to this meeting that 
-   `Deb Gimpleson`_’s transfer out to New Zealand and `Jeremy Nelson`_’s 
+   Deb Gimpleson's transfer out to New Zealand and `Jeremy Nelson`_'s 
    transfer in to our meeting have been completed. No further action on 
    our part is necessitated.
 
@@ -65,7 +63,8 @@ The following discussion and actions took place.
 Meeting was closed in spiritual silence, holding each other in the light.
  
 `Bill Durland`_, Clerk for `Peter LeVar`_, `Linda Seger`_ and 
-`Martha Lutz`_,
+`Martha Lutz`_
+
 April 5, 2012
 
 .. _`Sarah`: /Friends/SarahCallbeck/
@@ -75,10 +74,14 @@ April 5, 2012
 .. _`Genie`: /Friends/GenieDurland
 .. _`Genie Durland`: /Friends/GenieDurland
 .. _`Dede`: Friends/DeirdreLaRouche-Donnellan
+.. _`Jeremy Nelson`: /Friends/JeremyNelson
 .. _`Martha`: /Friends/MarthaLutz
 .. _`Martha Lutz`: /Friends/MarthaLutz
 .. _`Linda Seger`: /Friends/LindaSeger
 .. _`Tup`: Friends/TupsRoberts
 .. _`Molly`: /Friends/MollyWingate/
-.. _`Adult Religious Education`: /committees/REA
-.. _`Adult Religious Education and Social Action`: /committees/REA
+.. _`Peter`: /Friends/PeterLeVar/
+.. _`Peter LeVar`: /Friends/PeterLeVar/
+.. _`Adult Religious Education`: /committees/RESA
+.. _`Religious Education and Social Action`: /committees/RESA
+.. _`Adult Religious Education and Social Action`: /committees/RESA
