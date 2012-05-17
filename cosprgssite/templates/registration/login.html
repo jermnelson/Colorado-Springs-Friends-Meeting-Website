@@ -1,5 +1,5 @@
 {% extends 'fluid.html' %}
-{% load url from the future %}
+{% load url from future %}
 
 {% block hero-unit %}
 <div class="hero-unit">
@@ -9,8 +9,13 @@
 
 <form class="form-inline" method="post" action="{% url 'django.contrib.auth.views.login' %}">
 {% csrf_token %}
-  {{ form.username }}
-  {{ form.password }}
+  <h2>Please login</h2> 
+   <p>
+	  <label>{{ form.username.label_tag }}</label>
+	  {{ form.username }}<br/>
+      <label>{{ form.password.label_tag }}</label>
+      {{ form.password }}
+   </p>
   <input type="submit" class="btn" value="login" />
   <input type="hidden" name="next" value="{{ next }}" />
 </form>

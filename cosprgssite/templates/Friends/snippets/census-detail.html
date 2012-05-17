@@ -1,0 +1,11 @@
+<p>
+<a href="/Friends/{{ friend.user.username }}">{{ friend.short_name }}</a>
+{% for category in friend.friendcategory_set.all %}
+(<b>{% if friend.young_friend %}J{% endif %}{{ category.code }}</b>)
+{% endfor %}
+{% if friend.address %}
+<br/>
+{{ friend.address.street }}<br/>
+{{ friend.address.city }}, {{ friend.address.state }} {{ friend.address.postal_code }}
+{% endif %} 
+</p>
