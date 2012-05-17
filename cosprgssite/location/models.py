@@ -10,11 +10,13 @@ class Location(models.Model):
     name = models.CharField(max_length=255)
     parent_location = models.ForeignKey('self',blank=True)
 
-class Address(Location):
-    city = models.ForeignKey(Location,related_name="city_address")
-    mail_code = models.CharField(verbose_name="Zip Code",
-                                 max_length=20,
-                                 blank=True)
-    state = models.ForeignKey(Location,related_name="state_address")
+class Address(models.Model):
+    city = models.CharField(max_length=120)
+##    city = models.ForeignKey(Location,related_name="city_address")
+    md5_key = models.CharField(max_length=32)
+    postal_code = models.CharField(max_length=32)
+##    state = models.ForeignKey(Location,related_name="state_address")
+    state = models.CharField(max_length=50)
     street = models.CharField(max_length=255)
+    
     

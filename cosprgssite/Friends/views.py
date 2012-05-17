@@ -15,9 +15,13 @@ from Friends.models import Friend,FriendCategory
 @login_required
 def census(request):
     friends = Friend.objects.all().order_by('short_name')
+    shard_one = friends[0:len(friends)/2]
+    shard_two = friends[len(friends)/2:]
     return direct_to_template(request,
                               'Friends/census.html',
                               {'friends':friends,
+                               'shard_one':shard_one,
+                               'shard_two':shard_two,
                                'year': 2012})
 
 def default(request):

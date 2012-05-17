@@ -7,14 +7,34 @@
 {% block hero-unit %}
 <div class="well">
  <h1>Colorado Springs Friends Meeting {{ year }} Census</h1>
- {% for friend in friends %}
-     <p>{{ friend.short_name }} 
+ <div class="row">
+  <div class="span3">
+   {% for friend in shard_one %}
+   <p>
+   {{ friend.short_name }}
    {% for category in friend.friendcategory_set.all %}
     (<b>{% if friend.young_friend %}J{% endif %}{{ category.code }}</b>)
-     </p>
    {% endfor %}
- {% endfor %}
- </ul>
+   <br/>
+    {{ friend.address.street }}<br/>
+    {{ friend.address.city }}, {{ friend.address.state }} {{ friend.address.postal_code }}
+   {% endfor %}
+  </div>
+  <div class="span3">
+   {% for friend in shard_two %}
+   <p>
+   {{ friend.short_name }}
+   {% for category in friend.friendcategory_set.all %}
+    (<b>{% if friend.young_friend %}J{% endif %}{{ category.code }}</b>)
+   {% endfor %}
+    <br/>
+    {{ friend.address.street }}<br/>
+    {{ friend.address.city }}, {{ friend.address.state }} {{ friend.address.postal_code }}
+    </p>
+   {% endfor %}
+
+  </div>
+ </div>
 </div>
 {% endblock %}
 

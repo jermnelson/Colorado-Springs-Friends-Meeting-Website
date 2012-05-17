@@ -11,6 +11,6 @@ from django.conf.urls.defaults import *
 
 urlpatterns = patterns('Friends.views',
     url(r"^$","default"),
-    url(r"census$","census"),
+    url(r"^census/$","census"),
     url(r"(?P<username>\w+)/$","display_friend"),
 )
