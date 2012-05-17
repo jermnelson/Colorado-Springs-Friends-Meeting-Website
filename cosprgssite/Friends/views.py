@@ -4,6 +4,7 @@
 __author__ = 'Jeremy Nelson'
 import sys,logging
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import loader, TemplateDoesNotExist
 from django.views.generic.simple import direct_to_template
@@ -11,6 +12,7 @@ from committees.models import CommitteeMember
 from Friends.forms import FriendForm
 from Friends.models import Friend,FriendCategory
 
+@login_required
 def census(request):
     friends = Friend.objects.all().order_by('short_name')
     return direct_to_template(request,
