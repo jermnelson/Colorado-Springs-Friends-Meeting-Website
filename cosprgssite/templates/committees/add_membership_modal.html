@@ -13,8 +13,12 @@
   {% endfor %}
   {% endif %}
  {% csrf_token %}
- {{ members_form.user.label }}
- {{ members_form.user }}
+ {{ members_form.friend.label }}
+  <select name="friends" id="id_friends" multiple="multiple" rows="4">
+  {% for member in friends %}
+   <option value="{{ member.pk }}">{{ member.short_name }}</option>
+  {% endfor %}
+  </select> 
  <br/>
   {{ members_form.date_joined.label }}
   {{ members_form.date_joined }}

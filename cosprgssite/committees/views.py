@@ -20,7 +20,7 @@ committee_templates = {'Education':'committees/education.html',
                        'REA':'committees/rea.html',
                        'ReligiousEducationAndAction':'committees/rea.html'}
                        
-
+    
 def get_report(query,
                year,
                month):
@@ -100,7 +100,7 @@ def display_committee(request,
           if request.user.is_superuser:
                members_form = CommitteeMemberForm()
                report_form = CommitteeReportForm()
-          
+     friend_query = Friend.objects.all().order_by('user__last_name')
 ##   
 ##     if len(committees) < 1:
 ##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
@@ -108,6 +108,7 @@ def display_committee(request,
                                committee_templates[committee],
                                {'committee':committee_info,
                                 'committee_members':members,
+                                'friends':friend_query,
                                 'members_form':members_form,
                                 'reports':current_reports,
                                 'report_form':report_form})

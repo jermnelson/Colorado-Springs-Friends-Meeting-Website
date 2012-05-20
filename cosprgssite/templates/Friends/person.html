@@ -2,7 +2,7 @@
 
 {% block hero-unit %}
 <div class="well">
- <h1>{{ friend.first_name }} {{ friend.last_name }}</h1>
+ <h1>{{ friend.short_name }}</h1>
  
  {% if friend.image %}
  <img src="{{ STATIC_URL }}Friend/img/{{ friend.image.filename }}" class="float:left" />

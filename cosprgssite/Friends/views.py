@@ -51,8 +51,8 @@ def display_friend(request,username):
             friend = friend_query[0]
         else:
             friend = friend_user
-        committee_query = CommitteeMember.objects.filter(user=friend_user)
-        logging.error(type(committee_query))
+        committee_query = CommitteeMember.objects.filter(friend=friend)
+        logging.error(len(committee_query))
         if len(committee_query) > 0:
             committees = committee_query
     return direct_to_template(request,

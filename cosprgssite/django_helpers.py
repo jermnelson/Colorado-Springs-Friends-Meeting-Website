@@ -39,16 +39,26 @@ def get_friends(friend_keys):
         friends.append(friend_query[0])
     return friends
 
-def load_windows():
-    ADDR_JSON = 'H:\\jermsmemory\\ColoradoSpringsMeeting\\2012\\friend-addresses.json'
-    CATEGORY_JSON = 'H:\\jermsmemory\\ColoradoSpringsMeeting\\2012\\friend-categories.json'
+def load_base(ADDR_JSON,CATEGORY_JSON):
     associate_addresses(ADDR_JSON)
     associate_categories(CATEGORY_JSON)
     # Sets admin to correct values
     jeremy = Friend.objects.get(pk=1)
-    jeremy.first_name = 'Jeremy'
-    jeremy.last_name = 'Nelson'
+    jeremy.user.first_name = 'Jeremy'
+    jeremy.user.last_name = 'Nelson'
     jeremy.save()
+
+def load_windows():
+    ADDR_JSON = 'H:\\jermsmemory\\ColoradoSpringsMeeting\\2012\\friend-addresses.json'
+    CATEGORY_JSON = 'H:\\jermsmemory\\ColoradoSpringsMeeting\\2012\\friend-categories.json'
+    load_base(ADDR_JSON,CATEGORY_JSON)
+
+def load_linux():
+    ADDR_JSON = '/home/jpnelson/jermsmemory/ColoradoSpringsMeeting/2012/friend-addresses.json'
+    CATEGORY_JSON = '/home/jpnelson/jermsmemory/ColoradoSpringsMeeting/2012/friend-categories.json'
+    load_base(ADDR_JSON,CATEGORY_JSON)
+
+
 
 if __name__ == '__main__':
     pass

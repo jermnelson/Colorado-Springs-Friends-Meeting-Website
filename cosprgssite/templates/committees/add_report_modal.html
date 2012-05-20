@@ -19,8 +19,8 @@
   <label>{{ report_form.rstFileLocation.label }}</label>{{ report_form.rstFileLocation }}
   <label>{{ report_form.authors.label }}</label>
   <select name="authors" id="id_authors" multiple="multiple" rows="4">
-  {% for member in committee_members %}
-   <option value="{{ member.1.pk }}">{{ member.user.username }}</option>
+  {% for member in friends %}
+   <option value="{{ member.pk }}">{{ member.short_name }}</option>
   {% endfor %}
   </select>
  </div>
