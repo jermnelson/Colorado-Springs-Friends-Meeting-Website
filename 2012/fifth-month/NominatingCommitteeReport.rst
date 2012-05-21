@@ -28,7 +28,7 @@ the materials for meeting for worship for business. Also she asks
 that when possible please take to committees whatever business you have 
 instead of bringing it directly to our monthly business meeting.
 
-Finally, `Molly`_ would like to be replaced as a member of the 
+Finally, `Molly`_ would like to be replaced as a member of the  
 `Nominating Committee`_.
 
 In the Light,
