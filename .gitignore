@@ -1,6 +1,7 @@
 local_settings.*
 .DS_Store
 *.pyc
+*.bak
 cosprgssite/assets/js/goog*
 doc/_build
 doc/make.bat

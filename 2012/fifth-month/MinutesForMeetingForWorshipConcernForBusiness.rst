@@ -110,7 +110,7 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
       
       `Molly`_ suggested to help address the acoustic issues by shrinking the size of the
       circle to a double circle and adding another rug. An email be send out about Friends
-      Acoustics are an urgent priority, look at temporary measures until a permeant solution
+      Acoustics are an urgent priority, look at temporary measures until a permanent solution
       is found. 
      
       `Bill`_ noted that visitors may be put out by the meeting house that the sounds and
@@ -209,4 +209,3 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
 .. _`Ginger Morgan`: /Friends/GingerMorgan/
 .. _`Jeremy Nelson`: /Friends/JeremyNelson/
 .. _`Molly Wingate`: /Friends/MollyWingate/
-.. _`State of the Meeting`: 
