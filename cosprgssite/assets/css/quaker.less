@@ -1,6 +1,22 @@
 @old-background-color: #4B4443;
+@soft-grey-background: rgb(219,223,230);
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
 
 #main {
   color: @old-background-color;
   font-size: 45px;
 }
+
+body {
+  background-color: @soft-grey-background;
+}
+
+.box_display {
+ .rounded-corners;
+}
+

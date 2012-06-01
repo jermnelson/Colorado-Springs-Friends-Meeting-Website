@@ -1,21 +1,25 @@
-
+<div class="span3">
+<div class="well sidebar-nav" >
 <div class="accordion" id="left-sidebar-nav">
  {% comment %}START Testimonies accordion group DIV{% endcomment %}
  <div class="accordion-group">
   {% comment %}START Testimonies accordion heading DIV{% endcomment %}
-  <div class="accordion-heading">
+  <div class="accordion-heading" style="background-color:#4B4443;">
    <a class="accordion-toggle" 
       data-toggle="collapse" data-parent="#left-sidebar-nav" 
-      href="testimonies-bodies">Testimonies</a>
+      href="#testimonies-bodies">Testimonies</a>
   {% comment %}END Testimonies accordion heading DIV{% endcomment %}
   </div>
   {% comment %}START Testimonies accordion body DIV{% endcomment %}
-  <div class="accordion-body collapse in">
-   {% comment %}STAT Testimonies accordion inner DIV{% endcomment %}
-   <div class="accordion-inner">
+  <div class="accordion-body collapse in" id="testimonies-bodies">
+   {% comment %}START Testimonies accordion inner DIV{% endcomment %}
+   <div class="accordion-inner" >
     <ul class="unstyled">
-     <li>Simplicity</li>
-    
+     <li><a href="/testimonies/Simplicity">Simplicity</a></li>
+     <li><a href="/testimonies/Peace">Peace</a></li>
+     <li><a href="/testimonies/Integrity">Integrity</a></li>
+     <li><a href="/testimonies/Community">Community</a></li>
+     <li><a href="/testimonies/Equality">Equality</a></li>
     </ul>
    {% comment %}END Testimonies accordion inner DIV{% endcomment %}
    </div>
@@ -23,4 +27,33 @@
   </div>
  {% comment %}END Testimonies accordion group DIV{% endcomment %}
  </div>
+ {% comment %}START meetings accordion group DIV{% endcomment %}
+ <div class="accordion-group">
+  {% comment %}START meetings accordion heading DIV{% endcomment %}
+  <div class="accordion-heading">
+   <a class="accordion-toggle" 
+      data-toggle="collapse" data-parent="#left-sidebar-nav" 
+      href="#meetings-bodies">Meetings</a>
+  {% comment %}END meetings accordion heading DIV{% endcomment %}
+  </div>
+ {% comment %}START meetings accordion body DIV{% endcomment %}
+  <div class="accordion-body collapse" id="meetings-bodies">
+   {% comment %}START meetings accordion inner DIV{% endcomment %}
+   <div class="accordion-inner" >
+    <ul class="unstyled">
+		<li><a href="/committees/MinistryAndOversight/">Ministry and Oversight</a></li>
+		<li><a href="/committees/Education/">Education</a></li>
+		<li><a href="/committees/Finance">Finance</a></li>
+		<li><a href="/committees/MeetingHouse">Meeting House</a></li>
+		<li><a href="/committees/Nominating">Nominating</a></li>
+		<li><a href="/committees/REA/">Religious Education &amp; Action</a></li>
+    </ul>
+   {% comment %}END meetings accordion inner DIV{% endcomment %}
+   </div>
+ {% comment %}END meetings accordion body DIV{% endcomment %}
+  </div>
+ {% comment %}END meetings accordion group DIV{% endcomment %}
+ </div>
+</div>
+</div>
 </div>
