@@ -7,7 +7,7 @@ import datetime
 from calendar import HTMLCalendar
 from django.contrib.auth import authenticate
 from django.views.generic.simple import direct_to_template
-from meetings.models import MeetingEvent
+from events.models import MeetingEvent
 
 
 class Events(object):

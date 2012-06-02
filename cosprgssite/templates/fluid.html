@@ -180,7 +180,16 @@
     <script src="{{ STATIC_URL }}js/bootstrap-collapse.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
-    {% block more-js %}{% endblock %}
+    {% block more-js %}
+    <script>
+    $(function () {
+      $("a[rel=popover]").popover({
+        offset: 10,
+        html: true});
+    });
+
+    </script>
+    {% endblock %}
     {% block dialogs %}{% endblock %}
   </body>
 </html>
