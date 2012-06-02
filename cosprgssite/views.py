@@ -42,4 +42,5 @@ def home(request):
     return direct_to_template(request,
                               'index.html',
                              {'current_calendar':current_calendar,
+                              'section':'testimonies',
                               'user':user})

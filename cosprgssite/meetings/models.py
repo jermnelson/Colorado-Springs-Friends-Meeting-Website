@@ -35,13 +35,5 @@ class MeetingReport(models.Model):
     meeting_type = models.IntegerField(choices=MEETING_TYPES)
     rstFileLocation = models.CharField(max_length=255)
     report_type = models.IntegerField(choices=REPORT_TYPES)
-
-class MeetingEvent(models.Model):
-    desc = models.TextField(blank=True,null=True)
-    location = models.CharField(max_length=255)
-    meeting_type = models.IntegerField(choices=MEETING_TYPES)
-    name = models.CharField(max_length=50)
-    occurs_on = models.DateTimeField()
-    posted_by = models.ForeignKey(User)
     
 

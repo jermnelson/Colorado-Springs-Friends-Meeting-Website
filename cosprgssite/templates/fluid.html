@@ -1,5 +1,6 @@
 {% load i18n %}
 {% load event_extras %}
+{% load history_extras %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,44 +54,7 @@
     <div class="container-fluid">
       <div class="row-fluid">
 {% block sidebar-nav %}
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Testimonies</li>
-              <li {% comment %}class="active"{% endcomment %}><a href="/testimonies/simplicity">Simplicity</a></li>
-              <li><a href="/testimonies/Peace">Peace</a></li>
-              <li><a href="/testimonies/Integrity">Integrity</a></li>
-              <li><a href="/testimonies/Truth">Truth</a></li>
-              <li><a href="/testimonies/Community">Community</a></li>
-              <li><a href="/testimonies/Equality">Equality</a></li>
-              <li class="nav-header">Friends Meetings</li>
-              <li><a href="/meetings/Worship">Worship</a></li>
-              <li><a href="/meetings/Business">Business</a></li>
-              <li><a href="/meetings/Special">Special</a></li>
-              <li><a href="/meetings/AdvicesAndQueries">Advices and Queries</a></li>
-              <li><a href="/committees">Committees</a></li>
-              <li><a href="http://www.imym.org/">Intermountain Yearly Meeting</a></li>
-              <li><a href="http://www.fgcquaker.org/">Friends General Conference</a></li>
-              <li class="nav-header">Our History</li>
-              <li><a href="/history/origin">George Fox &amp; the First Quakers</a></li>
-              <li><a href="/history/ReligiousSocietyOfFriends">Religious Society of Friends</a></li>
-              <li><a href="/history/Hicksite">Hicksite Split</a></li>
-              <li><a href="/history/AbolitionAndSuffrage">Abolition &amp; Suffrage</a></li>
-              <li><a href="/history/WorldWarsAndConscientiousObjectors">World Wars &amp; Conscientious Objectors</a></li>
-              <li><a href="/history/ColoradoSprings">In Colorado Springs</a></li>
-              <li class="nav-header">Current Friends</li>
-              <li><a href="/Friends/">Members and Attenders</a></li>
-              <li><a href="/Friends/Young">Young Friends</a></li>
-              <li class="nav-header">Committees</li>
-              <li><a href="/committees/MinistryAndOversight/">Ministry and Oversight</a></li>
-              <li><a href="/committees/Education/">Education</a></li>
-              <li><a href="/committees/Finance">Finance</a></li>
-              <li><a href="/committees/MeetingHouse">Meeting House</a></li>
-              <li><a href="/committees/Nominating">Nominating</a></li>
-              <li><a href="/committees/REA/">Religious Education &amp; Action</a></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
+ {% include 'left-nav-bar.html' %}
 {% endblock %}
         <div class="span9">
 {% block breadcrumbs %}

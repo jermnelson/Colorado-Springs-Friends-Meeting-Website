@@ -1,5 +1,10 @@
 {% extends 'fluid.html' %}
 
+{% block more-breadcrumb-links %}
+ <li><a href="/Friends/">Friends</a><span class="divider">&raquo;</span></li>
+ <li class="active">{{ friend.short_name }}</li>
+{% endblock %}
+
 {% block hero-unit %}
 <div class="well">
  <h1>{{ friend.short_name }}</h1>

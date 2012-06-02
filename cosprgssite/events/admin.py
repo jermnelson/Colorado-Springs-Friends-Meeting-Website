@@ -3,8 +3,10 @@
 """
 __author__ = "Jeremy Nelson"
 
-from meetings.models import *
+from events.models import *
 from django.contrib import admin
 
-admin.site.register(MeetingReport)
+admin.site.register(Event)
+admin.site.register(MeetingEvent)
+admin.site.register(CommitteeEvent)
 

@@ -30,6 +30,7 @@ def default(request):
     return direct_to_template(request,
                               'meetings/index.html',
                               {'business':business_minutes,
+                               'section':'meetings',
                                'special':[],
                                'worship':[]})
 
@@ -116,6 +117,7 @@ def display_report(request,
                               'meetings/report.html',
                               {'user':user,
                                'report':report,
+                               'section':'meetings',
                                'contents':report_rst})
     
                                                 
@@ -125,7 +127,18 @@ def advices_and_queries(request):
     """
     Advices and Queries View for Specific Committee
     """
-    return HttpResponse("NEEDS IMPLEMENTATION - advices and queries")
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+    advices = []
+    queries = []
+    return direct_to_template(request,
+                              'meetings/advices-queries.html',
+                              {'advices':advices,
+                               'queries':queries,
+                               'section':'meetings',
+                               'user':user})
 
 def business(request):
     """
@@ -145,7 +158,8 @@ def business(request):
     return direct_to_template(request,
                               'meetings/meeting.html',
                               {'meeting':meeting,
-                               'minute_form':minute_form})
+                               'minute_form':minute_form,
+                               'section':'meetings',})
 
 
 def contact(request):
@@ -165,7 +179,8 @@ def special(request):
                'type_of':MEETING_TYPES_DICT['Special']}
     return direct_to_template(request,
                               'meetings/meeting.html',
-                              {'meeting':meeting})
+                              {'meeting':meeting,
+                               'section':'meetings'})
 
 def worship(request):
     """
@@ -177,5 +192,6 @@ def worship(request):
                'type_of':MEETING_TYPES_DICT['Worship']}
     return direct_to_template(request,
                               'meetings/meeting.html',
-                              {'meeting':meeting})    
+                              {'meeting':meeting,
+                               'section':'meetings',})    
     

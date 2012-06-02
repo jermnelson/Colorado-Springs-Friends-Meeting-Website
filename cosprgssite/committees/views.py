@@ -73,6 +73,7 @@ def default(request):
      return direct_to_template(request,
                                'committees/index.html',
                                {'forms':forms,
+                                'section':'committees',
                                 'user':user})
 
 
@@ -111,7 +112,8 @@ def display_committee(request,
                                 'friends':friend_query,
                                 'members_form':members_form,
                                 'reports':current_reports,
-                                'report_form':report_form})
+                                'report_form':report_form,
+                                'section':'committees'})
                                
      
 
@@ -149,7 +151,8 @@ def display_monthly_report(request,
                                'committees/report.html',
                                {'user':user,
                                 'report':report,
-                                'contents':report_rst})
+                                'contents':report_rst,
+                                'section':'committees'})
 
 
 
@@ -205,4 +208,5 @@ def display_yearly_report(request,committee,year):
                               'committees/report.html',
                               {'user':None,
                                'report':{'name':'%s Yearly Report %s' % (year,committee),
-                                         'contents':'Yearly Report Contents'}})
+                                         'contents':'Yearly Report Contents'},
+                               'section':'committees'})

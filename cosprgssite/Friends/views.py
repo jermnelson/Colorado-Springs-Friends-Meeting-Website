@@ -25,12 +25,17 @@ def census(request):
                               'Friends/census.html',
                               {'friends':friends,
                                'categories':FriendCategory.objects.all().order_by('code'),
+                               'section':'friends',
                                'shard_one':shard_one,
                                'shard_two':shard_two,
                                'year': 2012})
 
 def default(request):
-    return HttpResponse("NEEDS DESIGN -- Index page for Friends")
+    return direct_to_template(request,
+                              'Friends/index.html',
+                              {'friends':[],
+                               'section':'friends'})   
+    
 
 def display_friend(request,username):
     template_name = 'Friends/%s.html' % username
@@ -39,7 +44,6 @@ def display_friend(request,username):
         return direct_to_template(request,
                                   template_name,
                                   {})
-                                  
     except TemplateDoesNotExist:
         template_name = 'Friends/person.html'
     user_query = User.objects.filter(username=username)
@@ -58,7 +62,8 @@ def display_friend(request,username):
     return direct_to_template(request,
                               template_name,
                               {'committees':committees,
-                               'friend':friend})
+                               'friend':friend,
+                               'section':'friends'})
 
 def display_profile(request):
     if request.user.is_authenticated():

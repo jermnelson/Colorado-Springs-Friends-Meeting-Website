@@ -124,6 +124,7 @@ INSTALLED_APPS = (
     'django.contrib.markup',
     # All Colorado Springs Religious Society of Friends installed apps
     'committees',
+    'history',
     'location',
     'meetings',
     'testimonies',

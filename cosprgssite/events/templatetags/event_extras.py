@@ -10,6 +10,9 @@ from itertools import groupby
 from django.utils.safestring import mark_safe
 from django.utils.html import conditional_escape as esc
 
+from events.models import CommitteeEvent,Event,MeetingEvent
+from bs4 import BeautifulSoup
+
 register = template.Library()
 ##
 ##def do_event_calendar(parser, token):
@@ -96,8 +99,28 @@ register = template.Library()
 def current_calendar(default):
     current = date.today()
     html_calendar = HTMLCalendar()
-    return mark_safe(html_calendar.formatmonth(current.year,
-                                               current.month))
+    raw_html = html_calendar.formatmonth(current.year,
+                                         current.month)
+    calendar_soup = BeautifulSoup(raw_html)
+    all_tds = calendar_soup.find_all("td")
+    for td in all_tds:
+        try:
+            td_day = int(td.text)
+            if td.attrs["class"] == current.strftime("%a").lower():
+                if td_day == current.day:
+                    td.attrs["class"].append("active")
+            td_date = datetime.datetime(current.year,current.month,td_day)
+            meeting_events = MeetingEvent.objects.filter(start_on >= td_date)
+            if len(meeting_events) > 0:
+                td.text = ""
+                td_link = calendar_soup.tag("a",href="/events/%s/%s/%s" % (current.year,
+                                                                             current.month,
+                                                                             td_day))
+                td_link.text = unicode(td_day)
+                td.append(td_link)
+        except:
+            pass
+    return mark_safe(calendar_soup)
 
 ##register.tag("event_calendar", do_event_calendar)
 register.filter("get_calendar",current_calendar)
