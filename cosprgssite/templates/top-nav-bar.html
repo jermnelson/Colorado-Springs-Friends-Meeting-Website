@@ -45,6 +45,20 @@
 		  {% comment %}END Meetings LI{% endcomment %}
 		  </li>
         </ul>
+        <div class="btn-group pull-right">
+		 <a class="btn dropdown-toggle" href="#" data-toggle="dropdown">
+		  <i class="icon-user"></i> {% if user.username %}{{ user.username }}{% else %} Sign in {% endif %}<span class="caret"></span>
+		 </a>
+        <ul class="dropdown-menu">
+		 {% if user.username %}
+         <li><a href="/accounts/profile/">Profile</a></li>
+         <li class="divider"></li>
+         <li><a href="/accounts/logout/">Sign out</a></li>
+         {% else %}
+         <li><a href="/accounts/login/">Sign in</a></li>
+         {% endif %}
+        </ul>
+        </div>
           <!--/.nav-collapse -->
 	</div>
   </div>
