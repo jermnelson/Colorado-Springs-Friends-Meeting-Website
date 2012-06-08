@@ -149,7 +149,7 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
 
 6. New Business
 
-   a. Request from `Gardner`_ study group to become under the care of the meeting
+   a. Request from Gardner study group to become under the care of the meeting
   
    b. DeeDee's daughters will be in town June 24 and request memorial meeting. June 24 
       is also for Ginger's going away 9:30 memorial service and roll into Meeting for 
@@ -185,9 +185,17 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
       this neighborhood? Yes, and another matter for the Meeting House committee for 
       consideration.
 
-7. Meeting closed in silence at 12:58 pm.    
+7. Meeting closed in silence at 12:58 pm.  
+
+Respectively submitted in the light,
+
+`Jeremy Nelson`_
+
+Recording Clerk  
        
-.. _`Sarah Callbeck`: /Friends/SarahCallbeck/
+.. _`Sarah`: /Friends/SarahCallbeck/
+.. _`Ann`: /Friends/AnnDaugherty/
+.. _`Sarah Callbeck`: /Friends/SarahCallbeck/ 
 .. _`Joyce`: /Friends/JoyceDoyle/
 .. _`Joyce Doyle`: /Friends/JoyceDoyle/
 .. _`Bill`: /Friends/BillDurland/
@@ -196,16 +204,30 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
 .. _`Genie Durland`: /Friends/GenieDurland/
 .. _`Carlton Gamer`: /Friends/CarltonGamer/
 .. _`Carlton`: /Friends/CarltonGamer/
-.. _`Daniel`: /Friends/DanielKidney/
-.. _`Daniel Kidney`: /Friends/DanielKidney/
+.. _`Daniel`: /Friends/DanielKidney/ 
+.. _`Daniel Kidney`: /Friends/DanielKidney/ 
 .. _`Dede`: /Friends/Dede
 .. _`Lisa Lister`: /Friends/LisaLister/
 .. _`Martha`: /Friends/MarthaLutz/
-.. _`Jennifer Roberts`: /Friends/JenniferRoberts/ 
-.. _`Julie Brand`: /Friends/JulieBrand
-.. _`Julie`: /Friends/JulieRoten-Valdez/
-.. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
 .. _`Ginger`: /Friends/GingerMorgan/
 .. _`Ginger Morgan`: /Friends/GingerMorgan/
+.. _`Brian Murphy`: /Friends/BrianMurphy/
+.. _`Lisa`: /Friends/LisaLister/
+.. _`Lisa Lister`: /Friends/LisaLister/
+.. _`Jennifer`: /Friends/JenniferRoberts/
+.. _`Jennifer Roberts`: /Friends/JenniferRoberts/
+.. _`Jeremy`: /Friends/JeremyNelson/
 .. _`Jeremy Nelson`: /Friends/JeremyNelson/
+.. _`Jonathan`: /Friends/JonathanMcPhee/
+.. _`Julie Brand`: /Friends/JulieBrand/
+.. _`Kathy`: /Friends/Kathy
+.. _`Tup`: /Friends/TupRoberts/
+.. _`Linda`: /Friends/LindaSeger/
+.. _`Linda Seger`: /Friends/LindaSeger/
+.. _`Molly`: /Friends/MollyWingate/
 .. _`Molly Wingate`: /Friends/MollyWingate/
+.. _`Peter`: /Friends/PeterLeVar/
+.. _`Val`: /Friends/ValPhillips/
+.. _`Finance Committee`: /committees/Finance/
+.. _`Meeting House`: /committees/MeetingHouse/
+.. _`State of the Meeting`: /meetings/2012/StateOfMeeting/

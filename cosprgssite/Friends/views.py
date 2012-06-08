@@ -14,11 +14,11 @@ from Friends.models import Friend,FriendCategory
 
 @login_required
 def census(request):
-    friend_query = Friend.objects.all().order_by('user__last_name')
+    friend_query = Friend.objects.all()
     friends = []
     for friend in friend_query:
         friends.append(friend)
-   # friends = sorted(friends,key=lambda x: x.user.last_name)
+    friends = sorted(friends,key=lambda x: x.user.last_name)
     shard_one = friends[0:len(friends)/2]
     shard_two = friends[len(friends)/2:]
     return direct_to_template(request,

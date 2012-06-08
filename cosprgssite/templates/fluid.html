@@ -1,7 +1,7 @@
+<!DOCTYPE html>
 {% load i18n %}
 {% load event_extras %}
 {% load history_extras %}
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -51,14 +51,14 @@
 {% block top_navbar %}
  {% include 'top-nav-bar.html' %}    
 {% endblock %}
-    <div class="container-fluid">
-      <div class="row-fluid">
+    <div class="container">
+      <div class="row">
 {% block sidebar-nav %}
  {% include 'left-nav-bar.html' %}
 {% endblock %}
         <div class="span9">
 {% block breadcrumbs %}
-  <div class="row-fluid">
+  <div class="row">
     <div class="span12">
       <ul class="breadcrumb">
         <li><a href="/">Home</a> <span class="divider">&raquo;</span></li>
@@ -168,6 +168,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{ STATIC_URL }}js/jquery.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-alert.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap-modal.js"></script>

@@ -284,6 +284,7 @@ Recording Clerk
 .. _`Lisa Lister`: /Friends/LisaLister/
 .. _`Jeremy`: /Friends/JeremyNelson/
 .. _`Jeremy Nelson`: /Friends/JeremyNelson/
+.. _`Jonathan`: /Friends/JonathanMcPhee/
 .. _`Kathy`: /Friends/Kathy
 .. _`Tup`: /Friends/TupRoberts/
 .. _`Julie`: /Friends/JulieRoten-Valdez/

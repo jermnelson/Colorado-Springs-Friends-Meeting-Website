@@ -2,6 +2,7 @@ __author__ = "Jeremy Nelson"
 import json,sys
 from Friends.models import *
 from location.models import Address
+from django.contrib.auth.models import User
 
 
 def associate_addresses(addresses_filename):
@@ -43,9 +44,9 @@ def load_base(ADDR_JSON,CATEGORY_JSON):
     associate_addresses(ADDR_JSON)
     associate_categories(CATEGORY_JSON)
     # Sets admin to correct values
-    jeremy = Friend.objects.get(pk=1)
-    jeremy.user.first_name = 'Jeremy'
-    jeremy.user.last_name = 'Nelson'
+    jeremy = User.objects.get(pk=1)
+    jeremy.first_name = 'Jeremy'
+    jeremy.last_name = 'Nelson'
     jeremy.save()
 
 def load_windows():

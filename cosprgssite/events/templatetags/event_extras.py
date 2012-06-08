@@ -11,7 +11,7 @@ from django.utils.safestring import mark_safe
 from django.utils.html import conditional_escape as esc
 from django.utils.safestring import SafeUnicode
 from events.models import CommitteeEvent,Event,MeetingEvent
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup,SoupStrainer
 
 register = template.Library()
 
@@ -25,7 +25,10 @@ def current_calendar(default):
     html_calendar = HTMLCalendar()
     raw_html = html_calendar.formatmonth(current.year,
                                          current.month)
-    calendar_soup = BeautifulSoup(raw_html)
+    table_strainer = SoupStrainer("table")
+    calendar_soup = BeautifulSoup(raw_html,
+                                  "html.parser",
+                                  parse_only=table_strainer)
     all_tds = calendar_soup.find_all("td")
     for td in all_tds:
         try:

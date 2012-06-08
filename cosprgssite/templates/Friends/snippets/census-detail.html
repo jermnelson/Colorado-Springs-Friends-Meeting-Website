@@ -9,5 +9,16 @@
 {{ friend.address.city }}, {{ friend.address.state }} {{ friend.address.postal_code }}
 {% endif %}
 <br/>
+{% if phone_numbers %}
+{% for phone in phone_numbers %}
+ {{ phone.number }} 
+ ({% if phone.phone_number_type == 0 %}home{% endif %}
+  {% if phone.phone_number_type == 1 %}cell{% endif %}
+  {% if phone.phone_number_type == 2 %}business{% endif %}
+  {% if phone.phone_number_type == 3 %}work{% endif %}
+  {% if phone.phone_number_type == 4 %}other{% endif %})<br/>
+{% endfor %}
+{% endif %}
+
 <a href="mailto:{{ friend.user.email }}">{{ friend.user.email }}</a>
 </p>
