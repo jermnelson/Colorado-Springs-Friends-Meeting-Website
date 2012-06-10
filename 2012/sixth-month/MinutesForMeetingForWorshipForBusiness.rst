@@ -49,23 +49,23 @@ In Attendance: `Ginger Morgan`_ (clerk), `Molly Wingate`_,
   g. Library
 
 
-5.	Old Business
+5. Old Business
 
-6.	New Business
+6. New Business
 
-  i. State of Meeting Report Approval
+    i. State of Meeting Report Approval
 
-  ii. IMYM Directory of Adult members and attenders
+   ii. IMYM Directory of Adult members and attenders
   
   iii. Friends Mountain Camp Queries from IMYM
 
-  iv. Resignation of Clerk
+   iv. Resignation of Clerk
 
-  v. Greeters for Meeting for Worship
+    v. Greeters for Meeting for Worship
   
-  vi. Philip Brasfield contribution
+   vi. Philip Brasfield contribution
 
-7.	Announcements
+7. Announcements
 
 .. _`Ginger Morgan`: /Friends/GingerMorgan/
 .. _`Jeremy`: /Friends/JeremyNelson/
