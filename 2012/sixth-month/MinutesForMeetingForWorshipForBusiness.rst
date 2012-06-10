@@ -8,13 +8,13 @@ June 10, 2012
 In Attendance: `Ginger Morgan`_ (clerk), `Molly Wingate`_,
 `Jeremy Nelson`_, 
 
-1.	Open Worship in Silence
+1. Open Worship in Silence
 
-2.	Approval of May minutes
+2. Approval of May minutes
 
-3.	Cash Flow Report
+3. Cash Flow Report
 
-4.	Committee Reports:
+4. Committee Reports:
 
   a. Finance Committee
    
