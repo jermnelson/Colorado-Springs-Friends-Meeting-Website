@@ -47,7 +47,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Project name</a>
+          <a class="brand" href="#">Colorado Springs Quakers</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -60,11 +60,23 @@
     </div>
 
     <div class="container">
-
-      <h1>Bootstrap starter template</h1>
-      <p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p>
-
+	 <div class="row">
+    {% block sidebar-nav %}
+     {% include 'left-nav-bar.html' %}
+    {% endblock %}
+    
+    {% block hero-unit %}
+    
+    {% endblock %}
+     
+    </div>
+    {% block footer %}
+     <footer>
+       <p>&copy; Colorado Springs Monthly Meeting 2012</p>
+     </footer>
+    {% endblock %}     
     </div> <!-- /container -->
+
 
     <!-- Le javascript
     ================================================== -->
