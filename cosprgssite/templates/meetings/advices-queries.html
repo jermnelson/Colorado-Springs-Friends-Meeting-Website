@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 {% load i18n %}
 {% load meeting_extras %}
 
@@ -8,45 +8,11 @@
 {% endblock %}
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span6 hero-unit">
  <h1>Advices and Queries</h1>
 </div>
 {% endblock %}
 
-{% block one-one-box %}
-{% if user.is_superuser %}
- <div class="span4">
-  <h2>Minutes</h2>
-  {% if user.is_superuser %}
-   <h4>Yeah i'm so powerful</h4>
-  {% endif %}
- </div>
-{% endif %}
-{% endblock %}
-
-{% block one-two-box %}
-<div class="span3">
-{% if reports %}
-  <h2>Reports</h2>
-{% else %}
-  &nbsp;
-{% endif %}
-</div>
-
-{% endblock %}
-
-{% block one-three-box %}
-<div class="span4">
-
-</div>
-{% endblock %}
-
-{% block two-one-box %}{% endblock %}
-
-{% block two-two-box %}
-{% endblock %}
-
-{% block two-three-box %}{% endblock %}
 
 {% block dialogs %}
 

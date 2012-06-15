@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block more-breadcrumb-links %}
   <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
@@ -6,14 +6,15 @@
 {% endblock %}
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span6 hero-unit">
  <h1>Equality</h1>
  <p>that each person in creation shares equal value and standing.</p>
 </div>
 {% endblock %}
 
-{% block one-one-box %}
-<div class="span5">
+{% block second-row %}
+<div class="row">
+<div class="span5 offset1 box_display">
  <p>
  <blockquote class="pull-left">
  <p>
@@ -30,9 +31,5 @@
  </blockquote>
  </p>
 </div>
+</div>
 {% endblock %}
-{% block one-two-box %}{% endblock %}
-{% block one-three-box %}{% endblock %}
-{% block two-one-box %}{% endblock %}
-{% block two-two-box %}{% endblock %}
-{% block two-three-box %}{% endblock %}

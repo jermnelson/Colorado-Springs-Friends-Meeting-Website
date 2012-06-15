@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block more-breadcrumb-links %}
   <li><a href="/committees">Committees</a> <span class="divider">&raquo;</span></li>
@@ -7,7 +7,7 @@
 
 {% block hero-unit %}
 {% comment %}STAR M&O-main DIV{% endcomment %}
- <div class="hero-unit">
+ <div class="span7 hero-unit">
   <h1>Nominating</h1>
   <p>Nominating committees are concerned with how the gifts of
    members and attenders may best serve the meeting's needs for clerks,
@@ -17,15 +17,14 @@
  </div>
 {% endblock %}
 
-{% block one-one-box %}
- <div class="span4">
+{% block second-row %}
+<div class="row">
+ <div class="span4 box_display">
  <h2>Responsibilities</h2>
  <p></p>
  </div>
-{% endblock %}
 
-{% block one-two-box %}
-<div class="span4">
+<div class="span3 box_display">
 <h2>Current Members</h2>
 {% if user.is_superuser %}
   {% include "committees/add_membership.html" %}
@@ -33,10 +32,8 @@
 {% include "committees/membership_list.html" %}
 </ul>
 </div>
-{% endblock %}
 
-{% block one-three-box %}
-<div class="span4">
+<div class="span4 box_display">
 <h2>Recent Reports and Minutes</h2>
 {% if user.is_superuser %}
  {% include "committees/add_report.html" %}
@@ -49,11 +46,8 @@
 {% endfor %}
 </ul>
 </div>
+</div>
 {% endblock %}
-
-{% block two-one-box %}{% endblock %}
-{% block two-two-box %}{% endblock %}
-{% block two-three-box %}{% endblock %}
 
 {% block dialogs %}
 {% if user.is_superuser %}

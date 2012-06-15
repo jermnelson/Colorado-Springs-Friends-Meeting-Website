@@ -27,6 +27,12 @@ class Events(object):
         return dict()
                                
 
+def email(request):
+    """
+    Default view for email receipt
+    """
+    pass
+
 def home(request):
     """
     Default view for Colorado Springs Monthly Meeting Website

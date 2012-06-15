@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 {% load i18n %}
 {% load meeting_extras %}
 
@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span6 hero-unit">
  <h1>{{ meeting.name }}</h1>
  <p>
   {{ meeting.description }}
@@ -16,7 +16,8 @@
 </div>
 {% endblock %}
 
-{% block one-one-box %}
+{% block second-row %}
+<div class="row">
 {% if meeting.minutes or user.is_superuser %}
  <div class="span4">
   <h2>Minutes</h2>
@@ -30,31 +31,16 @@
   </ul>
  </div>
 {% endif %}
-{% endblock %}
 
-{% block one-two-box %}
-<div class="span3">
-{% if reports %}
+ <div class="span3">
+ {% if reports %}
   <h2>Reports</h2>
-{% else %}
-  &nbsp;
-{% endif %}
-</div>
+ {% else %}
+   &nbsp;
+ {% endif %}
+ </div>
 
 {% endblock %}
-
-{% block one-three-box %}
-<div class="span4">
-
-</div>
-{% endblock %}
-
-{% block two-one-box %}{% endblock %}
-
-{% block two-two-box %}
-{% endblock %}
-
-{% block two-three-box %}{% endblock %}
 
 {% block dialogs %}
 {% comment %}START add_minute DIV{% endcomment %}

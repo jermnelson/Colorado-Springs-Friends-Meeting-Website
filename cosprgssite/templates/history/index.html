@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 
 {% block more-breadcrumb-links %}
@@ -7,13 +7,14 @@
 
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span7 hero-unit">
  <h1>Our History</h1>
 
 </div>
 {% endblock %}
 
-{% block one-one-box %}
+{% block second-row %}
+<div class="row">
  <div class="span4">
   <h2><a href="/history/origin">George Fox & the First Quakers</a></h2>
   <p>George Fox (1624-1691) started the organization that eventually
@@ -21,45 +22,38 @@
   </p>
   <a href="/history/origin" class="btn"><i class="icon-info-sign"></i> More</a>
  </div>
-{% endblock %}
 
-{% block one-two-box %}
 <div class="span4">
   <h2><a href="/history/ReligiousSocietyOfFriends">Religious Society of Friends</a></h2>
   <a href="/history/ReligiousSocietyOfFriends" class="btn"><i class="icon-info-sign"></i> More</a>
 
 </div>
-{% endblock %}
 
-{% block one-three-box %}
 <div class="span4">
   <h2><a href="/history/Hicksite">Hicksite Split</a></h2>
   
   <a href="/history/Hicksite" class="btn"><i class="icon-info-sign"></i> More</a>
 </div>
-{% endblock %}
+</div>
 
-{% block two-one-box %}
+<div class="row">
 <div class="span4">
   <h2><a href="/history/AbolitionAndSuffrage">Abolition &amp; Suffrage</a></h2>
   
   <a href="/history/AbolitionAndSuffrage" class="btn"><i class="icon-info-sign"></i> More</a>
 </div>
-{% endblock %}
 
-{% block two-two-box %}
-<div class="span4">
+
+<div class="span3">
   <h2><a href="/history/WorldWarsAndConscientiousObjectors">World Wars &amp; Conscientious Objectors</a></h2>
   
   <a href="/history/WorldWarsAndConscientiousObjectors" class="btn"><i class="icon-info-sign"></i> More</a>
 </div>
-{% endblock %}
 
-{% block two-three-box %}
 <div class="span4">
   <h2><a href="/history/ColoradoSprings">In Colorado Springs</a></h2>
   
   <a href="/history/ColoradoSprings" class="btn"><i class="icon-info-sign"></i> More</a>
-  <h3>Recent Minutes</h3>
+</div>
 </div>
 {% endblock %}

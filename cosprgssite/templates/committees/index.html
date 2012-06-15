@@ -1,17 +1,14 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block more-breadcrumb-links %}
   <li class="active"><a href="/committees">Committees</a></li>
 {% endblock %}
 
-{% block hero-unit %}
-<div class="hero-unit">
-<h1>Committees</h1>
-<p>
-  
-</p>
+{% block manage-toolbar %}
 {% if user.is_superuser %}
-<h3>Committee Management</h3>
+<div class="row">
+<div class="span3"><h3>Committee Management</h3></div>
+<div class="span6">
 <div class="btn-group">
  <a href="#" class="btn btn-small" onclick="$('#add_committee').modal('show')">Add</a>
  <a href="#" class="btn btn-small" onclick="$('#edit_committees').modal('show')">Edit</a>
@@ -19,63 +16,65 @@
  <a href="#" class="btn btn-small">Membership</a>
  <a href="#" class="btn btn-small">Reports</a>
 </div>
-
-{% endif %}
 </div>
+</div>
+{% endif %}
 {% endblock %}
 
-{% block one-one-box %}
- <div class="span4">
-  <h2>Ministry &amp; Oversight</h2>	 
-  <p>
+{% block hero-unit %}
+<div class="span7">
+ <div class="row">
+  <div class="span7 hero-unit">
+  <h1>Committees</h1>
+  </div> 
+ </div>
+ <div class="row">
+  <div class="span3 box_display">
+   <h2>Ministry &amp; Oversight</h2>	 
    
-  </p>
   <p><a class="btn" href="/committees/MinistryAndOversight">Read more &raquo;</a></p>
  </div>
-{% endblock %}
-
-{% block one-two-box %}
-<div class="span4">
- <h2>Finance</h2>
- <p>
-  
- </p>
- <p><a href="/committees/Finance" class="btn">Read more &raquo;</a></p>
+ <div class="span3 box_display">
+  <h2>Finance</h2>
+  <p><a href="/committees/Finance" class="btn">Read more &raquo;</a></p> 
+ </div>
+ </div>
 </div>
 {% endblock %}
 
-{% block one-three-box %}
-<div class="span4">
- <h2>Adult Education and Action</h2>
+{% block second-row %}
+<div class="row">
+<div class="span4 box_display">
+ <h2>Adult Education and Social Action</h2>
  <p>
  </p>
  <p><a href="/committees/REA/
  " class="btn">Read more &raquo;</a></p>
 </div>
-{% endblock %}
 
-{% block two-one-box %}
- <div class="span4">
+
+ <div class="span3 box_display">
   <h2>Meeting House </h2>
  <p><a href="/committees/MeetingHouse/"
   class="btn">Read more &raquo;</a></p>
 
  </div>
-{% endblock %}
 
-{% block two-two-box %}
-<div class="span4">
+<div class="span4 box_display">
  <h2>Education and First Day School</h2> 
  <p></p>
  <p><a href="/committees/Education" class="btn">Read more &raquo;</a></p>
 </div>
-{% endblock %}
-
-{% block two-three-box %}
-<div class="span4">
+</div>
+<br/>
+<div class="row">
+<div class="span4 box_display">
  <h2>Nominating</h2> 
  <p></p>
  <p><a href="/committees/Nominating" class="btn">Read more &raquo;</a></p>
+</div> 
+</div>
+
 {% endblock %}
 
 {% block dialogs %}

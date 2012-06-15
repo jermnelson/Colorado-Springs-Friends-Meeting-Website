@@ -1,4 +1,6 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
+{% load event_extras %}
+{% load history_extras %}
 {% load meeting_extras %}
 
 {% block more-breadcrumb-links %}
@@ -7,7 +9,7 @@
 
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span6 hero-unit">
  <h1>Meetings</h1>
  <p>
   A meeting in the Quaker sense is a gathering of people whose intention is to
@@ -17,54 +19,46 @@
 </div>
 {% endblock %}
 
-{% block one-one-box %}
- <div class="span4">
-  <h2><a href="/meetings/Worship">Meeting for Worship</a></h2>
-  <p>The meeting for worship is the heart of the monthly meeting and 
-     the Religous Society of Friends and are usually held once a week or
-     more often as the required by the occassion.</p>
-  <div class="alert alert-info">
-   The next Meeting for Worship is <i>NEED DYNAMIC DATE</i> at 
-   <i>NEED LOCATION</i>
-  </div>
- </div>
-{% endblock %}
-
-{% block one-two-box %}
-<div class="span4">
-  <h2><a href="/meetings/Business">Meeting for Worship for Business</a></h2>
-  <blockquote>
-  <p>The term <i>monthly meeting</i> has two meanings. Primary, it refers to the 
-  fundamental unit of the Society of Friends; it also reflects the practice of
-  coming together for meeting for worship with a concern for business, usually
-  occurs once a month.</p>
-  <p><small><i>IMYM Faith and Practice</i> page 56</small></p>
-  </blockquote>
-  <p>The Colorado Springs Friends Meeting currently has business
-  meeting on the third First Day (or Sunday) of the month.</p> 
-  <h3>Recent Minutes</h3>
-  <ul>
-  {% for report in business %}
-    <li><a href="/meetings/{{ report.meeting_type|get_name }}/{{ report.meeting_date.year }}/{{ report.meeting_date.month|pretty_month }}/{{ report.report_type|get_report }}">{{ report.name }} {{ report.meeting_date|date:"F j, Y" }}</a></li>
-  {% endfor %}
-  </ul>
-
+{% block second-row %}
+<div class="row">
+	 <div class="span4 box_display">
+	  <h2><a href="/meetings/Worship">Meeting for Worship</a></h2>
+	  <p>The meeting for worship is the heart of the monthly meeting and 
+	     the Religous Society of Friends and are usually held once a week or
+	     more often as the required by the occassion.</p>
+	  <div class="alert alert-info">
+	   The next Meeting for Worship is <i>NEED DYNAMIC DATE</i> at 
+	   <i>NEED LOCATION</i>
+	  </div>
+	 </div>
+	
+	<div class="span4 box_display">
+	  <h2><a href="/meetings/Business">Meeting for Worship for Business</a></h2>
+	  <blockquote>
+	  <p>The term <i>monthly meeting</i> has two meanings. Primary, it refers to the 
+	  fundamental unit of the Society of Friends; it also reflects the practice of
+	  coming together for meeting for worship with a concern for business, usually
+	  occurs once a month.</p>
+	  <p><small><i>IMYM Faith and Practice</i> page 56</small></p>
+	  </blockquote>
+	  <p>The Colorado Springs Friends Meeting currently has business
+	  meeting on the third First Day (or Sunday) of the month.</p> 
+	  <h3>Recent Minutes</h3>
+	  <ul>
+	  {% for report in business %}
+	    <li><a href="/meetings/{{ report.meeting_type|get_name }}/{{ report.meeting_date.year }}/{{ report.meeting_date.month|pretty_month }}/{{ report.report_type|get_report }}">{{ report.name }} {{ report.meeting_date|date:"F j, Y" }}</a></li>
+	  {% endfor %}
+	  </ul>
+	
+	</div>
+	
+	<div class="span3 box_display">
+	  <h2><a href="/meetings/Special">Special Meetings</a></h2>
+	  <p>If a pressing or concern of the meeting requires it; a special Meeting is 
+	     occasionally called for the Meeting.
+	  </p>
+	  <h3>Recent Minutes</h3>
+	</div>
 </div>
 {% endblock %}
 
-{% block one-three-box %}
-<div class="span4">
-  <h2><a href="/meetings/Special">Special Meetings</a></h2>
-  <p>If a pressing or concern of the meeting requires it; a special Meeting is 
-     occasionally called for the Meeting.
-  </p>
-  <h3>Recent Minutes</h3>
-</div>
-{% endblock %}
-
-{% block two-one-box %}<div class="span4">&nbsp;</div>{% endblock %}
-
-{% block two-two-box %}
-{% endblock %}
-
-{% block two-three-box %}{% endblock %}

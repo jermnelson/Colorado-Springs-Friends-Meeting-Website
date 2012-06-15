@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block more-breadcrumb-links %}
   <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
@@ -6,15 +6,16 @@
 {% endblock %}
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span6 hero-unit">
  <h1>Peace</h1>
  <p>that we actively work to ‘remove all causes of war’ and the use of 
     violence from this world, whether between individuals, tribes or nations.</p>
 </div>
 {% endblock %}
 
-{% block one-one-box %}
-<div class="span6">
+{% block second-row %}
+<div class="row">
+<div class="span6 box_display">
   <a href="http://fcnl.org"><img src="{{ STATIC_URL }}img/fcnl-logo.png" /></a>
   <p>
    The Friends Committee on National Legislation (FCNL) fields the 
@@ -27,8 +28,6 @@
    <small>Extracted from FCNL website</small>
   </p>
 </div>
-{% endblock %}
-{% block one-two-box %}
 <div class="span4 well">
 <h2>Local Peace Advocacy</h2>
 <p>Members <a href="/Friends/BillDurland">Bill</a> and 
@@ -36,9 +35,5 @@
 with Middle East issues, including the Palestinian humanitarian crisis.
 </p>
 </div>
+</div>
 {% endblock %}
-{% block one-three-box %}{% endblock %}
-{% block two-one-box %}
-{% endblock %}
-{% block two-two-box %}{% endblock %}
-{% block two-three-box %}{% endblock %}

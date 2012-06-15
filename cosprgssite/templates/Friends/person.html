@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block more-breadcrumb-links %}
  <li><a href="/Friends/">Friends</a><span class="divider">&raquo;</span></li>
@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block hero-unit %}
-<div class="well">
+<div class="span6 well">
  <h1>{{ friend.short_name }}</h1>
  
  {% if friend.image %}
@@ -15,7 +15,8 @@
 </div>
 {% endblock %}
 
-{% block one-one-box %}
+{% block second-row %}
+<div class="row">
 {% if committees %}
 <div class="span4">
  <ul>
@@ -29,12 +30,6 @@
 {% endif %}
 </div>
 {% endblock %}
-{% block one-two-box %}{% endblock %}
-{% block one-three-box %}{% endblock %}
-
-{% block two-one-box %}{% endblock %}
-{% block two-two-box %}{% endblock %}
-{% block two-three-box %}{% endblock %}
 
 
 
