@@ -1,0 +1,31 @@
+<div class="modal hide" id="donate-dlg">
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal">×</button>
+  <h2 style="color:green">Donate</h2>
+ </div>
+ <form action="/donate/step2" method="POST">
+ <div class="modal-body">
+  <p>
+     Welcome Friends! Please use this form to make an online donation.
+     You can use it to make a one time donation or set up a recurring 
+     payment. If this is for something specific, please note that in 
+     the comment box.
+  </p>
+  <p>
+     If you are a member, please login to auto-fill this form and also 
+     choose whether or not to have this website keep a record of your 
+     donations for you to review in your private member profile.
+  </p>
+  <p>
+  <p>
+     Please remember that all donations to our group are tax-deductible. 
+     Thank you for your support!
+  </p>
+  {{ person_form }}
+ </div>
+ <div class="modal-footer">
+  <a href="#" class="btn" data-dismiss="modal">Close</a>
+  <button type="submit" class="btn btn-primary">Next</button>
+ </div>
+ </form>
+</div>

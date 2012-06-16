@@ -4,6 +4,8 @@
 __author__ = "Jeremy Nelson"
 
 import os,settings,logging
+import sys
+
 from datetime import date,datetime
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
@@ -21,7 +23,7 @@ committee_templates = {'Education':'committees/education.html',
                        'ReligiousEducationAndAction':'committees/rea.html'}
                        
     
-def get_report(query,
+def old_get_report(query,
                year,
                month):
      """

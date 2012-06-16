@@ -130,6 +130,7 @@ INSTALLED_APPS = (
     'testimonies',
     'Friends',
     'events',
+    'quakers',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

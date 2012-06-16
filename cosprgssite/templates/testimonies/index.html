@@ -1,11 +1,11 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block more-breadcrumb-links %}
  <li class="active"><a href="#">Testimonies</a></li>
 {% endblock %}
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span7 hero-unit">
 <h1>Our testimonies</h1>
 <p>Our testimonies grew out of Friends’ experience of the Light of God 
    in private contemplation and in worship together. These testimonies 
@@ -25,8 +25,9 @@
 </div>
 {% endblock %}
 
-{% block one-one-box %}
- <div class="span4">
+{% block second-row %}
+<div class="row">
+ <div class="span4 box_display">
   <h2>Simplicity</h2>	 
   <p>
    that we seek to remove from our lives possessions and activities that
@@ -34,10 +35,8 @@
   </p>
   <p><a class="btn" href="/testimonies/simplicity">Read more &raquo;</a></p>
  </div>
-{% endblock %}
 
-{% block one-two-box %}
-<div class="span4">
+<div class="span4 box_display">
  <h2>Peace</h2>
  <p>
   that we actively work to ‘remove all causes of war’ and the use of 
@@ -46,19 +45,17 @@
  </p>
  <p><a href="/testimonies/peace" class="btn">Read more &raquo;</a></p>
 </div>
-{% endblock %}
 
-{% block one-three-box %}
-<div class="span4">
+<div class="span3 box_display">
  <h2>Integrity and Truth</h2>
  <p>
  that all we do reflects the integrity of and unity with truth.
  </p>
  <p><a href="/testimonies/integrity" class="btn">Read more &raquo;</a></p>
 </div>
-{% endblock %}
-
-{% block two-one-box %}
+</div>
+<br/>
+<div class="row">
  <div class="span4">
   <blockquote class="pull-right">
   <p>The <a href="/ReligiousSocietyOfFriends">Religious Society of Friends</a>
@@ -66,19 +63,17 @@
    efforts to more fully realize their faith in their practice.</p>
   </blockquote> 
  </div>
-{% endblock %}
 
-{% block two-two-box %}
-<div class="span4">
+<div class="span4 box_display">
  <h2>Community</h2> 
  <p>that we sustain caring relationships with all.</p>
  <p><a href="/testimonies/community" class="btn">Read more &raquo;</a></p>
 </div>
-{% endblock %}
 
-{% block two-three-box %}
-<div class="span4">
+<div class="span3 box_display">
  <h2>Equality</h2> 
  <p>that each person in creation shares equal value and standing.</p>
  <p><a href="/testimonies/equality" class="btn">Read more &raquo;</a></p>
+</div>
+</div>
 {% endblock %}

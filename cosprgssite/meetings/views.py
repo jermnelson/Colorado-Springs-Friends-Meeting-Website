@@ -9,7 +9,8 @@ from django.http import HttpResponse,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
 from meetings.forms import MeetingReportForm
 from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport
-from committees.views import get_report
+#from committees.views import get_report
+from django_helpers import year2011,year2012
 
 from django.contrib.auth.models import User
 
@@ -73,6 +74,12 @@ def get_type(type_list,value):
             return row[0]
     return None
 
+def display_month(request,
+                  meeting,
+                  year,
+                  month):
+    return HttpResponse("IN DISPLAY MONTH")
+
 def display_report(request,
                    meeting,
                    year,
@@ -91,28 +98,6 @@ def display_report(request,
         user = request.user
     else:
         user = None
-    meeting_type = get_type(MEETING_TYPES,meeting)
-    report_type = get_type(REPORT_TYPES,report_name)
-    if int(month) == 12:
-        end_month = 1
-        end_year = int(year) + 1
-    else:
-        end_month = int(month) + 1
-        end_year = int(year)
-    report_query = MeetingReport.objects.filter(
-        meeting_type=meeting_type
-    ).filter(
-        report_type=report_type
-    ).filter(
-        meeting_date__gte=datetime(int(year),
-                                   int(month),
-                                   1)
-    ).exclude(
-        meeting_date__gte=datetime(end_year,
-                                   end_month,
-                                   1)
-    )
-    report,report_rst = get_report(report_query,year,month)
     return direct_to_template(request,
                               'meetings/report.html',
                               {'user':user,
@@ -120,6 +105,7 @@ def display_report(request,
                                'section':'meetings',
                                'contents':report_rst})
     
+
                                                 
         
 
@@ -144,10 +130,9 @@ def business(request):
     """
     Displays Business Meeting view
     """
-    minutes = MeetingReport.objects.filter(
-        meeting_type=MEETING_TYPES_DICT['Business']
-        ).order_by('meeting_date')
-    logging.error("Business minutes = %s" % minutes)
+    minutes = {}
+    for k,v in year2012.iteritems():
+       minutes[k] = v['meetings'].get('business') 
     minute_form = None
     if request.user.is_superuser:
         minute_form = MeetingReportForm()

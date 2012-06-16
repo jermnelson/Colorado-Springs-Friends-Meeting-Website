@@ -8,7 +8,8 @@ from calendar import HTMLCalendar
 from django.contrib.auth import authenticate
 from django.views.generic.simple import direct_to_template
 from events.models import MeetingEvent
-
+from donate.forms import PersonForm
+from quakers.forms import EmailContactForm
 
 class Events(object):
 
@@ -48,5 +49,7 @@ def home(request):
     return direct_to_template(request,
                               'index.html',
                              {'current_calendar':current_calendar,
+                              'email_form':EmailContactForm(),
+                              'person_form':PersonForm(),
                               'section':'testimonies',
                               'user':user})

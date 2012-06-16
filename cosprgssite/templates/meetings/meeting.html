@@ -25,8 +25,8 @@
   <a href="#" class="btn btn-small" onclick="$('#add_minute').modal('show')">Add Minute</a>
  {% endif %}
   <ul>
-  {% for report in meeting.minutes %}
-    <li><a href="/meetings/{{ report.meeting_type|get_name }}/{{ report.meeting_date.year }}/{{ report.meeting_date.month|pretty_month }}/{{ report.report_type|get_report }}">{{ report.name }} {{ report.meeting_date|date:"F j, Y" }}</a></li>
+  {% for month in meeting.minutes %}
+    <li><a href="/meetings/2012/{{ month }}">{{ month }} 2012</a></li>
   {% endfor %}
   </ul>
  </div>
