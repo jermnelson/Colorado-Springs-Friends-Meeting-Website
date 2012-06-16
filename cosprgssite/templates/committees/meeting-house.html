@@ -14,14 +14,14 @@
  </div>
 {% endblock %}
 
-{% block second-rowx %}
-<div class="row"
- <div class="span4">
+{% block second-row %}
+<div class="row">
+ <div class="span4 box_display">
  <h2>Responsibilities</h2>
  
  </div>
 
-<div class="span4">
+<div class="span4 box_display">
 <h2>Current Members</h2>
 {% if user.is_superuser %}
   {% include "committees/add_membership.html" %}
@@ -29,7 +29,7 @@
 {% include "committees/membership_list.html" %}
 </div>
 
-<div class="span4">
+<div class="span4 box_display">
 <h2>Recent Reports and Minutes</h2>
 {% if user.is_superuser %}
  {% include "committees/add_report.html" %}

@@ -1,4 +1,4 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 {% load markup %}
 {% load committee_extras %}
 {% block sidebar-nav %}{% endblock %}
@@ -9,28 +9,9 @@
 {% endblock %}
 
 {% block hero-unit %}
-<div class="hero-unit">
-<h2>{{ report.committee.name }}</h2>
-<h1>{{ report.report_type|get_report_type }}</h1>
-<h3>{{ report.report_date|date:"F d, Y"}}</h3>
-{{ contents|restructuredtext }}
+<div class="span7 hero-unit">
+{% autoescape off %}
+{{ contents }}
+{% endautoescape %}
 </div>
-{% endblock %}
-
-{% block one-one-box %}
-{% endblock %}
-
-{% block one-two-box %}
-{% endblock %}
-
-{% block one-three-box %}
-{% endblock %}
-
-{% block two-one-box %}
-{% endblock %}
-
-{% block two-two-box %}
-{% endblock %}
-
-{% block two-three-box %}
 {% endblock %}

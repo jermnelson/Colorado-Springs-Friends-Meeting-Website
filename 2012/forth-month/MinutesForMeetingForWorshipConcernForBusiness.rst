@@ -5,7 +5,7 @@ April 15, 2012
 --------------
 
 In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_, `Kathy`_ 
-`Ginger Morgan`_ (clerk), `Lisa Lister`_, `Joyce Doyle`_, `Julie`_, `Carlton Gamer`_, 
+`Ginger Morgan`_ (clerk), `Lisa Lister`_, `Joyce Doyle`_, `Julie Brann`_, `Carlton Gamer`_, 
 `Molly Wingate`_, `Jeremy Nelson`_ 
 
 1. Open Worship in Silence

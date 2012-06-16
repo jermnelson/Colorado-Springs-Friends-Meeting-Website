@@ -219,7 +219,7 @@ Recording Clerk
 .. _`Jeremy`: /Friends/JeremyNelson/
 .. _`Jeremy Nelson`: /Friends/JeremyNelson/
 .. _`Jonathan`: /Friends/JonathanMcPhee/
-.. _`Julie Brand`: /Friends/JulieBrand/
+.. _`Julie Brann`: /Friends/JulieBrann/
 .. _`Kathy`: /Friends/Kathy
 .. _`Tup`: /Friends/TupRoberts/
 .. _`Linda`: /Friends/LindaSeger/

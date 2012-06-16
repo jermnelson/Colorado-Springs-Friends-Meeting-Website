@@ -9,7 +9,9 @@ from bs4 import BeautifulSoup
 import os,sys,re
 biz_re = re.compile(r"business")
 finance_re = re.compile(r"finance")
+house_re = re.compile(r"house|home")
 mo_re = re.compile(r"ministry")
+nominating_re = re.compile(r"nominating")
 
 
 def associate_addresses(addresses_filename):
@@ -78,9 +80,15 @@ def guess_rst(filename):
     fiance_committee_result = finance_re.search(query)
     if fiance_committee_result is not None:
         return {"committee":"finance"}
+    house_result = house_re.search(query)
+    if house_result is not None:
+        return {"committee":"meetinghouse"}
     ministry_oversight_result = mo_re.search(query)
     if ministry_oversight_result is not None:
-        return {"committee":"ministry-and-oversight"}
+        return {"committee":"ministryandoversight"}
+    nominating_result = nominating_re.search(query)
+    if nominating_result is not None:
+        return {"committee":"nominating"}
     return {}
 
 

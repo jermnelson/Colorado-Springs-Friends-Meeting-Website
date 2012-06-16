@@ -13,6 +13,7 @@ from django.http import HttpResponseNotFound,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
 from committees.models import *
 from committees.forms import *
+from django_helpers import year2011,year2012
 
 committee_templates = {'Education':'committees/education.html',
                        'Finance':'committees/finance.html',
@@ -22,6 +23,8 @@ committee_templates = {'Education':'committees/education.html',
                        'REA':'committees/rea.html',
                        'ReligiousEducationAndAction':'committees/rea.html'}
                        
+year_reports = {2011:year2011,
+                2012:year2012}
     
 def old_get_report(query,
                year,
@@ -78,6 +81,15 @@ def default(request):
                                 'section':'committees',
                                 'user':user})
 
+def get_committee_reports(year,committee):
+     output = {}
+     for monthk,v in year.iteritems():
+          for reportk,reportv in v['committees'].iteritems():
+               if reportk == committee.lower():
+                    output[monthk] = reportv
+     return output
+                    
+
 
 def display_committee(request,
                       committee):
@@ -88,21 +100,21 @@ def display_committee(request,
      """
      committees_query = Committee.objects.filter(name=committee)
      members_form,report_form = None,None
+     reports = get_committee_reports(year2012,committee)
      if len(committees_query) > 0:
           committee_info = committees_query[0]
           member_query = CommitteeMember.objects.filter(committee=committee_info)
           committee_info = committee_info
           members = member_query
-          current_reports = CommitteeReport.objects.filter(committee=committee_info)
           if request.user.is_superuser:
                members_form = CommitteeMemberForm(instance=committee_info)
-               report_form = CommitteeReportForm(instance=committee_info)
+               
      else:
           committee_info = {'name':committee}
           members,current_reports = [],[]
           if request.user.is_superuser:
                members_form = CommitteeMemberForm()
-               report_form = CommitteeReportForm()
+
      friend_query = Friend.objects.all().order_by('user__last_name')
 ##   
 ##     if len(committees) < 1:
@@ -113,13 +125,36 @@ def display_committee(request,
                                 'committee_members':members,
                                 'friends':friend_query,
                                 'members_form':members_form,
-                                'reports':current_reports,
+                                'reports':reports,
                                 'report_form':report_form,
                                 'section':'committees'})
                                
-     
 
 def display_monthly_report(request,
+                           committee,
+                           year,
+                           month):
+     committee = committee.lower()
+     year_report = year_reports[int(year)]
+     if year_report["{0}-month".format(month)]["committees"].has_key(committee):
+          raw_html = year_report["{0}-month".format(month)]["committees"][committee]
+     else:
+          raw_html = "No report found for {0} {1} {2}".format(committee.title(),
+                                                              year,
+                                                              month)
+                                 
+     if request.user.is_authenticated():
+          user = request.user
+     else:
+          user = None     
+     return direct_to_template(request,
+                               'committees/report.html',
+                               {'user':user,
+                                'contents':raw_html,
+                                'section':'committees'})
+     
+
+def old_display_monthly_report(request,
                            committee,
                            year,
                            month,
@@ -133,7 +168,6 @@ def display_monthly_report(request,
      :param report_name: Name of rst report (filename)
      :rtype: Generated HTML
      """
-     logging.error("Report name is %s" % report_name)
      if request.user.is_authenticated():
           user = request.user
      else:
