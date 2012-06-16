@@ -42,7 +42,7 @@ def get_name(meeting_int):
 
 def get_report(report_int):
     """
-    Quick fitler for returning name for a report type.
+    Quick filter for returning name for a report type.
 
     :param report_int: Stored integer in datastrore
     :rtype string:

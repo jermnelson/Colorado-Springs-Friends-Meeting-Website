@@ -1,8 +1,8 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 {% load url from future %}
 
 {% block hero-unit %}
-<div class="hero-unit">
+<div class="span7 hero-unit">
 {% if form.errors %}
  <p>Your username and password didn't match</p>
 {% endif %}
@@ -21,15 +21,3 @@
 </form>
 </div>
 {% endblock %}
-
-{% block one-one-box %}{% endblock %}
-{% block one-two-box %}{% endblock %}
-{% block one-three-box %}{% endblock %}
-
-{% block two-one-box %}{% endblock %}
-{% block two-two-box %}{% endblock %}
-{% block two-three-box %}{% endblock %}
-
-
-
-

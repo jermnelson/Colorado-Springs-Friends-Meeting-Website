@@ -19,17 +19,18 @@
 {% block second-row %}
 <div class="row">
 {% if meeting.minutes or user.is_superuser %}
- <div class="span4">
+ <div class="span4 offset3 box_display">
   <h2>Minutes</h2>
   {% if user.is_superuser %}
   <a href="#" class="btn btn-small" onclick="$('#add_minute').modal('show')">Add Minute</a>
  {% endif %}
   <ul>
   {% for month in meeting.minutes %}
-    <li><a href="/meetings/2012/{{ month }}">{{ month }} 2012</a></li>
+    <li><a href="/meetings/{{ meeting.type_of|get_name }}/2012/{{ month }}">{{ month }} 2012</a></li>
   {% endfor %}
   </ul>
  </div>
+</div>
 {% endif %}
 
  <div class="span3">

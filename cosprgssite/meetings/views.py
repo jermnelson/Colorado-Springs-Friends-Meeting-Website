@@ -10,7 +10,7 @@ from django.views.generic.simple import direct_to_template
 from meetings.forms import MeetingReportForm
 from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport
 #from committees.views import get_report
-from django_helpers import year2011,year2012
+from django_helpers import build_loader,year2011,year2012
 
 from django.contrib.auth.models import User
 
@@ -78,7 +78,21 @@ def display_month(request,
                   meeting,
                   year,
                   month):
-    return HttpResponse("IN DISPLAY MONTH")
+    meeting = meeting.lower()
+    if year == '2011':
+        raw_html = year2011["{0}-month".format(month)]["meetings"][meeting]
+    elif year == '2012':
+       raw_html = year2012["{0}-month".format(month)]["meetings"][meeting]
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+ 
+    return direct_to_template(request,
+                              'meetings/report.html',
+                              {'user':user,
+                               'section':'meetings',
+                               'contents':raw_html})
 
 def display_report(request,
                    meeting,
