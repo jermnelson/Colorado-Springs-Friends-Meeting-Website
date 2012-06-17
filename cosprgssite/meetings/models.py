@@ -19,6 +19,20 @@ REPORT_TYPES = ((1,"Minutes"),
                 (4,"Query"),
                 (5,"State of the Meeting"))
 
+QUAKER_MONTHS = {1:"first",
+                 2:"second",
+                 3:"third",
+                 4:"forth",
+                 5:"fifth",
+                 6:"sixth",
+                 7:"seventh",
+                 8:"eighth",
+                 9:"ninth",
+                 10:"tenth",
+                 11:"eleventh",
+                 12:"twelfth"}
+                 
+
 
 class MeetingOfficer(models.Model):
     date_started = models.DateField()

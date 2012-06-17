@@ -12,6 +12,7 @@ from django.contrib.auth.models import User
 from django.http import HttpResponseNotFound,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
 from committees.models import *
+from meetings.models import QUAKER_MONTHS
 from committees.forms import *
 from django_helpers import year2011,year2012
 
@@ -82,11 +83,10 @@ def default(request):
                                 'user':user})
 
 def get_committee_reports(year,committee):
-     output = {}
+     output = []
      for monthk,v in year.iteritems():
-          for reportk,reportv in v['committees'].iteritems():
-               if reportk == committee.lower():
-                    output[monthk] = reportv
+          if v["committees"].has_key(committee):
+               output.append(v['committees'][committee]['date'])
      return output
                     
 
@@ -136,6 +136,7 @@ def display_monthly_report(request,
                            month):
      committee = committee.lower()
      year_report = year_reports[int(year)]
+     month = QUAKER_MONTHS[int(month)]
      if year_report["{0}-month".format(month)]["committees"].has_key(committee):
           raw_html = year_report["{0}-month".format(month)]["committees"][committee]
      else:

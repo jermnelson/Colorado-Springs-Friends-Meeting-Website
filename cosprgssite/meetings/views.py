@@ -8,7 +8,7 @@ from django.contrib.auth import authenticate
 from django.http import HttpResponse,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
 from meetings.forms import MeetingReportForm
-from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport
+from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport, QUAKER_MONTHS
 #from committees.views import get_report
 from django_helpers import build_loader,year2011,year2012
 
@@ -79,6 +79,7 @@ def display_month(request,
                   year,
                   month):
     meeting = meeting.lower()
+    month = QUAKER_MONTHS[int(month)]
     if year == '2011':
         raw_html = year2011["{0}-month".format(month)]["meetings"][meeting]["html"]
         meeting_date = year2011["{0}-month".format(month)]["meetings"][meeting]["date"]
