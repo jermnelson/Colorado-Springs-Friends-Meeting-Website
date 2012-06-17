@@ -1,5 +1,11 @@
-﻿Minutes  of the Meeting Home Committee
+﻿======================================
+Minutes  of the Meeting Home Committee
+======================================
+:Date: $Date: 2012-03-14 17:30:48 +0000 (Wed, 14 Mar 2012) $
+
 March 14, 2012
+--------------
+
 Present:  Ann Daugherty (clerk), Molly Wingate (secretary),  Julie Roten-Valdez, Carlton Gamer, Brian Murphy
 The primary business of the meeting was to go over any issues we feel we need to have attended to in the building as a result of the building inspection.  We must let the sellers know of any issues by Monday, March 19.  Once they respond that they will attend to our concerns, then we must proceed to closing or lose our earnest money ($2,000).  
 Inspection Report

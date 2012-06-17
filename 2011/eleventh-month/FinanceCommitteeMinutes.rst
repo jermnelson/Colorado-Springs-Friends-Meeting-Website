@@ -1,5 +1,8 @@
+=========================
 Finance Committee Minutes
 =========================
+:Date: $Date: 2011-11-08 17:30:48 +0000 (Thu, 08 Nov 2011) $
+
 November 8, 2011 at The Herman Group offices
 --------------------------------------------
 

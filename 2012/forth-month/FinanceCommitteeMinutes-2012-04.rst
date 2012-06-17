@@ -1,5 +1,7 @@
+=========================
 Finance Committee Minutes
 =========================
+:Date: $Date: 2012-04-10 17:15:48 +0000 (Tue, 10 Apr 2012) $
 
 April 10, 2012 at 5:15 at The Herman Group offices
 

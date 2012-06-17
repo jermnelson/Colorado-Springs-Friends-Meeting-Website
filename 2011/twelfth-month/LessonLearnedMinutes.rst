@@ -1,5 +1,9 @@
+=======================================================================================
 Minutes of Special Meeting to Discuss Lessons Learned from Trying to Buy 15 S. Wahsatch
 =======================================================================================
+:Date: $Date: 2011-11-08 17:30:48 +0000 (Thu, 08 Nov 2011) $
+
+
 Queries offered in advance were prepared by `Ginger Morgan`_:
 
 Integrity

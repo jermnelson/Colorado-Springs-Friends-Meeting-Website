@@ -1,5 +1,8 @@
-﻿Special Meeting Building Minute
+﻿===============================
+Special Meeting Building Minute
 ===============================
+:Date: $Date: 2012-01-29 11:30:48 +0000 (Sun, 29 Jan 2012) $
+
 First Day, January 29th, 2012
 -----------------------------
 

@@ -3,10 +3,11 @@ import json,sys
 from Friends.models import *
 from location.models import Address
 from django.contrib.auth.models import User
-import settings
+import settings,datetime
 from docutils.core import publish_string
 from bs4 import BeautifulSoup
 import os,sys,re
+
 biz_re = re.compile(r"business")
 finance_re = re.compile(r"finance")
 house_re = re.compile(r"house|home")
@@ -57,12 +58,19 @@ def build_loader(year_loader,directory):
                                           writer_name="html")
             rst_soup = BeautifulSoup(rst_contents)
             main_contents = rst_soup.find("div",attrs={"class":"document"})
+            meta_date = rst_soup.find("meta",attrs={"name":"date"})
+            if meta_date is not None:
+                rst_date = datetime.datetime.strptime(meta_date.attrs["content"],"%Y-%m-%d")
+            else:
+                print("MISSING Date {0}".format(meta_date))
             rst_category = guess_rst(filename)
             pretty_html = main_contents.prettify()
             if rst_category.has_key("meeting"):
-                year_loader[month]['meetings'][rst_category.get("meeting")] = pretty_html
+                year_loader[month]['meetings'][rst_category.get("meeting")] = {"html":pretty_html,
+                                                                               "date":rst_date}
             if rst_category.has_key("committee"):
-                year_loader[month]['committees'][rst_category.get("committee")] = pretty_html
+                year_loader[month]['committees'][rst_category.get("committee")] = {"html":pretty_html,
+                                                                                   "date":rst_date}
     return year_loader
     
 def get_friends(friend_keys):

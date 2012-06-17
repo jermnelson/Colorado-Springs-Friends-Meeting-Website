@@ -1,5 +1,6 @@
 Minutes Meeting for Worship with a Concern for Business
 =======================================================
+:Date: $Date: 2012-03-18 11:43:48 +0000 (Sun, 18 Mar 2012) $
 
 March 18, 2012
 --------------

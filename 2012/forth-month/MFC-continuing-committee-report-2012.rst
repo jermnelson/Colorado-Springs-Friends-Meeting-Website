@@ -1,6 +1,8 @@
 =========================================================
 Mountain Friends Camp report to IMYM Continuing Committee
 =========================================================
+:Date: $Date: 2012-04-07 17:30:48 +0000 (Sat, 07 Apr 2012) $
+
 
 In 2011 Mountain Friends Camp continued to gain momentum.  Our second year of camp was a 
 powerful experience of community, collaboration, and simple living for 10 campers and 6 staff 

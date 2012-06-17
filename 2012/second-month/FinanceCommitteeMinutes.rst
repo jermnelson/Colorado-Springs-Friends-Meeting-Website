@@ -1,6 +1,8 @@
 ﻿=========================
 Finance Committee Minutes
 =========================
+:Date: $Date: 2012-02-07 17:15:48 +0000 (Tue, 07 Feb 2012) $
+
 February 7 at 5:15 at The Herman Group offices
 ----------------------------------------------
 

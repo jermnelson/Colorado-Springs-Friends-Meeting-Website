@@ -1,5 +1,8 @@
-﻿Minutes  for Meeting for Worship for Business
+﻿=============================================
+Minutes  for Meeting for Worship for Business
 =============================================
+:Date: $Date: 2011-11-13 11:20:48 +0000 (Sun, 13 Nov 2011) $
+
 November 13, 2011
 -----------------
 

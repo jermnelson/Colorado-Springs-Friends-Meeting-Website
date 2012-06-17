@@ -80,9 +80,11 @@ def display_month(request,
                   month):
     meeting = meeting.lower()
     if year == '2011':
-        raw_html = year2011["{0}-month".format(month)]["meetings"][meeting]
+        raw_html = year2011["{0}-month".format(month)]["meetings"][meeting]["html"]
+        meeting_date = year2011["{0}-month".format(month)]["meetings"][meeting]["date"]
     elif year == '2012':
-       raw_html = year2012["{0}-month".format(month)]["meetings"][meeting]
+        raw_html = year2012["{0}-month".format(month)]["meetings"][meeting]["html"]
+        meeting_date = year2012["{0}-month".format(month)]["meetings"][meeting]["date"]
     if request.user.is_authenticated():
         user = request.user
     else:
@@ -91,6 +93,9 @@ def display_month(request,
     return direct_to_template(request,
                               'meetings/report.html',
                               {'user':user,
+                               'meeting':meeting,
+                               'meeting_date':meeting_date,
+                               'report_type':'Minutes',
                                'section':'meetings',
                                'contents':raw_html})
 
@@ -144,15 +149,18 @@ def business(request):
     """
     Displays Business Meeting view
     """
-    minutes = {}
+    minutes = list()
     for k,v in year2012.iteritems():
-       minutes[k] = v['meetings'].get('business') 
+       print(v)
+       if v['meetings'].has_key('business'):
+           minutes.append(v['meetings']['business']['date'])
+    
     minute_form = None
     if request.user.is_superuser:
         minute_form = MeetingReportForm()
     meeting = {'name':'Meeting for Worship for Business',
                'description':'A monthy meeting with a concern for business',
-               'minutes':minutes,
+               'minutes':sorted(minutes),
                'type_of':MEETING_TYPES_DICT['Business']}
     return direct_to_template(request,
                               'meetings/meeting.html',

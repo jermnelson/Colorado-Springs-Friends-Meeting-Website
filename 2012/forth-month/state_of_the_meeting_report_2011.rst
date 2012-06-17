@@ -1,4 +1,7 @@
+====================================
 STATE OF THE MEETING REPORT for 2011
+====================================
+:Date: $Date: 2012-04-15 17:30:48 +0000 (Sun, 15 Apr 2012) $
 
 For Colorado Springs Friends Meeting
 

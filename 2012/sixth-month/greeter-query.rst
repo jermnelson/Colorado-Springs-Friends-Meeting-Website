@@ -1,3 +1,8 @@
+=============
+Greeter Query
+=============
+:Date: $Date: 2012-06-03 17:30:48 +0000 (Sun, 03 Jun 2012) $
+
 June 3, 2012
 ------------
 Is it the will of the meeting that we have a greeter available from 9:50am-10:10am each Sunday? In other meetings I've visited, the greeter does some, or all, of the following:

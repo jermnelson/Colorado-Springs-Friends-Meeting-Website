@@ -1,5 +1,8 @@
+===========================================================
 Minutes for Meeting for Worship with a Concern for Business
 ===========================================================
+:Date: $Date: 2012-01-15 11:20:48 +0000 (Sun, 15 Jan 2012) $
+
 January 15, 2012
 ----------------
 In attendance:  `Ginger Morgan`_ (clerk), `Carlton Gamer`_, 

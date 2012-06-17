@@ -1,3 +1,9 @@
+======================
+Transfer of Membership
+======================
+:Date: $Date: 2011-11-23 17:30:48 +0000 (Wed, 23 Nov 2011) $
+
+
 November 23, 2011
 -----------------
 `Salt Lake Friends Meeting`_

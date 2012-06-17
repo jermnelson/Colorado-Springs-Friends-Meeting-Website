@@ -1,5 +1,10 @@
-﻿Finance Committee Minutes
+﻿=========================
+Finance Committee Minutes
+=========================
+:Date: $Date: 2012-03-15 17:15:48 +0000 (Thu, 15 Mar 2012) $
+
 March 15, 2012 at 5:15 at The Herman Group offices
+--------------------------------------------------
 
 
 Present: Sarah Callbeck (Clerk and Bookkeeper), Ann Daugherty and Lisa Lister (Treasurer and Recorder).

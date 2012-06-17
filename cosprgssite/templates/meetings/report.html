@@ -5,17 +5,13 @@
 
 {% block more-breadcrumb-links %}
  <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
- {% comment %}
- <li><a href="/meetings/{{ report.meeting_type|get_name }}">{{ report.meeting_type|get_name }}</a> <span class="divider">&raquo;</span></li>
- <li class="active">{{ report.report_type|get_report }} for {{ report.meeting_date|date:"F j, Y" }}</li>
- {% endcomment %}
+ <li><a href="/meetings/{{ meeting }}">{{ meeting|title }}</a> <span class="divider">&raquo;</span></li>
+ <li class="active">{{ report_type }} for {{ meeting_date|date:"F j, Y" }}</li>
 {% endblock %}
 
 {% block hero-unit %}
 <div class="span9 well">
-{% comment %} 
-<h3>{{ report.meeting_date|date:"F j, Y" }}</h3>
-{% endcomment %}
+<h3>{{ meeting_date|date:"F j, Y" }}</h3>
 {% autoescape off %}
 {{ contents }}
 {% endautoescape %}

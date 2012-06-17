@@ -1,6 +1,8 @@
 =========================
 Finance Committee Minutes
 =========================
+:Date: $Date: 2012-06-04 17:30:48 +0000 (Mon, 04 Jun 2012) $
+
 June 4-6, 2012 by email
 Present: `Sarah Callbeck`_ (Clerk and Bookkeeper), `Ann Daugherty`_ and 
 `Lisa Lister`_ (Treasurer and Recorder).
