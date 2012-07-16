@@ -81,11 +81,10 @@ In Attendance: `Ginger Morgan`_ (clerk), `Molly Wingate`_, `Lisa Lister`_,
      
       ii. Gardner Worship Group
           Request for care of Gardner Worship Group, does the Colorado Springs Meeting have the capacity 
-          to `Bill`_, `Genie`_, and `Nancy`_. Does Colorado Springs Meeting have the ability to nurture 
+          for this? `Bill`_, `Genie`_, and `Nancy`_. Does Colorado Springs Meeting have the ability to nurture 
           the Worship Group to become a full Monthly Meeting.
 
-          It would be advisability if Colorado Springs Meeting worship with Gardner Worship Group and 
-          likewise 
+          It would be advisability if Colorado Springs Meeting worship with Gardner Worship Group.
 
           Transfer of `Val`_'s membership is the first step towards accepting care for Gardner Worship Group
           by Meeting. Expectations of Monthly Meeting towards Worship Groups under its care.  
@@ -137,7 +136,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Molly Wingate`_, `Lisa Lister`_,
            What about plumbing? The plumbing in the bathrooms are protected with individual heaters.
 
       iv.  `Daniel`_ looking at fixing loose light and will work on a temporary solution to open the windows in the
-           basement. `Ann`_ will work on electric out-lights and heaters in the basement. 
+           basement. `Ann`_ will work on electric outlets and heaters in the basement. 
 
            Question about hanging up bulletin board? Consider options. 
 
@@ -154,7 +153,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Molly Wingate`_, `Lisa Lister`_,
 
    f. Adult Religious Education and Action Committee
      
-      Book group reading Eco-minded discussion tomorrow night at Meetinghouse. Send suggestions to `Ann Margret`_
+      Book group reading Eco-minded discussion tomorrow night at Meetinghouse. Send suggestions to `Ann Mar`_
       for contacting and coordinate.
 
    g. Library In progress, updating and moving books. Books on a shelf. Journals to be added on shelves. We have enough
@@ -235,7 +234,6 @@ Respectfully submitted in the Light,
 .. _Sarah: /Friends/SarahCallbeck/
 .. _Val: /Friends/ValPhillips/
 .. _Val Phillips: /Friends/ValPhillips/
-
 .. _Lisa Lister: /Friends/LisaLister/
 .. _Tup: /Friends/TupRoberts/
 
