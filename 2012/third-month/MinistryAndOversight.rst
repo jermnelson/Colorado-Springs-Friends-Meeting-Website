@@ -2,10 +2,6 @@
 M&O Committee Minutes
 =====================
 :Date: $Date: 2012-03-23 17:30:48 +0000 (Fri, 23 Mar 2012) $
-
-
-March 23, 2012
---------------
  
 **Attending**: `Bill Durland`_, `Martha Lutz`_ and `Linda Seger`_.
 Meeting opened in spiritual silence.
@@ -43,8 +39,8 @@ The following discussion and actions took place.
    in May to hold a short memorial service after meeting for our own needs 
    to remember our past Friends.
 
-4  We were instructed to draft a mission statement after we renamed 
-   `Adult Religious Education`_ by adding the words "Social Action."  We 
+4. We were instructed to draft a mission statement after we  
+   renamed `Adult Religious Education`_ by adding the words "Social Action."  We 
    discussed the matter and invited `Genie Durland`_, who has been 
    nominated for Clerk of the new committee to join our discussion. `Bill`_
    and `Genie`_ were asked by M&O to draft a mission statement for approval 

@@ -8,7 +8,11 @@
 {% block hero-unit %}
 <div class="span7 well">
  <h1>Colorado Springs Friends</h1>
+ 
+ {% if user.is_authenticated %}
  <h2>Members and Attenders</h2>
+ <a href="/Friends/census/">Latest Census</a>
+ {% endif %}
   
 </div>
 {% endblock %}

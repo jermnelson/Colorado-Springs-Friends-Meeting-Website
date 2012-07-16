@@ -10,8 +10,7 @@ from django.views.generic.simple import direct_to_template
 from meetings.forms import MeetingReportForm
 from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport, QUAKER_MONTHS
 #from committees.views import get_report
-from django_helpers import build_loader,year2011,year2012
-
+from django_helpers import get_year
 from django.contrib.auth.models import User
 
 MEETING_TYPES_DICT = {}
@@ -27,7 +26,6 @@ def default(request):
     business_minutes = MeetingReport.objects.filter(
         meeting_type=MEETING_TYPES_DICT['Business']
     ).order_by('meeting_date')
-    logging.error("business minutes %s" % business_minutes)
     return direct_to_template(request,
                               'meetings/index.html',
                               {'business':business_minutes,
@@ -80,17 +78,17 @@ def display_month(request,
                   month):
     meeting = meeting.lower()
     month = QUAKER_MONTHS[int(month)]
-    if year == '2011':
-        raw_html = year2011["{0}-month".format(month)]["meetings"][meeting]["html"]
-        meeting_date = year2011["{0}-month".format(month)]["meetings"][meeting]["date"]
-    elif year == '2012':
-        raw_html = year2012["{0}-month".format(month)]["meetings"][meeting]["html"]
-        meeting_date = year2012["{0}-month".format(month)]["meetings"][meeting]["date"]
+    year_loader = get_year(year)
+    if year_loader is not None:
+        raw_html = year_loader["{0}-month".format(month)]["meetings"][meeting]["html"]
+        meeting_date = year_loader["{0}-month".format(month)]["meetings"][meeting]["date"]
+    else:
+        raw_html = "Cannot find {0} {1} for {3}".format(month,year,meeting)
+        meeting_date = None
     if request.user.is_authenticated():
         user = request.user
     else:
         user = None
- 
     return direct_to_template(request,
                               'meetings/report.html',
                               {'user':user,
@@ -137,12 +135,19 @@ def advices_and_queries(request):
         user = request.user
     else:
         user = None
-    advices = []
-    queries = []
+    advices,queries = [],[]
+    # Extracts year from present
+    today = datetime.today()
+    year_loader = get_year(str(today.year))
+    for k,v in year_loader.iteritems():
+        if v["meetings"].has_key("advice"):
+            advices.append(v['meetings']['advice']['date'])
+        if v["meetings"].has_key("query"):
+            queries.append(v['meetings']['query']['date'])
     return direct_to_template(request,
                               'meetings/advices-queries.html',
-                              {'advices':advices,
-                               'queries':queries,
+                              {'advices':sorted(advices),
+                               'queries':sorted(queries),
                                'section':'meetings',
                                'user':user})
 
@@ -151,8 +156,9 @@ def business(request):
     Displays Business Meeting view
     """
     minutes = list()
-    for k,v in year2012.iteritems():
-       print(v)
+    today = datetime.today()
+    year_loader = get_year(str(today.year))    
+    for k,v in year_loader.iteritems():
        if v['meetings'].has_key('business'):
            minutes.append(v['meetings']['business']['date'])
     
@@ -181,9 +187,15 @@ def special(request):
     """
     Displays Special Meeting view
     """
+    minutes = list()
+    today = datetime.today()
+    year_loader = get_year(str(today.year))        
+    for k,v in year_loader.iteritems():
+       if v['meetings'].has_key('special'):
+           minutes.append(v['meetings']['special']['date'])
     meeting = {'name':'Special Called Meeting',
                'description':'A meeting called for Friends regarding a special topic or concern',
-               'minutes':[],
+               'minutes':sorted(minutes),
                'type_of':MEETING_TYPES_DICT['Special']}
     return direct_to_template(request,
                               'meetings/meeting.html',

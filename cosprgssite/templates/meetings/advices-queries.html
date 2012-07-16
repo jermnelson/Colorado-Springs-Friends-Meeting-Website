@@ -13,7 +13,28 @@
 </div>
 {% endblock %}
 
-
+{% block second-row %}
+<div class="row">
+ <div class="span4 offset3 box_display">
+  <h2>Advices</h2>
+    <ul>
+  {% for row in advices %}
+    <li><a href="/meetings/Advice/{{ row.year }}/{{ row.month }}/">{{ row|date:"F j, Y" }}</a></li>
+  {% endfor %}
+  </ul>
+ </div>
+ 
+ <div class="span4 box_display">
+  <h2>Queries</h2>
+    <ul>
+  {% for row in queries %}
+    <li><a href="/meetings/Query/{{ row.year }}/{{ row.month }}/">{{ row|date:"F j, Y" }}</a></li>
+  {% endfor %}
+  </ul>
+ </div>
+ 	
+</div>
+{% endblock %}
 {% block dialogs %}
 
 {% endblock %}

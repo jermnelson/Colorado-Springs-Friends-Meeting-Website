@@ -39,11 +39,7 @@
  {% include "committees/add_report.html" %}
 {% endif %}
 <ul>
-{% for report in committee_reports %}
- <li><a href="/committees/Nominating/{{ report.year }}/{{ report.month }}/{{ report.name }}">
-     {{ report.year }}/{{ report.month }}/{{ report.name }}</a>
- </li>
-{% endfor %}
+{% include "committees/report_list.html" %}
 </ul>
 </div>
 </div>

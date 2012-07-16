@@ -11,9 +11,11 @@ urlpatterns = patterns('meetings.views',
     #url(r'^(?P<meeting>\w+)/(?P<year>\d+)/(?P<month>\w+)-month$','display_month'),
 #    url(r'^(?P<meeting>\w+)/(?P<year>\d+)/(?P<month>\w+)/(?P<report_name>\w+)/$','display_report'),
     url(r'^(?P<meeting>\w+)/report/add$','add_report'),
-    url(r"[a|A]dvices[a|A]nd[q|Q]ueries","advices_and_queries"),
+    url(r'[a|A]dvice$',"advices_and_queries"),
+    url(r"[a|A]dvices[a|A]nd[q|Q]ueries$","advices_and_queries"),
     url(r'[b|B]usiness$','business'),
     url(r'[s|S]pecial$','special'),
+    url(r'[q|Q]uery$',"advices_and_queries"),
     url(r'[w|W]orship$','worship'),
 
 )
