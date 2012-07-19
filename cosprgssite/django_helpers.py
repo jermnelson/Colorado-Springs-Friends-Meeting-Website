@@ -22,15 +22,19 @@ def associate_addresses(addresses_filename):
     print("Associate addresses with Friends")
     addr_json = json.load(open(addresses_filename,'r'))
     for row in addr_json:
-        addr_query = Address.objects.filter(md5_key=row["addr"])
-        addr = addr_query[0]
-        friends = get_friends(row["friends"])
-        for friend in friends:
-            friend.address = addr
-            friend.save()
-            print("\t%s address set to %s, %s" % (friend.short_name,
-                                                  addr.street,
-                                                  addr.city))
+        try:
+            addr_query = Address.objects.filter(md5_key=row["addr"])
+            addr = addr_query[0]
+            friends = get_friends(row["friends"])
+            for friend in friends:
+                friend.address = addr
+                friend.save()
+                print("\t{0} address set to {1}, {2}".format(friend.short_name,
+                                                             addr.street,
+                                                             addr.city))
+        except:
+            print("Failed assocication for {0}, error={1}".format(row,
+                                                                  sys.exc_info()[0]))
     print("Finished associating addresses with Friends")
 
 
@@ -79,8 +83,12 @@ def build_loader(year_loader,directory):
 def get_friends(friend_keys):
     friends = []
     for friend_key in friend_keys:
-        friend_query = Friend.objects.filter(md5_key=friend_key)
-        friends.append(friend_query[0])
+        try:
+            friend_query = Friend.objects.filter(md5_key=friend_key)
+            friends.append(friend_query[0])
+        except:
+            print("Failed to retrieve friend md5={0} from datastore\n\tError {1}".format(friend_key,
+                                                                                         sys.exc_info()[0]))
     return friends
 
 def guess_rst(filename):
