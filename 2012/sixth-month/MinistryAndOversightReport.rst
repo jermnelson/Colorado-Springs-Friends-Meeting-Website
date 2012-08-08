@@ -5,7 +5,7 @@ Ministry And Oversight Committee Report
 
 
 Meeting of May 25, 2012
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 Presented June 10, 2012 to Colorado Springs Friends Meeting for Worship for Business
  
 Attending: `Bill Durland`_, Clerk, `Martha Lutz`_ and 
@@ -49,12 +49,13 @@ In the Light of the Spirit,
 `Bill Durland`_, M&O Clerk, for `Martha Lutz`_, member 
 And `Carlton Gamer`_ and `Genie Durland`_, consultants
 
-.. _`Carlton Gamer`: /Friends/CarltonGamer/
-.. _`Bill`: /Friends/BillDurland/
-.. _`Bill Durland`: /Friends/BillDurland/
-.. _`Genie`: /Friends/GenieDurland/
-.. _`Genie Durland`: /Friends/GenieDurland/
-.. _`Martha`: /Friends/MarthaLutz/
-.. _`Martha Lutz`: /Friends/MarthaLutz/
-.. _`Val`: /Friends/ValPhillips/
-.. _`Val Phillips`: /Friends/ValPhillips/
+.. _Carlton: /Friends/CarltonGamer/
+.. _Carlton Gamer: /Friends/CarltonGamer/
+.. _Bill: /Friends/BillDurland/
+.. _Bill Durland: /Friends/BillDurland/
+.. _Genie: /Friends/GenieDurland/
+.. _Genie Durland: /Friends/GenieDurland/
+.. _Martha: /Friends/MarthaLutz/
+.. _Martha Lutz: /Friends/MarthaLutz/
+.. _Val: /Friends/ValPhillips/
+.. _Val Phillips: /Friends/ValPhillips/

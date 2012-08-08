@@ -9,9 +9,7 @@
  <div class="span2"><span class="label">Logged in as {{ user.username }}</span></div>
  <div class="btn-toolbar span6">
   <div class="btn-group">
-   <button href="#" class="btn btn-small" onclick="$('#add_friend').modal('show')">Friends</button>
-   <button href="#" class="btn btn-small" onclick="$('#add_friend').modal('show')">Minutes &amp; Reports</button>
-   <button href="#" class="btn btn-small" onclick="$('#add_friend').modal('show')">Events</button>
+   <button href="#" class="btn btn-small" onclick="$('#reload-rst-dlg').modal('show')">Reload RST</button>
   </div>
   <div class="btn-group">
    <button href="#" class="btn btn-small" onclick="$('#add_friend').modal('show')">Committees</button>
@@ -91,7 +89,9 @@
 {% block dialogs %}
  {% include 'snippets/email-dlg.html' %}
  {% include 'snippets/donate-dlg.html' %}
-
+ {% if user.is_superuser %}
+ {% include 'snippets/reload-dlg.html' %}
+ {% endif %}
 
 {% endblock %}
  

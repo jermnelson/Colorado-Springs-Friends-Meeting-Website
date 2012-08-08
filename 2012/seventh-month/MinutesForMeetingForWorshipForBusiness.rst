@@ -121,7 +121,7 @@ attend
 
    f. Library Report
 
-      Thanks `Ann`_, `Jennifer`_ books from father's library, `Joyce`'s friend `Fran`_, magazine 
+      Thanks `Ann`_, `Jennifer`_ books from father's library, `Joyce`'s friend Fran, magazine 
       holders and binders, labels. The upstairs the inventory and categories, kid's library hasn't
       been inventoried. Talked to `Lisa`_ and `Jeremy`_ about retention of pamphlets and how long to 
       retain. `Joyce`_ requested last library inventory so she can update. Making progress.
@@ -152,7 +152,7 @@ attend
       Need to get in grant application to Friends Meeting House, request refinancing plus 
       addition. Request that Finance committee, is refinancing is a good idea? We are going to
       refinance, would it be a good idea to refinance sooner? Meeting House to come up with
-      projects and estimated costs for grants.  
+      projects and estimated costs for grants. 
 	
    b. Open house for neighbors and wider community, are we ready for this step? `Sarah`_ yes we
       should, and more the neighborhood, potluck and/or bbq before it gets cold. What about 
@@ -168,17 +168,24 @@ attend
 
 6. Announcements
 
+<<<<<<< HEAD
   1. Recording clerk has set up new email address, recording-clerk@coloradospringsquakers.org,
      that he will route all Meeting's email and announcements through, he explained that using
      his personal email results in him accidentally spamming his entire contact list with 
      Meeting's business. Friends can still email to jermnelson@gmail.com but outgoing email 
      will be from new email address.  
+=======
+   1. Recording clerk has set up new email address, recording-clerk@coloradospringsquakers.org,
+      that he will route all Meeting's email and annoucements through, he explained that using
+      his personal email results in him accidentally spaming his entire contact list with 
+      Meeting's business. Friends can still email to jermnelson@gmail.com but outgoing email 
+      will be from new email address.  
 
-  2. Colorado Regional Meeting will be meeting here on July 29th.  Please 
-     plan to be part of a potluck for them at the rise of meeting.
+   2. Colorado Regional Meeting will be meeting here on July 29th.  Please 
+      plan to be part of a potluck for them at the rise of meeting.
 
-  3. Newsletter and announcements will be on the library table for your 
-     perusal.  
+   3. Newsletter and announcements will be on the library table for your 
+      perusal.  
      
      La Fuente in Alamosa is doing a great deal for agriculture workers 
      and their annual newsletter/booklet is fun to read.
@@ -186,7 +193,7 @@ attend
   4. `Lisa`_ asked about a permanent place for donation box? Move to front, table in the
      middle of Meeting, remind Friends about location of donation box on library table.
  
-     `Lisa`_ will also look into possible benches for sale by Ohio Meeting.
+      `Lisa`_ will also look into possible benches for sale by Ohio Meeting.
      
 
 Meeting closed with silence at 1:10 pm. 
@@ -200,8 +207,10 @@ Recording Clerk
 .. _Ann Daugherty: /Friends/AnnDaugherty/
 .. _Bill: /Friends/BillDurland/
 .. _Bill Durland: /Friends/BillDurland/
+.. _Bill Werling: /Friends/BillWerling/
 .. _Daniel: /Friends/DanielKidney/
 .. _Daniel Kidney: /Friends/DanielKidney/
+.. _Galvin: /Friends/GalvinMurphy/
 .. _Genie: /Friends/GenieDurland/
 .. _Genie Durland: /Friends/GenieDurland/
 .. _Ginger: /Friends/GingerMorgan/
@@ -214,9 +223,14 @@ Recording Clerk
 .. _Joyce: /Friends/JoyceDoyle/
 .. _Joyce Doyle: /Friends/JoyceDoyle/
 .. _Maria: /Friends/MariaMelendez/
+.. _Linda: /Friends/LindaSeger/
+.. _Lisa: /Friends/LisaLister/
+.. _Lisa Lister: /Friends/LisaLister/
 .. _Molly: /Friends/MollyWingate/
 .. _Molly Wingate: /Friends/MollyWingate/
 .. _Nancy: /Friends/NancyAndrew/
+.. _Pam Hazeleton: /Friends/PamHazeleton/ 
 .. _Sarah: /Friends/SarahCallbeck/
+.. _Sarah Callbeck: /Friends/SarahCallbeck/
 .. _Val: /Friends/ValPhillips/
 .. _Val Phillips: /Friends/ValPhillips/

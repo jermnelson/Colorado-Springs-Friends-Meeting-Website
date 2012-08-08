@@ -6,18 +6,17 @@ Special Meeting Building Minute
 First Day, January 29th, 2012
 -----------------------------
 
-In attendance: `Molly Wingate`_, `Ginger Morgan`_, Joyce Doyle, `Sarah Callback`_, `Bill Durland`_, `Genie Durland`_, 
+In attendance: `Molly Wingate`_, `Ginger Morgan`_, `Joyce Doyle`, `Sarah Callback`_, `Bill Durland`_, `Genie Durland`_, 
 `John Gallagher`_, `Maria Melendez`_, `Peter LeVar`_, `Jeremy Nelson`_, Jack Semple
 
 
 During announcements at the closing of Meeting for Worship, `Molly Wingate`_, as chair of the Meeting Home 
-Committee, passed around a real estate listing about a property and church located at `950 E. Cimarron`_ that 
+Committee, passed around a real estate listing about a property and church located at **950 E. Cimarron** that 
 recently came upon the market. The older Congregational Church is in good physical condition with bolted 
 stadium seating that could seat up to a 100 people with two small rooms in the basement that could be combined
- into a single room for first day school. The bathrooms are located on the outside of the church, there is no 
+into a single room for first day school. The bathrooms are located on the outside of the church, there is no 
 kitchen and little parking space. Molly cautioned that this is an older building that if we remodelled we may 
 have to bring the electrical and plumbing up to the current building codes with much greater costs.
-
 
 The church is still being used by a dwindling congregation who wish to sell at a price of $95,000. Due to 
 the low cost and time sensitivity involved with this property, `Molly`_ requested from the Meeting  a conditional
@@ -31,15 +30,17 @@ for Worship and may require another called Meeting as well.
 Respectfully submitted in the light,
 `Jeremy Nelson`_
 
-.. _`Bill Durland`: http://coloradospringsquakers.org/friends/BillDurland/
-.. _`Genie Durland`: http://coloradospringsquakers.org/friends/GenieDurland/
-.. _`Sarah Callback`: http://coloradospringsquakers.org/friends/SarahCallback/
-.. _`Jeremy Nelson`: http://coloradospringsquakers.org/friends/JeremyNelson/
-.. _`John Gallagher`: http://coloradospringsquakers.org/friends/JohnGallagher/
-.. _`Peter LeVar`: http://coloradospringsquakers.org/friends/PeterLeVar/
-.. _`Maria Melendez`: http://coloradospringsquakers.org/friends/MariaMelendez/
-.. _`Ginger Morgan`: http://coloradospringsquakers.org/friends/GingerMorgan/
-.. _`Molly`: http://coloradospringsquakers.org/friends/MollyWingate/
-.. _`Molly Wingate`: http://coloradospringsquakers.org/friends/MollyWingate/
-.. _`950 E. Cimarron`: http://coloradospringsquakers.org/locations/950ECimarron/
+.. _`Bill Durland`: /Friends/BillDurland/
+.. _`Genie Durland`: /Friends/GenieDurland/
+.. _`Sarah Callback`: /Friends/SarahCallback/
+.. _`Jeremy Nelson`: /Friends/JeremyNelson/
+.. _`John Gallagher`: /Friends/JohnGallagher/
+.. _Joyce Doyle: /Friends/JoyceDoyle/
+.. _`Peter LeVar`: /Friends/PeterLeVar/
+.. _`Maria Melendez`: /Friends/MariaMelendez/
+.. _`Ginger`: /Friends/GingerMorgan/
+.. _`Ginger Morgan`: /Friends/GingerMorgan/
+.. _`Molly`: /Friends/MollyWingate/
+.. _`Molly Wingate`: /Friends/MollyWingate/
+.. _`950 E. Cimarron`: /Friends/950ECimarron/
 .. _`Business Meeting`: http://coloradospringsquakers.org/2012/02/19/business/

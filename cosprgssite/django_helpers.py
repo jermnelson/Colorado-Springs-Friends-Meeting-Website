@@ -8,26 +8,33 @@ from docutils.core import publish_string
 from bs4 import BeautifulSoup
 import os,sys,re
 
+advice_re = re.compile(r"advice")
 biz_re = re.compile(r"business")
 finance_re = re.compile(r"finance")
 house_re = re.compile(r"house|home")
 mo_re = re.compile(r"ministry")
 nominating_re = re.compile(r"nominating")
+special_re = re.compile(r"special|called")
+query_re = re.compile(r"query|queries")
 
 
 def associate_addresses(addresses_filename):
     print("Associate addresses with Friends")
     addr_json = json.load(open(addresses_filename,'r'))
     for row in addr_json:
-        addr_query = Address.objects.filter(md5_key=row["addr"])
-        addr = addr_query[0]
-        friends = get_friends(row["friends"])
-        for friend in friends:
-            friend.address = addr
-            friend.save()
-            print("\t%s address set to %s, %s" % (friend.short_name,
-                                                  addr.street,
-                                                  addr.city))
+        try:
+            addr_query = Address.objects.filter(md5_key=row["addr"])
+            addr = addr_query[0]
+            friends = get_friends(row["friends"])
+            for friend in friends:
+                friend.address = addr
+                friend.save()
+                print("\t{0} address set to {1}, {2}".format(friend.short_name,
+                                                             addr.street,
+                                                             addr.city))
+        except:
+            print("Failed assocication for {0}, error={1}".format(row,
+                                                                  sys.exc_info()[0]))
     print("Finished associating addresses with Friends")
 
 
@@ -76,12 +83,19 @@ def build_loader(year_loader,directory):
 def get_friends(friend_keys):
     friends = []
     for friend_key in friend_keys:
-        friend_query = Friend.objects.filter(md5_key=friend_key)
-        friends.append(friend_query[0])
+        try:
+            friend_query = Friend.objects.filter(md5_key=friend_key)
+            friends.append(friend_query[0])
+        except:
+            print("Failed to retrieve friend md5={0} from datastore\n\tError {1}".format(friend_key,
+                                                                                         sys.exc_info()[0]))
     return friends
 
 def guess_rst(filename):
     query = filename.lower()
+    advice_result = advice_re.search(query)
+    if advice_result is not None:
+        return {"meeting":"advice"}
     business_meeting_result = biz_re.search(query)
     if business_meeting_result is not None:
         return {"meeting":"business"}
@@ -97,6 +111,12 @@ def guess_rst(filename):
     nominating_result = nominating_re.search(query)
     if nominating_result is not None:
         return {"committee":"nominating"}
+    query_result = query_re.search(query)
+    if query_result is not None:
+        return {"meeting":"query"}
+    special_result = special_re.search(query)
+    if special_result is not None:
+        return {"meeting":"special"}
     return {}
 
 
@@ -120,10 +140,12 @@ def load_linux():
     CATEGORY_JSON = '/home/jpnelson/jermsmemory/ColoradoSpringsMeeting/2012/friend-categories.json'
     load_base(ADDR_JSON,CATEGORY_JSON)
 
-year2011 = build_loader(dict(),os.path.join(settings.PROJECTBASE_DIR,'2011')) 
-year2012 = build_loader(dict(),os.path.join(settings.PROJECTBASE_DIR,'2012'))
 
 
-
+def get_year(year):
+    year_path = os.path.join(settings.PROJECTBASE_DIR,year)
+    if os.path.exists(year_path):
+        return build_loader(dict(),year_path)
+    
 if __name__ == '__main__':
     pass

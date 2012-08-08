@@ -14,7 +14,7 @@ from django.views.generic.simple import direct_to_template
 from committees.models import *
 from meetings.models import QUAKER_MONTHS
 from committees.forms import *
-from django_helpers import year2011,year2012
+from django_helpers import get_year
 
 committee_templates = {'Education':'committees/education.html',
                        'Finance':'committees/finance.html',
@@ -23,10 +23,7 @@ committee_templates = {'Education':'committees/education.html',
                        'Nominating':'committees/nominating.html',
                        'REA':'committees/rea.html',
                        'ReligiousEducationAndAction':'committees/rea.html'}
-                       
-year_reports = {2011:year2011,
-                2012:year2012}
-    
+                           
 def old_get_report(query,
                year,
                month):
@@ -84,6 +81,7 @@ def default(request):
 
 def get_committee_reports(year,committee):
      output = []
+     committee = committee.lower()
      for monthk,v in year.iteritems():
           if v["committees"].has_key(committee):
                output.append(v['committees'][committee]['date'])
@@ -100,7 +98,9 @@ def display_committee(request,
      """
      committees_query = Committee.objects.filter(name=committee)
      members_form,report_form = None,None
-     reports = get_committee_reports(year2012,committee)
+     today = datetime.today()
+     year_report = get_year(str(today.year))
+     reports = get_committee_reports(year_report,committee)
      if len(committees_query) > 0:
           committee_info = committees_query[0]
           member_query = CommitteeMember.objects.filter(committee=committee_info)
@@ -116,6 +116,7 @@ def display_committee(request,
                members_form = CommitteeMemberForm()
 
      friend_query = Friend.objects.all().order_by('user__last_name')
+     
 ##   
 ##     if len(committees) < 1:
 ##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
@@ -125,7 +126,7 @@ def display_committee(request,
                                 'committee_members':members,
                                 'friends':friend_query,
                                 'members_form':members_form,
-                                'reports':reports,
+                                'reports':sorted(reports),
                                 'report_form':report_form,
                                 'section':'committees'})
                                
@@ -134,15 +135,18 @@ def display_monthly_report(request,
                            committee,
                            year,
                            month):
+     name = committee
      committee = committee.lower()
-     year_report = year_reports[int(year)]
-     month = QUAKER_MONTHS[int(month)]
-     if year_report["{0}-month".format(month)]["committees"].has_key(committee):
-          raw_html = year_report["{0}-month".format(month)]["committees"][committee]
+     year_report = get_year(year)
+     month_str = QUAKER_MONTHS["{0:02d}".format(int(month))]
+     if year_report[month_str]["committees"].has_key(committee):
+          raw_html = year_report[month_str]["committees"][committee]['html']
+          report_date = year_report[month_str]["committees"][committee]['date']
      else:
-          raw_html = "No report found for {0} {1} {2}".format(committee.title(),
-                                                              year,
-                                                              month)
+          raw_html = "No report found for {0}".format(committee.title())
+          report_date = datetime(year=int(year),
+                                 month=int(month),
+                                 day=1)
                                  
      if request.user.is_authenticated():
           user = request.user
@@ -152,6 +156,8 @@ def display_monthly_report(request,
                                'committees/report.html',
                                {'user':user,
                                 'contents':raw_html,
+                                'committee':name,
+                                'report_date':report_date,
                                 'section':'committees'})
      
 
