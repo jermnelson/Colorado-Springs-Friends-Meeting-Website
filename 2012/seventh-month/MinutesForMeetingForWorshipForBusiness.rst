@@ -168,18 +168,11 @@ attend
 
 6. Announcements
 
-<<<<<<< HEAD
   1. Recording clerk has set up new email address, recording-clerk@coloradospringsquakers.org,
      that he will route all Meeting's email and announcements through, he explained that using
      his personal email results in him accidentally spamming his entire contact list with 
      Meeting's business. Friends can still email to jermnelson@gmail.com but outgoing email 
      will be from new email address.  
-=======
-   1. Recording clerk has set up new email address, recording-clerk@coloradospringsquakers.org,
-      that he will route all Meeting's email and annoucements through, he explained that using
-      his personal email results in him accidentally spaming his entire contact list with 
-      Meeting's business. Friends can still email to jermnelson@gmail.com but outgoing email 
-      will be from new email address.  
 
    2. Colorado Regional Meeting will be meeting here on July 29th.  Please 
       plan to be part of a potluck for them at the rise of meeting.
