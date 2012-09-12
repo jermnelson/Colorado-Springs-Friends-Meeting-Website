@@ -153,7 +153,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Molly Wingate`_, `Lisa Lister`_,
 
    f. Adult Religious Education and Action Committee
      
-      Book group reading Eco-minded discussion tomorrow night at Meetinghouse. Send suggestions to `Ann Mar`_
+      Book group reading Eco-minded discussion tomorrow night at Meetinghouse. Send suggestions to `Ann Margret`_
       for contacting and coordinate.
 
    g. Library In progress, updating and moving books. Books on a shelf. Journals to be added on shelves. We have enough
