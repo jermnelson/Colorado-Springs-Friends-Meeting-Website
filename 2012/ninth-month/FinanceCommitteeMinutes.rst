@@ -63,40 +63,40 @@ expense.
 What money do we have left for Meeting House purchases?
 
 +---------------------------------------------------------+-----------+
-| Remaining Building Funds & Liquid Prudent Reserve		  |           |
+| Remaining Building Funds & Liquid Prudent Reserve	  |           |
 +---------------------------------------------------------+-----------+
-| As of:  9/12/2012		                                  |           |
+| As of:  9/12/2012		                          |           |
 +---------------------------------------------------------+-----------+
-| Funds in Calvert:		                                  |           |
+| Funds in Calvert:		                          |           |
 +---------------------------------------------------------+-----------+
-| Calvert balance 		                                  | $9,247.76 |
+| Calvert balance 		                          | $9,247.76 |
 +---------------------------------------------------------+-----------+
-| Less earmarked for furnace replacement		          |(8,000.00) |
+| Less earmarked for furnace replacement	          |(8,000.00) |
 +---------------------------------------------------------+-----------+	 
-| Subtotal (liquid prudent reserve)		                  | 1,247.76  |
+| Subtotal (liquid prudent reserve)		          | 1,247.76  |
 +---------------------------------------------------------+-----------+	 
-|     Carpet - total cost		                          |(927.00)   |
+|     Carpet - total cost		                  |(927.00)   |
 +---------------------------------------------------------+-----------+	 
-| Add sale of Roz's rings		                          | 200.00    |
+| Add sale of Roz's rings		                  | 200.00    |
 +---------------------------------------------------------+-----------+
-|       Add donation from Lisa		                      | 200.00    |
+|       Add donation from Lisa		                  | 200.00    |
 +---------------------------------------------------------+-----------+
-| Remainder of liquid prudent reserve in Calvert		  | $720.76   |
+| Remainder of liquid prudent reserve in Calvert          | $720.76   |
 +---------------------------------------------------------+-----------+
-| Funds in ENT Savings-Building Fund:		              |           |
+| Funds in ENT Savings-Building Fund:		          |           |
 +---------------------------------------------------------+-----------+
-| Ent Savings-Building Fund balance		                  | $2,314.53 |
+| Ent Savings-Building Fund balance                       | $2,314.53 |
 +---------------------------------------------------------+-----------+
 | Less basement outlets & bathroom baseboard heaters      |(1,170.00) |
 +---------------------------------------------------------+-----------+
-| Less gas heater removal from bathrooms (estimate)	      |(336.00)   |
+| Less gas heater removal from bathrooms (estimate)       |(336.00)   |
 +---------------------------------------------------------+-----------+
 | Remainder of liquid prudent reserve in ENT Savings	  |$808.53    |
 +---------------------------------------------------------+-----------+
 | Total remaining liquid prudent reserve to be used for	  |$1,529.29  |
-| mortgage, utilities & insurance only		              |           |
+| mortgage, utilities & insurance only		          |           |
 +---------------------------------------------------------+-----------+	 
-| "Trust in God, but tie your camel first."		          |           |
+| "Trust in God, but tie your camel first."		  |           |
 +---------------------------------------------------------+-----------+
 
 
