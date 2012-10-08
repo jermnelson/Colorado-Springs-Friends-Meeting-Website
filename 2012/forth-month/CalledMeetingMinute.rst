@@ -96,7 +96,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Jennifer Roberts`_, `Linda Seger`_,
    `Jennifer`_ leans towards approval and we should review our options when it is time
    to replace the heaters.
 
-   `Marie` is comfortable having $8,000 in prudent reserve while mentally reflecting 
+   `Marie`_ is comfortable having $8,000 in prudent reserve while mentally reflecting 
    on her and her family recent experiences with purchasing property that unplanned 
    expenses and repairs come up when owning a house or building. She said we should be
    more flexible with reserves, instead setting aside money for "x", her experience

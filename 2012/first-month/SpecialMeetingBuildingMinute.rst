@@ -6,7 +6,7 @@ Special Meeting Building Minute
 First Day, January 29th, 2012
 -----------------------------
 
-In attendance: `Molly Wingate`_, `Ginger Morgan`_, `Joyce Doyle`, `Sarah Callback`_, `Bill Durland`_, `Genie Durland`_, 
+In attendance: `Molly Wingate`_, `Ginger Morgan`_, `Joyce Doyle`_, `Sarah Callback`_, `Bill Durland`_, `Genie Durland`_, 
 `John Gallagher`_, `Maria Melendez`_, `Peter LeVar`_, `Jeremy Nelson`_, Jack Semple
 
 
@@ -35,7 +35,7 @@ Respectfully submitted in the light,
 .. _`Sarah Callback`: /Friends/SarahCallback/
 .. _`Jeremy Nelson`: /Friends/JeremyNelson/
 .. _`John Gallagher`: /Friends/JohnGallagher/
-.. _Joyce Doyle: /Friends/JoyceDoyle/
+.. _`Joyce Doyle`: /Friends/JoyceDoyle/
 .. _`Peter LeVar`: /Friends/PeterLeVar/
 .. _`Maria Melendez`: /Friends/MariaMelendez/
 .. _`Ginger`: /Friends/GingerMorgan/

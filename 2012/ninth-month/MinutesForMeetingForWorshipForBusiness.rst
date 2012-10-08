@@ -3,11 +3,11 @@ Minutes for Meeting for Worship with a Concern for Business
 ===========================================================
 :Date: $Date: 2012-09-16 11:24:00 +0000 (Sun, 16 September 2012) $
 
-In Attendance: `Molly Wingate`_ (clerk), `Lisa Lister`_,  
+In Attendance: `Molly Wingate`_ (clerk), `Lisa Lister`_, `Julie Roten-Valdez`_
 `Carlton Gamer`_, `Ann Daugherty`_, `Genie Durland`_, `Sarah Callbeck`_
 `Jeremy Nelson`_, `Joyce Doyle`_, `Bill Durland`_, 
 
-`Molly` started the meeting at 11:24 a.m. with a reading of a  
+`Molly`_ started the meeting at 11:24 a.m. with a reading of a  
 paramble from that was used in Young Friend education. Mark 
 chapter 4.
 
@@ -115,7 +115,8 @@ chapter 4.
 
   b. Nominating Committee - no report
 
-  c. Ministry and Oversight: Include items in the agenda. `Linda`_ and `Carlton`_ are 
+  c. Ministry and Oversight: 
+     Include items in the agenda. `Linda`_ and `Carlton`_ are 
      attending as emertis members of M&O. Martha is contacting other members.
      M&O discussed greeters for Meeting. M&O hasn't come up with any recommendations as
      they are still considering and reflecting as the right course opens up for the 
@@ -207,7 +208,7 @@ chapter 4.
 
    1. Colorado Regional Meeting will be in Estes Park (October 19-21) is going to 
       focus on the diversity in our own spiritual community as Quakers.  
-      Registration at `imym.org`_.  Several Colorado Springs folks are on the 
+      Registration at `imym.org <imym.org>`_.  Several Colorado Springs folks are on the 
       program.
    
       "How do you experience living a spirit-led life?  Would you be willing 
@@ -227,6 +228,12 @@ chapter 4.
       We will purchase booklets for use by Friends.  
       
 Meeting closed with silence at 1:00pm.    
+
+Respectivelly submitted,
+
+`Jeremy Nelson`_
+
+Recording Clerk
    
 .. _Ann: /Friends/AnnDaugherty/
 .. _Ann Daugherty: /Friends/AnnDaugherty/
@@ -245,9 +252,13 @@ Meeting closed with silence at 1:00pm.
 .. _Jennifer Roberts: /Friends/JenniferRoberts/
 .. _Jeremy: /Friends/JeremyNelson/
 .. _Jeremy Nelson: /Friends/JeremyNelson/
+.. _Julie: /Friends/JulieRoten-Valdez/
+.. _Julie Roten-Valdez: /Friends/JulieRoten-Valdez/
 .. _Jonathan: /Friends/JonathanMcPhee/
 .. _Joyce: /Friends/JoyceDoyle/
 .. _Joyce Doyle: /Friends/JoyceDoyle/
+.. _Linda: /Friends/LindaSeger/
+.. _Lisa: /Friends/LisaLister/
 .. _Lisa Lister: /Friends/LisaLister/
 .. _Maria: /Friends/MariaMelendez/
 .. _Martha: /Friends/MarthaLutz/
@@ -256,3 +267,5 @@ Meeting closed with silence at 1:00pm.
 .. _Molly Wingate: /Friends/MollyWingate/
 .. _Nancy: /Friends/NancyAndrew/
 .. _Sarah: /Friends/SarahCallbeck/
+.. _Sarah Callbeck: /Friends/SarahCallbeck/
+

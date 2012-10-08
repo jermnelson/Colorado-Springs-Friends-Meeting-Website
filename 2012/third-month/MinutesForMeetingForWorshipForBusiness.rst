@@ -87,7 +87,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
       
          `Bill`_ reported on charge for `Adult Religious Education and Social Action`_ with three 
          possibilities for reorganization. Business meeting already rejected the
-         option for combining the Education committees. `M&O` suggested name 
+         option for combining the Education committees. `M&O`_ suggested name 
          the name change to, `Adult Religious Education and Social Action`_ committee and
          they also consider a need for a clerk for this committee. `M&O`_ 
          approved the structure for the new committee. 
@@ -341,7 +341,7 @@ In Attendance: `Ginger Morgan`_ (clerk), `Carlton Gamer`_, `Sarah Callbeck`_,
       
   d. Education Committee
 
-      Suspend next week's `First Day` school for spring break. Suggest 
+      Suspend next week's `First Day`_ school for spring break. Suggest 
       breaking up Education committee reports.
 
    e. Library
@@ -406,6 +406,7 @@ Recording Clerk
 .. _`Sarah`: /Friends/SarahCallbeck/
 .. _`Sarah Callbeck`: /Friends/SarahCallbeck/
 .. _`Adult Religious Education and Social Action`: /committees/REA
+.. _`First Day`: /committees/Education
 .. _`First Day School`: /committees/Education
 .. _`Finance Committee`: /committees/Finance
 .. _`Friends Journal`: http://www.friendsjournal.org/

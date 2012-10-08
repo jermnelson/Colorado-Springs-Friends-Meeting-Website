@@ -6,7 +6,7 @@ Finance Committee Minutes
 April 10, 2012 at 5:15 at The Herman Group offices
 
 Present: `Sarah Callbeck`_ (Clerk and Bookkeeper), `Ann Daugherty`_ and 
-`Lisa Lister` (Treasurer and Recorder).
+`Lisa Lister`_ (Treasurer and Recorder).
 
 We opened with silence.
 

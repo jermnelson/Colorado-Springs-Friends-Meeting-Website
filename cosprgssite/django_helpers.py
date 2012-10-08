@@ -61,6 +61,7 @@ def build_loader(year_loader,directory):
             raw_file = open(os.path.join(path,filename),'rb')
             raw_rst = raw_file.read()
             raw_file.close()
+            print("Trying to load {0}{1}".format(path,filename))
             rst_contents = publish_string(raw_rst,
                                           writer_name="html")
             rst_soup = BeautifulSoup(rst_contents)

@@ -38,8 +38,8 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_, `Kathy`_
       and $75 per child for $825.00 total.
 
       Mountain Friends Camp, two young friends from the meeting are likely to attend
-      the camp. $1000 shortfall in their current , `Finance Committee` recommends
-      that the meeting make this an annual contribution. Also, `Finance Committee`
+      the camp. $1000 shortfall in their current , `Finance Committee`_ recommends
+      that the meeting make this an annual contribution. Also, `Finance Committee`_
       recommends that the meeting immediately of $100.
 
       `Ginger`_ recommends that we respond to MFC for immediate contribution sense
@@ -82,7 +82,7 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_, `Kathy`_
       Adult Education but a lot on social action.    
 
       Mission Statement - `Bill`_ read proposed Mission for `Adult Education and Social Action Committee`_
-      to `Business Meeting`. Will coordinate with YF education. `Genie`_ most meeting have a
+      to `Business Meeting`_ . Will coordinate with YF education. `Genie`_ most meeting have a
       standard Peace and Social Concerns with other meetings. Part of what this committee takes
       on much as they of the Peace of Social Concerns. 
 
@@ -108,7 +108,7 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_, `Kathy`_
 
       Action items:
       
-      1. Laying down `Meeting Home` committee. Sense of meeting that it is time to 
+      1. Laying down `Meeting Home`_ committee. Sense of meeting that it is time to 
          lay down this meeting with much gradited and agreement. 
 
       2. Start up new `Meeting House`_ committee, let this season until next month? 
@@ -290,6 +290,7 @@ Recording Clerk
 .. _`Jonathan`: /Friends/JonathanMcPhee/
 .. _`Kathy`: /Friends/Kathy
 .. _`Tup`: /Friends/TupRoberts/
+.. _`Julie Brann`: /Friends/JulieBrann/
 .. _`Julie`: /Friends/JulieRoten-Valdez/
 .. _`Julie R.`: /Friends/JulieRoten-Valdez/
 .. _`Julie Roten-Valdez`: /Friends/JulieRoten-Valdez/
@@ -310,4 +311,5 @@ Recording Clerk
 .. _`Meeting House`: /committees/MeetingHouse/
 .. _`Ministry and Oversight Committee`: /committees/MinistryAndOversight/
 .. _`Business for Meeting`: /meetings/Business
+.. _`Business Meeting`: /meetings/Business
 .. _`State of Meeting Report`: /meetings/2012/StateOfMeeting/

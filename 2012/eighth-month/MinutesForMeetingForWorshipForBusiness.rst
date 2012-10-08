@@ -3,7 +3,7 @@ Minutes Meeting for Worship for Business August 2012
 ====================================================
 :Date: $Date: 2012-08-19 11:26:48 +0000 (Sun, 19 August 2012) $
 
-Attendance: `Julie Roten-Valdez`_, `Larry`_, `Carlton Gamer`_, `Joyce Doyle`_, `Molly Wingate` (clerk), 
+Attendance: `Julie Roten-Valdez`_, `Larry`_, `Carlton Gamer`_, `Joyce Doyle`_, `Molly Wingate`_ (clerk), 
 `Ann Daugherty`_ , `Bill Durland`_, `Genie Durland`_, `Jeremy Nelson`_ (recording-clerk)
 
 Clerk sit in silence ready for watching for the spirit as do we business.
@@ -31,7 +31,7 @@ Clerk sit in silence ready for watching for the spirit as do we business.
 
    a. Finance Committee
 
-      `Sarah`_ has been analyzing utilities were increasing but `Ann`- checking 
+      `Sarah`_ has been analyzing utilities were increasing but `Ann`_ checking 
       accounting is increasing and good metric for gauging the if we can live
       within in our means. The Roofer was paid last week $752.32 instead of a 
       $1,000. `Ann`_ is waiting for answer from the roofer if Ann bought a 
@@ -236,6 +236,12 @@ Clerk sit in silence ready for watching for the spirit as do we business.
    30 people, maybe 10 or half need sleeping space. More details coming.  
 
 7. Meeting closed in silence at 1:08pm
+
+Respectively submitted in the light,
+
+`Jeremy Nelson`_
+
+Recording Clerk
 
 .. _Ann: /Friends/AnnDaugherty/
 .. _Ann Daugherty: /Friends/AnnDaugherty/

@@ -3,7 +3,7 @@ Meeting House Committee Report
 ==============================
 September 2012
 
-Emeeting: `Molly Wingate`_, `Ann Daughtery`_, `Daniel Kidney`_
+Emeeting: `Molly Wingate`_, `Ann Daugherty`_, `Daniel Kidney`_
 
 1. We will have the electricians out in the next few days to install heaters in
    the bathrooms and storage area and install electrical outlets in the basement.
@@ -26,12 +26,12 @@ Emeeting: `Molly Wingate`_, `Ann Daughtery`_, `Daniel Kidney`_
 
 8. Work Day September 23rd:
    
-   *. Paint the window sills
-   *. Housekeeping
-   *. Yard tidying
-   *. Install the new security mailbox to the inside of the front door (so we can quit
-      paying for a P. O. Box)
-   *. Remove paint that came off of the ceiling from the heater and fire it up
+   * Paint the window sills
+   * Housekeeping
+   * Yard tidying
+   * Install the new security mailbox to the inside of the front door (so we can quit
+     paying for a P. O. Box)
+   * Remove paint that came off of the ceiling from the heater and fire it up
 
 .. _Ann Daugherty: /Friends/AnnDaugherty/
 .. _Daniel: /Friends/DanielKidney/

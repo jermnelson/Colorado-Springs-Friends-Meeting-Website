@@ -121,7 +121,7 @@ attend
 
    f. Library Report
 
-      Thanks `Ann`_, `Jennifer`_ books from father's library, `Joyce`'s friend Fran, magazine 
+      Thanks `Ann`_, `Jennifer`_ books from father's library, `Joyce`_ 's friend Fran, magazine 
       holders and binders, labels. The upstairs the inventory and categories, kid's library hasn't
       been inventoried. Talked to `Lisa`_ and `Jeremy`_ about retention of pamphlets and how long to 
       retain. `Joyce`_ requested last library inventory so she can update. Making progress.

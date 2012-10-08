@@ -57,7 +57,7 @@ In  attendance:  `Carlton Gamer`_, `Ann Daugherty`_, `Molly Wingate`_
 6. We went to look at a church built in 1915 at `950 E. Cimarron`_ that is for sale for $95,000.  It 
    is a pristine, historic building, and we liked it.  The price is affordable to us, and we can work 
    out financing through the seller.  It is still in use and we could start meeting there with very 
-   little renovation. We decided to seek clerk `Ginger Morgan`'s guidance about bringing this opportunity 
+   little renovation. We decided to seek clerk `Ginger Morgan`_ 's guidance about bringing this opportunity 
    to the meeting.  Since we have so many conversations about getting a meeting house planned, we wonder 
    if we should just let this opportunity pass.  `Ann`_ will contact `Ginger`_.
 

@@ -77,7 +77,7 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
       All clerks for committees have a calendar of events.  Coordinating with census 
       and assessments are two events for M&O including `State of the Meeting`_ report.
       
-      The clerk asked that `Julie Brand`_ be included in the attenders list along with 
+      The clerk asked that `Julie Brann`_ be included in the attenders list along with 
       `Jennifer`_'s contact information.
 
    d. Meeting House
@@ -121,7 +121,7 @@ In Attendance: `Bill Durland`_, `Genie Durland`_, `Sarah Callbeck`_,
        
 
    e. First Day School Committee [EMAIL GINGER about her email to John]
-      Need to be reorganized to plan `First Day` school. Schedule does not seem to 
+      Need to be reorganized to plan `First Day`_ school. Schedule does not seem to 
       functioning, we will ask John Gallenger to take the lead to coordinate sessions
       and contact schedules. This summer may be different from regular session during
       the year.
@@ -232,5 +232,6 @@ Recording Clerk
 .. _`Peter`: /Friends/PeterLeVar/
 .. _`Val`: /Friends/ValPhillips/
 .. _`Finance Committee`: /committees/Finance/
+.. _First Day: /committees/FirstDay/
 .. _`Meeting House`: /committees/MeetingHouse/
 .. _`State of the Meeting`: /meetings/2012/StateOfMeeting/

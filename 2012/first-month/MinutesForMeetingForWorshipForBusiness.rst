@@ -38,7 +38,7 @@ In attendance:  `Ginger Morgan`_ (clerk), `Carlton Gamer`_,
    separate account for the emergency fund. `Sarah`_ presented the 
    Cash Flow Report, the December Balance Sheet, and the Revenue Statement 
    for 2011.  She pointed out that the `finance committee`_ is establishing 
-   reserve accounts for the library and for `First Day school`_ so that any 
+   reserve accounts for the library and for `First Day School`_ so that any 
    money not spent in one year will carrying over and be available the next year.
 
    All reports were accepted with gratitude.
@@ -97,7 +97,7 @@ In attendance:  `Ginger Morgan`_ (clerk), `Carlton Gamer`_,
          the conclusion that we would ask `M&O`_ to put together a charge for `REA`_.
 
          There may be those who feel called to serve on 
-         `Adult Education and Action`_ Committee or to help create a charge for 
+         `Religious Education and Action`_ Committee or to help create a charge for 
          the committee with a range of activities for adult education and conversation. 
          Those interested speak to `Ginger`_ or `Genie`_.
  
@@ -222,6 +222,7 @@ We closed in silence at 1:15.
 .. _`minutes`: /minutes/2012/01/special
 .. _`Colorado Regional Meeting`: /ColoradoRegionalMeeting/
 .. _`Education Committee`: /FirstDaySchool
+.. _First Day School: /committees/FirstDay/
 .. _`Friend`: /ReligiousSocietyOfFriends
 .. _`Friends Church`: /locations/FriendsChurch
 .. _`finance Committee`: /committees/Finance/
@@ -240,3 +241,4 @@ We closed in silence at 1:15.
 .. _`Sweet, Sweet Spirit`: 
 .. _`REA`: /committees/rea
 .. _`Religious Education and Action`: /committees/rea
+.. _Testimonies: /testimonies/
