@@ -8,7 +8,7 @@ In Attendance: `Molly Wingate`_ (clerk), `Lisa Lister`_, `Julie Roten-Valdez`_
 `Jeremy Nelson`_, `Joyce Doyle`_, `Bill Durland`_, 
 
 `Molly`_ started the meeting at 11:24 a.m. with a reading of a  
-paramble from that was used in Young Friend education. Mark 
+preamble from that was used in Young Friend education. Mark 
 chapter 4.
 
 1. Approval of August Minutes for Meeting for Business. `Ann`_ volunteered
@@ -32,7 +32,7 @@ chapter 4.
      Colorado Regional Fall gathering meeting, please let committee know
      now. This month is the national distribution will find a suggestions
      for national distributions. AFSC has a contribution matching campaign
-     as we decide the national distribution. At Friend's Fiducary funds they
+     as we decide the national distribution. At Friend's Fiduciary funds they
      are slowly recovering from recession of a few years ago. 
 
      We received a Property Valuation notice from the El Paso County Assessor.  It
@@ -89,15 +89,15 @@ chapter 4.
      +---------------------------------------------------------+-----------+
 
 
-     Based on report about furnance removal $336.00 will be moved to emergency 
+     Based on report about furnace removal $336.00 will be moved to emergency 
      reserves as this will be included in a full renovation. `Sarah`_ will begin
      conservation with Fiance Committee about taking a small amount of money in 
-     checking to savings for large recurring expensives like the yearly insurance
+     checking to savings for large recurring expenses like the yearly insurance
      payment. Donations currently cover mortgage and utilities, `Sarah`_ wants to
      continue building up mortgage and utilities reserve to cover 1 years worth,
      estimated to be $5,000. `Molly`_ is gratefully for the careful thought 
      that has gone in careful stewardship of Finance Committee, Molly personal 
-     apperciates that Finance Committee with deep, deep graditude. `Sarah`_ answered
+     appreciates that Finance Committee with deep, deep gratitude. `Sarah`_ answered
      `Bill`_'s question about the camel, quote very common in the Middle East. 
      If the camel is tied it doesn't cost much but if you let go free it can 
      be very expensive.
@@ -106,7 +106,7 @@ chapter 4.
         grant FCNL have such a small staff, `Bill`_ suggested that we give $50 to 
         AFCL and to FCNL. Friends are in unity with this recommendation.
  
-     2. Ad hoc Fundraising sub-committee. `Molly`_ mentioned that Lisa has sent in a 
+     2. Ad hoc Fund-raising sub-committee. `Molly`_ mentioned that Lisa has sent in a 
         request for $5000 for a new furnace. We are asking for more than usual, but
         we made it clear any amount would . `Molly`_ talking with Ft. Collins, write
         to Ft. Collins about a matching grant for the Colorado Springs Meeting. Soon
@@ -117,18 +117,18 @@ chapter 4.
 
   c. Ministry and Oversight: 
      Include items in the agenda. `Linda`_ and `Carlton`_ are 
-     attending as emertis members of M&O. Martha is contacting other members.
+     attending as emeritus members of M&O. Martha is contacting other members.
      M&O discussed greeters for Meeting. M&O hasn't come up with any recommendations as
      they are still considering and reflecting as the right course opens up for the 
      Meeting. It is up to all of us to be friendly to a new person after meeting and 
      that Friends need to just be aware and assist with any new  
 
-     Mission statement changed to M&O guidelines. People need to be sentistive
+     Mission statement changed to M&O guidelines. People need to be sensitive
      to the need of the meetings for quiet for Meeting for Worship on first 
      days. Friends are encouraged to try to arrive by the start but M&O sensitive
      to the different circumstances that Friends may not be able to arrive on 
      time but M&O looking at ways for late arriving Friends to join Meeting for 
-     Worship that is to minimize the distribution. We Friends have an extra burdan
+     Worship that is to minimize the distribution. We Friends have an extra burden
      to explain what we are and why are that way for newcomers.    
 
      If the clerk doesn't have anything assigned to it from the clerk. M&O is on call
@@ -149,9 +149,9 @@ chapter 4.
   
   e. Adult education and action committee: Last week we had the first meeting, `Genie`_
      send around a report to 9 Friends with a schedule, each person will lead a different
-     discussion on a testimony but there is flexiblity to have external speakers and `Genie`_
+     discussion on a testimony but there is flexibility to have external speakers and `Genie`_
      will notify Meeting about any speakers. We may have an opportunity to hear from a 
-     War Tax adovacate in November. The report was accepted with graditude. 
+     War Tax advocate in November. The report was accepted with gratitude. 
 
   f. Meeting House Committee No outstanding actions, work day every forth first day of the
      month has been successful. Carpet should be here next week and is 15' by 20' feet. Should
@@ -160,7 +160,7 @@ chapter 4.
 
      Baseboard heaters and outlets downstairs will be installed on Monday. 
 
-     Meeting Home report accepted with graditude.
+     Meeting Home report accepted with gratitude.
 
   h. Library Report - `Joyce`_ expects to have full inventory and report on and will have 
      by next Business Meeting. `Joyce`_ will be getting a new stamp with Meeting address
@@ -229,7 +229,7 @@ chapter 4.
       
 Meeting closed with silence at 1:00pm.    
 
-Respectivelly submitted,
+Respectively submitted,
 
 `Jeremy Nelson`_
 
