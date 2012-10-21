@@ -18,11 +18,11 @@ chapter 4.
    the post office. Could `Lisa`_ pick up a packet of change-of-address with 
    postcards to send to publishers and newsletters from other Meetings. 
 
-2. Cash Flow Report: previously emailed. We finally assessments for Colorado 
-   Regional Meetings. Ending balance checking end of Aug $3297.25, down a bit from
+2. Cash Flow Report: previously emailed. We finally paid assessments for Colorado 
+   Regional Meeting. Ending balance checking end of Aug $3297.25, down a bit from
    the prior month `Sarah`_ we are still holding steady. No change in emergency 
    or other reserves. No change in building funds. In Finance Committee meeting
-   report has much more details. All total, we paid $1752.00 for the roof instead
+   report has much more details. All total, we paid $1752.48 for the roof instead
    of $2,000. Calvert balance down some, total 14,322.00 in building 
    `Molly`_ joy that Cash flow report accepted.   
 
@@ -91,7 +91,7 @@ chapter 4.
 
      Based on report about furnace removal $336.00 will be moved to emergency 
      reserves as this will be included in a full renovation. `Sarah`_ will begin
-     conservation with Fiance Committee about taking a small amount of money in 
+     consersation with Finance Committee about taking a small amount of money in 
      checking to savings for large recurring expenses like the yearly insurance
      payment. Donations currently cover mortgage and utilities, `Sarah`_ wants to
      continue building up mortgage and utilities reserve to cover 1 years worth,
@@ -104,7 +104,7 @@ chapter 4.
 
      1. National Distribution, `Bill`_'s thought that if you have a matching funds
         grant FCNL have such a small staff, `Bill`_ suggested that we give $50 to 
-        AFCL and to FCNL. Friends are in unity with this recommendation.
+        AFSC and to FCNL. Friends are in unity with this recommendation.
  
      2. Ad hoc Fund-raising sub-committee. `Molly`_ mentioned that Lisa has sent in a 
         request for $5000 for a new furnace. We are asking for more than usual, but
