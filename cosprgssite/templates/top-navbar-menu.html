@@ -17,10 +17,10 @@
 				<b class="caret"></b>
 		    </a>
 		    <ul class="dropdown-menu">
-		      <li><a href="/meetings/">Meetings</a></li>
-		      <li><a href="/committees/">Committees</a></li>
-		      <li><a href="/Friends/">Friends</a></li>
-                      <li><a href="/testimonies/">Testimonies</a></li>
+		      <li><a href="{% url meetings.views.default %}">Meetings</a></li>
+		      <li><a href="{% url committees.views.default %}">Committees</a></li>
+		      <li><a href="{% url Friends.views.default %}">Friends</a></li>
+                      <li><a href="{% url testimonies.views.default %}">Testimonies</a></li>
 		    </ul>
 		    
 		  </li>
@@ -42,7 +42,7 @@
                   <li><a href="#contact">Contact</a></li>
                   <li >
                     <div class="pull-right">
-                     <a class="btn btn-success" href="#" onclick="$('#donate-dlg').modal('show')">Donate</a></div>
+                     <a class="btn btn-success" href="/donate">Donate</a></div>
                   </li>
 		  		</ul>
 	  </div><!--/.nav-collapse -->

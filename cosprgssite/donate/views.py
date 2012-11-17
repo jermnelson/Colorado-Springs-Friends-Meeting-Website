@@ -4,6 +4,7 @@
 __author__ = 'Jeremy Nelson'
 
 from django.views.generic.simple import direct_to_template
+from forms import PersonForm
 
 def default(request):
     """
@@ -11,4 +12,4 @@ def default(request):
     """
     return direct_to_template(request,
                               'donate/index.html',
-                              {})
+                              {'person_form':PersonForm()})
