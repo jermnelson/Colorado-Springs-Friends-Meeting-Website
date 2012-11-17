@@ -64,7 +64,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT,'static')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = '/newsite/static/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
@@ -131,6 +131,7 @@ INSTALLED_APPS = (
     'Friends',
     'events',
     'quakers',
+    'paypal.standard.ipn',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

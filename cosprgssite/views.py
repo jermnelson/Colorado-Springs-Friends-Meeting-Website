@@ -14,6 +14,7 @@ from donate.forms import PersonForm
 from quakers.forms import EmailContactForm
 import settings
 import django_helpers
+from paypal.standard.forms import PayPalPaymentsForm
 
 class Events(object):
 
@@ -69,10 +70,18 @@ def home(request):
     events = Events()
     today = datetime.datetime.today()
     current_calendar = HTMLCalendar().formatmonth(today.year,today.month)
+    paypal_dict = {"business":"jermnelson@gmail.com",
+                   "amount":"0",
+                   "item_name":"Online donation",
+                   "notify_url":"",
+                   "return_url":"",
+                   "cancel_return":""}
+    paypal_form = PayPalPaymentsForm(initial=paypal_dict)
     return direct_to_template(request,
                               'index.html',
                              {'current_calendar':current_calendar,
                               'email_form':EmailContactForm(),
+                             # 'person_form':paypal_form,
                               'person_form':PersonForm(),
                               'section':'testimonies',
                               'user':user})
