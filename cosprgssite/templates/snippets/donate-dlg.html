@@ -21,12 +21,154 @@
      Please remember that all donations to our group are tax-deductible. 
      Thank you for your support!
   </p>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.first_name.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.first_name }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.last_name.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.last_name }}
+   </div>
+  </div> 
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.organization.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.organization }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.address.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.address }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.city.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.city }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.state.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.state }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.zip_code.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.zip_code }}
+   </div>
+  </div>
+<div class="control-group">
+   <label class="control-label">
+    {{ person_form.country.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.country }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.phone.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.phone }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.email.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.email }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.confirm_email.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.confirm_email }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.message.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.message }}
+   </div>
+  </div>
+  <hr/>
+  <fieldset>
+   <legend>PayPal Options</legend>
+   <div class="control-group">
+    <label class="control-label">
+     {{ person_form.payment_options.label }}
+    </label>
+    <div class="controls">
+     <label for="id_payment_options_0">
+      <input id="id_payment_options_0" type="radio" name="payment_options" value="onetime">
+       One-time
+     </label>
+     <label for="id_payment_options_1">
+      <input id="id_payment_options_1" type="radio" name="payment_options" value="recurring">
+       Recurring
+      </label>
+    </div>
+   </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.amount.label }} ($):
+    <br/>
+    (Applicable for recurring donations)
+   </label>
+   <div class="controls">
+    {{ person_form.amount }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.payment_frequency.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.payment_frequency }}
+   </div>
+  </div>
+
+  </fieldset>
   
-  {{ person_form }}
  </div>
  <div class="modal-footer">
   <a href="#" class="btn" data-dismiss="modal">Close</a>
-  <button type="submit" class="btn btn-primary">Next</button>
+  <button type="submit" class="btn btn-primary">Process Donation</button>
  </div>
  </form>
 </div>

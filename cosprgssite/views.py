@@ -14,7 +14,7 @@ from donate.forms import PersonForm
 from quakers.forms import EmailContactForm
 import settings
 import django_helpers
-from paypal.standard.forms import PayPalPaymentsForm
+#from paypal.standard.forms import PayPalPaymentsForm
 
 class Events(object):
 
@@ -76,7 +76,7 @@ def home(request):
                    "notify_url":"",
                    "return_url":"",
                    "cancel_return":""}
-    paypal_form = PayPalPaymentsForm(initial=paypal_dict)
+    #paypal_form = PayPalPaymentsForm(initial=paypal_dict)
     return direct_to_template(request,
                               'index.html',
                              {'current_calendar':current_calendar,
