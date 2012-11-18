@@ -22,7 +22,8 @@ class PersonForm(Form):
     message = CharField(required=False,
                         widget=Textarea(attrs={'rows':4, 'cols':60}))
     organization = CharField(required=False)
-    payment_frequency = ChoiceField(choices=FREQUENCY)
+    payment_frequency = ChoiceField(choices=FREQUENCY,
+                                    widget=Select(attrs={'data-bind':'enabled: pmtFrequency'}))
     payment_options = ChoiceField(widget=RadioSelect(),
                                   choices=PAYMENT_OPTIONS)
     phone = CharField(required=False)

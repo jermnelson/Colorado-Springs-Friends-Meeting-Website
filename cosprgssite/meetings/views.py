@@ -12,6 +12,7 @@ from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport, QUAKER_M
 #from committees.views import get_report
 from django_helpers import get_year
 from django.contrib.auth.models import User
+from quakers.forms import EmailContactForm
 
 MEETING_TYPES_DICT = {}
 for row in MEETING_TYPES:
@@ -181,7 +182,8 @@ def contact(request):
     Displays Meeting's contact information
     """
     return direct_to_template(request,
-                              "meetings/contact.html")
+                              "meetings/contact.html",
+                              {'email_form':EmailContactForm()})
 
 def special(request):
     """

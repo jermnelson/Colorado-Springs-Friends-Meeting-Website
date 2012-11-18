@@ -5,6 +5,7 @@ __author__ = 'Jeremy Nelson'
 import sys,logging,csv
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserChangeForm
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import loader, TemplateDoesNotExist
 from django.views.generic.simple import direct_to_template
@@ -122,7 +123,8 @@ def display_profile(request):
         return direct_to_template(request,
                                   'Friends/profile.html',
                                   {'form':friend_form,
-                                   'friend':request.user})
+                                   'friend':request.user,
+                                   'user_form':UserChangeForm(instance=request.user)})
     else:
         return HttpResponseRedirect("/accounts/login/")
         

@@ -24,8 +24,10 @@
  </p>
  <form class="form-horizontal" method="POST">
   <div class="alert alert-block alert-info">
-  <h2>Your information:</h2>
-  <div class="control-group">
+  <fieldset>
+   <legend>Your information:</legend>
+  </fieldset>
+   <div class="control-group">
    <label class="control-label">
     {{ person_form.first_name.label }}:
     <span style="color: red">*</span>
@@ -69,8 +71,124 @@
     {{ person_form.city }}
    </div>
   </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.state.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.state }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.zip_code.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.zip_code }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.country.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.country }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.phone.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.phone }}
+   </div>
+ </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.email.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.email }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.confirm_email.label }}:
+    <span style="color: red">*</span>
+   </label>
+   <div class="controls">
+    {{ person_form.confirm_email }}
+   </div>
+  </div>
+ <div class="control-group">
+   <label class="control-label">
+    {{ person_form.message.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.message }}
+   </div>
+  </div>
+  </div>
+  <hr/>
+  <div class="alert alert-block">
+  <fieldset>
+   <legend>PayPal Options</legend>
+   <div class="control-group">
+    <label class="control-label">
+     {{ person_form.payment_options.label }}
+    </label>
+    <div class="controls">
+     <label for="id_payment_options_0">
+      <input id="id_payment_options_0"
+             type="radio" 
+             data-bind="checked: pmtOnetime"
+             name="payment_options" 
+             value="onetime">
+       One-time
+     </label>
+     <label for="id_payment_options_1">
+      <input id="id_payment_options_1"
+             type="radio" 
+             data-bind="checked: pmtFrequency"
+             name="payment_options" 
+             value="recurring">
+       Recurring
+      </label>
+    </div>
+   </div>
+   <div class="control-group">
+    <label class="control-label">
+    {{ person_form.amount.label }}:
+     <br/>
+     (Applicable for recurring donations)
+    </label>
+    <div class="controls">
+     <div class="input-prepend">
+      <div class="add-on">$</div>
+      {{ person_form.amount }}
+     </div>
+    </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ person_form.payment_frequency.label }}:
+   </label>
+   <div class="controls">
+    {{ person_form.payment_frequency }}
+   </div>
+  </div>
 
-  </div> 
+
+  </fieldset> 
+  </div>
+  <div class="span2 offset2">
+   <a href="#" class="btn btn-primary">Process Donation 
+    <i class="icon-retweet icon-white"></i>
+   </a>
+ </div>
  </form>
 </div>
 {% endblock %}
@@ -86,6 +204,24 @@
 {% block two-two-box %}{% endblock %}
 {% block two-three-box %}{% endblock %}
 
+{% block more-js %}
+<script>
+ function DonationViewModel() {
+   var self = this;
 
+   //self.onetimeOption = ko.observable();
+   self.pmtFrequency = ko.observable();
+   //self.recurringOption = ko.observable();
+
+   self.pmtOnetime = function() {
+    alert("In one timepayment");
+    self.pmtFrequency(false);
+   }
+
+ }
+
+ ko.applyBindings(new DonationViewModel());
+</script>
+{% endblock %}
 
 

@@ -1,8 +1,69 @@
-{% extends 'fluid.html' %}
+{% extends 'base.html' %}
 
 {% block hero-unit %}
-<div class="well">
+<div class="span7 well">
  <h1>{{ friend.username }} Profile</h1>
+ <div class="alert alert-block">
+  <form class="form-horizontal">
+   <div class="control-group">
+   <label class="control-label">
+   {{ user_form.username.label }}
+   </label>
+   <div class="controls">
+    {{ user_form.username }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ user_form.first_name.label }}
+   </label>
+   <div class="controls">
+    {{ user_form.first_name }}
+   </div>
+  </div>
+   <div class="control-group">
+   <label class="control-label">
+    {{ user_form.last_name.label }}
+   </label>
+   <div class="controls">
+    {{ user_form.last_name }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    Display name:
+   </label>
+   <div class="controls">
+    {{ form.short_name }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    {{ user_form.email.label }}
+   </label>
+   <div class="controls">
+    {{ user_form.email }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    Account created on
+   </label>
+   <div class="controls">
+     {{ user_form.date_joined }}
+   </div>
+  </div>
+  <div class="control-group">
+   <label class="control-label">
+    Last logged in
+   </label>
+   <div class="controls">
+     {{ user_form.date_joined }}
+   </div>
+  </div>
+
+  </form>
+ </div>
  {{ form }}
 </div>
 {% endblock %}
