@@ -28,6 +28,7 @@
 {% block hero-unit %}
  <div class="span6 hero-unit">
   <h1>Colorado Springs Quakers</h1>
+  {% include "snippets/main-carousel.html" %}
   <p>Colorado Springs <a href="/history/ReligiousSocietyOfFriends">Religious Society of Friends</a>, 
      Unprogrammed Quaker Meeting</p>
  </div>
@@ -48,7 +49,7 @@
           {% endif %}
         </div>
    <p>Our telephone number is:
-    <span class="label label-info">719.685.5548</span></p>
+    <span class="label label-info" style="font-size: 1.2em !important;">719.685.5548</span></p>
    </p>        
     <p style="text-align:center;">
 	  <a class="btn btn-primary btn-small" href="#" onclick="$('#email-dlg').modal('show')"><i class="icon-envelope icon-white"></i> Email</a>
