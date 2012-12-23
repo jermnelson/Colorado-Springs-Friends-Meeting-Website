@@ -18,7 +18,7 @@ We approved the September minutes, with corrections suggested by Sarah.
 
 Clerk's report
 --------------
-The Open House was fun, and the Clerk supports `Bill Werling`'s suggestion that 
+The Open House was fun, and the Clerk supports `Bill Werling`_'s suggestion that 
 we hold one every six months.
 		
 `Carlton`_'s Show and Tell:  It looks like most people would be able to attend 
@@ -132,6 +132,7 @@ Acting recording clerk
 .. _Ann Margret: /Friends/AnnGrantMargret/
 .. _Bill: /Friends/BillDurland/
 .. _Bill Durland: /Friends/BillDurland/
+.. _Bill Werling: /Friends/BillWerling/
 .. _Carlton: /Friends/CarltonGamer/
 .. _Carlton Gamer: /Friends/CarltonGamer/
 .. _Daniel: /Friends/DanielKidney/

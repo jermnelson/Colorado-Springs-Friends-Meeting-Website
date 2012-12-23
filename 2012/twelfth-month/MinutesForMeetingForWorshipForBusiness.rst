@@ -56,7 +56,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
       pledged for 2013, we are in process of paying down that will affect the cash flow including
       the mortgage and insurance reserve. Insurance is on the budget twice; once for the reserve
       and the bookkeeping entry. We made it through 2012, with only $2,000 deficit for 2013. 
-      `Molly` thanks Finance committee for the proposed budget, it looks like the Meeting will be
+      `Molly`_ thanks Finance committee for the proposed budget, it looks like the Meeting will be
       able to stay within the budget. `Sarah`_ also noted that we have been under $175 for 
       $176.30 deficit per month, `Sarah`_ hopes that we can make that in rental income. Budget 
       approved with appreciation for all the Finance Committee's hard work.       
