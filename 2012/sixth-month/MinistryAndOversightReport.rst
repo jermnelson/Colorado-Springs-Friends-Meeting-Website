@@ -5,7 +5,7 @@ Ministry And Oversight Committee Report
 
 
 Meeting of May 25, 2012
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 Presented June 10, 2012 to Colorado Springs Friends Meeting for Worship for Business
  
 Attending: `Bill Durland`_, Clerk, `Martha Lutz`_ and 

@@ -11,6 +11,7 @@ from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from django.http import HttpResponseNotFound,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
+from django.core.cache import cache
 from committees.models import *
 from meetings.models import QUAKER_MONTHS
 from committees.forms import *
@@ -137,17 +138,23 @@ def display_monthly_report(request,
                            month):
      name = committee
      committee = committee.lower()
-     year_report = get_year(year)
-     month_str = QUAKER_MONTHS["{0:02d}".format(int(month))]
-     if year_report[month_str]["committees"].has_key(committee):
-          raw_html = year_report[month_str]["committees"][committee]['html']
-          report_date = year_report[month_str]["committees"][committee]['date']
-     else:
-          raw_html = "No report found for {0}".format(committee.title())
-          report_date = datetime(year=int(year),
-                                 month=int(month),
-                                 day=1)
-                                 
+     cache_key = "{0}-{1}-{2}".format(committee,year,month)
+     html_cache = cache.get(cache_key)
+     report_date = cache.get('{0}-date'.format(cache_key))
+     if html_cache is None:
+         year_report = get_year(year)
+         month_str = QUAKER_MONTHS["{0:02d}".format(int(month))]
+         if year_report[month_str]["committees"].has_key(committee):
+             raw_html = year_report[month_str]["committees"][committee]['html']
+             report_date = year_report[month_str]["committees"][committee]['date']
+         else:
+             raw_html = "No report found for {0}".format(committee.title())
+             report_date = datetime(year=int(year),
+                                    month=int(month),
+                                    day=1)
+         cache.set(cache_key,raw_html)
+         cache.set('{0}-date'.format(cache_key),report_date)
+         html_cache = raw_html
      if request.user.is_authenticated():
           user = request.user
      else:
@@ -155,7 +162,7 @@ def display_monthly_report(request,
      return direct_to_template(request,
                                'committees/report.html',
                                {'user':user,
-                                'contents':raw_html,
+                                'contents':html_cache,
                                 'committee':name,
                                 'report_date':report_date,
                                 'section':'committees'})

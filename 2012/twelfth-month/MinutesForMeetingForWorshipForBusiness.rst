@@ -4,21 +4,21 @@ Minutes for Meeting for Worship for Business
 :Date: $Date: 2012-12-16 11:22:00 +0000 (Sun, 16 December 2012) $
 
 Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
-`Carlton Gamer`_, `Bill Durland`_, `Ann Martin`_, `Sarah Callbeck`_, 
-`Joyce Doyle`_, `Linda Seger`_. 
+`Carlton Gamer`_, `Jeremy Nelson`_, `Bill Durland`_, `Sarah Callbeck`_, `Joyce Doyle`_, 
+`Linda Seger`_. 
 
 1. Meeting opened in silence. `Molly`_ are meetings for worship for business,
    considered the following queries from the Fort Collins Friends Newsletter  
 
    1. Are our monthly meetings held in the spirit of a meeting for worship in 
-      which we, in love and mutal respect, seekd divine guidance?
+      which we, in love and mutual respect, seek divine guidance?
 
-   2. How effetively do members of the meeting temper and strenthen 
+   2. How effectively do members of the meeting temper and strengthen 
       individuals our meetings for business lead to a corporate search for and revelation 
       of the Light? 
 
    3. As difficult problems arise, are we careful to meet them in a spirit of love and 
-      humilitty with minds receptive to creative solutions?
+      humility with minds receptive to creative solutions?
 
    4. Do we avoid pressure of time, neither unnecessarily prolonging nor unduly 
       full discussion?  
@@ -40,7 +40,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
    `Molly`_ work. 
 
    We will be having a Christmas Eve meeting for worship on December 24 at 5 PM.
-   `Ann Grant Martin`_ will be leading Christmas Carols at the meetng. `Molly`_
+   `Ann Grant Martin`_ will be leading Christmas Carols at the meeting. `Molly`_
    will be candles.
 
 4. Committee Reports:
@@ -50,7 +50,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
       into the QuickBooks, keeping this updated will be easier than she thought. 
       `Sarah`_ will accept the bookkeeper's position upon the recommendation of the 
       Lisa and Ann. She will just accept what is on the sheet and keep within in the budget.
-      Meeting wholeheardly agreed and welcome `Sarah`_ to her new role.
+      Meeting wholeheartedly agreed and welcome `Sarah`_ to her new role.
        
       The Finance Committee seeks approval of the proposed 2012-2013 budget. At this point 12,000 
       pledged for 2013, we are in process of paying down that will affect the cash flow including
@@ -59,9 +59,9 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
       `Molly` thanks Finance committee for the proposed budget, it looks like the Meeting will be
       able to stay within the budget. `Sarah`_ also noted that we have been under $175 for 
       $176.30 deficit per month, `Sarah`_ hopes that we can make that in rental income. Budget 
-      approved with apperciation for all the Finance Committee's hard work.       
+      approved with appreciation for all the Finance Committee's hard work.       
 
-      Striving for a six month mortgage and utilities perminate reserve. Trying to keep $2,000 
+      Striving for a six month mortgage and utilities permanent reserve. Trying to keep $2,000 
       checking balance. Reminds members and attenders that at end of year donation.
 
       Suggestions for local distributions. We have $100.00 New Foundations, proposed we send $25
@@ -69,9 +69,9 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
       1. New Foundations
       2. TESSA
       3. American Friends Service Committee Colorado
-      4. PPJP
+      4. Pikes Peak Justice and Peace Commission
 
-      i. Fundraising Committee (ad hoc)
+      i. Fund-raising Committee (ad hoc)
          We are preparing a fundraising and thank you letter to meeting
          who have already supported us.  The letter will go out in January.
 
@@ -84,21 +84,21 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
       Report accepted by the meeting.
 
    c. Ministry and Oversight – Quick a report, conducted M&O. Attached 
-      Coloradans for Alternatives to the Death Penalty, removed statment by 
-      of life inprisionment without the chance for parole. `Molly`_ mailed 
+      Coloradans for Alternatives to the Death Penalty, removed statement by 
+      of life imprisonment without the chance for parole. `Molly`_ mailed 
       print copy of approved. `Bill`_ read statement:
 
       1. Do we support this statement as a minute? After question from 
          `Carlton`_, statement accepted as a Minute. `Genie`_ and 
          `Jeremy`_ will coordinate formal submission. `Bill`_ has volunteered
-         to be the contact for Coloradans for the Abolutison of the Dealth 
+         to be the contact for Coloradans for the Abolition of the Death 
          Penalty. `Bill`_ will be leaving `M&O`_ with `Ann Grant Martin`_ 
          replacing and `Ann`_ will be clerk. Report accepted by the Meeting.
 
 
    d. First Day School Committee - No Report.
 
-   e. Adult Education and Action Committee - Annoucement of the change of 
+   e. Adult Education and Action Committee - Announcement of the change of 
       schedule. `Molly`_ has put up a change jar the Mesa House. 
 
    f. Meeting Home
@@ -108,16 +108,16 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
          to be offset costs. Two options were explored with 92% efficient furnace. 
          With support of `Finance`_ Committee will dip into reserve funds. With concern 
          expressed about the carbon footprint of A/C, Meeting Home recommends
-         to just install new furnance with new insulation and ceiling fans. We
+         to just install new furnace with new insulation and ceiling fans. We
          may revisit this decision if lack of A/C detracts from renting Meeting
-         House in the summer and may apply for further grant. Dicussed were characteristics
+         House in the summer and may apply for further grant. Discussed were characteristics
          of fans including placement, appearances, and silence. 
 
          Does the Meeting trust the `Meeting Home`_ to make decisions regarding the 
          furnace, fans, etc.? 
 
          Hoping that any kind of furnace make a point to the installer that we prefer
-         less noise the better. This can be a problem. Acosetics... Question about 
+         less noise the better. This can be a problem. Acoustics... Question about 
          the need for A/C? Last summer, the temperature was uncomfortable. This may change
          with ceiling fans and insulation. Friends come to consensus that we should 
          proceed with the 92% furnace, with insulation and fans. Thermostat and a timer
@@ -132,6 +132,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
          b. Clean bathrooms, dust, vacuum/sweep and mop floors 
             up and downstairs
 
+
     g. Library Report, Meeting thanks `Joyce`_ for her report. The report includes donations
        for this year and for the past three years including purchased titles. Proposed that 
        inventory be made available on the website. `Molly`_ donated her new book and a folder
@@ -142,7 +143,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
    a. Signs for religious education and bathrooms. Signs done but need to printed. 
 
    b. Do we need a "steward" of the building? Question should be put forward to nominating?
-      Discuss with Peter, who has experience with previous stewardship, about responsiblities
+      Discuss with Peter, who has experience with previous stewardship, about responsibilities
       about heat and about managing renting Meeting House. Clerk asked that Nominating 
       Committee talk with Peter about getting a job description for Meeting consideration. 
 
@@ -156,7 +157,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
 
 
    f. `Molly`_ encourage Friends to market Meeting House for occasional or
-      reqular use by other like-minded organizations and for weddings, etc.
+      regular use by other like-minded organizations and for weddings, etc.
 
 6. New Business
 
@@ -193,13 +194,14 @@ Closed with silence at 12:43 p.m.
 
 Respectfully submitted in the light,
 
-Jeremy Nelson
+`Jeremy Nelson`_
 Recording Clerk
 
 
 .. _Ann: /Friends/AnnDaugherty/
 .. _Ann Daugherty: /Friends/AnnDaugherty/
 .. _Ann Margret: /Friends/AnnGrantMargret/
+.. _Ann Grant Martin: /Friends/AnnGrantMargret/
 .. _Bill: /Friends/BillDurland/
 .. _Bill Durland: /Friends/BillDurland/
 .. _Carlton: /Friends/CarltonGamer/
@@ -220,6 +222,7 @@ Recording Clerk
 .. _Joyce: /Friends/JoyceDoyle/
 .. _Joyce Doyle: /Friends/JoyceDoyle/
 .. _Linda: /Friends/LindaSeger/
+.. _Linda Seger: /Friends/LindaSeger/
 .. _Lisa: /Friends/LisaLister/
 .. _Lisa Lister: /Friends/LisaLister/
 .. _Maria: /Friends/MariaMelendez/

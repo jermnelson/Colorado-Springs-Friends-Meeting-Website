@@ -31,4 +31,13 @@ over to savings for safe-keeping until payment is due.
 In the Light,
 
 `Lisa Lister`_
+
 Recording Clerk
+
+.. _Ann: /Friends/AnnDaugherty/
+.. _Ann Daugherty: /Friends/AnnDaugherty/
+.. _Finance Committee: /committees/Finance/
+.. _Lisa: /Friends/LisaLister/
+.. _Lisa Lister: /Friends/LisaLister/
+.. _Molly: /Friends/MollyWingate/
+.. _Sarah Callbeck: /Friends/SarahCallbeck/

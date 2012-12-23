@@ -5,6 +5,7 @@ __author__ = 'Jeremy Nelson'
 import logging
 from datetime import datetime
 from django.contrib.auth import authenticate
+from django.core.cache import cache
 from django.http import HttpResponse,HttpResponseRedirect
 from django.views.generic.simple import direct_to_template
 from meetings.forms import MeetingReportForm
@@ -79,13 +80,20 @@ def display_month(request,
                   month):
     meeting = meeting.lower()
     month = QUAKER_MONTHS[int(month)]
-    year_loader = get_year(year)
-    if year_loader is not None:
-        raw_html = year_loader["{0}-month".format(month)]["meetings"][meeting]["html"]
-        meeting_date = year_loader["{0}-month".format(month)]["meetings"][meeting]["date"]
-    else:
-        raw_html = "Cannot find {0} {1} for {3}".format(month,year,meeting)
-        meeting_date = None
+    cache_key = "{0}-{1}-month-{2}-meeting".format(year,month,meeting)
+    html_cache = cache.get(cache_key)
+    meeting_date = cache.get('{0}-date'.format(cache_key))
+    if html_cache is None: 
+        year_loader = get_year(year)
+        if year_loader is not None:
+            raw_html = year_loader["{0}-month".format(month)]["meetings"][meeting]["html"]
+            meeting_date = year_loader["{0}-month".format(month)]["meetings"][meeting]["date"]
+        else:
+            raw_html = "Cannot find {0} {1} for {3}".format(month,year,meeting)
+            meeting_date = None
+        html_cache = raw_html
+        cache.set(cache_key,html_cache)
+        cache.set('{0}-date'.format(cache_key),meeting_date)
     if request.user.is_authenticated():
         user = request.user
     else:
@@ -97,7 +105,7 @@ def display_month(request,
                                'meeting_date':meeting_date,
                                'report_type':'Minutes',
                                'section':'meetings',
-                               'contents':raw_html})
+                               'contents':html_cache})
 
 def display_report(request,
                    meeting,
