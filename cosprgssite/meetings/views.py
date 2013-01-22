@@ -20,6 +20,7 @@ for row in MEETING_TYPES:
     MEETING_TYPES_DICT[row[1]] = row[0]
 
 
+ARCHIVE_YEARS = [2011,2012]
 
 def default(request):
     """
@@ -134,7 +135,33 @@ def display_report(request,
     
 
                                                 
-        
+def display_year(request,
+		 meeting,
+		 year):
+    """
+    Displays all Minutes for a Year View
+    """
+    if request.user.is_authenticated():
+        user = request.user
+    else:
+        user = None
+    minutes = list()
+    meeting_key = meeting.lower()
+    year_loader = get_year(str(year))
+    for k,v in year_loader.iteritems():
+        if v['meetings'].has_key(meeting_key):
+            minutes.append(v['meetings'][meeting_key]['date'])
+    meeting = {'name':'Meeting for Worship for {0}'.format(meeting),
+               'minutes':sorted(minutes),
+               'type_of':MEETING_TYPES_DICT[meeting]}
+    return direct_to_template(request,
+  		              'meetings/year.html',
+			     {'minutes':minutes,
+			      'meeting':meeting,
+                              'user':user,
+			      'year':year})
+
+ 
 
 def advices_and_queries(request):
     """
@@ -166,7 +193,7 @@ def business(request):
     """
     minutes = list()
     today = datetime.today()
-    year_loader = get_year(str(today.year))    
+    year_loader = get_year(str(today.year))
     for k,v in year_loader.iteritems():
        if v['meetings'].has_key('business'):
            minutes.append(v['meetings']['business']['date'])
@@ -180,7 +207,8 @@ def business(request):
                'type_of':MEETING_TYPES_DICT['Business']}
     return direct_to_template(request,
                               'meetings/meeting.html',
-                              {'meeting':meeting,
+			      {'archive':ARCHIVE_YEARS,
+			       'meeting':meeting,
                                'minute_form':minute_form,
                                'section':'meetings',})
 

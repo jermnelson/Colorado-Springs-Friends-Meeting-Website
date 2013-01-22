@@ -30,10 +30,20 @@
   {% endfor %}
   </ul>
  </div>
+ {% if archive %}
+ <div class="span3 box_display">
+ <h2>Archives for {{ meeting.name }}</h2>
+ <ul>
+ {% for year in archive %}
+  <li><a href="/meetings/{{ meeting.type_of|get_name }}/{{ year }}/">{{ year }}</a></li>
+ {% endfor %}
+ </ul>
+ </div>
+ {% endif %}
 </div>
 {% endif %}
 
- <div class="span3">
+<div class="span3 box-display">
  {% if reports %}
   <h2>Reports</h2>
  {% else %}

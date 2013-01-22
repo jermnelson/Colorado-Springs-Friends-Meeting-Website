@@ -8,6 +8,7 @@ from django.conf.urls.defaults import *
 urlpatterns = patterns('meetings.views',
     url(r"^$","default",name='Meetings Home'),
     url(r'^(?P<meeting>\w+)/(?P<year>\d+)/(?P<month>\d+)/$','display_month'),
+    url(r'^(?P<meeting>\w+)/(?P<year>\d+)/','display_year'),
     #url(r'^(?P<meeting>\w+)/(?P<year>\d+)/(?P<month>\w+)-month$','display_month'),
 #    url(r'^(?P<meeting>\w+)/(?P<year>\d+)/(?P<month>\w+)/(?P<report_name>\w+)/$','display_report'),
     url(r'^(?P<meeting>\w+)/report/add$','add_report'),
