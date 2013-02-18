@@ -79,8 +79,8 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
 
    b. Nominating Committee – `Bill Werling`_ happly announced that Lisa
       will become the librarian. `Genie`_ and `Bill Werling`_ looking for
-      new treasurer. `Julie Rooten-Valdez`_ has expressed interest to 
-      joining `M&O`_, nominating committee will go through the process. 
+      new treasurer. `Julie Roten-Valdez`_ has expressed interest to 
+      joining M&O, nominating committee will go through the process. 
       Report accepted by the meeting.
 
    c. Ministry and Oversight – Quick a report, conducted M&O. Attached 
@@ -92,7 +92,7 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
          `Carlton`_, statement accepted as a Minute. `Genie`_ and 
          `Jeremy`_ will coordinate formal submission. `Bill`_ has volunteered
          to be the contact for Coloradans for the Abolition of the Death 
-         Penalty. `Bill`_ will be leaving `M&O`_ with `Ann Grant Martin`_ 
+         Penalty. `Bill`_ will be leaving M&O with `Ann Grant Martin`_ 
          replacing and `Ann`_ will be clerk. Report accepted by the Meeting.
 
 
@@ -104,16 +104,16 @@ Present: `Genie Durland`_, `Lisa Lister`_, `Ann Daugherty`_, `Molly Wingate`_,
    f. Meeting Home
 
       1. Report about replacing the heater. `Ann`_ had an eMeeting with the 
-         `Finance`_ Committee. What we expected in saving would take a 7 years
+         Finance Committee. What we expected in saving would take a 7 years
          to be offset costs. Two options were explored with 92% efficient furnace. 
-         With support of `Finance`_ Committee will dip into reserve funds. With concern 
+         With support of Finance Committee will dip into reserve funds. With concern 
          expressed about the carbon footprint of A/C, Meeting Home recommends
          to just install new furnace with new insulation and ceiling fans. We
          may revisit this decision if lack of A/C detracts from renting Meeting
          House in the summer and may apply for further grant. Discussed were characteristics
          of fans including placement, appearances, and silence. 
 
-         Does the Meeting trust the `Meeting Home`_ to make decisions regarding the 
+         Does the Meeting trust the Meeting Home to make decisions regarding the 
          furnace, fans, etc.? 
 
          Hoping that any kind of furnace make a point to the installer that we prefer
@@ -204,6 +204,7 @@ Recording Clerk
 .. _Ann Grant Martin: /Friends/AnnGrantMargret/
 .. _Bill: /Friends/BillDurland/
 .. _Bill Durland: /Friends/BillDurland/
+.. _Bill Werling: /Friends/BillWerling/
 .. _Carlton: /Friends/CarltonGamer/
 .. _Carlton Gamer: /Friends/CarltonGamer/
 .. _Daniel: /Friends/DanielKidney/
