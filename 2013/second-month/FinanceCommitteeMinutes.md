@@ -1,3 +1,5 @@
+Date: 2013-02-12T18:00:00
+
 Finance Committee Minutes
 =========================
 February 12-15, 2013 

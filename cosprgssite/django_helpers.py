@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 import settings,datetime
 from docutils.core import publish_string
 from bs4 import BeautifulSoup
+import markdown
 import os,sys,re
 
 advice_re = re.compile(r"advice")
@@ -58,28 +59,74 @@ def build_loader(year_loader,directory):
         year_loader[month] = {"meetings":dict(),
                               "committees":dict()}
         for filename in filenames:
-            raw_file = open(os.path.join(path,filename),'rb')
-            raw_rst = raw_file.read()
-            raw_file.close()
-            print("Trying to load {0}{1}".format(path,filename))
-            rst_contents = publish_string(raw_rst,
-                                          writer_name="html")
-            rst_soup = BeautifulSoup(rst_contents)
-            main_contents = rst_soup.find("div",attrs={"class":"document"})
-            meta_date = rst_soup.find("meta",attrs={"name":"date"})
-            if meta_date is not None:
-                rst_date = datetime.datetime.strptime(meta_date.attrs["content"],"%Y-%m-%d")
+            file_obj = open(os.path.join(path,filename),'rb')
+            raw_file = file_obj.read()
+            file_obj.close()
+            category = guess_rst(filename)
+            ext = os.path.splitext(filename)[-1]
+            if ext == '.rst':
+                process_result = build_process_rst(raw_file,category)
+            elif ext == '.md':
+                process_result = build_process_md(raw_file,category)
             else:
-                print("MISSING Date {0}".format(meta_date))
-            rst_category = guess_rst(filename)
-            pretty_html = main_contents.prettify()
-            if rst_category.has_key("meeting"):
-                year_loader[month]['meetings'][rst_category.get("meeting")] = {"html":pretty_html,
-                                                                               "date":rst_date}
-            if rst_category.has_key("committee"):
-                year_loader[month]['committees'][rst_category.get("committee")] = {"html":pretty_html,
-                                                                                   "date":rst_date}
+                continue
+            if process_result['category'] == 'meeting':
+                year_loader[month]['meetings'][process_result.get("name")] = {"html":process_result.get('html'),
+                                                                              "date":process_result.get('date')}
+            if process_result['category'] == "committee":
+                year_loader[month]['committees'][process_result.get("name")] = {"html":process_result.get('html'),
+                                                                                "date":process_result.get('date')}
     return year_loader
+  
+
+def build_process_md(raw_md,md_category):
+    """
+    Processes Markdown Document for year loader
+    """
+    meta_md = markdown.Markdown(extensions=['meta'])
+    raw_html = meta_md.convert(raw_md)
+    md_date = datetime.datetime.strptime(meta_md.Meta.get('date')[0],
+                                         '%Y-%m-%dT%H:%M:%S')
+    if md_category.has_key('meeting'):
+        category = 'meeting'
+        name = md_category.get('meeting')
+    if md_category.has_key('committee'):
+        category = 'committee'
+        name = md_category.get('committee')
+
+    return {"category":category,
+            "name":name,
+            "html":raw_html,
+            "date":md_date}
+ 
+def build_process_rst(raw_rst,rst_category):
+    """
+    Processes RestructuredText Document for year loader
+    """
+    rst_contents = publish_string(raw_rst,
+                                  writer_name="html")
+    rst_soup = BeautifulSoup(rst_contents)
+    main_contents = rst_soup.find("div",attrs={"class":"document"})
+    pretty_html = main_contents.prettify()
+    meta_date = rst_soup.find("meta",attrs={"name":"date"})
+    if meta_date is not None:
+        rst_date = datetime.datetime.strptime(meta_date.attrs["content"],"%Y-%m-%d")
+    else:
+        rst_date = None
+    if rst_category.has_key("meeting"):
+        category = "meeting"
+        name = rst_category.get('meeting') 
+    elif rst_category.has_key("committee"):
+        category = "committee"
+        name = rst_category.get('committee')
+    else:
+        category = "report"
+        name = "Report"
+    return {"category":category,
+            "name":name,
+            "html":pretty_html,
+            "date":rst_date}
+
     
 def get_friends(friend_keys):
     friends = []
