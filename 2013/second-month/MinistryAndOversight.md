@@ -1,3 +1,5 @@
+Date: 2013-01-28T15:00:00
+
 Ministry and Oversight
 ======================
 January 28, 2013
@@ -13,7 +15,7 @@ Criminal Justice System jail. Various members of the Meeting visit him
 regularly. He deeply appreciates letters, visits and donations to his account.
 
 We continued the discussion of having information cards on each chair for visitors. 
-We will place the Poster’s statement on Quakerism on one side. On the other side 
+We will place the Poster's statement on Quakerism on one side. On the other side 
 there will be brief information about Meeting for Worship and our traditions 
 regarding speaking during Meeting.
 
@@ -25,7 +27,7 @@ We encourage the Meeting for Business to explore the possibility of having
 Meeting for Worship in the evening once a month.
 
 We recommend that our Meeting have a Worship Sharing on March 20, 2013, Wednesday 
-evening from 6:30 – 8:00. Hot beverages can be available.
+evening from 6:30 to 8:00. Hot beverages can be available.
 
 Suggested topics include: 
 
