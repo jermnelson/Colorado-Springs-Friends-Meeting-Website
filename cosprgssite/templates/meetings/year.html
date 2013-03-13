@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load meeting_extras %}
+{% block sidebar-nav %}{% endblock %}
+
+{% block more-breadcrumb-links %}
+ <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
+ <li><a href="/meetings/{{ meeting.name }}">{{ meeting.name|title }}</a> <span class="divider">&raquo;</span></li>
+ <li class="active">Archived Minutes for {{ year }}</li>
+{% endblock %}
+
+{% block hero-unit %}
+<div class="span9 well">
+ <h1>{{ meeting.name|title }} Archive for {{ year }}</h1>
+ <ul>
+  {% for minute in minutes %}
+   <li><a href="/meetings/{{ meeting.type_of|get_name }}/{{ minute.year }}/{{ minute.month }}/">{{ minute|date:"F j, Y" }}</a></li>
+  {% endfor %}
+ </ul>
+</div>
+{% endblock %}

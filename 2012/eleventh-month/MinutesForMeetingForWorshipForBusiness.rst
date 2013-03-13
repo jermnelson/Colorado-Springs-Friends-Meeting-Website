@@ -45,7 +45,7 @@ Present: `Carlton Gamer`_, `Genie Durland`_, `Bill Durland`_, `Sarah Callbeck`_,
       and content.   We are all thankful for `Sarah`_ 's hard work, and the Finance 
       Committee report was accepted with deep gratitude.
 
-   b. Nominating Committee report was given by `Genie`_.  `Bill Wherling`_ and 
+   b. Nominating Committee report was given by `Genie`_.  `Bill Werling`_ and 
       `Genie Durland`_ are on the Nominating Committee.  They may be contacting 
       people about their willingness to serve.  
 
@@ -178,6 +178,7 @@ Acting Recording Clerk
 .. _Ann Margret: /Friends/AnnGrantMargret/
 .. _Bill: /Friends/BillDurland/
 .. _Bill Durland: /Friends/BillDurland/
+.. _Bill Werling: /Friends/BillWerling/
 .. _Carlton: /Friends/CarltonGamer/
 .. _Carlton Gamer: /Friends/CarltonGamer/
 .. _Daniel: /Friends/DanielKidney/
@@ -193,6 +194,7 @@ Acting Recording Clerk
 .. _Julie: /Friends/JulieRoten-Valdez/
 .. _Julie Roten-Valdez: /Friends/JulieRoten-Valdez/
 .. _Jonathan: /Friends/JonathanMcPhee/
+.. _Jonathan McPhee: /Friends/JonathanMcPhee/
 .. _Joyce: /Friends/JoyceDoyle/
 .. _Joyce Doyle: /Friends/JoyceDoyle/
 .. _Linda: /Friends/LindaSeger/

@@ -15,10 +15,7 @@ Molly opened with the phrase:
 
    God my feel thy hand as we do thy work. 
 
-1. Acceptance of December and January Minutes
-
-   Accepted. 
-  
+1. Acceptance of December and January Minutes -- **Accepted**. 
 
 2.  Clerk's report:
 
@@ -144,41 +141,39 @@ Molly opened with the phrase:
        ACLU and Bill's play are happening in May. Prior to ACLU event on the second amendment,
        Bill will go ahead and get back to the Clerk.   
  
-
 6. New Business
 
-   a. Colorado Springs will be the host of the Spring gathering of Colorado Regional Meeting 
-      April 28th, 2013.  We need to think about food arrangements and a program for the 
-      children. Meal will be a potluck. Expecting 50 people at the most for lunch.
+    a. Colorado Springs will be the host of the Spring gathering of Colorado Regional Meeting 
+       April 28th, 2013.  We need to think about food arrangements and a program for the 
+       children. Meal will be a potluck. Expecting 50 people at the most for lunch.
 
-   b. Continuing Committee report (attached) 
+    b. Continuing Committee report (attached) 
+       Continuing Committee is part of the Yearly Meeting. Our annual assessment, assessments
+       are voluntary. Philadelphia Yearly Meeting has done away with assessments entirely. Absolutely
+       as Friends as lead, by 2014 per Friend $50 per head. Monthly Meetings can choose to pay 
+       the amount. Plan on $55 a head and call it day. Finance Committee can examine and come 
+       with a recommended amount as well. 
 
-      Continuing Committee is part of the Yearly Meeting. Our annual assessment, assessments
-      are voluntary. Philadelphia Yearly Meeting has done away with assessments entirely. Absolutely
-      as Friends as lead, by 2014 per Friend $50 per head. Monthly Meetings can choose to pay 
-      the amount. Plan on $55 a head and call it day. Finance Committee can examine and come 
-      with a recommended amount as well. 
+       Structure of IMYM will be changing, range of concerns are enormous, create a separate
+       arrangements and representative committee. This is continuing. Nancy Andrews has not 
+       resigned as our Continuing and [Nancy][NancyAndrews] was interested being on the representative committees.
+       Molly recommended that a person from meeting be put on the Yearly Meeting's nominating
+       committee. 
 
-      Structure of IMYM will be changing, range of concerns are enormous, create a separate
-      arrangements and representative committee. This is continuing. Nancy Andrews has not 
-      resigned as our Continuing and [Nancy][NancyAndrews] was interested being on the representative committees.
-      Molly recommended that a person from meeting be put on the Yearly Meeting's nominating
-      committee. 
-
-   c. Request for prisoner visitation - Roy Pfaltzgraf about his sister's wish for visitors
-      from the Quaker meeting. She would appreciate if someone would visit her brother Roy.
+    c. Request for prisoner visitation - Roy Pfaltzgraf about his sister's wish for visitors
+       from the Quaker meeting. She would appreciate if someone would visit her brother Roy.
 
 7. Announcements
 
-   a. Women's Gathering at Allenspark, CO in March.  Topic Alternative to Violence Training. 
-      Registration info on the library table due this week. 
+    a. Women's Gathering at Allenspark, CO in March.  Topic Alternative to Violence Training. 
+       Registration info on the library table due this week. 
 	
-   b. FWCC event in Denver with Mountainview Meeting and Denver Friends Church. Friends 
-      from Cuba will be presenting. Info on the library table. 
+    b. FWCC event in Denver with Mountainview Meeting and Denver Friends Church. Friends 
+       from Cuba will be presenting. Info on the library table. 
 
-   c. IMYM Annual Gathering Ghost Ranch, NM June 9-16th, 2013
+    c. IMYM Annual Gathering Ghost Ranch, NM June 9-16th, 2013
 
-   d. Friends General Conference, Greeley, CO June 30-July 6th  (more info: [www.fgc.org](http://www.fgc.org))
+    d. Friends General Conference, Greeley, CO June 30-July 6th  (more info: [www.fgc.org](http://www.fgc.org))
 
 Meeting of Business closed in silence at 12:53pm
 
