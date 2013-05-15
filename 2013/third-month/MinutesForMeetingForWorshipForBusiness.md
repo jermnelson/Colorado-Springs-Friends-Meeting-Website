@@ -77,7 +77,7 @@ Molly passed around a number of newsletters and announcements
 
       Meeting accepts Finance Committee report.
 
-      *. Ad hoc Fund Raising Committee $600.00 so far in contributions from letter.
+      * Ad hoc Fund Raising Committee $600.00 so far in contributions from letter.
 
    b. Nominating Committee  
       No written report, Meeting stewardship position. Move forward, [Bill Werling] would be willing
@@ -182,7 +182,7 @@ Respectfully submitted in the Light,
 Recording Clerk
 
 [NancyAndrews]: /Friends/NancyAndrews
-[SarahCallback]: /Friends/SarahCallback
+[SarahCallbeck]: /Friends/SarahCallbeck
 [AnnDaughtery]: /Friends/AnnDaughtery
 [GenieDurland]: /Friends/GenieDurland
 [BillDurland]: /Friends/BillDurland
@@ -192,5 +192,5 @@ Recording Clerk
 [MariaMelendez]: /Friends/MariaMelendez
 [JeremyNelson]: /Friends/JeremyNelson
 [JulieRotenValdez]: /Friends/JulieRotenValdez
-[BillWerland]: /Friends/BillWerland
+[BillWerling]: /Friends/BillWerling
 [MollyWingate]: /Friends/MollyWingate
