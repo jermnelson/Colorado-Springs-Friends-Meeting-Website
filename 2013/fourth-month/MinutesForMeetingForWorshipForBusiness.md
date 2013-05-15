@@ -1,8 +1,8 @@
-Title: Forth Month Meeting for Worship for Business Minutes
+Title: Fourth Month Meeting for Worship for Business Minutes
 Author: Jeremy Nelson
 Date: 2013-04-21T11:26:00
 
-## Forth Month Meeting for Worship for Business Minutes
+## Fourth Month Meeting for Worship for Business Minutes
 
 Present: [Carlton Gamer][CarltonGamer], [Bill Durland][BillDurland] (acting clerk), 
 [Deneen Crandell][DeneenCrandell], [Jeremy Nelson][JeremyNelson], [Ann Daughtery][AnnDaugherty],
@@ -39,9 +39,9 @@ Meeting began at 11:29 am with a silence.
 
       [Sarah][SarahCallbeck] reviewed the Finance Committee Minutes. Our 
       religious exemption application with the state is still pending and 
-      property tax has not been paid paid as per statute.
+      property tax has not been paid as per statute.
        
-      Electrical fans including installation ofthree fans and we awaiting a 
+      Electrical fans including installation ofthree fans and we are awaiting a 
       quote from Fountain Valley Electrical.
 
       The Meeting's cash flow problem was explained by [Sarah][SarahCallbeck] 
@@ -60,8 +60,8 @@ Meeting began at 11:29 am with a silence.
       It was suggested that we send a letter with information about the cash flow
       shortfall and asking members and attenders, including those who have pledged, 
       to consider whether they can increase their contribution. 
-      [Ann][AnnDaugherty] mentioned that [Molly][MollyWingate] is working a
-      draft of this letter and will work with the Finance Committee on this letter. 
+      [Ann][AnnDaugherty] mentioned that [Molly][MollyWingate] is working on a
+      draft and will work with the Finance Committee on this letter. 
 
       Report accepted with gratitude.     
     
