@@ -1,4 +1,4 @@
-:date 2012-03-13T15:30:00
+Date: 2012-03-13T15:30:00
 
 [AnnDaugherty]: /Friends/AnnDaugherty
 [DanielKidney]: /Friends/DanielKidney

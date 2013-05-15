@@ -4,7 +4,7 @@ Finance Committee Minutes
 March 5 & 7, 2013
 
 Present: [Sarah Callbeck][SarahCallbeck] (clerk) and [Julie Roten-Valdez][JulieRotenValdez] at 
-Julie’s office, then [Sarah][SarahCallbeck] and [Ann Daugherty][AnnDaugherty] (treasurer) 
+Julie's office, then [Sarah][SarahCallbeck] and [Ann Daugherty][AnnDaugherty] (treasurer) 
 by telephone.  
 
 After opening in silence, we took up a priority issue with Calvert.  
@@ -30,7 +30,7 @@ proposes reducing IMYM scholarships to $50/adult and $25/child.  A special
 donation in support of scholarships has been made, and this, along with an 
 additional $125, would cover the number of Friends (5 adults, 4 children) who 
 requested assistance last year.  Currently, there is $155 more in assessment 
-reserves than is needed to pay this year’s assessments.  **Would the Meeting 
+reserves than is needed to pay this year's assessments.  **Would the Meeting 
 approve using this excess for scholarships as an appropriate use of funds, or 
 should it be kept in reserve for next year?**
 
@@ -43,7 +43,7 @@ until our checking account again carries a balance that can sustain them?**
 
 We then discussed assessments.  The Finance Committee feels the assessment contributions 
 to IMYM and Colorado Regional are an obligation of the Meeting.  IMYM Faith and Practice 
-states: "Intermountain Yearly Meeting’s annual assessment [which supports general 
+states: "Intermountain Yearly Meeting's annual assessment [which supports general 
 operations (p. 71)] is a contribution from each of its affiliated monthly meetings of a 
 per capita amount based on the number of adult members reported by the monthly meeting 
 in its most recent census.  ... payment of which is the responsibility of the monthly meetings." 
@@ -55,7 +55,7 @@ specifically for their assessment portion?**
 
 It was noted there are members who have moved away or have not attended in a long time.  The 
 Finance Committee requests that M&O, in the course of their annual contact with these members, 
-inquire if they wish to remain on the Meeting’s roster.
+inquire if they wish to remain on the Meeting's roster.
 
 We briefly reviewed the cash flow report, noting that the checking account balance is at $622.61, 
 a decline, but that, happily, the utility bill also declined by a little over $75.  Further 
