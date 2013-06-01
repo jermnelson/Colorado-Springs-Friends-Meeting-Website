@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserChangeForm
 from django.http import HttpResponse,HttpResponseRedirect
 from django.template import loader, TemplateDoesNotExist
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import render
 from committees.models import CommitteeMember
 from Friends.forms import FriendForm
 from Friends.models import Friend,FriendCategory,PhoneNumber
@@ -22,7 +22,7 @@ def census(request):
     friends = sorted(friends,key=lambda x: x.user.last_name)
     shard_one = friends[0:len(friends)/2]
     shard_two = friends[len(friends)/2:]
-    return direct_to_template(request,
+    return render(request,
                               'Friends/census.html',
                               {'friends':friends,
                                'categories':FriendCategory.objects.all().order_by('code'),
@@ -79,10 +79,10 @@ def census_csv(request):
     
 
 def default(request):
-    return direct_to_template(request,
-                              'Friends/index.html',
-                              {'friends':[],
-                               'section':'friends'})   
+    return render(request,
+                  'Friends/index.html',
+                  {'friends':[],
+                   'section':'friends'})   
     
 
 def display_friend(request,username):
@@ -107,11 +107,11 @@ def display_friend(request,username):
         logging.error(len(committee_query))
         if len(committee_query) > 0:
             committees = committee_query
-    return direct_to_template(request,
-                              template_name,
-                              {'committees':committees,
-                               'friend':friend,
-                               'section':'friends'})
+    return render(request,
+                  template_name,
+                  {'committees':committees,
+                   'friend':friend,
+                   'section':'friends'})
 
 def display_profile(request):
     if request.user.is_authenticated():
@@ -120,11 +120,11 @@ def display_profile(request):
             friend_form = FriendForm(instance=friend_query[0])
         else:
             friend_form = FriendForm()
-        return direct_to_template(request,
-                                  'Friends/profile.html',
-                                  {'form':friend_form,
-                                   'friend':request.user,
-                                   'user_form':UserChangeForm(instance=request.user)})
+        return render(request,
+                      'Friends/profile.html',
+                      {'form':friend_form,
+                       'friend':request.user,
+                       'user_form':UserChangeForm(instance=request.user)})
     else:
         return HttpResponseRedirect("/accounts/login/")
         

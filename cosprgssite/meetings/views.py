@@ -7,7 +7,7 @@ from datetime import datetime
 from django.contrib.auth import authenticate
 from django.core.cache import cache
 from django.http import HttpResponse,HttpResponseRedirect
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import render
 from meetings.forms import MeetingReportForm
 from meetings.models import MEETING_TYPES, REPORT_TYPES, MeetingReport, QUAKER_MONTHS
 #from committees.views import get_report
@@ -29,7 +29,7 @@ def default(request):
     business_minutes = MeetingReport.objects.filter(
         meeting_type=MEETING_TYPES_DICT['Business']
     ).order_by('meeting_date')
-    return direct_to_template(request,
+    return render(request,
                               'meetings/index.html',
                               {'business':business_minutes,
                                'section':'meetings',
@@ -99,7 +99,7 @@ def display_month(request,
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'meetings/report.html',
                               {'user':user,
                                'meeting':meeting,
@@ -126,7 +126,7 @@ def display_report(request,
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'meetings/report.html',
                               {'user':user,
                                'report':report,
@@ -154,7 +154,7 @@ def display_year(request,
     meeting = {'name':'Meeting for Worship for {0}'.format(meeting),
                'minutes':sorted(minutes),
                'type_of':MEETING_TYPES_DICT[meeting]}
-    return direct_to_template(request,
+    return render(request,
   		              'meetings/year.html',
 			     {'minutes':minutes,
 			      'meeting':meeting,
@@ -180,7 +180,7 @@ def advices_and_queries(request):
             advices.append(v['meetings']['advice']['date'])
         if v["meetings"].has_key("query"):
             queries.append(v['meetings']['query']['date'])
-    return direct_to_template(request,
+    return render(request,
                               'meetings/advices-queries.html',
                               {'advices':sorted(advices),
                                'queries':sorted(queries),
@@ -205,7 +205,7 @@ def business(request):
                'description':'A monthy meeting with a concern for business',
                'minutes':sorted(minutes),
                'type_of':MEETING_TYPES_DICT['Business']}
-    return direct_to_template(request,
+    return render(request,
                               'meetings/meeting.html',
 			      {'archive':ARCHIVE_YEARS,
 			       'meeting':meeting,
@@ -217,7 +217,7 @@ def contact(request):
     """
     Displays Meeting's contact information
     """
-    return direct_to_template(request,
+    return render(request,
                               "meetings/contact.html",
                               {'email_form':EmailContactForm()})
 
@@ -235,7 +235,7 @@ def special(request):
                'description':'A meeting called for Friends regarding a special topic or concern',
                'minutes':sorted(minutes),
                'type_of':MEETING_TYPES_DICT['Special']}
-    return direct_to_template(request,
+    return render(request,
                               'meetings/meeting.html',
                               {'meeting':meeting,
                                'section':'meetings'})
@@ -248,7 +248,7 @@ def worship(request):
                'description':'A weekly meeting, usually held First Day, for shared communial worship in silence',
                'minutes':[],
                'type_of':MEETING_TYPES_DICT['Worship']}
-    return direct_to_template(request,
+    return render(request,
                               'meetings/meeting.html',
                               {'meeting':meeting,
                                'section':'meetings',})    

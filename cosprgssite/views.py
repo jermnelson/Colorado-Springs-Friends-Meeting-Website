@@ -8,7 +8,7 @@ from calendar import HTMLCalendar
 from django.http import Http404,HttpResponse
 from django.contrib.auth import authenticate
 from django.core.mail import send_mail
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import render
 from events.models import MeetingEvent
 from donate.forms import PersonForm
 from quakers.forms import EmailContactForm
@@ -53,7 +53,7 @@ def email(request):
               settings.EMAIL_HOST_USER,
               ['jermnelson@gmail.com',],
               fail_silently=False)
-    return direct_to_template(request,
+    return render(request,
                               'message.html',
                               {'message':message})
                               
@@ -77,7 +77,7 @@ def home(request):
                    "return_url":"",
                    "cancel_return":""}
     #paypal_form = PayPalPaymentsForm(initial=paypal_dict)
-    return direct_to_template(request,
+    return render(request,
                               'index.html',
                              {'current_calendar':current_calendar,
                               'email_form':EmailContactForm(),

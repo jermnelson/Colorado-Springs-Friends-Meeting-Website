@@ -2,8 +2,7 @@ __author__ = "Jeremy Nelson"
 
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
-from django.views.generic.simple import direct_to_template
-
+from django.shortcuts import render
 from django.http import HttpResponse
 from history.doc import json_loader,rst_loader
 from fixures import json_loader as fixures_json
@@ -19,7 +18,7 @@ def default(request):
 def abolition_and_suffrage(request):
     topic = history_info[3]
     docs = [ rst_loader.get(topic.get('rst')),]
-    return direct_to_template(request,
+    return render(request,
                               'history/topic.html',
                               {'docs':docs,
                                'next': history_info[4],
@@ -31,7 +30,7 @@ def abolition_and_suffrage(request):
 def colorado_springs(request):
     topic = history_info[5]
     docs = [ rst_loader.get(topic.get('rst')),]
-    return direct_to_template(request,
+    return render(request,
                               'history/topic.html',
                               {'docs':docs,
                                'next': None,
@@ -42,7 +41,7 @@ def colorado_springs(request):
 def george_fox_first_quakers(request):
     topic = history_info[0]
     docs = [ rst_loader.get(topic.get('rst')),]
-    return direct_to_template(request,
+    return render(request,
                               'history/topic.html',
                               {'docs':docs,
                                'next':history_info[1],
@@ -53,7 +52,7 @@ def george_fox_first_quakers(request):
 def hicksite(request):
     topic = history_info[2]
     docs = [ rst_loader.get(topic.get('rst')),]
-    return direct_to_template(request,
+    return render(request,
                               'history/topic.html',
                               {'docs':docs,
                                'next': history_info[3],
@@ -64,7 +63,7 @@ def hicksite(request):
 def religious_society_of_friends(request):
     topic = history_info[1]
     docs = [ rst_loader.get(topic.get('rst')),]
-    return direct_to_template(request,
+    return render(request,
                               'history/topic.html',
                               {'docs':docs,
                                'next': history_info[2],
@@ -75,7 +74,7 @@ def religious_society_of_friends(request):
 def worldwars_conscientious_objectors(request):
     topic = history_info[4]
     docs = [ rst_loader.get(topic.get('rst')),]
-    return direct_to_template(request,
+    return render(request,
                               'history/topic.html',
                               {'docs':docs,
                                'next': history_info[5],

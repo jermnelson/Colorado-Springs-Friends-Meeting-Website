@@ -10,7 +10,7 @@ from datetime import date,datetime
 from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from django.http import HttpResponseNotFound,HttpResponseRedirect
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import render
 from django.core.cache import cache
 from committees.models import *
 from meetings.models import QUAKER_MONTHS
@@ -74,11 +74,11 @@ def default(request):
                         'members_form':CommitteeMemberForm(),
                         'report_form':CommitteeReportForm(),
                         'committees':committees}
-     return direct_to_template(request,
-                               'committees/index.html',
-                               {'forms':forms,
-                                'section':'committees',
-                                'user':user})
+     return render(request,
+                   'committees/index.html',
+                   {'forms':forms,
+                    'section':'committees',
+                    'user':user})
 
 def get_committee_reports(year,committee):
      output = []
@@ -121,15 +121,15 @@ def display_committee(request,
 ##   
 ##     if len(committees) < 1:
 ##          return HttpResponseNotFound('<h2>%s Not Found</h2>' % committee)
-     return direct_to_template(request,
-                               committee_templates[committee],
-                               {'committee':committee_info,
-                                'committee_members':members,
-                                'friends':friend_query,
-                                'members_form':members_form,
-                                'reports':sorted(reports),
-                                'report_form':report_form,
-                                'section':'committees'})
+     return render(request,
+                   committee_templates[committee],
+                   {'committee':committee_info,
+                    'committee_members':members,
+                    'friends':friend_query,
+                    'members_form':members_form,
+                    'reports':sorted(reports),
+                    'report_form':report_form,
+                    'section':'committees'})
                                
 
 def display_monthly_report(request,
@@ -159,13 +159,13 @@ def display_monthly_report(request,
           user = request.user
      else:
           user = None     
-     return direct_to_template(request,
-                               'committees/report.html',
-                               {'user':user,
-                                'contents':html_cache,
-                                'committee':name,
-                                'report_date':report_date,
-                                'section':'committees'})
+     return render(request,
+                   'committees/report.html',
+                   {'user':user,
+                    'contents':html_cache,
+                    'committee':name,
+                    'report_date':report_date,
+                    'section':'committees'})
      
 
 def old_display_monthly_report(request,
@@ -197,12 +197,12 @@ def old_display_monthly_report(request,
                                               report_type=report_type,
                                               report_date__gte=datetime(int(year),int(month)-1,1))
      report,report_rst = get_report(reports,year,month)
-     return direct_to_template(request,
-                               'committees/report.html',
-                               {'user':user,
-                                'report':report,
-                                'contents':report_rst,
-                                'section':'committees'})
+     return render(request,
+                   'committees/report.html',
+                   {'user':user,
+                    'report':report,
+                    'contents':report_rst,
+                     'section':'committees'})
 
 
 
@@ -254,7 +254,7 @@ def add_report(request,committee):
      
 
 def display_yearly_report(request,committee,year):
-    return direct_to_template(request,
+    return render(request,
                               'committees/report.html',
                               {'user':None,
                                'report':{'name':'%s Yearly Report %s' % (year,committee),

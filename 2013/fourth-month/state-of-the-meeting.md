@@ -1,5 +1,5 @@
 Author: Ann Grant Martin
-Date: 2013-04-24
+Date: 2013-04-24T00:00:00
 
 # STATE OF THE MEETING 
 ## Colorado Regional, April 24, 2013

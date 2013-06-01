@@ -3,15 +3,14 @@
 """
 __author__ = 'Jeremy Nelson'
 from django.contrib.auth import authenticate
-from django.views.generic.simple import direct_to_template
-
+from django.shortcuts import render
 
 def community(request):
     if request.user.is_authenticated():
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/community.html',
                               {'user':user,
                                'section':'testimonies',
@@ -23,7 +22,7 @@ def default(request):
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/index.html',
                               {'user':user,
                                'section':'testimonies',
@@ -43,7 +42,7 @@ def equality(request):
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/equality.html',
                               {'user':user,
                                'section':'testimonies',
@@ -55,7 +54,7 @@ def integrity(request):
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/integrity.html',
                               {'user':user,
                                'section':'testimonies',
@@ -68,7 +67,7 @@ def peace(request):
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/peace.html',
                               {'user':user,
                                'section':'testimonies',
@@ -80,7 +79,7 @@ def simplicity(request):
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/simplicity.html',
                               {'user':user,
                                'section':'testimonies',
@@ -93,7 +92,7 @@ def truth(request):
         user = request.user
     else:
         user = None
-    return direct_to_template(request,
+    return render(request,
                               'testimonies/integrity.html',
                               {'user':user,
                                'section':'testimonies',
