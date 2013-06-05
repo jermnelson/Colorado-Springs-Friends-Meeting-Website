@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
-<h2><strong>C</strong>reate 
+<div><strong>C</strong>reate 
     <strong>R</strong>ead 
     <strong>U</strong>pdate
-    <strong>D</strong>elete</h2>
+    <strong>D</strong>elete</div>
+<h2>{{ name }}</h2>
 <form action="/crud" method="POST">
 {{ form }}
-
 </form>
 {% endblock %}

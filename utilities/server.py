@@ -50,18 +50,22 @@ def choose():
         SCHEMA_JSON['types'][entity_name].get('specific_properties'))
     for name in sorted(properties):
         property_types = SCHEMA_JSON['properties'][name].get('ranges')
-        print('{0} {1} Types: {2}'.format(entity_name,
-                               name,
-                               ' '.join(property_types)))
         if not SCHEMA_DATATYPE_MAP.has_key(property_types[0]):
-            field_class = wtforms.TextField 
-        fields[name.lower()] = type(SCHEMA_DATATYPE_MAP[property_types[0]],
-                                    (name,))
+            field_class = wtforms.TextField
+        else:
+            field_class = SCHEMA_DATATYPE_MAP[property_types[0]]
+        fields[name.lower()] = field_class(entity_name)
     form = type("{0}Form".format(entity_name),
-                (Form,),
+                (wtforms.Form,),
                 fields)
+    form_output = ''
+    entity_form = form()
+    for name in sorted(entity_form._fields):
+        form_output += '{0} {1}<br>'.format(name,
+                                            unicode(getattr(entity_form, name)))
     return template('schema_form',
-                    form=form())
+                    name=entity_name,
+                    form=form_output)
 
 @route("/")
 def index():
