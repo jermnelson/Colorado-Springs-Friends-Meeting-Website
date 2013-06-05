@@ -5,9 +5,33 @@ __author__ = 'Jeremy Nelson'
 
 from django.db import models
 from django.contrib.auth.models import User
-from location.models import Address,Location
+from location.models import Address, Location
 from django.db.models.signals import post_save
 
+FRIEND_CATEGORIES = {'A': "Attender"
+                     'MAM': "Member of Another Meeting",
+                     
+
+class Friend(models.Model):
+    category = models.IntegerField(blank=True, null=True)
+    email = models.CharField(blank=True, null=True, max_length=60)
+    familyName = models.CharField(blank=True, null=True, max_length=60)
+    givenName = models.CharField(blank=True, null=True, max_length=60)
+    name = models.CharField(blank=True, null=True, max_length=60)
+    parent = models.ForeignKey('self')
+    postal_address = models.ForeignKey('PostalAddress',
+                                      blank=True,
+                                      null=True)
+    sibling = models.ForeignKey('self')
+    spouse = models.ForeignKey('self')
+    
+    
+class PostalAddress(models.Model):
+    addressLocality = models.CharField(blank=True, null=True, max_length=60)
+    addressRegion = models.CharField(blank=True, null=True, max_length=60)
+    postalCode = models.CharField(blank=True, null=True, max_length=60)
+    streetAddress = models.CharField(blank=True, null=True, max_length=60)
+    
 class Friend(models.Model):
     additional_name = models.CharField(max_length=60,blank=True,null=True)
     address = models.ForeignKey(Address,
