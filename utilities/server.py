@@ -7,8 +7,9 @@ import urllib2
 import wtforms
 
 from bottle import request, route, run, static_file
-from bottle import jinja2_view as view
-from bottle import jinja2_template as template
+from bottle import view, template
+## from bottle import jinja2_view as view
+## from bottle import jinja2_template as template
 
 PROJECT_ROOT = os.path.split(os.path.abspath(__file__))[0]
 
@@ -54,22 +55,17 @@ def choose():
             field_class = wtforms.TextField
         else:
             field_class = SCHEMA_DATATYPE_MAP[property_types[0]]
-        fields[name.lower()] = field_class(entity_name)
+        fields[name] = field_class(entity_name)
     form = type("{0}Form".format(entity_name),
                 (wtforms.Form,),
                 fields)
-    form_output = ''
-    entity_form = form()
-    for name in sorted(entity_form._fields):
-        form_output += '{0} {1}<br>'.format(name,
-                                            unicode(getattr(entity_form, name)))
     return template('schema_form',
-                    name=entity_name,
-                    form=form_output)
+                           name=entity_name,
+                           form=form())
 
 @route("/")
 def index():
     return template('index',
                     schema_types=sorted(SCHEMA_JSON['types'].keys()))
 
-run(host='0.0.0.0', port=9042)
+run(host='0.0.0.0', port=9042, reloader=True)
