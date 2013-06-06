@@ -1,70 +1,73 @@
+"""
+ Server for schema.org editor
+"""
 __author__ = "Jeremy Nelson"
 
-import datetime
-import json
 import os
-import urllib2
-import wtforms
+import redis
 
 from bottle import request, route, run, static_file
-from bottle import view, template
+from bottle import template
 ## from bottle import jinja2_view as view
 ## from bottle import jinja2_template as template
 
-PROJECT_ROOT = os.path.split(os.path.abspath(__file__))[0]
+from schema_forms import SCHEMA_JSON, get_form
 
-SCHEMA_RDFS_URL = 'http://schema.rdfs.org/all.json'
-SCHEMA_JSON = json.load(urllib2.urlopen(SCHEMA_RDFS_URL))
 
-SCHEMA_DATATYPE_MAP = {u'Boolean': wtforms.BooleanField,
-                       u'DataType': wtforms.TextField,
-                       u'Date': wtforms.DateField,
-                       u'DateTime': wtforms.DateTimeField,
-                       u'Float': wtforms.FloatField,
-                       u'Integer': wtforms.IntegerField,
-                       u'Number': wtforms.DecimalField,
-                       u'Text': wtforms.TextField,
-                       u'Time': wtforms.TextField,
-                       u'URL': wtforms.TextField}
+UTILITIES_ROOT = os.path.split(os.path.abspath(__file__))[0]
+PROJECT_ROOT = os.path.split(UTILITIES_ROOT)[0]
+PROJECT_DIR = "cosprgssite"
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6391
+REDIS_DS = redis.StrictRedis(host=REDIS_HOST,
+                             port=REDIS_PORT)
+
 
 @route('/assets/<type_of:path>/<filename:path>')
-def send_asset(type_of,filename):
+def send_asset(type_of, filename):
+    """Static file routing
+
+    Parameters:
+    type_of -- Type of static file, usual choices are css, js, or img
+    filename -- filename of the static file including extension
+    """
     local_path = os.path.join(PROJECT_ROOT,
+                              PROJECT_DIR,
                               "assets",
                               type_of,
                               filename)
-    if os.path.exists(local_path):
+    utility_path = os.path.join(UTILITIES_ROOT,
+                                "assets",
+                                type_of,
+                                filename)
+    if os.path.exists(utility_path):
+        return static_file(filename,
+                           root=os.path.join(UTILITIES_ROOT,
+                                             "assets",
+                                             type_of))
+    elif os.path.exists(local_path):
         return static_file(filename,
 			   root=os.path.join(PROJECT_ROOT,
+                                             PROJECT_DIR,
                                              "assets",
                                              type_of))
 
 
+
+
 @route("/choose")
 def choose():
+    "Displays Schema.org Entity Form"
     entity_name = request.query.schema_types
-    if SCHEMA_JSON['types'].has_key(entity_name) is False:
-        raise ValueError("{0} not a schema.org type.".format(entity_name))
-    fields = {}
-    properties = SCHEMA_JSON['types'][entity_name].get('properties')
-    properties.extend(
-        SCHEMA_JSON['types'][entity_name].get('specific_properties'))
-    for name in sorted(properties):
-        property_types = SCHEMA_JSON['properties'][name].get('ranges')
-        if not SCHEMA_DATATYPE_MAP.has_key(property_types[0]):
-            field_class = wtforms.TextField
-        else:
-            field_class = SCHEMA_DATATYPE_MAP[property_types[0]]
-        fields[name] = field_class(entity_name)
-    form = type("{0}Form".format(entity_name),
-                (wtforms.Form,),
-                fields)
+    form = get_form(entity_name)
     return template('schema_form',
-                           name=entity_name,
-                           form=form())
+                    name=entity_name,
+                    form=form())
 
 @route("/")
 def index():
+    "Default view for editor"
     return template('index',
                     schema_types=sorted(SCHEMA_JSON['types'].keys()))
 
