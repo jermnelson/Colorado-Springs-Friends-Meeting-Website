@@ -6,8 +6,8 @@ __author__ = "Jeremy Nelson"
 import os
 import redis
 
-from bottle import request, route, run, static_file
-from bottle import template
+from bottle import post, request, route, run, static_file
+from bottle import template, view
 ## from bottle import jinja2_view as view
 ## from bottle import jinja2_template as template
 
@@ -55,6 +55,14 @@ def send_asset(type_of, filename):
 
 
 
+@post("/crud")
+def operations():
+    "Routes CRUD operations"
+    output = 'Form values:'
+    for name, value in request.forms.iteritems():
+        output += "{0}={1}<br>".format(name, value)
+    return output
+
 
 @route("/choose")
 def choose():
@@ -64,6 +72,8 @@ def choose():
     return template('schema_form',
                     name=entity_name,
                     form=form())
+
+
 
 @route("/")
 def index():
