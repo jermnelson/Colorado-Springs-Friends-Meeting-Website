@@ -1,5 +1,6 @@
 local_settings.*
 .DS_Store
+*.rdb
 *.pyc
 *.bak
 cosprgssite/assets/js/goog*
