@@ -2,14 +2,15 @@ Title: Fifth Month Meeting for Worship for Business Minutes
 Author: Jeremy Nelson
 Date: 2013-05-19T11:27:00
 
-Present: [Molly Wingate][MollyWingate], [Cameron Stoy], Dedeen Candrell, Nancy Andrews, Carlton Gamer, Jeremy Nelson
-[Bill Werling][BillWerling], Genie Durland, Bill Durland, two visitors
+Present: [Molly Wingate][MollyWingate], [Cameron Stoy], [Deneen Candrell [DeneenCrandell], 
+[Nancy Andrews][NancyAndrews], [Carlton Gamer][CarltonGamer], [Jeremy Nelson][JeremyNelson]
+[Bill Werling][BillWerling], [Genie Durland][GenieDurland], [Bill Durland][BillDurland]
 
-1. Silence followed by a reading for the Boulder Meeting of Friends's 
+1. Silence followed by a reading for the Boulder Meetings Friends's 
    Newsletter, *Miscellany*. 
 
    From Howard Brinton quote,
-   For Friends the most important consideration is not the right action in itself, bu a right inward
+   For Friends the most important consideration is not the right action in itself, but a right inward
    state out of which right action will arise. Given the right inward state, right action is inevitable.
    Inward state and outward action are component parts of a single whole.
 
@@ -45,7 +46,7 @@ Present: [Molly Wingate][MollyWingate], [Cameron Stoy], Dedeen Candrell, Nancy A
       Finance Committee Meeting, the graphic "Then vs. Now" graph, the "Now" 
       income graph now is bigger. Utilities bill is now down from the prior
       month, new systems are partly $158.56. The bulk of the meeting by the 
-      assistance request by Quetzol and Calliope at Young Friends Camp and 
+      assistance request by Quetzal and Caliope at Young Friends Camp and 
       FGC, asked for travel assistance. Committee decided that the little 
       extra cushion $875 travel budget, $30 per child per event for $120 so 
       that is what the committee. Meeting appreciated that the committee took
@@ -88,7 +89,7 @@ Present: [Molly Wingate][MollyWingate], [Cameron Stoy], Dedeen Candrell, Nancy A
    F. Nominating Committee seeking volunteers for Colorado Regional, First 
       Day School 5th Day Sunday.   
 
-   G. Library, Nancy may be interested in the Library position. 
+   G. Library, [Nancy][NancyAndrews] may be interested in the Library position. 
 
 5. Old Business
 
@@ -124,7 +125,7 @@ Present: [Molly Wingate][MollyWingate], [Cameron Stoy], Dedeen Candrell, Nancy A
 
    Molly asked if we could do a weekly report through e-mail instead of a 
    individual emails as they come through. Friends expressed interested and
-   Molly has received complients about the number of emails being received 
+   Molly has received complements about the number of emails being received 
    by the Friends. Digest email could turn into more of an newsletter.  
 
 8. Meeting finished in silence at 12:42 pm.
@@ -141,6 +142,7 @@ Recording Clerk
 [BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
 [CarltonGamer]: /Friends/CarltonGamer
+
 [DanielKidney]: /Friends/DanielKidney
 [DeneenCrandell]: /Friends/DeneenCrandell
 [GenieDurland]: /Friends/GenieDurland
