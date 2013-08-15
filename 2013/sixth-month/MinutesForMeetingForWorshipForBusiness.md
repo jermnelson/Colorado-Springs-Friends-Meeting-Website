@@ -6,15 +6,15 @@
 Meeting began June 23, 2013 at 11:28 am
 
 Meeting: [Molly Wingate][MollyWingate], [Bill Durland][BillDurland],
-[Genie Durland][GenieDurland], [Jeremy Nelson][JeremyNelson], [Ann Daughtery][AnnDaugthery]
-[Sarah Callbeck][SarahCallbeck], [Deneen Crandell][DeneenCrandell]h
+[Genie Durland][GenieDurland], [Jeremy Nelson][JeremyNelson], [Ann Daughtery][AnnDaughtery],
+[Sarah Callbeck][SarahCallbeck], [Deneen Crandell][DeneenCrandell]
 
 1.  Silence followed by a prayer from the Clerk.
 
 2.  Consideration of May Minutes - recommend and approved the Meetings as 
     written after minor changes by Sarah.
 
-3.  Clerk’s Report:  We had very good representation at the annual gathering of 
+3.  Clerk's Report:  We had very good representation at the annual gathering of 
     Yearly Meeting!  I am grateful that the regular work of the meeting 
     continued while we were away.
 
@@ -23,8 +23,8 @@ Meeting: [Molly Wingate][MollyWingate], [Bill Durland][BillDurland],
     A.  Finance Committee: Cash Flow Report and other financial reports
         Review of Minutes from Committee Meeting. Friends are encouraged 
         to read the Cash Flow report for specifics on the May. May started
-        with a lot of cash but the Meeting paid for travel of Quetzol and 
-        Canalpe.
+        with a lot of cash but the Meeting paid for travel of Quetzal and 
+        Caliope.
 
         [Sarah][SarahCallbeck] Likes to start with at least 600.00 a month to cover basic 
         Meeting expenses. We started May with $5,000 in the building fund but after
@@ -50,22 +50,23 @@ Meeting: [Molly Wingate][MollyWingate], [Bill Durland][BillDurland],
 
         House cleaning will be on June 30th. 
 
-        [Bill] and [Genie] talked about the next Reader's theater being held at the 
+        [Bill][BillDurland] and [Genie][GenieDurland] talked about the next Reader's theater being held at the 
         Meeting House and that a donation basket.
 
         Meeting house report is accepted.
 
     C.  Ministry and Oversight Committee: Review of Minutes from Committee Meeting
-        Molly will follow-up [Cheryl ] and find out what happened during the Black Forest
+        Molly will follow-up Cheryl and find out what happened during the Black Forest
         Fire. 
   
     D.  First Day School:  We need an adult to be with the children on the 
         occasional 5th Sunday. 1st Sunday - [Ann Martin][AnnMartin], 2nd Sunday is
-        Molly, 3rd Sunday is [Ann Daughtery], 4th Sunday - Gallengers, [Ann Daugthery][]
+        Molly, 3rd Sunday is [Ann Daughtery][AnnDaughtery], 4th Sunday - Gallengers, 
+        [Ann Daughtery][AnnDaughtery]
         volunteered to cover the 5th Sunday.
 
     E.  Adult Education and Action Committee:
-        Summer reading group?  The Last Runaway by Tracy Chevalier. [Molly] will do the
+        Summer reading group?  The Last Runaway by Tracy Chevalier. [Molly][MollyWingate] will do the
         research and see if a reading group will start the third Wednesday of July
 
     F.  Nominating Committee: Still looking [Bill][BillDurland] agreed to become the 
@@ -128,13 +129,17 @@ Meeting closed in silence at 12:33pm.
 Respectfully submitted in the Light,
 
 [Jeremy Nelson][JeremyNelson]
-Recording 
+
+Recording Clerk
 
 [AnnDaughtery]: /Friends/AnnDaughtery
 [AnnMartin]: /Friends/AnnMartin
+[BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
+[DeneenCrandell]: /Friends/DeneenCrandell
 [GenieDurland]: /Friends/GenieDurland
 [JeremyNelson]: /Friends/JeremyNelson
-[JeremyNelson]: /Friends/JeremyNelson
+[JonathanMcPhree]: /Friends/JonathanMcPhree
 [MollyWingate]: /Friends/MollyWingate
 [NancyAndrews]: /Friends/NancyAndrews
+[SarahCallbeck]: /Friends/SarahCallbeck
