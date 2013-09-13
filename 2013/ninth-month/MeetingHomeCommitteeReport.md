@@ -1,4 +1,4 @@
-:Date 2013-09-12
+Date: 2013-09-12T00:00:00
 
 [AnnMartinGrant]: /Friends/AnnMartinGrant
 [BarbaraBowen]: /Friends/BarbaraBowen
@@ -41,7 +41,7 @@ Via phone and Email
 
     1.  Fall Inspection Check List is a work in progress.
 
-        Furnace to be cleaned and serviced once a year—January
+        Furnace to be cleaned and serviced once a year-January
 
     1.  Tentatively schedule  Inspection Thursday October 9, 2013 @5:00 PM         
 

@@ -1,3 +1,5 @@
+Date: 2013-09-15T00:00:00
+
 [BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
 [CalliopeGallagher]: /Friends/CalliopeGallagher
@@ -7,7 +9,6 @@
 [NancyAndrew]: /Friends/NancyAndrew
 [QueztalGallagher]: /Friends/QueztalGallagher
 
-:Date
 # Agenda for Meeting for Worship with a Concern for Business
 ## Colorado Springs Quaker Meeting
 
@@ -34,7 +35,7 @@ In attendance:
 
     1.  *Adult Education and Action Committee*:
 
-        [Bill][BillDurland] and [Genie Durland][GenieDurland] have cancelled this fall’s Adult Religious 
+        [Bill][BillDurland] and [Genie Durland][GenieDurland] have cancelled this fall's Adult Religious 
         Education due to a lack of interest. It was scheduled to start on 
         September 23rd and was to discuss modern Quakerism.  Only two people 
         confirmed they wanted to attend.
@@ -123,4 +124,3 @@ In attendance:
     out, and Bill is the calendar keeper for now.  He is looking into using Google Calendar.
     If you are part of a group or know of a group who would like to use the meeting house, 
     please have them contact [Bill Werling][BillWerling] at william.werling@gmail.com.
-

@@ -93,6 +93,9 @@ def build_process_md(raw_md,md_category):
     if md_category.has_key('committee'):
         category = 'committee'
         name = md_category.get('committee')
+    else:
+        category = 'unknown'
+        name = 'unknown'
 
     return {"category":category,
             "name":name,

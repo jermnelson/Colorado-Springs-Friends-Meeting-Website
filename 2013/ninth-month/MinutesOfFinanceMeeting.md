@@ -1,4 +1,4 @@
-:Date 2013-09-11
+Date: 2013-09-11T00:00:00
 
 [AnneDaugherty]: /Friends/AnneDaugherty
 [JuliaRotenValdez]: /Friends/JuliaRotenValdez

@@ -8,8 +8,8 @@ from django.contrib.auth.models import User
 from location.models import Address, Location
 from django.db.models.signals import post_save
 
-FRIEND_CATEGORIES = {'A': "Attender"
-                     'MAM': "Member of Another Meeting",
+FRIEND_CATEGORIES = {'A': "Attender",
+                     'MAM': "Member of Another Meeting"}
                      
 
 class Friend(models.Model):
@@ -18,12 +18,15 @@ class Friend(models.Model):
     familyName = models.CharField(blank=True, null=True, max_length=60)
     givenName = models.CharField(blank=True, null=True, max_length=60)
     name = models.CharField(blank=True, null=True, max_length=60)
-    parent = models.ForeignKey('self')
+    parent = models.ForeignKey('self',
+                               related_name='friend_parent')
     postal_address = models.ForeignKey('PostalAddress',
                                       blank=True,
                                       null=True)
-    sibling = models.ForeignKey('self')
-    spouse = models.ForeignKey('self')
+    sibling = models.ForeignKey('self',
+                                related_name='friend_sibling')
+    spouse = models.ForeignKey('self',
+                               related_name='friend_spouse')
     
     
 class PostalAddress(models.Model):
@@ -32,33 +35,33 @@ class PostalAddress(models.Model):
     postalCode = models.CharField(blank=True, null=True, max_length=60)
     streetAddress = models.CharField(blank=True, null=True, max_length=60)
     
-class Friend(models.Model):
-    additional_name = models.CharField(max_length=60,blank=True,null=True)
-    address = models.ForeignKey(Address,
-                                related_name="friend_address",
-                                blank=True,
-                                null=True)
-    category = models.ForeignKey('FriendCategory',blank=True,null=True)
-    birth_day = models.DateField(blank=True,null=True)
-    
-    initials = models.CharField(max_length=10,blank=True,null=True)
-    gender = models.CharField(max_length=30,blank=True,null=True)
-    location = models.ForeignKey(Location,
-                                 blank=True,
-                                 null=True,
-                                 related_name="friend_location")
-    nickname = models.CharField(max_length=10,blank=True,null=True)
-    maiden_name = models.CharField(max_length=60,blank=True,null=True)
-    md5_key = models.CharField(max_length=32)
-    prefix = models.CharField(max_length=15,blank=True,null=True)
-    short_name = models.CharField(max_length=30,blank=True,null=True)
-    suffix = models.CharField(max_length=15,blank=True,null=True)
-    user = models.ForeignKey(User,unique=True)
-    young_friend = models.NullBooleanField(blank=True,null=True)
-    yomi_additional_name = models.CharField(max_length=60,blank=True)
-    yomi_given_name = models.CharField(max_length=60,blank=True,null=True)
-    yomi_family_name = models.CharField(max_length=60,blank=True,null=True)
-    yomi_name = models.CharField(max_length=60,blank=True,null=True)
+##class Friend(models.Model):
+##    additional_name = models.CharField(max_length=60,blank=True,null=True)
+##    address = models.ForeignKey(Address,
+##                                related_name="friend_address",
+##                                blank=True,
+##                                null=True)
+##    category = models.ForeignKey('FriendCategory',blank=True,null=True)
+##    birth_day = models.DateField(blank=True,null=True)
+##    
+##    initials = models.CharField(max_length=10,blank=True,null=True)
+##    gender = models.CharField(max_length=30,blank=True,null=True)
+##    location = models.ForeignKey(Location,
+##                                 blank=True,
+##                                 null=True,
+##                                 related_name="friend_location")
+##    nickname = models.CharField(max_length=10,blank=True,null=True)
+##    maiden_name = models.CharField(max_length=60,blank=True,null=True)
+##    md5_key = models.CharField(max_length=32)
+##    prefix = models.CharField(max_length=15,blank=True,null=True)
+##    short_name = models.CharField(max_length=30,blank=True,null=True)
+##    suffix = models.CharField(max_length=15,blank=True,null=True)
+##    user = models.ForeignKey(User,unique=True)
+##    young_friend = models.NullBooleanField(blank=True,null=True)
+##    yomi_additional_name = models.CharField(max_length=60,blank=True)
+##    yomi_given_name = models.CharField(max_length=60,blank=True,null=True)
+##    yomi_family_name = models.CharField(max_length=60,blank=True,null=True)
+##    yomi_name = models.CharField(max_length=60,blank=True,null=True)
 
 class FriendCategory(models.Model):
     code = models.CharField(max_length=5)

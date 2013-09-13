@@ -1,4 +1,4 @@
-:Date 2013-06-21
+Date: 2013-06-21T11:28:00
 
 # Minutes for Meeting for Worship with a Concern for Business
 ## Colorado Springs Quaker Meeting

@@ -1,3 +1,5 @@
+Date: 2013-08-18T11:50:00 
+
 [AnnDaugherty]: /Friends/AnnDaugherty
 [BarbaraBowen]: /Friends/BarbaraBowen
 [BillDurland]: /Friends/BillDurland
@@ -13,8 +15,6 @@
 [MollyWingate]: /Friends/MollyWingate
 [PamHazelton]: /Friends/PamHazelton
 [SarahCallbeck]: /Friends/SarahCallbeck
-
-:Date 2013-08-18 
 
 MINUTES for MEETING for WORSHIP with a CONCERN for BUSINESS
 Colorado Springs Quaker Meeting
@@ -110,7 +110,7 @@ and visitor Theresa Rosenthal.
     [Molly][MollyWingate] reported that the book-reading group has finished The 
     Last Runaway and will start something else soon. She asked for a check of 
     available library funds so that Meeting can purchase Maxine 
-    Kaufman-Lucosta’s book, [Bill Durland's][BillDurland] newest book on economic 
+    Kaufman-Lucosta's book, [Bill Durland's][BillDurland] newest book on economic 
     ethics, and Kathy Hyzey's book on Quaker leadership.
 
     [Molly][MollyWingate] also suggested the formation of a Speakers' Bureau 
@@ -128,7 +128,7 @@ and visitor Theresa Rosenthal.
     reach the end of their terms in January. Several good ideas arose including 
     outgoing officers taking a role in helping to find and prepare their 
     successors and posting a list of positions to be filed, making frequent 
-    announcements in meeting to draw attention to the meeting’s needs.
+    announcements in meeting to draw attention to the meeting's needs.
 
 Meeting for Worship for Business ended with a period of worship.
 
