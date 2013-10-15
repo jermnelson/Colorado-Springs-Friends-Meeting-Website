@@ -1,6 +1,7 @@
 Date: 2013-09-15T11:34:00
 
-[[BarbaraBollen]: /Friends/BarbaraBollen]
+[AnnDaughtery]: /Friends/AnnDaughtery
+[BarbaraBollen]: /Friends/BarbaraBollen
 [BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
 [CalliopeGallagher]: /Friends/CalliopeGallagher
@@ -12,7 +13,7 @@ Date: 2013-09-15T11:34:00
 [QueztalGallagher]: /Friends/QueztalGallagher
 [SarahCallbeck]: /Friends/SarahCallbeck
 
-# Agenda for Meeting for Worship with a Concern for Business
+# Minutes for Meeting for Worship with a Concern for Business
 ## Colorado Springs Quaker Meeting
 
 September 15th, 2013
@@ -28,22 +29,22 @@ Meeting started at 11:34
 
 2.  Consideration of August Minutes
 
-3.  Clerk's Report:  I celebrate the new xeric landscaping and the return of 
+3.  Clerk's Report:  I celebrate the new xeriscape landscaping and the return of 
     [Jonathan McPhee][JonathanMcPhee] to help us with that and also the flood.
 
 4.  Committee Reports:
 
     1.  *Finance Committee*: Cash Flow Report and other financial reports
-        Went over the cash flow report as submitted by the committee. Furance is working 
+        Went over the cash flow report as submitted by the committee. Furnace is working 
         but needs to be worked. 
                                                      
         Review of Minutes from Committee Meeting, whatever money that comes from the 
         assessments will be set aside and not added to the general funds. 
 
-        Report accepted with graditude. 
+        Report accepted with gratitude. 
 
     1.  *Ministry and Oversight* Committee: Review of Minutes from Committee Meeting
-        No members of the committee were present, [Molly][MollyWingate], encouaging them 
+        No members of the committee were present, [Molly][MollyWingate], encouraging them 
         to reduce the size of the committee. [Genie][GenieDurland] brought up 
         that nomination committee needs volunteers. 
 
@@ -51,25 +52,25 @@ Meeting started at 11:34
 
     1.  *Adult Education and Action Committee*:
 
-        [Bill][BillDurland] and [Genie Durland][GenieDurland] have cancelled this fall's Adult Religious 
+        [Bill][BillDurland] and [Genie Durland][GenieDurland] have canceled this fall's Adult Religious 
         Education due to a lack of interest. It was scheduled to start on 
         September 23rd and was to discuss modern Quakerism.  Only two people 
         confirmed they wanted to attend. [Bill][BillDurland] talked that instead of 
         doing an eighth month session that the meeting can have a  
-        special presentations while having a speakers beaura including think about another show and 
-        tell in October or November. Also interested in having discussion. 
-
-        [Nancy], [Bill], and [Genie] about a new structure that fits better with
+        special presentations while having a speakers bureau including thinking about another show and 
+        tell in October or November.
+ 
+        [Nancy][NancyAndrew], [Bill][BillDurland], and [Genie][GenieDurland] talked about a new structure that fits better with
         our Meeting's current circumstance and with the new committee. We do have 
-        the occasional book group and Molly likes the idea of holding special topic.
+        the occasional book group and Molly likes the idea of holding special topic meetings.
         Ad hoc committee will report at the next Business meeting.
 
         The occasional book group will read Margaret Bacon's The Back Bench.  
         Let [Molly][MollyWingate] know if you want a copy.  The hope is for an 
-        intergenerational discussion some evening with snacks.
+        inter-generational discussion some evening with snacks.
 
         Bill brought up the idea of creating a Peace and Social Concerns 
-        committee with him clerking the meeting.          
+        committee with himself clerking the meeting.          
 
     1.  *Nominating Committee*:
 
@@ -97,34 +98,34 @@ Meeting started at 11:34
         This is the perfect collection about a computer for the Meeting to catalog
         meeting with Library Thing, many small churches and organizations use 
         Library Thing. [Bill Werling][BillWerling] offered to build bookcases with 
-        an reclaimed with wood. [Sarah] said that we have approximately $15.00 for 
+        an reclaimed with wood. [Sarah][SarahCallbeck] said that we have approximately $15.00 for 
         purchasing of new books. 
 
-        Library report accepted with gratitude and  
+        Library report accepted with gratitude. 
 
     1.  *Meetinghouse Committee*:  review report
 
-        Meeting is very apperciative of Lisa and Phil's work with Nancy on adding the new liciats
-        and other 
+        Meeting is very appreciative of Lisa and Phil's work with Nancy on adding the new landscaping plants
+        and other work done in front of the meeting house. 
 
         We are going have the furnace checked after the next October 9th. Cleaning Sunday identified 
-        the corner with the $770.00 for new projects. [Sarah] asked about the amount, the plan is the 
-        to refinance before the ballon payment is due in 2017. [Molly] larger plan is refinance with 
-        the money to build the addition build in the construction loan. FGC is a 15 year mortgage. 
+        the corner with the $770.00 for new projects. [Sarah][SarahCallbeck] asked about the amount, the plan is the 
+        to refinance before the balloon payment is due in 2017. [Molly][MollyWingate]'s larger plan is refinance with 
+        more money to build the addition in a combined mortgage-construction loan. FGC is a 15 year mortgage. 
         
-        Solid number for the next costs of the addition.
+        We do need more solid numbers for the costs of the addition knowing that could change in a few years.
 
-        Report accepted with graditude.
+        Report accepted with gratitude.
 
 5.  Old Business:
 
-    1.  Landscaping project continuation.  What else do we need? [Molly] is interested to dropping 
-        her landline phone and maybe transferring to the meeting and maybe instead 
+    1.  Landscaping project continuation.  What else do we need? [Molly][MollyWingate] is interested to dropping 
+        her land-line phone and maybe transferring the number to the meeting. 
                 
 6.  New Business:
 
     Jonathan discovered that the basement flooded with the source of the leak unknown. He requested
-    that he would need help moving the frunerture which was accomplished after Meeting of Worship.
+    that he would need help moving the furniture which was accomplished after Meeting of Worship.
 
     A minute from Boulder Meeting on Syria for us to consider:
 
@@ -145,7 +146,7 @@ Meeting started at 11:34
 
         Diplomatic engagement with all regional stakeholders is what is called 
         for right now. We support the current diplomatic efforts to
-        remove chemical weapons and ceasation of their manufacture.  
+        remove chemical weapons and cessation of their manufacture.  
  
         We encourage the US and other nations to commit their resources to 
         relieve the suffering of the millions of refugees who have found it 
@@ -161,8 +162,9 @@ Meeting started at 11:34
         National Legislation at http://fcnl.org."
 
     [Bill Durland][BillDurland] and [Genie Durland][GenieDurland] expressed their 
-    support for the minute as it is balanced. [Jeremy] mentioned that the current 
-    peace process with the agreement being Russia and the United 
+    support for the minute as it is balanced. [Jeremy][JeremyNelson] mentioned that the current 
+    peace process with the agreement being Russia and the United States be also included in the 
+    minute.
                       
 7.  Announcements:
 
@@ -181,7 +183,8 @@ Meeting started at 11:34
     If you are part of a group or know of a group who would like to use the meeting house, 
     please have them contact [Bill Werling][BillWerling] at william.werling@gmail.com.
 
-    [Ann] expressed her graditude of our current type of gov't and we should be humble and
+    [Ann][AnnDaughtery] expressed her gratitude of our current type of government. 
+    
     
 Meeting closed with silence at 12:23pm.
 
