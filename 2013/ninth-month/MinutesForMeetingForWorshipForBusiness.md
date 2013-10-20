@@ -52,8 +52,7 @@ Meeting started at 11:34
 
     1.  *Adult Education and Action Committee*:
 
-        [Bill][BillDurland] and [Genie Durland][GenieDurland] have canceled this fall's Adult Religious 
-        Education due to a lack of interest. It was scheduled to start on 
+        This fall's Adult Religious Education was laid down. It was scheduled to start on 
         September 23rd and was to discuss modern Quakerism.  Only two people 
         confirmed they wanted to attend. [Bill][BillDurland] talked that instead of 
         doing an eighth month session that the meeting can have a  
@@ -69,8 +68,7 @@ Meeting started at 11:34
         Let [Molly][MollyWingate] know if you want a copy.  The hope is for an 
         inter-generational discussion some evening with snacks.
 
-        Bill brought up the idea of creating a Peace and Social Concerns 
-        committee with himself clerking the meeting.          
+        Bill Durland agreed to clerk new Peace and Social Concerns. 
 
     1.  *Nominating Committee*:
 
