@@ -1,6 +1,0 @@
-{% load committee_extras %}
-<ul>
-{% for report in reports %}
- <li><a href="/committees/{{ committee.name }}/{{ report.year }}/{{ report.month }}/">{{ report|date:"F j, Y" }}</a></li>
-{% endfor %}
-</ul>
