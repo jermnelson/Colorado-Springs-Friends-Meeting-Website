@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Simplicity</a></li>
+{% endblock %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Equality</h1>
+    <p>that each person in creation shares equal value and standing.</p>
+   {# END jumbotron #}
+   </div>
+   {# START quote row#}
+   <div class="row">
+    <div class="col-md-6"> 
+     <blockquote class="pull-left">
+       Quakers have long affirmed what the laws of our country have explicitly 
+       ruled - that none of the categories that make us distinctive as individuals 
+       shall stand in the way of our realizing our lives fully and freely. Women 
+       and men are equal. All races are equal. All people are free to choose 
+       whatever religion speaks to their needs. No one person shall be subject to 
+       another, nor in regard to spirit does any person hold rank above another. 
+       Because we believe that the Light shines in the early years of life and in 
+       the last, we value and respect youth and age equally with other stages of life.
+     <p><small><i>IMYM Faith and Practice</i> page 53</small> 
+    </blockquote>
+    </div>
+   </div>
+   {# END quote row#}
+   </div>
+  {# END Size DIV#}
+  </div>
+ {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-6 box_display">
+ </div>
+</div>
+{% endblock %}
+

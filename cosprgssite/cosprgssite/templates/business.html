@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">{{ meeting.name }}</a></li>
+{% endblock %}
+
+{% block jumbotron %}
+<div class="container">
+ <div class="row">
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  </div>
+  <div class="col-md-8">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Business Meeting</h1>
+    <p class="lead">
+     The Colorado Springs Friends's Meeting for Worship with a concern for 
+     Business is usually held every third first-day (Sunday) after the close
+     of Meeting for Worship.
+    </p>
+   {# END jumbotron #}
+   </div>
+   {% for year, listing in minutes.items %}
+     {% if forloop.counter0 == 0 or forloop.counter0 == 4 %}
+     <div class="row">
+     {% endif %}
+      <div class="col-md-4">
+        <h3>{{ year }} Minutes</h3>
+        <ul>
+        {% for minute in listing %}
+         <li><a href="/meetings/Business/{{ minute.date.year }}/{{ minute.date.month }}">{{ minute.date|date:"F d, Y" }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+     {% if forloop.counter0 == 0 or forloop.counter0 == 4 %}
+     </div>
+     {% endif %}
+
+   {% endfor %}
+  </div>
+</div>
+{% endblock %}
+
+
+{% block container %}
+{% endblock %}
+{% comment %}
+{% block second-row %}
+<div class="row">
+{% if meeting.minutes or user.is_superuser %}
+ <div class="span4 offset3 box_display">
+  <h2>Minutes</h2>
+  {% if user.is_superuser %}
+  <a href="#" class="btn btn-small" onclick="$('#add_minute').modal('show')">Add Minute</a>
+ {% endif %}
+  <ul>
+  {% for row in meeting.minutes %}
+    <li><a href="/meetings/{{ meeting.type_of|get_name }}/{{ row.year }}/{{ row.month }}/">{{ row|date:"F j, Y" }}</a></li>
+  {% endfor %}
+  </ul>
+ </div>
+ {% if archive %}
+ <div class="span3 box_display">
+ <h2>Archives for {{ meeting.name }}</h2>
+ <ul>
+ {% for year in archive %}
+  <li><a href="/meetings/{{ meeting.type_of|get_name }}/{{ year }}/">{{ year }}</a></li>
+ {% endfor %}
+ </ul>
+ </div>
+ {% endif %}
+</div>
+{% endif %}
+
+<div class="span3 box-display">
+ {% if reports %}
+  <h2>Reports</h2>
+ {% else %}
+   &nbsp;
+ {% endif %}
+ </div>
+
+{% endblock %}
+{% endcomment %}
+
+{% comment %}
+{% block dialogs %}
+<div class="modal hide fade" id="add_minute">
+ <div class="modal-header">
+  <a class="close" data-dismiss="modal">×</a>
+  <h2>{% trans "Add Minute" %} {{ meeting.name }}</h2>
+ </div>
+ <form action="/meetings/{{ meeting.type_of|get_name }}/report/add" method="POST">
+ <div class="modal-body">
+  {% csrf_token %}
+  <label>{{ minute_form.meeting_date.label }}</label>
+  {{ minute_form.meeting_date }}
+  <label>reStructured Text filename</label>
+  {{ minute_form.rstFileLocation }}
+  <label>{{ minute_form.report_type.label }}</label>
+  {{ minute_form.report_type }}
+  <label>{{ minute_form.authors.label }}</label>
+  {{ minute_form.authors }}
+ </div>
+ <div class="modal-footer">
+ <input type="submit" class="btn btn-primary" value="Save" />
+  <a href="#" onclick="$('#add_minute').modal('hide')" class="btn">Close</a>
+ </div>
+ </form>
+</div> 
+{% endblock %}
+
+{% endcomment %}

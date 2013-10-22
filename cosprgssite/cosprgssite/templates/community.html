@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Simplicity</a></li>
+{% endblock %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Community</h1>
+    <p>that we sustain caring relationships with all.</p>
+   {# END jumbotron #}
+   </div>
+    {# END Size DIV#}
+  </div>
+ {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-6 box_display">
+ </div>
+</div>
+{% endblock %}
+

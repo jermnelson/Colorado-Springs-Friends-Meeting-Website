@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Simplicity</a></li>
+{% endblock %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Integrity / Truth</h1>
+    <p>that all we do reflects the integrity of and unity with truth.</p>
+   {# END jumbotron #}
+   </div>
+   {# START quote row#}
+   <div class="row">
+    <div class="col-md-4"> 
+     <blockquote class="pull-right">
+      Friends consider integrity a way of life. In the stillness of worship we 
+      come into the Divine Presence and open ourselves to the Light; we hide 
+      nothing of who we are. In keeping with that openness of spirit, Friends 
+      express themselves with honesty in their dealings with others. Plain 
+      truth needs no decorative flourishes. We speak with simple clarity to 
+      reflect in our words the reality of our percep- tions and thoughts.     
+     <p><small>IMYM <i>Faith and Practice</i> page 47</small></p>
+    </blockquote>
+   </div>
+   {# END quote row#}
+   </div>
+  {# END Size DIV#}
+  </div>
+ {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-6 box_display">
+ </div>
+</div>
+{% endblock %}
+

@@ -6,7 +6,7 @@
    Testimonies
  </a>
 
- <div id="testimonies" class="collapse in left-nav-body">
+ <div id="testimonies" class="collapse {% if section == 'testimonies' or category == 'home' %}in {% endif %}left-nav-body">
   <p>We, as Quakers, do not affrim any specific doctrine or 
      creed but instead try to live in accordance with the following
      testimonies:
@@ -28,10 +28,16 @@
  </a>
 
  {# START Meeting #}
- <div id="meetings" class="collapse left-nav-body">
+ <div id="meetings" class="collapse {% if section == 'meeting' %}in {% endif %}left-nav-body">
+  <p>
+   Our Quaker Communtity centers around formal gathering of Friends. Our weekly Meeting for 
+   Worship is usually 10 am on First Day (Sunday). Our monthly Business Meeting, where consensus
+   decisions are made concerning the financial, spritual, and physical matters is usually held
+   the third first day after the close of Meeting for Worship.
+  </p>
   <ul>
-   <li>Worship</li>
-   <li>Business</li>
+   <li><a href="/meetings/Worship">Worship</a></li>
+   <li><a href="/meetings/Business">Business</a></li>
   </ul>
 
  </div>
@@ -43,7 +49,6 @@
     href="#committees">
   Committees
  </a>
-
  <div id="committees" class="collapse left-nav-body">
   <p>
    Committees

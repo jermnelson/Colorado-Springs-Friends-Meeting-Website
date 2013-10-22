@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+{% endblock %}
+
+{% block container %}
+{# START row #}
+<div class="row">
+ {# START left nav #}
+ <div class="col-md-3">
+  {% include 'snippets/left-nav.html' %} 
+ {# END left nav #}
+ </div> 
+ {# START main #}
+ <div class="col-md-9">
+  <h1>Quaker Testimonies</h1>
+  {# START testimonies row #}
+  <div class="row">
+   {# Peace #}
+   <div class="col-md-4">
+    <div class="panel panel-success">
+     <div class="panel-heading">
+      <h3 class="panel-title"><a href="/testimonies/Peace">Peace</a></h3>
+     </div>
+     <div class="panel-body">
+      The Peace Testimony is ...
+     </div>
+    </div>
+   {# END Peace #}
+   </div>
+ {# END testimonies row #}
+ </div>
+
+ {# END main #}
+ </div> 
+{# END row #}
+</div>
+
+{% endblock %}

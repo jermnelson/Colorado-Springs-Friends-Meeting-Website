@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">Simplicity</a></li>
+{% endblock %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Peace</h1>
+   <p>that we actively work to ‘remove all causes of war’ and the use of 
+      violence from this world, whether between individuals, tribes or nations.</p>
+   {# END jumbotron #}
+   </div>
+   {# START quote row#}
+   <div class="row">
+    <div class="col-md-6 well">
+     <a href="http://fcnl.org"><img src="{{ STATIC_URL }}img/fcnl-logo.png" /></a>
+     <p>
+      The Friends Committee on National Legislation (FCNL) fields the 
+      largest team of registered peace lobbyists in Washington, DC. Founded
+      in 1943 by members of the Religious Society of Friends (Quakers), 
+      FCNL's multi-issue advocacy connects historic Quaker testimonies on 
+      peace, equality, simplicity, and truth with 
+      peace and social justice issues which the United States government 
+      is or should be addressing. 
+     <small>Extracted from FCNL website</small>
+     </p>
+    </div>
+   {# END quote row#}
+   </div>
+  {# END Size DIV#}
+  </div>
+ {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-6 box_display">
+ </div>
+</div>
+{% endblock %}
+

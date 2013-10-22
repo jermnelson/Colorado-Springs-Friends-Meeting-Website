@@ -25,7 +25,7 @@ Present: [Ann Daughtery][AnnDaughtery], [Genie Durland][GenieDurland], [Bill Dur
 [Carlton Gamer][CarltonGamer], [Bill Werling][BillWerling], [Molly Wingate][MollyWingate], 
 [Jeremy Nelson][JeremyNelson]
 
-Meeting started 
+Meeting started at 11:21 am.
 
 1.  Silence followed by a reading the following query:
     How do you distingusih between the leadings of the Divine and the pressures of the needy?
@@ -40,8 +40,8 @@ Meeting started
 
     1.  *Finance Committee*: Cash Flow Report and other financial reports
 
-	There wasn't a meeting this month for the *Finance Committee*.
-
+        There wasn't a meeting this month for the *Finance Committee*.
+        
         [Ann][AnnDaughtery] Review of Minutes from Committee Meeting, assessments 
         Cash flow report was good, end of the month $798.30 in checking account.
         $700 of six month reserve $477 for mortgage. Six months of utilities, insurance,
@@ -123,7 +123,7 @@ Meeting started
     allow us to proceed with the most open mind.  
     
     What sort of community activities would Friends enjoy at the Meeting House?
-    Shall we plan another "Show and Tell?" [Molly][Molly] and [Carlton] asked if there
+    Shall we plan another "Show and Tell?" [Molly][MollyWingate] and [Carlton][CarltonGamer] asked if there
     was more interest in another "Show and Tell?", we are settling and speaking on 
     spritual matters. Next "Show and Tell" with [Bill Durland][BillDurland], [Bill Werling][BillWerling],
     and [Jeremy][JeremyNelson] presenting on their work. Talked about having the session in 

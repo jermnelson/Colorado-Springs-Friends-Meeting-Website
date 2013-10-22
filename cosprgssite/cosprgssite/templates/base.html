@@ -39,15 +39,30 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li {% if category == 'home' %}class="active"{% endif %}><a href="/">Home</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <li class="dropdown{% if category == 'about' %} active{% endif %}">
+              <a href="#" 
+                 class="dropdown-toggle" 
+                 data-toggle="dropdown">About <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="/testimonies">Testimonies</a>
+                  <ul>
+                    <li><a href="/testimonies/Simplicity">Simplicity</a></li> 
+                    <li><a href="/testimonies/Peace">Peace</a></li>
+                    <li><a href="/testimonies/Integrity">Integrity</a></li>
+                    <li><a href="/testimonies/Community">Community</a></li>
+                    <li><a href="/testimonies/Equality">Equality</a></li>
+                  </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="/meetings">Meetings</a>
+                  <ul>
+                   <li><a href="/meetings/Worship">Meeting for Worship</a></li>
+                   <li><a href="/meetings/Business">Meeting for Business</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Something else here</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
@@ -68,6 +83,8 @@
       </div>
     </div>
     {% endblock %}
+
+    {% block breadcrumb-links %}{% endblock %}
 
     {% block jumbotron %}
     <!-- Main jumbotron for a primary marketing message or call to action -->
