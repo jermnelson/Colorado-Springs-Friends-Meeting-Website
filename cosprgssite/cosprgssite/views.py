@@ -1,9 +1,9 @@
 __author__ = "Jeremy Nelson"
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 
 def home(request):
-    return render_to_response(
-        'index.html')
+    return render(request,
+                  'index.html')
         
 
     
