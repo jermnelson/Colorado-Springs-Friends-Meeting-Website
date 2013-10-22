@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(219,223,230);
+  margin-top: 60px;
+}
+
+div.left-nav-body {
+  background-color: white;
+  padding: 3px;
+  font-size: 1.2em;
+}
