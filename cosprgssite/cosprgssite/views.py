@@ -1,5 +1,7 @@
 __author__ = "Jeremy Nelson"
 
+import os
+
 from collections import OrderedDict
 import datetime
 from django.http import HttpResponse
@@ -12,7 +14,8 @@ def committee(request,
                   '{0}.html'.format(committee.lower()),
                   {'category': 'about',
                    'section': 'committee',
-                   'membership': []})
+                   'membership': [],
+                   'reports': []})
 
 def home(request):
     return render(request,
