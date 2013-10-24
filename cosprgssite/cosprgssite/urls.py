@@ -5,6 +5,12 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    url(r'^committees/(?P<committee>.*)/(?P<year>\d+)/(?P<month>\d+)$',
+        'cosprgssite.views.report',
+        name='report'),
+    url(r'^committees/(?P<committee>.*)$',
+        'cosprgssite.views.committee',
+        name='committee'),
     url(r'^meetings/(?P<meeting>.*)/(?P<year>\d+)/(?P<month>\d+)$',
         'cosprgssite.views.minute',
         name='minute'),

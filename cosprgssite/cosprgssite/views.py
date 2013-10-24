@@ -6,6 +6,14 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from meetings import get_minute, get_minutes, QUAKER_MONTHS
 
+def committee(request,
+              committee):
+    return render(request,
+                  '{0}.html'.format(committee.lower()),
+                  {'category': 'about',
+                   'section': 'committee',
+                   'membership': []})
+
 def home(request):
     return render(request,
                   'index.html',
@@ -25,7 +33,6 @@ def meeting(request,
                         minutes[current_year].append(row)
                     else:
                         minutes[current_year] = [row,]
-            print(minutes[2011])
             return render(request,
                           'business.html',
                           {'category': 'about',

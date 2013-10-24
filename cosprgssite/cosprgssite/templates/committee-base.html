@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+<div class="container">
+ <div class="row">
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  </div>
+  <div class="col-md-8">
+   {# START jumbotron #}
+   <div class="jumbotron">
+     <h1>{% block committee_name %}Committee Name{% endblock %}</h1> 
+     <p class="lead">
+      {% block committee_description %}{% endblock %}
+     </p>
+    {# END jumbotron #}
+   </div>
+  </div>
+  {% block more_jumbotron %}{% endblock %}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+  {# START Committee Membership DIV #}
+  <div class="col-lg-4">
+     <h2>Membership</h2>
+     <p>The following Friends are members of this committee:</p>
+     <ul>
+      {% for member in membership %}
+      <li><a href="{{ member.url }}">{{ member.name }}</a></li>
+      {% endfor %}
+     </ul>
+     <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+  {# END  Committee Membership DIV #}
+  </div>
+  
+ {# START Reports DIV #}
+  <div class="col-lg-4">
+     <h2>Reports</h2>
+     <p>Monthly Reports</p>
+    <ul>
+
+    </ul>
+ {# END Reports DIV #}
+  </div>
+</div> 
+{% endblock %}
+
