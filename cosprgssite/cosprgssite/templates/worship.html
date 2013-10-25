@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+  <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
+  <li class="active"><a href="#">{{ meeting.name }}</a></li>
+{% endblock %}
+
+{% block jumbotron %}
+<div class="container">
+ <div class="row">
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  </div>
+  <div class="col-md-8">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Meeting for Worship</h1>
+    <p class="lead">
+     A weekly meeting, usually held First Day, for shared communial worship in silence 
+    </p>
+   {# END jumbotron #}
+   </div>
+  </div>
+</div>
+{% endblock %}
+
+
+{% block container %}
+{% endblock %}

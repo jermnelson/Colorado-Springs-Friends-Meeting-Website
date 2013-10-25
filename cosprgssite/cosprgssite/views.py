@@ -66,6 +66,15 @@ def minute(request,
                            'content': minute_html,
                            'section': 'meeting'})
         
+def report(request,
+           committee,
+           year,
+           month):
+    return HttpResponse("In report {0} {1} for {2}".format(
+        committee,
+        year,
+        month))
+
 def testimony(request,
               testimony=None):
     if testimony:

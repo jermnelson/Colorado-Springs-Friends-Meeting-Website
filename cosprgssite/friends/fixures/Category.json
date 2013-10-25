@@ -1,0 +1,26 @@
+[
+  {
+    "fields": {
+      "code": "rm", 
+      "name": "Resident Member"
+    }, 
+    "model": "friends.Category", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "code": "a", 
+      "name": "Attender"
+    }, 
+    "model": "friends.Category", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "code": "mam", 
+      "name": "Member Another Meeting"
+    }, 
+    "model": "friends.Category", 
+    "pk": 3
+  }
+]
