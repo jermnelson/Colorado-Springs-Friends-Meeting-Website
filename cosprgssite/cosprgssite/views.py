@@ -17,6 +17,14 @@ def committee(request,
                    'membership': [],
                    'reports': []})
 
+def history(request,
+            topic):
+    return render(request,
+                  '{0}.html'.format(topic),
+                  {'category': 'about',
+                   'section': 'history'})
+                   
+
 def home(request):
     return render(request,
                   'index.html',

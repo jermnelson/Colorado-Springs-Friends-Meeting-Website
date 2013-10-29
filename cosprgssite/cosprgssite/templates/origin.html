@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>George Fox &amp; the Early Quakers</h1>
+    <p class="lead"><a href="http://en.wikipedia.org/wiki/George_Fox">George Fox</a> (1624-1691) 
+    was born into a weaver family in Leicestershire, England and grew up during the 
+    religion-based English Civil War. As he recounts in his journal:</p>
+    <pre><code>Need quote</code></pre>
+   {# END jumbotron #}
+   </div>
+  {# END Size DIV#}
+  </div>
+  {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-12">
+  <div class="well">
+   <h2>Margaret Fell Fox</h2>
+   <p><a href="http://en.wikipedia.org/wiki/Margaret_Fell">Margaret Fell</a> (1614-1702) was a founder of the Religious Society of Friends. After her first husband died, she remarried George Fox.</p>
+   <h2>William Penn</h2>
+   <p><a href="http://en.wikipedia.org/wiki/William_Penn">William Penn</a> (1644-1718)</p>
+   <h2>Mary Fisher</h2>
+   <p><a href="http://en.wikipedia.org/wiki/Mary_Fisher_%28missionary%29">Mary Fisher</a> (1623-1698)</p>
+  </div>
+ </div>
+</div>
+{% endblock %}
