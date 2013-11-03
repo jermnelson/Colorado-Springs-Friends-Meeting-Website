@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Hicksite Split</h1>
+    <p class="lead">
+     <a href="http://en.wikipedia.org/wiki/Elias_Hicks">Elias Hicks</a> (1748-1830) 
+     was a Quaker preacher whos beliefs and teachings about the inner light caused 
+     the first major split among the Religious Society of Friends.
+    </p>
+   {# END jumbotron #}
+   </div>
+  {# END Size DIV#}
+  </div>
+{# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+{% endblock %}

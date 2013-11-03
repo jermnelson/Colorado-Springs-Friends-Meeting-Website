@@ -17,14 +17,19 @@ urlpatterns = patterns('',
     url(r'^history/(?P<topic>.*)$',
         'cosprgssite.views.history',
         name='history'),
+    url(r'^login$',
+        'cosprgssite.views.login_view'),
+    url(r'^logout$',
+        'cosprgssite.views.logout_view'),
     url(r'^meetings/(?P<meeting>.*)$',
         'cosprgssite.views.meeting',
         name='meeting'),
+    url(r"^[f|F]riends/", include("friends.urls")),
     url(r'^testimonies/(?P<testimony>.*)$',
         'cosprgssite.views.testimony',
         name='testimony'),
     url(r'^$', 'cosprgssite.views.home', name='home'),
-                       
+    
     # url(r'^cosprgssite/', include('cosprgssite.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

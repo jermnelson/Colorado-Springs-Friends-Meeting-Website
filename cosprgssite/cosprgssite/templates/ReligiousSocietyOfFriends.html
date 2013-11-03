@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Religious Society of Friends</h1>
+    <p class="lead">
+      The Religious Society of Friends expanded out of England and into the early American colonies
+    </p>
+   {# END jumbotron #}
+   </div>
+  {# END Size DIV#}
+  </div>
+{# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+{% endblock %}

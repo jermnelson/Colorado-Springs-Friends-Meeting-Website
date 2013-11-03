@@ -5,7 +5,9 @@ import os
 from collections import OrderedDict
 import datetime
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from django.contrib.auth import logout, authenticate
 from meetings import get_minute, get_minutes, QUAKER_MONTHS
 
 def committee(request,
@@ -30,6 +32,17 @@ def home(request):
                   'index.html',
                   {'category': 'home'})
 
+def login_view(request):
+    user = authenticate(username=request.POST.get('username'),
+                        password=request.POST.get('secret'))
+    if user is None:
+        messages.error(request, "Username and/or Password invalid")
+    return redirect("/")
+
+
+def logout_view(request):
+    logout(request)
+    return redirect("/")
 
 def meeting(request,
             meeting=None):

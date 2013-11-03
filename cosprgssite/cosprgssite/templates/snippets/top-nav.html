@@ -59,10 +59,12 @@
               </ul>
             </li>
           </ul>
-            <form class="navbar-form navbar-right">
+            <form class="navbar-form navbar-right" method="POST" action="/login">
+            {% csrf_token %}
             {% if user.is_authenticated %}
             <div class="form-group">
-                <button type="button" class="btn btn-success">Sign out {{ user.username }}</button>
+                <a href="/logout" 
+                   class="btn btn-success">Sign out {{ user.username }}</a>
             </div>
             {% else %}
              <div class="form-group">
