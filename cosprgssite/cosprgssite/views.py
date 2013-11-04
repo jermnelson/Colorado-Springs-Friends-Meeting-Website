@@ -8,15 +8,19 @@ from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import logout, authenticate
+from friends.models import Committee, CommitteeMembership
 from meetings import get_minute, get_minutes, QUAKER_MONTHS
 
 def committee(request,
               committee):
+    committee_ = Committee.objects.all().get(name=committee)
+    committee_membership = CommitteeMembership.objects.all().filter(
+        committee=committee_)
     return render(request,
                   '{0}.html'.format(committee.lower()),
                   {'category': 'about',
                    'section': 'committee',
-                   'membership': [],
+                   'membership': committee_membership,
                    'reports': []})
 
 def history(request,

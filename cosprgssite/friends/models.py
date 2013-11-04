@@ -41,6 +41,7 @@ class Friend(models.Model):
                                      related_name='friend_sibling',
                                      null=True)
     is_birthright = models.BooleanField(default=False)
+    is_public = models.BooleanField(default=False)
     postal_address = models.ForeignKey('PostalAddress',
                                       blank=True,
                                       null=True)

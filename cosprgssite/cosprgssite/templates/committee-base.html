@@ -28,7 +28,11 @@
      <p>The following Friends are members of this committee:</p>
      <ul>
       {% for member in membership %}
-      <li><a href="{{ member.url }}">{{ member.name }}</a></li>
+      {% if member.friend.is_public or user.is_authenticated %}
+      <li><a href="/friends/{{ member.friend.user.first_name }}{{ member.friend.user.last_name }}">
+        {{ member.friend.user.first_name }} {{ member.friend.user.last_name }}</a>
+      </li>
+      {% endif %}
       {% endfor %}
      </ul>
      <p><a class="btn btn-default" href="#">View details &raquo;</a></p>

@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>{{ info.user.first_name }} {{ info.user.last_name }}</h1>
+    <p class="lead">{{ info.category }}</p>
+   {# END jumbotron #}
+   </div>
+  {# END Size DIV#}
+  </div>
+  {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-4">
+ {% if user.is_authenticated %}
+  <div class="well">
+   <h3>Address</h3>
+   {{ info.postal_address }} {{ info.postal_address.postalCode }}
+  </div>
+ {% endif %}
+ </div>
+ <div class="col-md-4">
+  {% if committees %}
+  {# START Committee Panel #}
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Committee Membership</h2>
+    </div>
+    <div class="panel-body">
+      <p>{{ info.user.first_name }} {{ info.user.last_name }} serves the Meeting with the
+         following committee membership:</p>
+      <ul>
+        {% for row in committees %} 
+        <li>{% if row.is_clerk %}Clerk{% endif %} <a href="/committees/{{ row.committee.name }}">{{ row.committee.group.name }}</a>.
+           {% if user.is_authenticated %} Started on {{ row.dateStarted }}{% endif %}.
+         </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {# END Committee Panel #}
+  </div>
+  {% endif %} 
+ </div>
+</div>
+{% endblock %}

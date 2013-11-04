@@ -6,7 +6,7 @@ from django.http import Http404
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from cosprgssite.settings import PROJECT_HOME
-from friends.models import Friend
+from friends.models import Friend, CommitteeMembership
 
 def friend(request,
            username):
@@ -19,13 +19,19 @@ def friend(request,
     user_query = User.objects.all().filter(username=username)
     if len(user_query) < 1:
         raise Http404
-    info = Friend.objects.all().get(user=user_query[0])
+    friend = Friend.objects.all().get(user=user_query[0])
+    print(request.user.is_authenticated())
+    if not request.user.is_authenticated():
+        if not friend.is_public:
+            raise Http404
+    committees = CommitteeMembership.objects.all().filter(friend=friend)
     if not os.path.exists(custom_template):
         custom_template = 'friend.html'
     return render(request,
                   custom_template,
                   {'category': 'about',
-                   'info': info,
+                   'committees': committees,
+                   'info': friend,
                    'section': 'friend',
                    'username': username})
     

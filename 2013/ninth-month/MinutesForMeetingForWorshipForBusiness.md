@@ -1,7 +1,7 @@
 Date: 2013-09-15T11:34:00
 
-[AnnDaughtery]: /Friends/AnnDaughtery
-[BarbaraBollen]: /Friends/BarbaraBollen
+[AnnDaugherty]: /Friends/AnnDaugherty
+[BarbaraBowen]: /Friends/BarbaraBowen
 [BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
 [CalliopeGallagher]: /Friends/CalliopeGallagher
@@ -18,9 +18,9 @@ Date: 2013-09-15T11:34:00
 
 September 15th, 2013
 
-Present: [Genie Durland][GenieDurland], [Barbara Bollen][BarbaraBollen], 
+Present: [Genie Durland][GenieDurland], [Barbara Bowen][BarbaraBowen], 
 [Molly Wingate][MollyWingate], [Bill Durland][BillDurland], [Jeremy Nelson][JeremyNelson] 
-[Ann Daughtery][AnnDaughtery], [Sarah Callbeck][SarahCallbeck], [Nancy Andrew][NancyAndrew]
+[Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [Nancy Andrew][NancyAndrew]
 
 
 Meeting started at 11:34
@@ -181,7 +181,7 @@ Meeting started at 11:34
     If you are part of a group or know of a group who would like to use the meeting house, 
     please have them contact [Bill Werling][BillWerling] at william.werling@gmail.com.
 
-    [Ann][AnnDaughtery] expressed her gratitude of our current type of government. 
+    [Ann][AnnDaugherty] expressed her gratitude of our current type of government. 
     
     
 Meeting closed with silence at 12:23pm.

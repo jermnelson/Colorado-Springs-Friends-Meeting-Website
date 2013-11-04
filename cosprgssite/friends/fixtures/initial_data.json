@@ -1,0 +1,137 @@
+[
+  {
+    "fields": {
+      "code": "rm", 
+      "name": "Resident Member"
+    }, 
+    "model": "friends.Category", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "code": "a", 
+      "name": "Attender"
+    }, 
+    "model": "friends.Category", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "code": "mam", 
+      "name": "Member Another Meeting"
+    }, 
+    "model": "friends.Category", 
+    "pk": 3
+  }, 
+  {
+    "fields": {
+      "code": "nrm", 
+      "name": "Non-resident Member"
+    }, 
+    "model": "friends.Category", 
+    "pk": 4
+  }, 
+
+  {
+    "fields": {
+      "name": "Finance"
+    }, 
+    "model": "auth.group", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "name": "Ministry and Oversight"
+    }, 
+    "model": "auth.group", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "name": "Meeting House"
+    }, 
+    "model": "auth.group", 
+    "pk": 3
+  }, 
+  {
+    "fields": {
+      "name": "Nominating"
+    }, 
+    "model": "auth.group", 
+    "pk": 4
+  }, 
+  {
+    "fields": {
+      "name": "Peace and Social Concerns"
+    }, 
+    "model": "auth.group", 
+    "pk": 5
+  }, 
+  {
+    "fields": {
+      "name": "First Day School"
+    }, 
+    "model": "auth.group", 
+    "pk": 6
+  }, 
+  {
+    "fields": {
+      "dateCreated": "2011-01-01", 
+      "datePutDown": null, 
+      "group": 1, 
+      "name": "Finance"
+    }, 
+    "model": "friends.committee", 
+    "pk": 1
+  }, 
+  {
+    "fields": {
+      "dateCreated": "2011-01-01", 
+      "datePutDown": null, 
+      "group": 6, 
+      "name": "FirstDaySchool"
+    }, 
+    "model": "friends.committee", 
+    "pk": 2
+  }, 
+  {
+    "fields": {
+      "dateCreated": "2011-01-01", 
+      "datePutDown": null, 
+      "group": 2, 
+      "name": "MinistryAndOversight"
+    }, 
+    "model": "friends.committee", 
+    "pk": 3
+  }, 
+  {
+    "fields": {
+      "dateCreated": "2011-01-01", 
+      "datePutDown": null, 
+      "group": 3, 
+      "name": "MeetingHouse"
+    }, 
+    "model": "friends.committee", 
+    "pk": 4
+  }, 
+  {
+    "fields": {
+      "dateCreated": "2011-01-01", 
+      "datePutDown": null, 
+      "group": 4, 
+      "name": "Nominating"
+    }, 
+    "model": "friends.committee", 
+    "pk": 5
+  }, 
+  {
+    "fields": {
+      "dateCreated": "2013-09-01", 
+      "datePutDown": null, 
+      "group": 5, 
+      "name": "PeaceAndSocialConcerns"
+    }, 
+    "model": "friends.committee", 
+    "pk": 6
+  }
+]
