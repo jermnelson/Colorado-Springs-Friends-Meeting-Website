@@ -7,7 +7,7 @@ import datetime
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
-from django.contrib.auth import logout, authenticate
+from django.contrib.auth import login, logout, authenticate
 from friends.models import Committee, CommitteeMembership
 from meetings import get_minute, get_minutes, QUAKER_MONTHS
 
@@ -38,9 +38,11 @@ def home(request):
 
 def login_view(request):
     user = authenticate(username=request.POST.get('username'),
-                        password=request.POST.get('secret'))
+                        password=request.POST.get('password'))
     if user is None:
         messages.error(request, "Username and/or Password invalid")
+    else:
+        login(request, user)
     return redirect("/")
 
 

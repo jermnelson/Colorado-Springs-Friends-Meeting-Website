@@ -29,7 +29,7 @@ Colorado Regional Assessments
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 `Lisa`_ is still aware that we have not yet paid our assessments to Colorado Regional.  She has 
 been emailing different people on and off since February, but has never been able to get a 
-treasurer’s address to send the check to.  We have never been billed.  She plans to pay when 
+treasurer's address to send the check to.  We have never been billed.  She plans to pay when 
 Colorado Regional comes to our Meeting in a few weeks.
 
 Roofing Cost

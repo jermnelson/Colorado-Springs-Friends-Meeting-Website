@@ -63,15 +63,19 @@
             {% csrf_token %}
             {% if user.is_authenticated %}
             <div class="form-group">
+              <div class="btn-group">
+                <a href="/friends/{{ user.username }}"
+                   class="btn btn-default"><span class="glyphicon glyphicon-home"></span></a>
                 <a href="/logout" 
                    class="btn btn-success">Sign out {{ user.username }}</a>
+              </div>
             </div>
             {% else %}
              <div class="form-group">
-                <input type="text" placeholder="Username" class="form-control">
+                <input type="text" placeholder="Username" class="form-control" name="username">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input type="password" placeholder="Password" class="form-control" name="password">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
            {% endif %}
