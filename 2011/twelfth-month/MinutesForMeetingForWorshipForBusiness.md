@@ -1,3 +1,5 @@
+Date: 2011-12-11T11:30:00
+
 Minutes for Meeting for Worship with a Concern for Business
 ===========================================================
 
@@ -14,14 +16,14 @@ Lister](/Friends/LisaLister/)
 
 Opening Reading:
 
-> For Friends the most important consideration is not the right action
-> in itself but a right inward state out of which right action will
-> arise. Given the right inward state, right action is inevitable.
-> Inward state and outward action are component parts of a single whole.
+ For Friends the most important consideration is not the right action
+ in itself but a right inward state out of which right action will
+ arise. Given the right inward state, right action is inevitable.
+ Inward state and outward action are component parts of a single whole.
 
 1.  Approval of November Minutes
 
-    > –Approved as written.
+    Approved as written.
 
 2.  Cash Flow Report
 
@@ -30,58 +32,58 @@ Opening Reading:
 
 3.  Committee Reports:
 
-    > a.  [Finance Committee](/committees/Finance/) - [Lisa
-    >     Lister](/Friends/LisaLister/) presented the final [budget for
-    >     2012](/committees/Finance/2012/budget).
-    >
-    >     Since the proposed budget was presented, we have gotten more
-    >     pledges, and we now can fully fund the proposed budget. Thank
-    >     you, Friends, for supporting the Meeting. We are urged to
-    >     remember that the travel budget line is not fixed. We can
-    >     always rearrange the budget and find more, if needed. The 2012
-    >     budget was approved.
-    >
-    >     Local donations: Suggestions were made for Mesa House, Justice
-    >     and Peace Commission, Mountain Friends Camp. It was decided to
-    >     give \$100 to each.
-    >
-    > b.  [Nominating Committee](/committees/Nominating/) - [Genie
-    >     Durland](/Friends/GenieDurland/) presented the nominations.
-    >
-    >     -   [Ginger Morgan](/Friends/GingerMorgan/) – Clerk
-    >
-    >     -   [Molly Wingate](/Friends/MollyWingate/) and [Jonathan
-    >         McPhee](/Friends/JonathanMcPhee/) – Nominating
-    >
-    >     -   [Carlton Gamer](/friends/CarltonGamer/) – Meeting Home
-    >         Committee
-    >
-    >     Discussion ensued about the former Religious Education and
-    >     Action Committee that has de facto withered.
-    >     [Ginger](/Friends/GingerMorgan/) mentioned that [Ministry and
-    >     Oversight](/committees/MinistryAndOversight/) has talked about
-    >     the spiritual health of the meeting and suggested that we
-    >     discuss the ideas for religious education and action in a
-    >     potluck. [Joyce](/Friends/JoyceDoyle/) added that she would
-    >     welcome a focused action from Friends that would be part of
-    >     our community. We discussed reinstituting the name of the
-    >     [Religious Education and Action](/committees/REA/) Committee
-    >     and adding the members and a charge later.
-    >
-    >     We gratefully accepted the nominations as presented and we ask
-    >     each committee to reflect on their configuration and what is
-    >     needed to complete their charge. The [nomination
-    >     committee](/committees/Nominating/) will work each committee
-    >     to ensure that committee have what the personnel they need.
-    >     [Ministry and Oversight](/committees/MinistryAndOversight/)
-    >     will season the idea of Religious Education and Action
-    >     Committee and bring that deliberation back to the meeting for
-    >     consideration.
-    >
-    >     We also approved [John Gallagher](/Friends/John%20Gallagher)
-    >     to serve as our representative to the Colorado Regional
-    >     Meeting's Continuing Committee.
-    >
+     a.  [Finance Committee](/committees/Finance/) - [Lisa
+         Lister](/Friends/LisaLister/) presented the final [budget for
+         2012](/committees/Finance/2012/budget).
+    
+         Since the proposed budget was presented, we have gotten more
+         pledges, and we now can fully fund the proposed budget. Thank
+         you, Friends, for supporting the Meeting. We are urged to
+         remember that the travel budget line is not fixed. We can
+         always rearrange the budget and find more, if needed. The 2012
+         budget was approved.
+    
+         Local donations: Suggestions were made for Mesa House, Justice
+         and Peace Commission, Mountain Friends Camp. It was decided to
+         give \$100 to each.
+    
+     b.  [Nominating Committee](/committees/Nominating/) - [Genie
+         Durland](/Friends/GenieDurland/) presented the nominations.
+    
+         -   [Ginger Morgan](/Friends/GingerMorgan/)  Clerk
+    
+         -   [Molly Wingate](/Friends/MollyWingate/) and [Jonathan
+             McPhee](/Friends/JonathanMcPhee/) Nominating
+    
+         -   [Carlton Gamer](/friends/CarltonGamer/) Meeting Home
+             Committee
+    
+         Discussion ensued about the former Religious Education and
+         Action Committee that has de facto withered.
+         [Ginger](/Friends/GingerMorgan/) mentioned that [Ministry and
+         Oversight](/committees/MinistryAndOversight/) has talked about
+         the spiritual health of the meeting and suggested that we
+         discuss the ideas for religious education and action in a
+         potluck. [Joyce](/Friends/JoyceDoyle/) added that she would
+         welcome a focused action from Friends that would be part of
+         our community. We discussed reinstituting the name of the
+         [Religious Education and Action](/committees/REA/) Committee
+         and adding the members and a charge later.
+    
+         We gratefully accepted the nominations as presented and we ask
+         each committee to reflect on their configuration and what is
+         needed to complete their charge. The [nomination
+         committee](/committees/Nominating/) will work each committee
+         to ensure that committee have what the personnel they need.
+         [Ministry and Oversight](/committees/MinistryAndOversight/)
+         will season the idea of Religious Education and Action
+         Committee and bring that deliberation back to the meeting for
+         consideration.
+    
+         We also approved [John Gallagher](/Friends/John%20Gallagher)
+         to serve as our representative to the Colorado Regional
+         Meeting's Continuing Committee.
+    
     c.  [Ministry and Oversight](/committees/MinistryAndOversight/)
 
         [M&O](/committees/MinistryAndOversight/) contacts all members in
@@ -90,7 +92,7 @@ Opening Reading:
         [Ginger](/Friends/GingerMorgan/) asked for feedback about some
         people. We may not have good contact information for Hal and Deb
         Gimpelson in New Zealand. IN the case of Deneen Crandall, we
-        have lost track of where she is and haven’t had any contact with
+        have lost track of where she is and haven't had any contact with
         her, but we have gotten assessment money from her. Charles Stoy
         was grateful for contact the meeting some years ago, but
         [Ginger](/Friends/GingerMorgan/) has not gotten any response
@@ -105,11 +107,11 @@ Opening Reading:
         affiliated with our meeting, even though Buena Vista Worship
         Group has been laid down. We approved the following minute.
 
-        > After communication with Connie Williams, we have learned that
-        > the Buena Vista Worship Groups is no longer meeting. [Colorado
-        > Springs Meeting](/) therefore lays down our care for that
-        > workshop group and retains [Connie](/Friends/ConnieWilliams/)
-        > as a member.
+         After communication with Connie Williams, we have learned that
+         the Buena Vista Worship Groups is no longer meeting. [Colorado
+         Springs Meeting](/) therefore lays down our care for that
+         workshop group and retains [Connie](/Friends/ConnieWilliams/)
+         as a member.
 
     d.  [Education Committee](/committees/Education/)
 
@@ -123,7 +125,7 @@ Opening Reading:
         We will be holding a special session to discuss lessons learned
         from the process regarding 15 S. Wahsatch and to give the
         [Meeting Home Committee](/committees/MeetingHome) direction on
-        Wednesday, December 14th from 5-7 PM at the Women’s Club
+        Wednesday, December 14th from 5-7 PM at the Women's Club
         building, 20 Mesa Road. We hope for a very good attendance.
 
     f.  Library -
@@ -189,7 +191,7 @@ Opening Reading:
             specific causes and donations to other organizations should
             continue to be a Monthly Meeting responsibility. However,
             the Yearly Meeting should also provide an orderly
-            way—preferably with full involvement by Monthly Meetings—for
+            way, "preferably with full involvement by Monthly Meetings" for
             discerning whether the Yearly Meeting should support a
             specific concern or make a donation to another organization.
 
