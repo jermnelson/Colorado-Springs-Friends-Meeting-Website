@@ -1,3 +1,5 @@
+Date: 2012-03-15T17:15:00
+
 Finance Committee Minutes
 =========================
 
@@ -21,7 +23,7 @@ any kind of written rental agreement, we feel it would be nice to give
 them 30 days notice and perhaps pay rent for April, even if we depart in
 March. We are under the impression that their budget is tight.
 Quickbooks for the Meeting has been ordered by Sarah and has arrived.
-She will be setting up the Meeting’s books as she has time. Email
+She will be setting up the Meeting's books as she has time. Email
 assessment letters will be emailed to members in April. National
 Distributions are this month. Lisa will update the list and bring copies
 to Business Meeting. If you are planning to attend IMYM and need travel

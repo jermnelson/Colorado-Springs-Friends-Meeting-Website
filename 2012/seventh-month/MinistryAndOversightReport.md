@@ -1,14 +1,16 @@
+Date: 2012-06-25T17:00:00
+
 M&O COMMITTEE REPORT
 ====================
 
 June 25, 2012
 -------------
 
-Attending: Committee Members – [Bill Durland](/Friends/BillDurland/),
+Attending: Committee Members [Bill Durland](/Friends/BillDurland/),
 Clerk, [Linda Seger](/Friends/LindaSeger/), [Peter
 LeVar](/Friends/PeterLeVar/) and [Martha Lutz](/Friends/MarthaLutz/),
-Consultants – [Genie Durland](/Friends/GenieDurland/) and [Carlton
-Gamer](/Friends/CarltonGamer/), visitor – [Val
+Consultants [Genie Durland](/Friends/GenieDurland/) and [Carlton
+Gamer](/Friends/CarltonGamer/), visitor  [Val
 Phillips](/Friends/ValPhillips/)
 
 Meeting opened in spiritual silence.
@@ -40,7 +42,7 @@ committee, [Val](/Friends/ValPhillips/) and the Gardner Worship Group.
 
 Each of us present shared our experiences with transfers and worship
 groups after we introduced ourselves to [Val](/Friends/ValPhillips/) and
-[Val](/Friends/ValPhillips/) to us and listened to Val’s opening
+[Val](/Friends/ValPhillips/) to us and listened to Val's opening
 comments.
 
 1.  Transfer: Val has not yet requested the transfer of her membership
@@ -70,7 +72,7 @@ comments.
     end.)
 
 3.  Mission Statement: The mission statement, after discussion, was
-    approved and is attached to this report for the business meeting’s
+    approved and is attached to this report for the business meeting's
     information.
 
 4.  Status of Phone Calls: Phone calls are still in process. Our

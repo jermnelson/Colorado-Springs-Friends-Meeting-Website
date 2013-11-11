@@ -1,3 +1,5 @@
+Date: 2012-06-07T17:15:00
+
 Meetinghouse Committee Minutes
 ==============================
 
@@ -11,7 +13,7 @@ Kidney](/Friends/DanielKidney/)
 1.  We agreed to have a regular meeting. The second Thursday of each
     month at 5:15 PM. All are welcome.
 
-2.  Roof: We learned that the seller’s insurance company will put
+2.  Roof: We learned that the seller's insurance company will put
     approximately \$6,000 into repairing/replacing the roof. They are
     only willing to replace the west side of the roof. This is not
     exactly what we thought the deal was, but

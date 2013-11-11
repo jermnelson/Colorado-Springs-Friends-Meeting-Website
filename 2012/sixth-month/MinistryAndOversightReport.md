@@ -1,3 +1,5 @@
+Date: 2012-05-25T17:00:00
+
 Ministry And Oversight Committee Report
 =======================================
 
@@ -22,7 +24,7 @@ An update on phone calls to members and attenders was submitted. We will
 report further in June, complete calls in July and summarize our
 findings.
 
--   Memorial(s) are in process and in Clerk’s hands. Martha will
+-   Memorial(s) are in process and in Clerk's hands. Martha will
     continue oversight.
 
 New Business:

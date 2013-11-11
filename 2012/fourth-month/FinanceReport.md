@@ -1,3 +1,5 @@
+Date: 2012-04-10T17:15:00
+
 Finance Committee Minutes
 =========================
 
@@ -39,9 +41,9 @@ immediate need of money. The Finance Committee would like to recommend
 that the Meeting contribute to Mountain Friends Camp on a regular,
 annual basis, with the money going to the campership fund. Friends
 sending their children to this camp should also feel free to ask for
-assistance from the Meeting for this purpose. Because of the camp’s
+assistance from the Meeting for this purpose. Because of the camp's
 immediate need, we recommend that the Meeting consider making a special
-donation of \$100 now to help with this year’s expenses. (We made a
+donation of \$100 now to help with this year's expenses. (We made a
 previous donation of \$100 in January).
 
 We discussed mortgage payments methods, and [Lisa](/Friends/LisaLister/)
@@ -55,7 +57,7 @@ quickly available).
 [Sarah](/Friends/SarahCallbeck/) has been in discussion with [Brian
 Murphy](/Friends/BrianMurphy/) about whether it is worth the trouble,
 time, money and paperwork in order to have our utility bill tax-free.
-[Brian](/Friends/BrianMurphy/)’s counsel is no. A bigger issue is to
+[Brian](/Friends/BrianMurphy/)'s counsel is no. A bigger issue is to
 make certain that our property is viewed by the County Assessor as a
 non-taxable property. [Ann](/Friends/AnnDaugherty/) and/or
 [Brian](/Friends/BrianMurphy/) will be investigating this.

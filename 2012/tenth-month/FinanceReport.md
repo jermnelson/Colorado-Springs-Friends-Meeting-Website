@@ -1,3 +1,5 @@
+Date: 2013-10-10T00:00:00
+
 Finance Committee Minutes
 =========================
 

@@ -1,3 +1,5 @@
+Date: 2013-12-11T17:00:00
+
 Finance Committee Minutes
 =========================
 
@@ -14,7 +16,7 @@ bookkeeper for the meeting. The job pays \$60 a month and is budgeted.
 We believe that Sarah would be the perfect person for this position
 because of her intimate knowledge of our finances. She has already spent
 many years and countless hours setting up our books, preparing budgets,
-and faithfully stewarding the Meeting’s resources. We recommend that the
+and faithfully stewarding the Meeting's resources. We recommend that the
 Meeting approve Sarah for this position.
 
 This month we have \$100 for local distributions. An updated list is

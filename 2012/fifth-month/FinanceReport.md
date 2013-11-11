@@ -1,3 +1,5 @@
+Date: 2012-05-15T17:15:00
+
 Finance Committee Minutes
 =========================
 

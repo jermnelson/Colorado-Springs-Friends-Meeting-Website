@@ -1,3 +1,5 @@
+Date: 2012-05-15T17:00:00
+
 Nominating Committee Report
 ===========================
 
@@ -9,7 +11,7 @@ to fill the position of Clerk of the Meeting as [Ginger
 Morgan](/Friends/GingerMorgan/) and her family prepare to move to
 Wisconsin. After much seasoning and deliberation, we determined that
 [Molly Wingate](/Friends/MollyWingate/) would be willing to finish
-[Ginger](/Friends/GingerMorgan/)’s term, starting July 1, 2012.
+[Ginger](/Friends/GingerMorgan/)'s term, starting July 1, 2012.
 
 If approved, [Molly](/Friends/MollyWingate/) has asked that the members
 of the meeting support her in this effort in a few ways, as she has

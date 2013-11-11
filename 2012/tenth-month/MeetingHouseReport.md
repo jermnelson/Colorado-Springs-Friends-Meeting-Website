@@ -1,3 +1,5 @@
+Date: 2012-10-18T17:00:00
+
 Minutes of the Meeting Home Committee
 =====================================
 
@@ -100,7 +102,7 @@ New Business
     estate taxes. [Ann](/Friends/AnnDaugherty/) and Brian\_ will get the
     information needed. [Ann](/Friends/AnnDaugherty/) has been told that
     the application is online. That it must be submitted through the
-    Assessor’s office. The application fee will be \$175.00
+    Assessor's office. The application fee will be \$175.00
 
 Respectfully submitted,
 

@@ -1,3 +1,5 @@
+Date: 2012-02-07T17:15:00
+
 Finance Committee Minutes
 =========================
 
@@ -34,7 +36,7 @@ this software.
 life has been intensely busy and she is no longer able to handle
 bookkeeper duties for the meeting. We thank her heartily for her
 dedicated past work and we continue to appreciate her ongoing work as
-the Meeting’s realtor. Sarah will handle the preparation of financial
+the Meeting's realtor. Sarah will handle the preparation of financial
 statements until a bookkeeper is hired.
 
 The Finance Committee usually sends out print letters to alert members

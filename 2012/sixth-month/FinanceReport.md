@@ -1,3 +1,5 @@
+Date: 2012-06-04T00:00:00
+
 Finance Committee Minutes
 =========================
 
@@ -52,7 +54,7 @@ designated for the building fund will allow this money to go straight
 into the general fund. The general fund will be used to pay for all
 things Meeting-related, including the mortgage.
 
-### WE’RE ON TRACK...
+### WE'RE ON TRACK...
 
 [Sarah](/Friends/SarahCallbeck/) did quick estimates of revenue for both
 general fund and building fund actual donations and compared them to
@@ -66,19 +68,20 @@ we need to generate some income by renting out the space. Here are
 [Sarah](/Friends/SarahCallbeck/)'s calculations on our potential
 shortage for the rest of this year:
 
-> 1.  No re-allocation means the deficit of \$5,162.80 stands
->
-> 2.  With total re-allocation the calculation is: \$5,162.80 –
->     (\$2,143.76 – \$1,146.51) = \$4,165.55 net deficit for year, or
->     \$595.08 per month for June through December. The \$1,146.51 is
->     the BF donations received through April that were all applied to
->     meetinghouse purchase and initial remodel expense, so are not
->     available to apply towards mortgage.
->
+1.  No re-allocation means the deficit of \$5,162.80 stands
+
+2.  With total re-allocation the calculation is: \$5,162.80 
+    ($2,143.76 \ $1,146.51) = \$4,165.55 net deficit for year, or
+    $595.08 per month for June through December. The \$1,146.51 is
+    the BF donations received through April that were all applied to
+    meetinghouse purchase and initial remodel expense, so are not
+    available to apply towards mortgage.
+
+
 ### BUILDING FUND:
 
 No changes have been made to this budget, though we have bought a
-building. I’ll wait to see what those who have pledged want to do before
+building. I'll wait to see what those who have pledged want to do before
 adjusting anything.
 
 ### MISCELLANEOUS:
@@ -95,4 +98,6 @@ and for providing the correct wording for these minutes!
 
 In the Light,
 
-[Lisa](/Friends/LisaLister/) Finance Committee recorder
+[Lisa](/Friends/LisaLister/) 
+
+Finance Committee recorder

@@ -1,3 +1,5 @@
+Date: 2012-08-27T17:00:00
+
 M&O COMMITTEE REPORT
 ====================
 
@@ -17,7 +19,7 @@ Proposed Agenda: Approved
 2.  Contact Sherry McMahon
 3.  Pending question re Jennifer Roberts and Pam Hazelton: whether
     approve sharing their information in directory with IMYM
-4.  Discussion on greeters – function of M&O
+4.  Discussion on greeters'  function of M&O
 5.  Up-date on Shii Koeii Community requests
 6.  M&O responsibilities for people who do not have cars, getting to
     meeting.
@@ -26,7 +28,7 @@ Martha Lutz said she would contact Sherry, Jennifer and Pam. We
 discussed how best to participate in greeting people, including how
 other meetings handle it. We shared confidential M&O information derived
 from phone calls and how to resolve it. Bill announced that Shii Koeii
-Community’s request for worship group is on hold pending Val Phillips'
+Community's request for worship group is on hold pending Val Phillips'
 transfer of membership to our meeting. We are aware of the need for
 people without cars. It was suggested that we prepare a list of people
 who are willing to make pick-ups before meeting so that carless Friends

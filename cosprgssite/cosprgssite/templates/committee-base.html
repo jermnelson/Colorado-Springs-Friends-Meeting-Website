@@ -45,7 +45,11 @@
      <h2>Reports</h2>
      <p>Monthly Reports</p>
     <ul>
-
+    {% for report_date in reports %}
+      <li><a href="/committees/{{ Committee }}/{{ report_date.year }}/{{ report_date.month }}">
+         {{ report_date|date:"F d, Y" }}</a>
+      </li>
+    {% endfor %}
     </ul>
  {# END Reports DIV #}
   </div>
