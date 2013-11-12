@@ -4,11 +4,11 @@ import os
 
 from collections import OrderedDict
 import datetime
-from django.http import HttpResponse
+from django.http import HttpResponse, Http404
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import login, logout, authenticate
-from committees import get_reports
+from committees import get_report, get_reports
 from friends.models import Committee, CommitteeMembership
 from meetings import get_minute, get_minutes, QUAKER_MONTHS
 
@@ -100,10 +100,18 @@ def report(request,
            committee,
            year,
            month):
-    return HttpResponse("In report {0} {1} for {2}".format(
-        committee,
-        year,
-        month))
+    report_html = get_report(year,
+                             month,
+                             committee,)
+    if report_html is not None:
+        return render(request,
+                      'report.html',
+                      {'category': 'about',
+                       'content': report_html,
+                       'section': 'committee'})
+    else:
+        raise Http404
+    
 
 def testimony(request,
               testimony=None):

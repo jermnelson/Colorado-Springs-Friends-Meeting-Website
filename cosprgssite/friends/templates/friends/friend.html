@@ -33,6 +33,9 @@
   <div class="well">
    <h3>Address</h3>
    {{ info.postal_address }} {{ info.postal_address.postalCode }}
+   {% if user.is_superuser or user == info.friend.user %}
+    <a href="#" class="btn btn-primary">Edit</a>
+   {% endif %}
   </div>
  {% endif %}
  </div>

@@ -8,6 +8,17 @@ from django.contrib.auth.models import User
 from cosprgssite.settings import PROJECT_HOME
 from friends.models import Friend, CommitteeMembership
 
+def default(request):
+    if request.user.is_authenticated:
+        friends = Friend.objects.all()
+    else:
+        friends = Friend.objects.all().filter(is_public=True)
+    return render(request,
+                  'friends.html',
+                  {'category': 'about',
+                   'friends': friends,
+                   'section': 'friend'})
+
 def friend(request,
            username):
     custom_template = os.path.join(PROJECT_HOME,
@@ -20,7 +31,6 @@ def friend(request,
     if len(user_query) < 1:
         raise Http404
     friend = Friend.objects.all().get(user=user_query[0])
-    print(request.user.is_authenticated())
     if not request.user.is_authenticated():
         if not friend.is_public:
             raise Http404

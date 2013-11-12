@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}{% endblock %}
+
+{% block container %}
+{# START main row #}
+<div class="row">
+  {# START Left Nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END Left Nav #}
+  </div>
+  {# START minute contents #}
+  <div class="col-md-9">
+   <div class="well">
+   {{ content|safe }}
+   </div>
+  {# END minute contents #}
+  </div>
+{# END main row #}
+</div>
+{% endblock %}

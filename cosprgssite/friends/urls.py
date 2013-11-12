@@ -6,4 +6,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^(?P<username>.*)$', 'friends.views.friend'))
+    (r'^$', 'friends.views.default'),
+    (r'^(?P<username>.*)$', 'friends.views.friend'),
+)

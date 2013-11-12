@@ -13,6 +13,29 @@ COMMITTEE_REPORT_NAMES = {
     'MinistryAndOversight':'MinistryAndOversightReport.md',
     'Nominating': 'NominatingReport.md'}
 
+def get_report(year,
+               month,
+               committee_name):
+    """
+    Returns generated html for committee report for a year and month
+
+    Parameters:
+    year -- Year of report
+    month -- Month of report
+    committee_name -- Name of committee
+    """
+    file_path = os.path.join(REPORTS_ROOT,
+                             str(year),
+                             QUAKER_MONTHS.get(int(month)),
+                             COMMITTEE_REPORT_NAMES.get(
+                                 committee_name))
+    if os.path.exists(file_path):
+        meta_mrkdwn = markdown.Markdown(
+            extensions=['meta'])
+        raw_mrkdwn = open(file_path, 'rb').read()
+        mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
+        return mrkdwn_html
+
 def get_report_metadata(year,
                         month,
                         committee_name):
