@@ -7,9 +7,11 @@ Date: 2013-10-20T11:21:00
 [BillWerling]: /Friends/BillWerling
 [CalliopeGallagher]: /Friends/CalliopeGallagher
 [CarltonGamer]: /Friends/CarltonGamer
+[DanielKidney]: /Friends/DanielKidney
 [GenieDurland]: /Friends/GenieDurland
 [JeremyNelson]: /Friends/JeremyNelson
 [JonathanMcPhee]: /Friends/JonathanMcPhee
+[LisaLister]: /Friends/LisaLister
 [MollyWingate]: /Friends/MollyWingate
 [NancyAndrew]: /Friends/NancyAndrew
 [QueztalGallagher]: /Friends/QueztalGallagher
@@ -28,7 +30,7 @@ Present: [Ann Daughtery][AnnDaughtery], [Genie Durland][GenieDurland], [Bill Dur
 Meeting started at 11:21 am.
 
 1.  Silence followed by a reading the following query:
-    How do you distingusih between the leadings of the Divine and the pressures of the needy?
+    How do you distinguish between the leadings of the Divine and the pressures of the needy?
 
 2.  Consideration of September Minutes
 
@@ -55,7 +57,7 @@ Meeting started at 11:21 am.
         Report accepted with gratitude. 
 
     1.  *Ministry and Oversight Committee*: Review of Minutes from Committee Meeting. 
-        [Molly[MollyWingate]] read the M&O report. [Ann][AnnMartin] is leaving for India in November and 
+        [Molly][MollyWingate] read the M&O report. [Ann][AnnMartin] is leaving for India in November and 
         M&O will have a meetings. Report accepted.
 
     1.  *First Day School*: No Report.
@@ -64,36 +66,36 @@ Meeting started at 11:21 am.
 
         The occasional book group will read Margaret Bacon's The Back Bench.  
         The books are on the library table.  They cost $2.50, payable to [Molly][MollyWingate]. 
-        We will hold an intergenerational discussion some evening with snacks after everyone has 
+        We will hold an inter-generational discussion some evening with snacks after everyone has 
         had a chance to read it.
 
     1.  *Peace and Social Concerns Committee*: Will review the meeting. The first was the Syrian
         Senator Udell sent a form letter, FCNL website, the Indy published the minute. Very positive responses.
-        Annoucements will be read at the close of Meeting for Worship. 
+        Announcements will be read at the close of Meeting for Worship. 
 
-        We discussed having a seperate bullenten board for the Peace and Social Concerns, may consider a public
-        place either a dry erease board but it is nice to post flyers.
+        We discussed having a separate bulletin board for the Peace and Social Concerns, may consider a public
+        place either a dry erase board but it is nice to post fliers.
 
         Report accepted.
 
     1.  *Nominating Committee*: [Genie][GenieDurland], we are delighted that [Bill][BillWerling] as the 
         recording meeting. We still don't have any candidates for Clerk. [Bill][BillDurland] mentioned 
         that [Molly][MollyWingate] is very active and her duties as a Clerk is above, take the 
-        responsiblities , it has been the tradition that the clerk covers meetings, open and closes meeting,
+        responsibilities , it has been the tradition that the clerk covers meetings, open and closes meeting,
         regularly attend Meeting for Worship. Faith and Practice has a description of duties. 
 
         [Genie][GenieDurland] read a paragraph about rotating among the committee members, authorizing 
         rotating between different committees. In a small meeting is good to move different 
         Friends. [Molly][MollyWingate] leaves it the hands of the Notating Committee balance the 
-        committee membership. An indepth discussion followed about the history and current structure 
+        committee membership. An in-depth discussion followed about the history and current structure 
         of M&O. [Genie][GenieDurland] will ask all committee chairs. 
  
-        It is important for Friends to find ways to serve as part of our spirtual and community 
+        It is important for Friends to find ways to serve as part of our spiritual and community 
         building. [Genie][GenieDurland] will work on putting dates with committee on a spreadsheet. 
         
     1.  *Library*: [Lisa][LisaLister] and [Nancy Andrews][NancyAndrews] are working on cataloging
         our collections. [Bill][BillDurland] and [Genie][GenieDurland] offered to donate a 
-        bookshelf and the meeting agreed to accept the donatation. [Carlton] spoke about the need
+        bookshelf and the meeting agreed to accept the donation. [Carlton] spoke about the need
         to include the library in the design of any additions. 
  
     1.  *Meetinghouse Committee*:  report attached
@@ -125,7 +127,7 @@ Meeting started at 11:21 am.
     What sort of community activities would Friends enjoy at the Meeting House?
     Shall we plan another "Show and Tell?" [Molly][MollyWingate] and [Carlton][CarltonGamer] asked if there
     was more interest in another "Show and Tell?", we are settling and speaking on 
-    spritual matters. Next "Show and Tell" with [Bill Durland][BillDurland], [Bill Werling][BillWerling],
+    spiritual matters. Next "Show and Tell" with [Bill Durland][BillDurland], [Bill Werling][BillWerling],
     and [Jeremy][JeremyNelson] presenting on their work. Talked about having the session in 
     early January, second Wednesday, January 8th.  
 

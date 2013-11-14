@@ -13,6 +13,7 @@ class FriendForm(ModelForm):
                   'is_public',
                   'postal_address']
 
+
 class PostalAddressForm(ModelForm):
 
     class Meta:
