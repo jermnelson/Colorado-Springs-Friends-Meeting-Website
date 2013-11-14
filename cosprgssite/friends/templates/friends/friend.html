@@ -18,6 +18,32 @@
     <p class="lead">{{ info.category }}</p>
    {# END jumbotron #}
    </div>
+   {% if friend_form %}
+   <div class="well" data-bind="visible: showEditForm">
+   <form class="form-horizontal" action="/friends/update" method="POST">
+    <div class="form-group">
+     <label class="col-sm-2 control-label"> {{ forms.user.first_name.label  }}</label>
+     {{ user_form.first_name }}
+    </div>  
+    <div class="form-group">
+      <label class="col-sm-2 control-label"> {{ forms.user.last_name.label  }}</label>
+     {{ forms.user.last_name }}
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label"> {{ forms.friend.birthday.label  }}</label>
+     {{ friend_form.birthday }}
+     <label>Is a birthright Friend?</label> {{ forms.friend.is_birthright }} 
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Meeting Category</label>
+     {{ forms.friends.category }}
+    </div>
+
+   {{ friend_form }}
+   
+      </form>
+  </div>
+ {% endif %}
   {# END Size DIV#}
   </div>
   {# END row #}
@@ -29,12 +55,12 @@
 {% block container %}
 <div class="row">
  <div class="col-md-4">
- {% if user.is_authenticated %}
+  {% if user.is_authenticated %}
   <div class="well">
    <h3>Address</h3>
    {{ info.postal_address }} {{ info.postal_address.postalCode }}
    {% if user.is_superuser or user == info.friend.user %}
-    <a href="#" class="btn btn-primary">Edit</a>
+    <a href="#" class="btn btn-primary" data-bind="click: showEditForm">Edit</a>
    {% endif %}
   </div>
  {% endif %}
@@ -47,7 +73,7 @@
       <h3 class="panel-title">Committee Membership</h2>
     </div>
     <div class="panel-body">
-      <p>{{ info.user.first_name }} {{ info.user.last_name }} serves the Meeting with the
+      <p>{{ info.user.first_name }} {{ info.user.last_name }} serves the Meeting through the
          following committee membership:</p>
       <ul>
         {% for row in committees %} 
@@ -62,4 +88,22 @@
   {% endif %} 
  </div>
 </div>
+{% endblock %}
+
+{% block more_js %}
+{% if friend_form %}
+<script src="{{ STATIC_URL }}js/knockout.js"></script>
+<script>
+ function FriendEditViewModel() {
+   self = this;
+   self.showEditForm = ko.observable(false);
+
+   self.editFriendInfo = function() {
+    self.showEditForm(true);
+   }
+ }
+ ko.applyBindings(new FriendEditViewModel());
+
+</script>
+{% endif %}
 {% endblock %}

@@ -4,8 +4,10 @@ import os
 
 from django.http import Http404
 from django.shortcuts import render
+from django.contrib.auth.forms import UserChangeForm
 from django.contrib.auth.models import User
 from cosprgssite.settings import PROJECT_HOME
+from friends.forms import FriendForm, PostalAddressForm
 from friends.models import Friend, CommitteeMembership
 
 def default(request):
@@ -31,9 +33,17 @@ def friend(request,
     if len(user_query) < 1:
         raise Http404
     friend = Friend.objects.all().get(user=user_query[0])
+    forms = None
     if not request.user.is_authenticated():
         if not friend.is_public:
             raise Http404
+    if request.user == friend.user or request.user.is_superuser:
+        forms = {'friend': FriendForm(instance=friend),
+                 'post_addr': PostalAddressForm(
+                     instance=friend.postal_address),
+                 'user': UserChangeForm(instance=friend.user)}
+                 
+        
     committees = CommitteeMembership.objects.all().filter(friend=friend)
     if not os.path.exists(custom_template):
         custom_template = 'friend.html'
@@ -41,6 +51,7 @@ def friend(request,
                   custom_template,
                   {'category': 'about',
                    'committees': committees,
+                   'forms': forms,
                    'info': friend,
                    'section': 'friend',
                    'username': username})

@@ -11,7 +11,8 @@ COMMITTEE_REPORT_NAMES = {
     'Finance': 'FinanceReport.md',
     'MeetingHouse': 'MeetingHouseReport.md',
     'MinistryAndOversight':'MinistryAndOversightReport.md',
-    'Nominating': 'NominatingReport.md'}
+    'Nominating': 'NominatingReport.md',
+    'PeaceAndSocialConcerns': 'PeaceAndSocialConcerns.md'}
 
 def get_report(year,
                month,
