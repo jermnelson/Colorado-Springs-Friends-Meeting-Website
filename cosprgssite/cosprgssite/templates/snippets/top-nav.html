@@ -11,7 +11,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li {% if category == 'home' %}class="active"{% endif %}><a href="/">Home</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li {% if category == 'calendar' %}class="active"{% endif %}><a href="/calendar">Calendar</a></li>
+            <li><a href="#contact-dlg" data-toggle="modal">Contact</a></li>
             <li class="dropdown{% if category == 'about' %} active{% endif %}">
               <a href="#" 
                  class="dropdown-toggle" 
@@ -44,7 +45,7 @@
                  </ul>
                 </li>
                 <li class="divider"></li>
-                <li>Our History
+                <li><a href="#">Our History</a>
                  <ul>
                   <li><a href="/history/origin">George Fox &amp; the First Quakers</a></li>
                   <li><a href="/history/ReligiousSocietyOfFriends">Religious Society of Friends</a></li>
@@ -54,13 +55,12 @@
                   <li><a href="/history/ColoradoSprings">In Colorado Springs</a></li>
                   </ul>
                  </li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
+               </ul>
             </li>
           </ul>
             <form class="navbar-form navbar-right" method="POST" action="/login">
             {% csrf_token %}
+            <input type="hidden" name="current" value="{{ request.get_full_path }}">
             {% if user.is_authenticated %}
             <div class="form-group">
               <div class="btn-group">

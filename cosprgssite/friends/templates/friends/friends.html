@@ -20,6 +20,26 @@
    </p>
    {# END jumbotron #}
    </div>
+
+   {# START listing row #}
+   <div class="row">
+     <div class="col-md-6 well">
+      <ul>
+      {% for friend in friends %}
+       <li><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
+       {% if user.is_authenticated %} 
+         <span class="label label-default">{{ friend.category }}</span>
+         {% if friend.is_birthright %}
+         <span class="label label-info">Birthright</span>
+         {% endif %}
+       {% endif %}
+       
+       </li>
+      {% endfor %}
+      </ul>
+     </div>
+   {# END listing row #}
+   </div>
   {# END Size DIV#}
   </div>
   {# END row #}
@@ -29,14 +49,4 @@
 {% endblock %}
 
 {% block container %}
-<div class="row">
- <div class="col-md-0 col-md-offset-3">
- <ul>
-  {% for friend in friends %}
-  <li><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a></li>
-
-  {% endfor %}
- </ul>
- </div>
-</div>
 {% endblock %}

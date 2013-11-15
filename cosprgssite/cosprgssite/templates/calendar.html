@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block more-breadcrumb-links %}
+{% endblock %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Calendar</h1>
+   {# END jumbotron #}
+   </div>
+   {# START quote row#}
+   <div class="row">
+    <div class="col-md-12"> 
+     <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=f0puu63a1vf51sdbvn6amr0134%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FDenver" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+   </div>
+   {# END quote row#}
+   </div>
+  {# END Size DIV#}
+  </div>
+ {# END row #}
+ </div>
+{# END container #}
+</div>
+{% endblock %}
+
+{% block container %}
+<div class="row">
+ <div class="col-md-6 box_display">
+ </div>
+</div>
+{% endblock %}
+

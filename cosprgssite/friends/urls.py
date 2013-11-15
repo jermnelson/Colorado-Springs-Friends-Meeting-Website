@@ -7,5 +7,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^$', 'friends.views.default'),
+    (r'^update$', 'friends.views.update'),
     (r'^(?P<username>.*)$', 'friends.views.friend'),
+                       
 )

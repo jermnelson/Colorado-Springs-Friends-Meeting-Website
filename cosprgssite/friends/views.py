@@ -3,7 +3,7 @@ __author__ = "Jeremy Nelson"
 import os
 
 from django.http import Http404
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserChangeForm
 from django.contrib.auth.models import User
 from cosprgssite.settings import PROJECT_HOME
@@ -11,10 +11,12 @@ from friends.forms import FriendForm, PostalAddressForm
 from friends.models import Friend, CommitteeMembership
 
 def default(request):
-    if request.user.is_authenticated:
-        friends = Friend.objects.all()
+    if request.user.is_authenticated():
+        friends = Friend.objects.all().order_by('user__last_name')
     else:
-        friends = Friend.objects.all().filter(is_public=True)
+        friends = Friend.objects.filter(
+            is_public=True).order_by(
+                'user__last_name')
     return render(request,
                   'friends.html',
                   {'category': 'about',
@@ -55,4 +57,7 @@ def friend(request,
                    'info': friend,
                    'section': 'friend',
                    'username': username})
+
+def update(request):
+    return redirect("/")
     

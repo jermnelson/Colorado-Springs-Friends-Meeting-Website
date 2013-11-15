@@ -100,20 +100,19 @@
  </div> 
  {# END friends #}
 
+ {% if not section == 'calendar' %}
  {# START calendar #}
   <a class="btn btn-primary"
     data-toggle="collapse"
-    href="#calendar friends">
+    href="#calendar">
   Calendar 
  </a>
-
  <div id="calendar" class="collapse left-nav-body">
-  <p>
-  Calendar 
-  </p>
+ <iframe src="https://www.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=f0puu63a1vf51sdbvn6amr0134%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FDenver" style=" border-width:0 " width="225" height="300" frameborder="0" scrolling="no"></iframe>
  
- </div> 
-
+</div> 
+{% endif %}
  {# END calendar #}
-
 </div>
+
+

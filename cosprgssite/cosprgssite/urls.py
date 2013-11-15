@@ -5,6 +5,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    url(r'^calendar$',
+        'cosprgssite.views.calendar',
+        name='calendar'),
     url(r'^committees/(?P<committee>.*)/(?P<year>\d+)/(?P<month>\d+)$',
         'cosprgssite.views.report',
         name='report'),

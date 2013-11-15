@@ -13,6 +13,12 @@ from friends.models import Committee, CommitteeMembership
 from meetings import get_minute, get_minutes, QUAKER_MONTHS
 
 
+def calendar(request):
+    return render(request,
+                  'calendar.html',
+                  {'category': 'calendar',
+                   'section': 'calendar'})
+
 def committee(request,
               committee):
     committee_ = Committee.objects.all().get(name=committee)
@@ -39,19 +45,21 @@ def home(request):
                   'index.html',
                   {'category': 'home'})
 
-def login_view(request):
+def login_view(request, current_path="/"):
+    current_path = request.POST.get('current', "/")
     user = authenticate(username=request.POST.get('username'),
                         password=request.POST.get('password'))
     if user is None:
         messages.error(request, "Username and/or Password invalid")
     else:
         login(request, user)
-    return redirect("/")
+    return redirect(current_path)
 
 
 def logout_view(request):
+    current_path = request.POST.get('current', "/")
     logout(request)
-    return redirect("/")
+    return redirect(current_path)
 
 def meeting(request,
             meeting=None):
