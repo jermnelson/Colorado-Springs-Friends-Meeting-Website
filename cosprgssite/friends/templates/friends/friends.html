@@ -22,22 +22,46 @@
    </div>
 
    {# START listing row #}
-   <div class="row">
-     <div class="col-md-6 well">
+   <div class="row well well-sm">
+     <div class="col-md-6 ">
       <ul>
-      {% for friend in friends %}
+      {% for friend in slice1 %}
        <li><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
        {% if user.is_authenticated %} 
-         <span class="label label-default">{{ friend.category }}</span>
+         <span class="label label-default">
+          {% if friend.birthday.year > 1999 %}
+           Young 
+          {% endif %}
+          {{ friend.category }}
+         </span>
          {% if friend.is_birthright %}
          <span class="label label-info">Birthright</span>
          {% endif %}
        {% endif %}
-       
        </li>
       {% endfor %}
       </ul>
      </div>
+     <div class="col-md-6">
+      <ul>
+      {% for friend in slice2 %}
+       <li><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
+       {% if user.is_authenticated %} 
+         <span class="label label-default">
+          {% if friend.birthday.year > 1999 %}
+           Young 
+          {% endif %}
+          {{ friend.category }}
+         </span>
+         {% if friend.is_birthright %}
+         <span class="label label-info">Birthright</span>
+         {% endif %}
+       {% endif %}
+       </li>
+      {% endfor %}
+      </ul>
+     </div>
+
    {# END listing row #}
    </div>
   {# END Size DIV#}

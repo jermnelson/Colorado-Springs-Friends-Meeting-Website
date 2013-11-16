@@ -17,10 +17,12 @@ def default(request):
         friends = Friend.objects.filter(
             is_public=True).order_by(
                 'user__last_name')
+    half_size = len(friends) / 2 
     return render(request,
                   'friends.html',
                   {'category': 'about',
-                   'friends': friends,
+                   'slice1': friends[0: half_size],
+                   'slice2': friends[half_size:],
                    'section': 'friend'})
 
 def friend(request,

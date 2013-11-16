@@ -45,15 +45,14 @@ def home(request):
                   'index.html',
                   {'category': 'home'})
 
-def login_view(request, current_path="/"):
-    current_path = request.POST.get('current', "/")
+def login_view(request):
     user = authenticate(username=request.POST.get('username'),
                         password=request.POST.get('password'))
     if user is None:
         messages.error(request, "Username and/or Password invalid")
     else:
         login(request, user)
-    return redirect(current_path)
+    return redirect("/")
 
 
 def logout_view(request):
