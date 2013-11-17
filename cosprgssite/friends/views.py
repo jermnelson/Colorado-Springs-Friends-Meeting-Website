@@ -61,5 +61,10 @@ def friend(request,
                    'username': username})
 
 def update(request):
-    return redirect("/")
+    friend_form = FriendForm(request.POST)
+    postal_addr_form = PostalAddressForm(request.POST)
+    user_form = UserChangeForm(request.POST)
+    if friend_form.is_valid() and \
+       postal_addr_form.validate() and user_form.valide():
+        return redirect("/")
     

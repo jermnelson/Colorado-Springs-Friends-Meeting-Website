@@ -88,7 +88,8 @@
 
     <div class="form-group">
      <div class="col-md-2">
-       <button class="btn btn-success">Save</button>
+       <input class="btn btn-success"
+               type="submit" value="Save"></input>
      </div>
     </div>
    </form>
@@ -146,11 +147,15 @@
 <script>
  function FriendEditViewModel() {
    self = this;
+   
    self.showEditForm = ko.observable(false);
 
    self.editFriendInfo = function() {
     self.showEditForm(true);
    }
+
+    
+
  }
  $(":input").addClass("form-control"); 
  ko.applyBindings(new FriendEditViewModel());
