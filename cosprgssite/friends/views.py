@@ -65,6 +65,19 @@ def update(request):
     postal_addr_form = PostalAddressForm(request.POST)
     user_form = UserChangeForm(request.POST)
     if friend_form.is_valid() and \
-       postal_addr_form.validate() and user_form.valide():
+       postal_addr_form.is_valid() and user_form.is_valid():
         return redirect("/")
+    else:
+        friend = friend
+        forms = {'friend': friend_form ,
+                 'post_addr': postal_addr_form ,
+                 'user': user_form}
+        return render(request,
+                  custom_template,
+                  {'category': 'about',
+                   'committees': committees,
+                   'forms': forms,
+                   'info': friend,
+                   'section': 'friend',
+                   'username': username})        
     
