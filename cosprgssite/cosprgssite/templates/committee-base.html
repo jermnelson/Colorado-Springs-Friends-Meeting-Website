@@ -26,10 +26,10 @@
   <div class="col-lg-4">
      <h2>Membership</h2>
      <p>The following Friends are members of this committee:</p>
-     <ul>
+     <ul class="list-group">
       {% for member in membership %}
       {% if member.friend.is_public or user.is_authenticated %}
-      <li><a href="/friends/{{ member.friend.user.first_name }}{{ member.friend.user.last_name }}">
+      <li class="list-group-item"><a href="/friends/{{ member.friend.user.first_name }}{{ member.friend.user.last_name }}">
         {{ member.friend.user.first_name }} {{ member.friend.user.last_name }}</a>
       </li>
       {% endif %}
@@ -44,9 +44,9 @@
   <div class="col-lg-4">
      <h2>Reports</h2>
      <p>Monthly Reports</p>
-    <ul>
+    <ul class="list-group" >
     {% for report_date in reports %}
-      <li><a href="/committees/{{ Committee }}/{{ report_date.year }}/{{ report_date.month }}">
+      <li class="list-group-item"><a href="/committees/{{ Committee }}/{{ report_date.year }}/{{ report_date.month }}">
          {{ report_date|date:"F d, Y" }}</a>
       </li>
     {% endfor %}

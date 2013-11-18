@@ -16,12 +16,17 @@
    <div class="jumbotron">
     <h1>{{ info.user.first_name }} {{ info.user.last_name }}</h1>
     <p class="lead">{{ info.category }}</p>  
+    {% if user.is_superuser or user == info.friend.user %}
+    <a href="#" class="btn btn-primary" data-bind="click: showEditForm">Edit</a>
+   {% endif %}
+
    {# END jumbotron #}
    </div>
    {% if forms %}
    <div class="well" data-bind="visible: showEditForm" >
    <form class="form-horizontal" action="/friends/update" method="POST" id="friend-form">
     {% csrf_token %}
+    <input type="hidden" name="username" value="{{ username }}">
     <div class="form-group">
      <label class="col-sm-2 control-label"> {{ forms.user.first_name.label  }}</label>
      <div class="col-md-4">
@@ -63,6 +68,9 @@
      {{ forms.friend.is_public }}
       </div>
     </div>
+    {% if not info.postal_address %}
+      <a href="#" class="btn btn-warning">Add Address</a>
+     {% else %}
      <div class="form-group">
       <label class="col-sm-2 control-label">Street Address</label>
       <div class="col-md-6">
@@ -85,7 +93,7 @@
      {{ forms.post_addr.postalCode }}
       </div>
     </div>
-
+    {% endif %}
     <div class="form-group">
      <div class="col-md-2">
        <input class="btn btn-success"
@@ -108,11 +116,12 @@
  <div class="col-md-4">
   {% if user.is_authenticated %}
   <div class="well">
-   <h3>Address</h3>
+   <h3>Address and Contact Information</h3>
    {{ info.postal_address }} {{ info.postal_address.postalCode }}
-   {% if user.is_superuser or user == info.friend.user %}
-    <a href="#" class="btn btn-primary" data-bind="click: showEditForm">Edit</a>
-   {% endif %}
+   <h4>Email</h3>
+   <a href="mailto:{{ info.user.email }}">{{ info.user.email }}</a>
+
+   <h4>Telephone</h4>
   </div>
  {% endif %}
  </div>

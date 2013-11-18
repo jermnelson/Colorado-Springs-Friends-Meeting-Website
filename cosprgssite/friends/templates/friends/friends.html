@@ -22,11 +22,11 @@
    </div>
 
    {# START listing row #}
-   <div class="row well well-sm">
+   <div class="row">
      <div class="col-md-6 ">
-      <ul>
+      <ul class="list-group">
       {% for friend in slice1 %}
-       <li><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
+       <li class="list-group-item"><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
        {% if user.is_authenticated %} 
          <span class="label label-default">
           {% if friend.birthday.year > 1999 %}
@@ -43,9 +43,9 @@
       </ul>
      </div>
      <div class="col-md-6">
-      <ul>
+      <ul class="list-group">
       {% for friend in slice2 %}
-       <li><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
+       <li class="list-group-item"><a href="/friends/{{ friend.user.username }}">{{ friend.user.first_name }} {{ friend.user.last_name }}</a>
        {% if user.is_authenticated %} 
          <span class="label label-default">
           {% if friend.birthday.year > 1999 %}

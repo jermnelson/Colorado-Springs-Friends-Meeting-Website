@@ -28,9 +28,9 @@
      {% endif %}
       <div class="col-md-4">
         <h3>{{ year }} Minutes</h3>
-        <ul>
+        <ul class="list-group">
         {% for minute in listing %}
-         <li><a href="/meetings/Business/{{ minute.date.year }}/{{ minute.date.month }}">{{ minute.date|date:"F d, Y" }}</a></li>
+         <li class="list-group-item"><a href="/meetings/Business/{{ minute.date.year }}/{{ minute.date.month }}">{{ minute.date|date:"F d, Y" }}</a></li>
         {% endfor %}
         </ul>
       </div>
