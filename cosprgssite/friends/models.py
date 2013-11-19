@@ -57,7 +57,16 @@ class Friend(models.Model):
 
     def __unicode__(self):
         return self.user.username
-    
+
+class OfficeHolder(models.Model):
+    dateCompleted = models.DateField(blank=True, null=True)
+    dateStarted = models.DateField()
+    friend = models.ForeignKey('Friend')
+    office = models.CharField(max_length=30)
+
+    def __unicode__(self):
+        return "{0} - {1}".format(self.office,
+                                  self.friend.user.username)
 
 class PhoneNumber(models.Model):
     number = models.CharField(max_length=30)

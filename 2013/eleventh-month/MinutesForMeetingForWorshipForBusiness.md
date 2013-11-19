@@ -1,17 +1,21 @@
 Date: 2013-11-17T11:20:00
 
+[AnnDaugherty]: /Friends/AnnDaugherty
 [BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
+[GenieDurland]: /Friends/GenieDurland
+[JeremyNelson]: /Friends/JeremyNelson
+[LisaLister]: /Friends/LisaLister
 [MollyWingate]: /Friends/MollyWingate
 [NancyAndrews]: /Friends/NancyAndrews
-
+[SarahCallbeck]: /Friends/SarahCallbeck
 
 # Minutes for Meeting for Worship with a Concern for Business
 ## Colorado Springs Quaker Meeting
 November 17, 2013
 
 Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andrews][NancyAndrews]
-[Genie Durland][GenieDurland], [Carlton Gamer][CarltonGamer],
+[Genie Durland][GenieDurland], [Carlton Gamer][CarltonGamer], [Jeremy Nelson][Jeremy Nelson]
 [Ann Daugherty][AnnDaugherty], [Bill Werling][BillWerling], [Sarah Callbeck][SarahCallbeck],
 [Lisa Lister][LisaLister]
 
