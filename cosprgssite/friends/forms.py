@@ -10,8 +10,7 @@ class FriendForm(ModelForm):
         fields = ['birthday',
                   'category',
                   'is_birthright',
-                  'is_public',
-                  'postal_address']
+                  'is_public']
 
 
 class PostalAddressForm(ModelForm):

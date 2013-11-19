@@ -69,14 +69,15 @@ class OfficeHolder(models.Model):
                                   self.friend.user.username)
 
 class PhoneNumber(models.Model):
+    number_types = [(0,'Home'),
+                    (1,'Cell'),
+                    (2,'Business'),
+                    (3,'Work'),
+                    (4,'Other')]
     number = models.CharField(max_length=30)
     friends = models.ManyToManyField(Friend)
     phone_number_type = models.IntegerField(default=0,
-                                            choices=[(0,'Home'),
-                                                     (1,'Cell'),
-                                                     (2,'Business'),
-                                                     (3,'Work'),
-                                                     (4,'Other')])
+                                            choices=number_types)
 
     def __unicode__(self):
         return unicode(self.number)

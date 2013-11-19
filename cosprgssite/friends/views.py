@@ -8,7 +8,8 @@ from django.contrib.auth.forms import UserChangeForm
 from django.contrib.auth.models import User
 from cosprgssite.settings import PROJECT_HOME
 from friends.forms import FriendForm, PostalAddressForm
-from friends.models import Friend, CommitteeMembership
+from friends.models import Friend, CommitteeMembership, PhoneNumber
+from friends.models import PostalAddress
 
 def default(request):
     if request.user.is_authenticated():
@@ -49,6 +50,7 @@ def friend(request,
                  
         
     committees = CommitteeMembership.objects.all().filter(friend=friend)
+    telephones = PhoneNumber.objects.filter(friends=friend)
     if not os.path.exists(custom_template):
         custom_template = 'friend.html'
     return render(request,
@@ -58,15 +60,25 @@ def friend(request,
                    'forms': forms,
                    'info': friend,
                    'section': 'friend',
+                   'telephones': telephones,
                    'username': username})
 
 def update(request):
-    friend_form = FriendForm(request.POST)
-    postal_addr_form = PostalAddressForm(request.POST)
+    friend = Friend.objects.get(pk=request.POST.get('friend_id'))
+    friend_form = FriendForm(request.POST,
+                             instance=friend)
+    postal_addr_form = PostalAddressForm(request.POST,
+                                         instance=friend.postal_address)
     user_form = UserChangeForm(request.POST)
     if friend_form.is_valid() and \
-       postal_addr_form.is_valid() and user_form.is_valid():
-        return redirect("/")
+       postal_addr_form.is_valid():
+        postal_addr_form.save()
+        friend_form.save()
+        friend.user.first_name = request.POST.get('first_name')
+        friend.user.last_name = request.POST.get('last_name')
+        friend.user.email = request.POST.get('email')
+        friend.user.save()
+        return redirect("/Friends/{0}".format(friend.user.username))
     else:
         friend = friend
         forms = {'friend': friend_form ,

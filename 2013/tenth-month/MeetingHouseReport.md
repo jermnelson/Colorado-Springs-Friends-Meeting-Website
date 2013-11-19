@@ -17,7 +17,7 @@ Old Business:
 a.  We reviewed the original building inspection and found that we had fixed or 
     replaced everything found lacking except the drainage from the back patio area. 
     It still angles toward the building. We paused to celebrate the progress made on 
-    our little building and the prudent use of the Meeting’s resources.
+    our little building and the prudent use of the Meeting's resources.
 
 b.  Molly is waiting for building costs for an addition to the building and putting a 
     handicapped ramp to the front door. 
@@ -47,7 +47,7 @@ e.  Daniel is looking into a 9' X 2-1/2' storage cupboard that Colorado College 
 
 f.  Discussed the situation of a group that would like to use the meetinghouse 
     once a week on Thursday mornings from 10-11 AM. It is a very small group of 
-    Alcoholics Anonymous that can’t afford $40 a month. We thought that it would 
+    Alcoholics Anonymous that can't afford $40 a month. We thought that it would 
     be okay to start out this rental with the understanding that they give at least $20 a 
     month to cover utilities. In a year, we would revisit the rent.
 
