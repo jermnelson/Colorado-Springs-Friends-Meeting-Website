@@ -3,6 +3,7 @@ Date: 2013-08-26T15:20:00
 [AnnGrantMartin]: /Friends/AnnGrantMartin
 [CarltonGamer]: /Friends/CarltonGamer
 [LindaSegar]: /Friends/LindaSegar
+[MarthaLutz]: /Friends/MarthaLutz
 [PeterLeVar]: /Friends/PeterLeVar
 
 ## Minutes Ministry and Oversight 

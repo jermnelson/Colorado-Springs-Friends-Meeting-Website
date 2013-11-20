@@ -26,7 +26,7 @@ traditional Quaker process of discernment was clouded by having to make a hasty 
 Future meetings will focus on developing a process for disbursing emergency funds.
 
 We will continue to make our yearly Quaker calls to Members and Attenders. We 
-are encouraged to make note of how we can support a Friend’s physical and spiritual
+are encouraged to make note of how we can support a Friend's physical and spiritual
 life. One important aspect of the calls will be to invite Friends to consider how 
 they can contribute to the Meeting.
 

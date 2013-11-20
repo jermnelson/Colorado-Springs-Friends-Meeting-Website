@@ -22,6 +22,55 @@
 
    {# END jumbotron #}
    </div>
+  <div class="row">
+  <div class="col-md-4">
+  {% if user.is_authenticated %}
+  <div class="well">
+   <h3>Address and Contact Information</h3>
+   {{ info.postal_address }} {{ info.postal_address.postalCode }}
+   <h4>Email</h3>
+   <a href="mailto:{{ info.user.email }}">{{ info.user.email }}</a>
+
+   {% if telephones %}
+   <h4>Telephone</h4>
+   <ul>
+    {% for number in telephones %}
+     <li>{{ number.number }} ({% if number.phone_number_type == 0 %}Home{% endif %}
+                              {% if number.phone_number_type == 1 %}Cell{% endif %}
+                              {% if number.phone_number_type == 2 %}Business{% endif %}
+                              {% if number.phone_number_type == 3 %}Work{% endif %}
+                              {% if number.phone_number_type == 4 %}Other{% endif %})
+     </li>
+    {% endfor %}
+   </ul>
+  {% endif %}
+  </div>
+ {% endif %}
+ </div>
+ <div class="col-md-4">
+  {% if committees %}
+  {# START Committee Panel #}
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Committee Membership</h2>
+    </div>
+    <div class="panel-body">
+      <p>{{ info.user.first_name }} {{ info.user.last_name }} serves the Meeting through the
+         following committee membership:</p>
+      <ul>
+        {% for row in committees %} 
+        <li>{% if row.is_clerk %}Clerk{% endif %} <a href="/committees/{{ row.committee.name }}">{{ row.committee.group.name }}</a>.
+           {% if user.is_authenticated %} Started on {{ row.dateStarted }}{% endif %}.
+         </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {# END Committee Panel #}
+  </div>
+  {% endif %} 
+ </div>
+</div>
+
    {% if forms %}
    <div class="well" data-bind="visible: showEditForm" >
    <form class="form-horizontal" action="/friends/update" method="POST" id="friend-form">
@@ -112,54 +161,6 @@
 {% endblock %}
 
 {% block container %}
-<div class="row">
- <div class="col-md-4">
-  {% if user.is_authenticated %}
-  <div class="well">
-   <h3>Address and Contact Information</h3>
-   {{ info.postal_address }} {{ info.postal_address.postalCode }}
-   <h4>Email</h3>
-   <a href="mailto:{{ info.user.email }}">{{ info.user.email }}</a>
-
-   {% if telephones %}
-   <h4>Telephone</h4>
-   <ul>
-    {% for number in telephones %}
-     <li>{{ number.number }} ({% if number.phone_number_type == 0 %}Home{% endif %}
-                              {% if number.phone_number_type == 1 %}Cell{% endif %}
-                              {% if number.phone_number_type == 2 %}Business{% endif %}
-                              {% if number.phone_number_type == 3 %}Work{% endif %}
-                              {% if number.phone_number_type == 4 %}Other{% endif %})
-     </li>
-    {% endfor %}
-   </ul>
-  {% endif %}
-  </div>
- {% endif %}
- </div>
- <div class="col-md-4">
-  {% if committees %}
-  {# START Committee Panel #}
-  <div class="panel panel-primary">
-    <div class="panel-heading">
-      <h3 class="panel-title">Committee Membership</h2>
-    </div>
-    <div class="panel-body">
-      <p>{{ info.user.first_name }} {{ info.user.last_name }} serves the Meeting through the
-         following committee membership:</p>
-      <ul>
-        {% for row in committees %} 
-        <li>{% if row.is_clerk %}Clerk{% endif %} <a href="/committees/{{ row.committee.name }}">{{ row.committee.group.name }}</a>.
-           {% if user.is_authenticated %} Started on {{ row.dateStarted }}{% endif %}.
-         </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {# END Committee Panel #}
-  </div>
-  {% endif %} 
- </div>
-</div>
 {% endblock %}
 
 {% block more_js %}

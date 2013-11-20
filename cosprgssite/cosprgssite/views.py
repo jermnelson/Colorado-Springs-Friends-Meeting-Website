@@ -24,6 +24,8 @@ def committee(request,
     committee_ = Committee.objects.all().get(name=committee)
     committee_membership = CommitteeMembership.objects.all().filter(
         committee=committee_)
+    committee_membership = sorted(committee_membership,
+                                  key=lambda x: x.friend.user.last_name)
     return render(request,
                   '{0}.html'.format(committee.lower()),
                   {'category': 'about',
