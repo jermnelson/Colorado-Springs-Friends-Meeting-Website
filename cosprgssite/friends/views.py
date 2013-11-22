@@ -4,7 +4,7 @@ import os
 
 from django.http import Http404
 from django.shortcuts import render, redirect
-from django.contrib.auth.forms import UserChangeForm
+from django.contrib.auth.forms import PasswordChangeForm, UserChangeForm
 from django.contrib.auth.models import User
 from cosprgssite.settings import PROJECT_HOME
 from friends.forms import FriendForm, PostalAddressForm
@@ -46,8 +46,10 @@ def friend(request,
         forms = {'friend': FriendForm(instance=friend),
                  'post_addr': PostalAddressForm(
                      instance=friend.postal_address),
-                 'user': UserChangeForm(instance=friend.user)}
-                 
+                 'user': UserChangeForm(instance=friend.user),
+                 'password_change': None}
+    if request.user == friend.user:
+        forms['password_change'] = PasswordChangeForm(user=friend.user)
         
     committees = CommitteeMembership.objects.all().filter(friend=friend)
     telephones = PhoneNumber.objects.filter(friends=friend)

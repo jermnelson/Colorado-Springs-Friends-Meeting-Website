@@ -16,10 +16,15 @@
    <div class="jumbotron">
     <h1>{{ info.user.first_name }} {{ info.user.last_name }}</h1>
     <p class="lead">{{ info.category }}</p>  
-    {% if user.is_superuser or user == info.friend.user %}
-    <a href="#" class="btn btn-primary" data-bind="click: showEditForm">Edit</a>
-   {% endif %}
 
+    <div class="btn-group">
+    {% if user.is_superuser or user == info.friend.user %}
+        <a href="#" class="btn btn-primary" data-bind="click: showEditForm">Edit</a>
+   {% endif %}
+   {% if forms.password_change %}
+    <a class="btn btn-warning" data-bind="click: showPWChangeForm" href="#">Change Password</a>
+   {% endif %}
+   </div>
    {# END jumbotron #}
    </div>
   <div class="row">
@@ -69,6 +74,15 @@
   </div>
   {% endif %} 
  </div>
+ {% if forms.password_change %}
+ <div class="col-md-4">
+  <div class="well well-sm" data-bind="visible: showPWChangeForm">
+   {{ forms.password_change }}
+   <br>
+   <button class="btn btn-danger" data-bind="click: pwChange">Update</button>
+  </div>
+ </div>
+ {% endif %}
 </div>
 
    {% if forms %}
@@ -172,6 +186,37 @@
    
    self.showEditForm = ko.observable(false);
 
+  {% if forms.password_change %}
+   self.showPWChangeForm = ko.observable(false); 
+   self.pwChange = function() {
+    var new_pw = $('#id_new_password1').val();
+    var confirm_pw = $('#id_new_password2').val();
+    if(new_pw != confirm_pw) {
+      alert("New passwords do not match!");
+      return;
+    }
+
+    var data = {
+     csrfmiddlewaretoken: document.getElementsByName('csrfmiddlewaretoken')[0].value, 
+     old_password: $('#id_old_password').val(),
+     new_password: new_pw
+    }
+
+    $.ajax({
+      data: data,
+      method: 'POST',
+      url: '/friends/pw',
+      success: function(response) {
+       if(response['result'] == 'error') {
+        alert("Error changing password " + response['message']);
+       } else {
+         self.showPWChangeForm = ko.observable(false); 
+       }
+     }
+    });
+   }
+
+  {% endif %}
    self.editFriendInfo = function() {
     self.showEditForm(true);
    }
