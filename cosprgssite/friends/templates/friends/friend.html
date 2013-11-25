@@ -193,13 +193,15 @@
     var confirm_pw = $('#id_new_password2').val();
     if(new_pw != confirm_pw) {
       alert("New passwords do not match!");
+      $('#id_new_password1').val('');
+      $('#id_new_password2').val('');
       return;
     }
 
     var data = {
      csrfmiddlewaretoken: document.getElementsByName('csrfmiddlewaretoken')[0].value, 
-     old_password: $('#id_old_password').val(),
-     new_password: new_pw
+     old_pwd: $('#id_old_password').val(),
+     new_pwd: new_pw
     }
 
     $.ajax({
@@ -207,6 +209,7 @@
       method: 'POST',
       url: '/friends/pw',
       success: function(response) {
+       alert(response['result']);
        if(response['result'] == 'error') {
         alert("Error changing password " + response['message']);
        } else {

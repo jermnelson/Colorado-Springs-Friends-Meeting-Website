@@ -3,9 +3,12 @@ __author__ = "Jeremy Nelson"
 import os
 
 from django.http import Http404
+from django.core.exceptions import PermissionDenied
 from django.shortcuts import render, redirect
 from django.contrib.auth.forms import PasswordChangeForm, UserChangeForm
 from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
+from cosprgssite.views import json_view
 from cosprgssite.settings import PROJECT_HOME
 from friends.forms import FriendForm, PostalAddressForm
 from friends.models import Friend, CommitteeMembership, PhoneNumber
@@ -94,4 +97,22 @@ def update(request):
                    'info': friend,
                    'section': 'friend',
                    'username': username})        
-    
+
+@json_view
+def update_pw(request):
+    username = request.user.username
+    old_password = request.POST.get('old_password')
+    user = authenticate(username=username,
+                        password=old_password)
+    print("user is {0} {1}".format(username,user))
+    if user is not None:
+        new_password = request.POST.get('new_password')
+        print("Before set password {0}, {1}".format(
+            new_password,
+            user.password))
+        user.set_password(new_password)
+        print("End set password {0}".format(
+            user.password))
+        user.save()
+        return {}
+    raise PermissionDenied()

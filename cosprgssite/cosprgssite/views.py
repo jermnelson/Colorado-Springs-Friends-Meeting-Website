@@ -1,6 +1,9 @@
 __author__ = "Jeremy Nelson"
 
+import json
+import logging
 import os
+import sys
 
 from collections import OrderedDict
 import datetime
@@ -46,6 +49,36 @@ def home(request):
     return render(request,
                   'index.html',
                   {'category': 'home'})
+
+def json_view(func):
+    """
+    Returns JSON results from method call, from Django snippets
+    `http://djangosnippets.org/snippets/622/`_
+    """
+    def wrap(request, *a, **kw):
+        response = None
+        try:
+            func_val = func(request, *a, **kw)
+            assert isinstance(func_val, dict)
+            response = dict(func_val)
+            if 'result' not in response:
+                response['result'] = 'ok'
+        except KeyboardInterrupt:
+            raise
+        except Exception,e:
+            exc_info = sys.exc_info()
+            print(exc_info)
+            logging.error(exc_info)
+            if hasattr(e,'message'):
+                msg = e.message
+            else:
+                msg = ugettext("Internal error: %s" % str(e))
+            response = {'result': 'error',
+                        'text': msg}
+        json_output = json.dumps(response)
+        return HttpResponse(json_output,
+                            mimetype='application/json')
+    return wrap
 
 def login_view(request):
     user = authenticate(username=request.POST.get('username'),
