@@ -1,7 +1,8 @@
 __name__ = "Jeremy Nelson"
 
 from django.forms import ModelForm
-from friends.models import Friend, PostalAddress
+from django.forms.models import modelformset_factory
+from friends.models import Friend, PostalAddress, PhoneNumber
 
 class FriendForm(ModelForm):
 
@@ -21,3 +22,14 @@ class PostalAddressForm(ModelForm):
                   'addressRegion',
                   'postalCode',
                   'streetAddress']
+
+class TelephoneForm(ModelForm):
+
+    class Meta:
+        model = PhoneNumber
+        fields = ['number',
+                  'phone_number_type']
+
+TelephoneFormSet = modelformset_factory(PhoneNumber,
+                                        fields=['number',
+                                                'phone_number_type'])

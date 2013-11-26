@@ -19,10 +19,10 @@
 
     <div class="btn-group">
     {% if user.is_superuser or user == info.friend.user %}
-        <a href="#" class="btn btn-primary" data-bind="click: showEditForm">Edit</a>
+        <a href="#" class="btn btn-primary" data-bind="click: changeInfo">Edit</a>
    {% endif %}
    {% if forms.password_change %}
-    <a class="btn btn-warning" data-bind="click: showPWChangeForm" href="#">Change Password</a>
+    <a class="btn btn-warning" data-bind="click: changePW" href="#">Change Password</a>
    {% endif %}
    </div>
    {# END jumbotron #}
@@ -72,7 +72,23 @@
     </div>
   {# END Committee Panel #}
   </div>
-  {% endif %} 
+  {% endif %}
+  {% if offices %}
+  {# START Offices Held Panel #}
+  <div class="panel panel-info">
+    <div class="panel-heading">
+     <h3 class="panel-title">Offices Held</h3>
+    </div>
+    <div class="panel-body">
+    <ul>
+    {% for row in offices %}
+     <li><strong>{{ row.office }}</strong> from {{ row.dateStarted }} to {% if row.dateCompleted %}{{ row.dateCompleted }}{% else %}Indefinite{% endif %}</li>
+    {% endfor %}
+    </ul>
+    </div>
+  {# END Offices Held Panel #}
+  </div>
+  {% endif %}
  </div>
  {% if forms.password_change %}
  <div class="col-md-4">
@@ -157,6 +173,17 @@
       </div>
     </div>
     {% endif %}
+    {% for phone in forms.telephones %}
+    <div class="form-group">
+      <label class="col-sm-2 control-label">Telephone</label>
+      <div class="col-md-3">
+        {{ phone.number }}       
+      </div>
+      <div class="col-md-2">
+        {{ phone.phone_number_type }}
+      </div>
+    </div>
+    {% endfor %}
     <div class="form-group">
      <div class="col-md-2">
        <input class="btn btn-success"
@@ -186,8 +213,26 @@
    
    self.showEditForm = ko.observable(false);
 
+   self.changeInfo = function() {
+     if(self.showEditForm()) {
+       self.showEditForm(false)
+     } else {
+       self.showEditForm(true)
+     }
+
+   }
+
   {% if forms.password_change %}
-   self.showPWChangeForm = ko.observable(false); 
+   self.showPWChangeForm = ko.observable(false);
+   
+   self.changePW = function() {
+     if(self.showPWChangeForm()) { 
+       self.showPWChangeForm(false);
+     } else {
+       self.showPWChangeForm(true);
+     }
+   }
+ 
    self.pwChange = function() {
     var new_pw = $('#id_new_password1').val();
     var confirm_pw = $('#id_new_password2').val();
@@ -209,11 +254,10 @@
       method: 'POST',
       url: '/friends/pw',
       success: function(response) {
-       alert(response['result']);
-       if(response['result'] == 'error') {
+       if(response['result'] === 'error') {
         alert("Error changing password " + response['message']);
        } else {
-         self.showPWChangeForm = ko.observable(false); 
+         self.showPWChangeForm(false); 
        }
      }
     });

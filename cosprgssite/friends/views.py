@@ -10,9 +10,11 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from cosprgssite.views import json_view
 from cosprgssite.settings import PROJECT_HOME
-from friends.forms import FriendForm, PostalAddressForm
+from friends.forms import FriendForm, PostalAddressForm, TelephoneFormSet
 from friends.models import Friend, CommitteeMembership, PhoneNumber
-from friends.models import PostalAddress
+from friends.models import PostalAddress, OfficeHolder
+
+
 
 def default(request):
     if request.user.is_authenticated():
@@ -45,17 +47,19 @@ def friend(request,
     if not request.user.is_authenticated():
         if not friend.is_public:
             raise Http404
+    committees = CommitteeMembership.objects.all().filter(friend=friend)
+    telephones = PhoneNumber.objects.filter(friends=friend)
+    offices = OfficeHolder.objects.all().filter(friend=friend)
     if request.user == friend.user or request.user.is_superuser:
         forms = {'friend': FriendForm(instance=friend),
                  'post_addr': PostalAddressForm(
                      instance=friend.postal_address),
+                 'telephones': TelephoneFormSet(
+                     queryset=PhoneNumber.objects.filter(friends=friend)),
                  'user': UserChangeForm(instance=friend.user),
                  'password_change': None}
     if request.user == friend.user:
-        forms['password_change'] = PasswordChangeForm(user=friend.user)
-        
-    committees = CommitteeMembership.objects.all().filter(friend=friend)
-    telephones = PhoneNumber.objects.filter(friends=friend)
+        forms['password_change'] = PasswordChangeForm(user=friend.user)    
     if not os.path.exists(custom_template):
         custom_template = 'friend.html'
     return render(request,
@@ -64,6 +68,7 @@ def friend(request,
                    'committees': committees,
                    'forms': forms,
                    'info': friend,
+                   'offices': offices,
                    'section': 'friend',
                    'telephones': telephones,
                    'username': username})
@@ -101,18 +106,12 @@ def update(request):
 @json_view
 def update_pw(request):
     username = request.user.username
-    old_password = request.POST.get('old_password')
+    old_password = request.POST.get('old_pwd')
     user = authenticate(username=username,
                         password=old_password)
-    print("user is {0} {1}".format(username,user))
     if user is not None:
-        new_password = request.POST.get('new_password')
-        print("Before set password {0}, {1}".format(
-            new_password,
-            user.password))
+        new_password = request.POST.get('new_pwd')
         user.set_password(new_password)
-        print("End set password {0}".format(
-            user.password))
         user.save()
         return {}
     raise PermissionDenied()
