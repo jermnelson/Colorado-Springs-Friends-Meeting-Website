@@ -8,4 +8,5 @@ doc/_build
 doc/make.bat
 log/
 *.db
+*.cnf
 static/
