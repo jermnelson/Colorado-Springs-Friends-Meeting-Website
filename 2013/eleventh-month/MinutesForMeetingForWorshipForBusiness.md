@@ -26,12 +26,12 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
     Faith and Practice*
 
     Page 122, 123
-    Our capabilities and posessions are not held as ends in themselves but are God's gifts entrusted to
+    Our capabilities and possessions are not held as ends in themselves but are God's gifts entrusted to
     us. They are our to share with other to be used with humility, courtesy, and affection.
 
     Queries
-    What are we doing to recognize the varied skills and spirtual gifts of the members, attenders, and 
-    children amoung us? Are we tender and loving towards those with gits different from the 
+    What are we doing to recognize the varied skills and spiritual gifts of the members, attenders, and 
+    children among us? Are we tender and loving towards those with gits different from the 
     commonplace?
     
  
@@ -50,15 +50,15 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
     1.  Library: 
         [Nancy][NancyAndrews] devoting time week before Christmas and some time afterwards, [Lisa][LisaLister] sent 
         a login to [LibraryThing]() to catalog the Meeting's house along with donated 
-        bookself from the PPJPC book donations. Librarian will review the PPJC. By the January
-        2014 [Nancy][NancyAndrews] transformed by the New Year. Report accepteance with very encouraging 
+        bookshelf from the PPJPC book donations. Librarian will review the PPJPC. By the January
+        2014 [Nancy][NancyAndrews] transformed by the New Year. Report accepted with very encouraging 
         news.
 
         [Molly][MollyWingate] said she was thankful about the number of individuals attending Business Meeting.
 
     1.  Finance Committee: Cash Flow Report and other financial reports
-        Review of Minutes from Committee Meeting. At the momement paying our basic 
-        expensese it is healhty, [Sarah][SarahCallbeck] would like to see cash flow to grow. Reserve accounts are
+        Review of Minutes from Committee Meeting. At the moment paying our basic 
+        expenses it is healthy, [Sarah][SarahCallbeck] would like to see cash flow to grow. Reserve accounts are
         growing but that after paying insurance, website, and assessments these reserve 
         Six month to one year reserve for the mortgage, $2800-$2900 goal $1500 reserve about (three
         month reserves) We have a credit account with the utilities. [Daniel][DanielKidney] is observing the 
@@ -67,7 +67,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
         bookkeeping, [Sarah][SarahCallbeck] bookkeeping will change from billing quarterly to monthly to even out 
         hit to cash-flow. 
 
-        We have $165.91 availabe for disempursants, $100 available for disempbrants in Decembers
+        We have $165.91 available for disbursements, $100 available for disbursements in Decembers
         Pay IMYM assessments in January after 2014 count of Monthly meeting. 
 
         Renewal from Dex, separate phone line $35 a month, we discuss this. Finance committee decided to 
@@ -78,7 +78,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 
         1.  The Budget looks like it has been in the past, [Sarah][SarahCallbeck] updated the expenses in the Budget, she
             also took out some expenses as book entries, insurance and websites expires moved from prepaid to 
-            expense. Took out duplications at the end for the true. 
+            expense. Took out duplication at the end for the true. 
 
             1.  The budge shortfall is only $280.90 for 2014 over last year's 2013 budget. 
                 Cost reductions canceled Dex and reduction in book-keeping expenses.
@@ -87,13 +87,13 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
             
             1.  Subscriptions went up, paying journals at a yearly rate. 
 
-            1.  Travel expense reduced anticpated travel of Rebecca and Sarah are not going IMYM this year.     
+            1.  Travel expense reduced anticipated travel of Rebecca and Sarah are not going IMYM this year.     
 
             1.  Reduction of $2100 to $1740 for the year in utilities expenses.
             
             1.  Pledge overage in revenue reduction from %40 to around %20
   
-            1.  Emergency fund of $500 discisionary funds for use by M&O 
+            1.  Emergency fund of $500 discretionary funds for use by M&O 
 
          Meeting accepts the great work on the Finance 
             
@@ -108,15 +108,15 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 	
     1.  Social Justice and Action Committee name changed Peace and Social Concerns or Peace and Social Justice. 
         Peace and Justice Committee for the final name of the committee. [Bill][BillDurland] expressed concerns with how the 
-        Phillipines charity money. As Quakers how would we could donate for the Philliphines.  The floods in 
+        Philippines charity money. As Quakers how would we could donate for the Philippines.  The floods in 
         Colorado have collected $11 million but only $7 million distributed.  Peace and Social Justice will look to collect
         money for the action of the meeting. [Genie][GenieDurland] will send around a note from ASFC on any opportunities for 
-        donation for Phillipines. Send a check to [Ann] for support efforts to ASFC suggestion of [World Church Service]
+        donation for Philippines. Send a check to [Ann] for support efforts to ASFC suggestion of [World Church Service]
   
-        Other issue, Adult Education more of speaker buearu as a role. Several suggestions. One night was Mennotate, maybe
-        a Bahi hi group. Explore what they believe in and what a talk suggetion Peace and Justice some evening in Jan or 
-        Feb. Univeralistisal and Unitarians session and disccusion. ACLU support Bernie Sanders talk coordinate for the 
-        Springs. Prepative meetings were the weekly meeting while the Monthly meeting that meets weekly ad looked nice 
+        Other issue, Adult Education more of speaker bureau as a role. Several suggestions. One night was Mennonite, maybe
+        a Baha'i hi group. Explore what they believe in and what a talk suggestion Peace and Justice some evening in Jan or 
+        Feb. Universalist and Unitarians session and discussion. ACLU support Bernie Sanders talk coordinate for the 
+        Springs. Preparatory meetings were the weekly meeting while the Monthly meeting that meets weekly ad looked nice 
         in Dex.
 
         Report accepted and approval title change for the committee.      
@@ -128,7 +128,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
         [Peter][PeterLeVar]. [Bill][BillWerling] 
         new Recording Clerk. Still working the IMYM nominating committee representative..
 
-        Accept the report with graditude.
+        Accept the report with gratitude.
 
         1.  Approving the nominations new M&O. [Ann] expires in January 2015, [Bill] and [Jeremy] terms
             expire in January 2017. [Bill] clerk for Jan 2015-Jan 2017.
@@ -140,9 +140,9 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
         
     1.  Meetinghouse Committee 
 
-        [Ann] and [Daniel] conference call. Pamplet box will be installed on the outside of Meeting House.
-        wall closest to the furance dry wall fixed in the basement, rest of the basement dry fixed from the 
-        flood. Wait until March for furnace. Gutters needs to be cleaned. Cleaning vaccumming, dusting, 
+        [Ann] and [Daniel] conference call. Pamphlet box will be installed on the outside of Meeting House.
+        wall closest to the furnace dry wall fixed in the basement, rest of the basement dry fixed from the 
+        flood. Wait until March for furnace. Gutters needs to be cleaned. Cleaning vacuuming, dusting, 
         and cleaning for fourth.
 
         [Molly] purchased the screen for back door. Damp smell may be coming from couch or books. Draft
@@ -158,8 +158,8 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 		 
 6.  New Business:
 
-    Withdrawal of membership, [Connie Williams]. Meeting accepts and write up a seperate minute 
-    and send to her. Meeting accepts this withdrawl. Can still be member of the wider community 
+    Withdrawal of membership, [Connie Williams]. Meeting accepts and write up a separate minute 
+    and send to her. Meeting accepts this withdrawal. Can still be member of the wider community 
     of Religious Society of Friends. We have received a letter from [Connie Williams].  
 
 7.  Announcements:

@@ -18,7 +18,7 @@
     <p class="lead">{{ info.category }}</p>  
 
     <div class="btn-group">
-    {% if user.is_superuser or user == info.friend.user %}
+    {% if user.is_superuser or user == info.user %}
         <a href="#" class="btn btn-primary" data-bind="click: changeInfo">Edit</a>
    {% endif %}
    {% if forms.password_change %}
