@@ -23,13 +23,13 @@ DATABASES = {
         'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
     },
-    'production': {
-        'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS': {
-            'read_default_file': os.path.join(PROJECT_HOME,
-                                              'cospr_friends.cnf'),
-        }
-    }
+##    'production': {
+##        'ENGINE': 'django.db.backends.mysql',
+##        'OPTIONS': {
+##            'read_default_file': os.path.join(PROJECT_HOME,
+##                                              'cospr_friends.cnf'),
+##        }
+##    }
 }
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False

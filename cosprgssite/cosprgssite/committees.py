@@ -61,6 +61,16 @@ def get_report_metadata(year,
         md_date = datetime.datetime.strptime(
             meta_mrkdwn.Meta.get('date')[0],
             '%Y-%m-%dT%H:%M:%S')
+        # Handle edge case of report date in the previous month or
+        # year
+        if md_date.month != month:
+            md_date = datetime.datetime(int(md_date.year),
+                                        month,
+                                        md_date.day)
+        if md_date.year != year:
+            md_date = datetime.datetime(int(year),
+                                        md_date.month,
+                                        md_date.day)
         return md_date
         
 

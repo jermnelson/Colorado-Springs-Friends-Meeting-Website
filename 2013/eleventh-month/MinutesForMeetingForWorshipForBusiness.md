@@ -3,11 +3,14 @@ Date: 2013-11-17T11:20:00
 [AnnDaugherty]: /Friends/AnnDaugherty
 [BillDurland]: /Friends/BillDurland
 [BillWerling]: /Friends/BillWerling
+[CarltonGamer]: /Friends/CarltonGamer
+[DanielKidney]: /Friends/[DanielKidney  
 [GenieDurland]: /Friends/GenieDurland
 [JeremyNelson]: /Friends/JeremyNelson
 [LisaLister]: /Friends/LisaLister
 [MollyWingate]: /Friends/MollyWingate
 [NancyAndrews]: /Friends/NancyAndrews
+[PeterLeVar]: /Friends/PeterLeVar
 [SarahCallbeck]: /Friends/SarahCallbeck
 
 # Minutes for Meeting for Worship with a Concern for Business
@@ -15,7 +18,7 @@ Date: 2013-11-17T11:20:00
 November 17, 2013
 
 Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andrews][NancyAndrews]
-[Genie Durland][GenieDurland], [Carlton Gamer][CarltonGamer], [Jeremy Nelson][Jeremy Nelson]
+[Genie Durland][GenieDurland], [Carlton Gamer][CarltonGamer], [Jeremy Nelson][JeremyNelson]
 [Ann Daugherty][AnnDaugherty], [Bill Werling][BillWerling], [Sarah Callbeck][SarahCallbeck],
 [Lisa Lister][LisaLister]
 
@@ -34,7 +37,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
  
 
 2.  Consideration of October Minutes
-    Genie is not doing a spreadsheet but 
+    [Genie][GenieDurland] is not doing a spreadsheet but 
 
     Minutes accepted with adjustment in 
 
@@ -45,23 +48,23 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 4.  Committee Reports:
 
     1.  Library: 
-        [Nancy] devoting time week before Christmas and some time afterwards, [Lisa] sent 
+        [Nancy][NancyAndrews] devoting time week before Christmas and some time afterwards, [Lisa][LisaLister] sent 
         a login to [LibraryThing]() to catalog the Meeting's house along with donated 
         bookself from the PPJPC book donations. Librarian will review the PPJC. By the January
-        2014 [Nancy] transformed by the New Year. Report accepteance with very encouraging 
+        2014 [Nancy][NancyAndrews] transformed by the New Year. Report accepteance with very encouraging 
         news.
 
-        [Molly] thankful about the number of individuals at attendance at Business Meeting.
+        [Molly][MollyWingate] said she was thankful about the number of individuals attending Business Meeting.
 
     1.  Finance Committee: Cash Flow Report and other financial reports
         Review of Minutes from Committee Meeting. At the momement paying our basic 
-        expensese it is healhty, [Sarah] would like to see cash flow to grow. Reserve accounts are
+        expensese it is healhty, [Sarah][SarahCallbeck] would like to see cash flow to grow. Reserve accounts are
         growing but that after paying insurance, website, and assessments these reserve 
         Six month to one year reserve for the mortgage, $2800-$2900 goal $1500 reserve about (three
-        month reserves) We have a credit account with the utilities. [Daniel] is observing the 
+        month reserves) We have a credit account with the utilities. [Daniel][DanielKidney] is observing the 
         and monitoring the physical meeting house and utilities. Water and electricity increasing with 
-        the cooler weather. Current month utilities $40 under $180 usage, [Sarah] is billing for 
-        bookkeeping, [Sarah] bookkeeping will change from billing quarterly to monthly to even out 
+        the cooler weather. Current month utilities $40 under $180 usage, [Sarah][SarahCallbeck] is billing for 
+        bookkeeping, [Sarah][SarahCallbeck] bookkeeping will change from billing quarterly to monthly to even out 
         hit to cash-flow. 
 
         We have $165.91 availabe for disempursants, $100 available for disempbrants in Decembers
@@ -73,7 +76,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
         in the white pages. Finance committee will look at options for phone service to the Meeting House.
         The money saved with be assigned to travel support for Friends. 
 
-        1.  The Budget looks like it has been in the past, [Sarah] updated the expenses in the Budget, she
+        1.  The Budget looks like it has been in the past, [Sarah][SarahCallbeck] updated the expenses in the Budget, she
             also took out some expenses as book entries, insurance and websites expires moved from prepaid to 
             expense. Took out duplications at the end for the true. 
 
@@ -94,7 +97,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 
          Meeting accepts the great work on the Finance 
             
-    1.  Ministry and Oversight Committee: Review of Minutes from Committee Meeting, [Molly] apologized
+    1.  Ministry and Oversight Committee: Review of Minutes from Committee Meeting, [Molly][MollyWingate] apologized
         for not sending around the report. Talked about reducing the number of members and has been worked
         out by Nominating committee. Two members . One thing they will work on is a procedure for using 
         emergency funds. Meeting accepts M&O report.
@@ -104,10 +107,10 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
     1.  Adult Education -- No report 
 	
     1.  Social Justice and Action Committee name changed Peace and Social Concerns or Peace and Social Justice. 
-        Peace and Justice Committee for the final name of the committee. [Bill] has a personal problem with the 
+        Peace and Justice Committee for the final name of the committee. [Bill][BillDurland] expressed concerns with how the 
         Phillipines charity money. As Quakers how would we could donate for the Philliphines.  The floods in 
-        Colorado have collected $11 million but only $7 million dis.  Peace and Social Justice will look to collect
-        money for the action of the meeting. [Genie] will send around a note from ASFC on any opportunities for 
+        Colorado have collected $11 million but only $7 million distributed.  Peace and Social Justice will look to collect
+        money for the action of the meeting. [Genie][GenieDurland] will send around a note from ASFC on any opportunities for 
         donation for Phillipines. Send a check to [Ann] for support efforts to ASFC suggestion of [World Church Service]
   
         Other issue, Adult Education more of speaker buearu as a role. Several suggestions. One night was Mennotate, maybe
@@ -119,9 +122,11 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
         Report accepted and approval title change for the committee.      
 
     1.  Nominating Committee  New things, haven't filled the clerk position but a Friend carefully considering it. 
-        M&O, [Peter], [Linda], and [Martha], committee now made up [AnnMartin], [Jeremy], and [Bill][BillDurland], 
-        [Carlton] now on call. New members of Nominating committee are [Molly] and [Peter]. [Bill][BillWerling] 
-        new Recording Clerk. Still working IMYM .
+        M&O, [Peter][PeterLeVar], [Linda][LindaSeger], and [Martha][MarthaLutz], committee now made up [Ann Martin][AnnMartin], 
+        [Jeremy][JeremyNelson], and [Bill][BillDurland], 
+        [Carlton][CarltonGamer] now on call. New members of Nominating committee are [Molly][MollyWingate] and 
+        [Peter][PeterLeVar]. [Bill][BillWerling] 
+        new Recording Clerk. Still working the IMYM nominating committee representative..
 
         Accept the report with graditude.
 

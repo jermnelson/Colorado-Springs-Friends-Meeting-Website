@@ -41,7 +41,7 @@
     <ul class="list-group" >
     {% for report_date in reports %}
       <li class="list-group-item"><a href="/committees/{{ Committee }}/{{ report_date.year }}/{{ report_date.month }}">
-         {{ report_date|date:"F d, Y" }}</a>
+         {{ report_date|date:"F Y" }}</a>
       </li>
     {% endfor %}
     </ul>

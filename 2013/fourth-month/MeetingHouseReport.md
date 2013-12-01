@@ -1,8 +1,8 @@
 Date: 2013-04-11T15:30:00
 
-Meeting House Committee
-April 11, 2013
-Attendance:  [Ann Daugherty][AnnDaugherty], clerk; [Molly Wingate][Molly Wingate]
+# Meeting House Committee
+## April 11, 2013
+Attendance:  [Ann Daugherty][AnnDaugherty], clerk; [Molly Wingate][MollyWingate]
 
 Old Business:
 Thanks to everyone who helped install our new fence (especially [Daniel][DanielKidney] 
