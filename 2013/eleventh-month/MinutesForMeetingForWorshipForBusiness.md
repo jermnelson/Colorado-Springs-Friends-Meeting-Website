@@ -34,12 +34,11 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
     children among us? Are we tender and loving towards those with gits different from the 
     commonplace?
     
- 
-
 2.  Consideration of October Minutes
-    [Genie][GenieDurland] is not doing a spreadsheet but 
+    [Genie][GenieDurland] is not doing a spreadsheet but just a document with the current positions along
+    with know term lengths. 
 
-    Minutes accepted with adjustment in 
+    Minutes accepted with adjustments. 
 
 3.  Clerk's Report:  I look forward to introducing the Meeting to our new 
     website at the December potluck. Bring your laptops and learn how to 
@@ -49,7 +48,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 
     1.  Library: 
         [Nancy][NancyAndrews] devoting time week before Christmas and some time afterwards, [Lisa][LisaLister] sent 
-        a login to [LibraryThing]() to catalog the Meeting's house along with donated 
+        a login to LibraryThing to catalog the Meeting's house along with donated 
         bookshelf from the PPJPC book donations. Librarian will review the PPJPC. By the January
         2014 [Nancy][NancyAndrews] transformed by the New Year. Report accepted with very encouraging 
         news.
@@ -99,7 +98,7 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
             
     1.  Ministry and Oversight Committee: Review of Minutes from Committee Meeting, [Molly][MollyWingate] apologized
         for not sending around the report. Talked about reducing the number of members and has been worked
-        out by Nominating committee. Two members . One thing they will work on is a procedure for using 
+        out by Nominating committee. One thing they will work on is a procedure for using 
         emergency funds. Meeting accepts M&O report.
 
     1.  First Day School -- No report
@@ -108,10 +107,11 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 	
     1.  Social Justice and Action Committee name changed Peace and Social Concerns or Peace and Social Justice. 
         Peace and Justice Committee for the final name of the committee. [Bill][BillDurland] expressed concerns with how the 
-        Philippines charity money. As Quakers how would we could donate for the Philippines.  The floods in 
+        Philippines charity money was being spent. As Quakers how would we could donate for the Philippines?  The floods in 
         Colorado have collected $11 million but only $7 million distributed.  Peace and Social Justice will look to collect
         money for the action of the meeting. [Genie][GenieDurland] will send around a note from ASFC on any opportunities for 
-        donation for Philippines. Send a check to [Ann] for support efforts to ASFC suggestion of [World Church Service]
+        donation for Philippines. Send a check to [Ann][AnnDaugherty] for support efforts to ASFC suggestion of World
+        Church Service.
   
         Other issue, Adult Education more of speaker bureau as a role. Several suggestions. One night was Mennonite, maybe
         a Baha'i hi group. Explore what they believe in and what a talk suggestion Peace and Justice some evening in Jan or 
@@ -130,22 +130,25 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
 
         Accept the report with gratitude.
 
-        1.  Approving the nominations new M&O. [Ann] expires in January 2015, [Bill] and [Jeremy] terms
-            expire in January 2017. [Bill] clerk for Jan 2015-Jan 2017.
+        1.  Approving the nominations new M&O. [Ann][AnnMartin] expires in January 2015, [Bill][BillDurlan] 
+            and [Jeremy][JeremyNelson] terms
+            expire in January 2017. [Bill][BillDurland] will clerk M&O from January 2015 to January 2017.
 
-        1.  Finance committee, [Sarah] will be bookkeeper, and still serve on Finance committee. Julie and 
-            Ann started in Jan. 2013, [Ann] treasurer to Jan 2016. Julie serves one more year.
+        1.  Finance committee, [Sarah][SarahCallbeck] will be bookkeeper, and still serve on Finance committee. Julie and 
+            Ann started in Jan. 2013, [Ann][AnnDaugherty] will continue as treasurer until January 2016. 
+            Julie serves one more year.
 
-        1.  New nominating committee for [Molly] and [Peter] for two year commitments. 
+        1.  New nominating committee for [Molly][MollyWingate] and [Peter][PeterLeVar] for two year commitments. 
         
     1.  Meetinghouse Committee 
 
-        [Ann] and [Daniel] conference call. Pamphlet box will be installed on the outside of Meeting House.
+        [Ann][AnnDaugherty] and [Daniel][DanielKidney] conference call. Pamphlet box will be installed 
+        on the outside of Meeting House.
         wall closest to the furnace dry wall fixed in the basement, rest of the basement dry fixed from the 
         flood. Wait until March for furnace. Gutters needs to be cleaned. Cleaning vacuuming, dusting, 
         and cleaning for fourth.
 
-        [Molly] purchased the screen for back door. Damp smell may be coming from couch or books. Draft
+        [Molly][MollyWingate] purchased the screen for back door. Damp smell may be coming from couch or books. Draft
         when people come in front door. Friends asked about insulation for the bathrooms and storage room.
         Look at maybe insulation of bathrooms. 
  
@@ -153,14 +156,17 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
  
 5.  Old Business:
  
-    Planning a "Show and Tell" for this winter. [Bill], [Bill], and [Jeremy] January 8th, start early 
-    at 6:30 to 8:30pm and bring desserts. [Ann] will be working in Pueblo. 
+    Planning a "Show and Tell" for this winter. [Bill Durland][BillDurland], [
+    Bill Werling][BillWerling], and [Jeremy][Jeremy Nelson] January 8th, start early 
+    at 6:30 to 8:30pm and bring desserts. [Ann][AnnDaugherty] will be working in Pueblo. 
 		 
 6.  New Business:
 
-    Withdrawal of membership, [Connie Williams]. Meeting accepts and write up a separate minute 
-    and send to her. Meeting accepts this withdrawal. Can still be member of the wider community 
-    of Religious Society of Friends. We have received a letter from [Connie Williams].  
+    We have received a letter from Connie Williams withdrawal of membership from the Colorado Springs
+    Monthly Meeting. The Meeting accepts and will write up a separate minute 
+    and send to her. Meeting accepts this withdrawal. Friends noted that individuals can 
+    still be member of the wider community of Religious Society of Friends even they are no 
+    longer members of an Monthly Meeting.  
 
 7.  Announcements:
 
@@ -178,13 +184,15 @@ Present: [Bill Durland][BillDurland], [Molly Wingate][MollyWingate], [Nancy Andr
     people on these matters.  The presentation will be at the rise of meeting on 
     January 12, 2014.
 
-    [Molly] read a letter from Boulder Meeting about flooding in Colorado about the 
+    [Molly][MollyWingate] read a letter from Boulder Meeting about flooding in Colorado about the 
     Flood and Fires. 
 
-    [Sarah] brought a box of office supplies for donations.
+    [Sarah]SarahCallbeck] brought a box of office supplies for donations.
 
 Meeting finished at after silence at 12:58.
 
 Respectively submitted in the light,
 
-Jeremy Nelson
+[Jeremy Nelson][JeremyNelson]
+
+Recording Clerk
