@@ -13,7 +13,7 @@ Date: 2013-12-15T11:20:00
 [PeterLeVar]: /Friends/PeterLeVar
 [SarahCallbeck]: /Friends/SarahCallbeck
 
-Minutes for Meeting for Worship with a Concern for Business
+# Minutes for Meeting for Worship with a Concern for Business
 
 Colorado Springs Quaker Meeting
 
@@ -23,7 +23,7 @@ December 15, 2013
 
 2.  Consideration of November Minutes
 
-3.  Clerk’s Report:  The meeting seems to be in good shape in terms of 
+3.  Clerk's Report:  The meeting seems to be in good shape in terms of 
     the physical building, our finances, and people doing service on its 
     behalf. I look forward to stepping down from being the clerk to focus more
     on the spiritual and worship aspects of my faith and to be of service to 
@@ -82,7 +82,7 @@ December 15, 2013
 
     Friends are welcome to use the meetinghouse during the week and to open it 
     for Sunday worship. The key to the building is always available in the lock 
-    box on the ladies’ room door.  We have created a one-sheet set of directions 
+    box on the ladies' room door.  We have created a one-sheet set of directions 
     for opening and closing the building.  It is attached.  Call 
     [Molly][MollyWingate], [Ann Daugherty][AnnDaugherty],
     [Bill Werling][BillWerling], [Peter LeVar][PeterLeVar] or the Durlands for 
@@ -106,7 +106,7 @@ December 15, 2013
     subscribe to get reminders and updates automatically. 
 
     If you are part of a group or know of a group who would like to use the 
-    meeting house, please have them contact [Bill Werling]][BillWerling] at 
+    meeting house, please have them contact [Bill Werling][BillWerling] at 
     william.werling@gmail.com.
 
     Eric Moon will be giving a presentation on April 19th  at Boulder Meeting, 
