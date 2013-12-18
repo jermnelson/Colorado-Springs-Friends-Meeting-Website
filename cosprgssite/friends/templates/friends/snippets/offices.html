@@ -1,0 +1,14 @@
+{# START Offices Held Panel #}
+<div class="panel panel-info">
+    <div class="panel-heading">
+     <h3 class="panel-title">Offices Held</h3>
+    </div>
+    <div class="panel-body">
+    <ul>
+    {% for row in offices %}
+     <li><strong>{{ row.office }}</strong> from {{ row.dateStarted }} to {% if row.dateCompleted %}{{ row.dateCompleted }}{% else %}Indefinite{% endif %}</li>
+    {% endfor %}
+    </ul>
+    </div>
+{# END Offices Held Panel #}
+</div>
