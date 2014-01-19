@@ -1,0 +1,23 @@
+{% extends 'friend.html' %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Kathy Ide</h1>
+    <p>(1947-2013)</p>
+   </div>
+  </div>
+ </div>
+</div>
+{% endblock %}

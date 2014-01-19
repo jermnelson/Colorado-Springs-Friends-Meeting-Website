@@ -23,7 +23,7 @@ def default(request):
         friends = Friend.objects.filter(
             is_public=True).order_by(
                 'user__last_name')
-    half_size = len(friends) / 2 
+    half_size = len(friends) / 2
     return render(request,
                   'friends.html',
                   {'category': 'about',
@@ -34,8 +34,9 @@ def default(request):
 def friend(request,
            username):
     custom_template = os.path.join(PROJECT_HOME,
-                                   'cosprgssite',
+                                   'friends',
                                    'templates',
+                                   'friends',
                                    '{0}.html'.format(username))
     if username.endswith("/"):
         username = username[:-1]
@@ -59,7 +60,8 @@ def friend(request,
                  'user': UserChangeForm(instance=friend.user),
                  'password_change': None}
     if request.user == friend.user:
-        forms['password_change'] = PasswordChangeForm(user=friend.user)    
+        forms['password_change'] = PasswordChangeForm(user=friend.user)
+    print(custom_template)
     if not os.path.exists(custom_template):
         custom_template = 'friend.html'
     return render(request,
@@ -101,7 +103,7 @@ def update(request):
                    'forms': forms,
                    'info': friend,
                    'section': 'friend',
-                   'username': username})        
+                   'username': username})
 
 @json_view
 def update_pw(request):

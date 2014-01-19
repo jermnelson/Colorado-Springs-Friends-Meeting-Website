@@ -1,0 +1,18 @@
+{# START Committee Panel #}
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Committee Membership</h3>
+    </div>
+    <div class="panel-body">
+      <p>{{ info.user.first_name }} {{ info.user.last_name }} serves the Meeting through the
+         following committee membership:</p>
+      <ul>
+        {% for row in committees %} 
+        <li>{% if row.is_clerk %}Clerk{% endif %} <a href="/committees/{{ row.committee.name }}">{{ row.committee.group.name }}</a>.
+           {% if user.is_authenticated %} Started on {{ row.dateStarted }}{% endif %}.
+         </li>
+        {% endfor %}
+      </ul>
+    </div>
+{# END Committee Panel #}
+</div>

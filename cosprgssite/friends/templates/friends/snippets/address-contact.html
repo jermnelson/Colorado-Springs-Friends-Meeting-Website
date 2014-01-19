@@ -1,0 +1,21 @@
+<div class="well">
+   <h3>Address and Contact Information</h3>
+   {{ info.postal_address }} {{ info.postal_address.postalCode }}
+   <h4>Email</h3>
+   <a href="mailto:{{ info.user.email }}">{{ info.user.email }}</a>
+
+   {% if telephones %}
+   <h4>Telephone</h4>
+   <ul>
+    {% for number in telephones %}
+     <li>{{ number.number }} ({% if number.phone_number_type == 0 %}Home{% endif %}
+                              {% if number.phone_number_type == 1 %}Cell{% endif %}
+                              {% if number.phone_number_type == 2 %}Business{% endif %}
+                              {% if number.phone_number_type == 3 %}Work{% endif %}
+                              {% if number.phone_number_type == 4 %}Other{% endif %})
+     </li>
+    {% endfor %}
+   </ul>
+  {% endif %}
+</div>
+

@@ -1,0 +1,61 @@
+{% extends 'friend.html' %}
+
+{% block jumbotron %}
+{# START container #}
+<div class="container">
+ {# START row #}
+ <div class="row">
+  {# START left nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END left nav #}
+  </div>
+  {# START Size DIV#}
+  <div class="col-md-9">
+   {# START jumbotron #}
+   <div class="jumbotron">
+    <h1>Carlton Gamer</h1>
+    <p class="lead">{{ info.category }}</p>  
+
+    <div class="btn-group">
+    {% if user.is_superuser or user == info.user %}
+        <a href="#" class="btn btn-primary" data-bind="click: changeInfo">Edit</a>
+   {% endif %}
+   {% if forms.password_change %}
+    <a class="btn btn-warning" data-bind="click: changePW" href="#">Change Password</a>
+   {% endif %}
+   </div>
+   <h2>Biographical Information</h2>
+   <p style="font-size: .7em">Carlton is a composer, music theorist, sometime pianist, and teacher.</p>
+   <p style="font-size: .7em">Carlon's father, formative years were spent in Germany, his mother's in 
+      Vienna and Paris. Carlton's father, Carl, was a Methodist minister and 
+      professor of political science, while Carlton's mother, Alice, a sculptor.
+      Both were fluent in German and French. Through Carlton and his brother 
+      Robert were raised in the Midwest, their family life was cosmopolitan. From 
+      the age of seven, Carlton studied piano and composition with Tanya and Hubert 
+      Kessler --she a pianist, he a composer and theorist at the University of 
+      Illinois-- who were themselves Viennese. From them and from his aunt, Helena
+      Gamer, who taught German at the University of Chicago and who had an extensive
+      library of musical scores and took Carlton to chamber music concerts and to the
+      opera, he acquired a love and knowledge of European classical music. In college,
+      Carlton discovered the works of Stravinsky, Bartok, Hindemith, and Berg. The 
+      music of Roger Sessions, a distinguished composer with whoem Carlton had studied
+      in the 1950's, was rooted in the same European tradition. Carlton's own music, 
+      then, bears the stamp of that heritage.
+    </p>
+    <p style="font-size: .7em">
+     Carlton has had a strong and sustained interests in the history of music; political and
+     cultural history; art and art history; Modernism; philosophy and aestetics; 
+     mathematics (especially discrete mathematics); Christian mysticism; Vedanta and 
+     Buddhism (especially Rinzai Zen); poetry; English and American literature; various
+     European languages and literatures (Latin, German, French, Spanish, Italian, and 
+     Russian); Japanese language, literature and culture; Asian literature; literary 
+     theory; women's studies; non-Western musics (espcially those of North India,
+     Indonesia, and West Africa); opera; dance; and jazz. He is a Quaker and has been
+     a long-time peace activist. Thos interests and involvements have informed his
+     work.
+    </p>
+ {# END jumbotron #}
+  </div>
+ </div>
+{% endblock %}
