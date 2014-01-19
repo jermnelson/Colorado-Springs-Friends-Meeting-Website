@@ -34,7 +34,7 @@ Maintaining the Meeting Home offers many opportunities for members and attenders
 to assist in various ways to build community. A partial list of opportunities 
 are the weekly removal of trash and lining the trash container with plastic 
 bags, checking the bathrooms to be sure that paper supplies are available 
-weekly, bringing 'something'  on which to snack during after–meeting-socializing
+weekly, bringing 'something'  on which to snack during after-meeting-socializing
 perhaps coordinating with others to divide the opportunity to participate.
 
 Inventorying our supplies and giving a list of needed items to 
