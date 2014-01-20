@@ -20,10 +20,6 @@ We opened with Spiritual Silence at 10:06 AM.
 Since [Bill][BillDurland]  and [Jeremy][JeremyNelson] are new to the M&O Committee 
 we took some time to get acquainted after check-in.
 
-[Jonathan McPhee][JonathanMcPhee] continues working at the Egg and I. He 
-anticipates that in the near future he can advance to being a server. Otherwise, 
-his life on parole continues to be satisfactory.
-
 There are several Quaker calls to members and attenders that need to be completed.
 [Bill][BillDurland]: and [Jeremy][JeremyNelson] volunteered to contact those Friends. 
 Since [Bill][BillDurland] needed to be contacted, [Jeremy][JeremyNelson] and 

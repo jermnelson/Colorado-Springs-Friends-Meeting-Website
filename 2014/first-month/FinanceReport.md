@@ -40,7 +40,7 @@ Present for the Finance Committee Meeting:  [Sarah Callbeck][SarahCallbeck],
         to distribute the bequest?
 
 3.  The Finance Committee acknowledged and discussed requests for travel to Pendle 
-    Hill ($120) and IMYM ($200) for the Durlands.  Additionally, [Molly Wingate][MollyWingate] 
+    IMYM ($120) and Pendle Hill ($200).  Additionally, another Friend  
     requested $100 in aid in order to assist in her travel to Phoenix as Recording Clerk of 
     Representatives Committee.  Funds for these trips totaling $420 are available due to 
     some 2013 year-end donations. 
@@ -72,7 +72,3 @@ Present for the Finance Committee Meeting:  [Sarah Callbeck][SarahCallbeck],
 [Lisa Beckrich][ListBeckrich], Recording Clerk
 
 Finance Committee
-
-
-
-

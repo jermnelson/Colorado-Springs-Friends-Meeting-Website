@@ -8,7 +8,7 @@ Review the import of Quaker calls.
 
 Develop guideline for disbursement of the Quaker Emergency Fund.
 
-Nathan (Nate) Bower's request to be removed from our directory and email contact list. 
+A Friend requested to be removed from our directory and email contact list. 
 
 Concern - We pay disbursements for him since he is a member. Do all members need to be listed 
 
