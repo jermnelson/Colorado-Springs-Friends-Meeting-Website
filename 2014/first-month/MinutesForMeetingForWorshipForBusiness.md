@@ -28,13 +28,13 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
         life. Spiritual learning continues throughout life, and often in unexpected ways. There is 
         inspiration to be found all around us, in the natural world, in the science and arts, in our 
         work and friendships, in our sorrows as as well as in our joys. Are you open to new light, 
-        from whatever source it may come? Do you approach new ideas with discrenment?
+        from whatever source it may come? Do you approach new ideas with discernment?
         (page 6)
 
 2.  Acceptance of Twelfth Month Minutes:
 
     [http://coloradospringsquakers.org/meetings/Business/2013/12](http://coloradospringsquakers.org/meetings/Business/2013/12)
-    Minutes accepted proventually
+    Minutes accepted provisionally
 
 3.  Clerk's Report:  The clerk asks for your patience and support as she 
     begins this new position in service to the Meeting.  She is thankful for
@@ -44,7 +44,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
 4.  Committee Reports
 
     1.  Finance Committee new meeting time and place, meeting time second 1st day
-        at 11:30 after social. Following a suggustion by Meeting House committee, 
+        at 11:30 after social. Following a suggestion by Meeting House committee, 
         a generous bequest from a recently deceased friend that we fully fund the 
         Meeting reserves as :
  
@@ -77,7 +77,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
         utilities expense significantly lower than last year. [Sarah][SarahCallbeck] went over
         financial reports from the Meeting. In the Revenue statement, the positive sum in the general fund should be 
         celebrated as it shows that Meeting is operating but the building fund is negative. 
-        We do building projects when the money is available from moneies received as donations and
+        We do building projects when the money is available from monies received as donations and
         the negative balance in this building account reflects budgeted projects and does not 
         reflect unbudgeted expenses. In the balance sheet report, total liabilities and net assets 
         of the meeting in 2013 was $106,294.47. The Meeting expressed gratitude for the work done on 
@@ -85,10 +85,10 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
 
     1.  Ministry and Oversight Committee (Minutes attached), February 4th at 11am. 
         [Molly][MollyWingate] suggested that the Meeting minutes to not include names of Friends in the 
-        minutes in order to preveves privacy. [Carlton][Carlton Gamer] was also surprised with the inclusion of 
-        personal names in the report that will posted publically. Friends mentioned the 
+        minutes in order to preserve privacy. [Carlton][Carlton Gamer] was also surprised with the inclusion of 
+        personal names in the report that will posted publicly. Friends mentioned the 
         concerns of putting names in the official minutes. The minutes for M&O would not be 
-        made publically. 
+        made publicly. 
 
         M&O is requested to clarify the membership of a Friend and if he is officially a member of the 
         meeting. 
@@ -113,7 +113,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
         ramp for ADA and a fixed front door. Meeting House committee discussed the addition and 
         looking at ways to fund the new addition. 
 
-        ADA complient project [Molly][MollyWingate] will go out and get a bid and [Lisa][LisaLister] 
+        ADA compliant project [Molly][MollyWingate] will go out and get a bid and [Lisa][LisaLister] 
         will pursue applying for FGC Meetinghouse Grant. 
 
         Report accepted with gratitude.
@@ -152,7 +152,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
         [Molly][MollyWingate] suggests that this program would be of interest to the 
         larger Colorado Springs community groups and religious organizations but she
         doesn't feel called to organize the session. This idea will be seasoned and
-        brought up at next Meeting for Worshp.   
+        brought up at next Meeting for Worship.   
 
 6.  New Business
  
@@ -188,7 +188,7 @@ the Durlands for the code to open the lock box.
 
 Closed with a moment of silence at 12:50pm.
 
-Respectively submited in the light
+Respectively submitted in the light
 
 [Jeremy Nelson][JeremyNelson]
 
