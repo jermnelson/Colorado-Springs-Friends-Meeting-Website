@@ -2,7 +2,9 @@ Date: 2014-01-19T11:20:00
 
 [AnnDaugherty]: /Friends/AnnDaugherty
 [BillWerling]: /Friends/BillWerling
-[Carlton Gamer]: /Friends/Carlton Gamer
+[BillDurland]: /Friends/BillDurland
+[CarltonGamer]: /Friends/CarltonGamer
+[GenieDurland]: /Friends/GenieDurland
 [JeremyNelson]: /Friends/JeremyNelson
 [LisaLister]: /Friends/LisaLister
 [PeterLeVar]: /Friends/PeterLeVar
@@ -11,11 +13,9 @@ Date: 2014-01-19T11:20:00
 
 # Minutes for Meeting for Worship with a Concern for Business
 
-Colorado Springs Friends Meeting
+### Colorado Springs Friends Meeting
 
-First Month 2014
-
-
+### First Month 2014
 
 In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [Carlton Gamer][CarltonGamer], 
 [Lisa Lister][LisaLister], [Molly Wingate][MollyWingate]
@@ -24,12 +24,12 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
 
     Reading from British Yearly Meeting:
 
-        Be aware of the spirit of God at work in the originary activities and experience of your daily
-        life. Spiritual learning continues throughout life, and often in unexpected ways. There is 
-        inspiration to be found all around us, in the natural world, in the science and arts, in our 
-        work and friendships, in our sorrows as as well as in our joys. Are you open to new light, 
-        from whatever source it may come? Do you approach new ideas with discernment?
-        (page 6)
+    > Be aware of the spirit of God at work in the originary activities and experience of your daily
+    life. Spiritual learning continues throughout life, and often in unexpected ways. There is 
+    inspiration to be found all around us, in the natural world, in the science and arts, in our 
+    work and friendships, in our sorrows as as well as in our joys. Are you open to new light, 
+    from whatever source it may come? Do you approach new ideas with discernment?
+    (page 6)
 
 2.  Acceptance of Twelfth Month Minutes:
 
@@ -44,7 +44,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
 4.  Committee Reports
 
     1.  Finance Committee new meeting time and place, meeting time second 1st day
-        at 11:30 after social. Following a suggestion by Meeting House committee, 
+        at 11:30 after Meeting for Worship. Following a suggestion by Meeting House committee, 
         a generous bequest from a recently deceased friend that we fully fund the 
         Meeting reserves as :
  
@@ -85,7 +85,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
 
     1.  Ministry and Oversight Committee (Minutes attached), February 4th at 11am. 
         [Molly][MollyWingate] suggested that the Meeting minutes to not include names of Friends in the 
-        minutes in order to preserve privacy. [Carlton][Carlton Gamer] was also surprised with the inclusion of 
+        minutes in order to preserve privacy. [Carlton][CarltonGamer] was also surprised with the inclusion of 
         personal names in the report that will posted publicly. Friends mentioned the 
         concerns of putting names in the official minutes. The minutes for M&O would not be 
         made publicly. 
@@ -120,15 +120,16 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
         
 5.  Old Business
 
-    A.  Fall Query:  [Genie][GenieDurland] needs to submit a response to IMYM.  
+    1.  Fall Query:  [Genie][GenieDurland] needs to submit a response to IMYM.  
         Please consider these questions carefully and come to Business Meeting 
         prepared to share your reflections.  You may also email [Genie][GenieDurland] directly at 
         Durlandwe@gmail.com
+        
+        > As a Yearly Meeting what do we value in providing programming for youth? What does 
+        your meeting want to see in youth programming at IMYM?  In particular, what 
+        suggestions does your meeting have for keeping a vital and loving Junior Young 
+        Friends program at IMYM?  What are your leadings about support for Middle School youth?
 
-            As a Yearly Meeting what do we value in providing programming for youth? What does 
-            your meeting want to see in youth programming at IMYM?  In particular, what 
-            suggestions does your meeting have for keeping a vital and loving Junior Young 
-            Friends program at IMYM?  What are your leadings about support for Middle School youth?
 
         [Lisa][LisaLister] has already sent her personal thoughts to [Genie][GenieDurland] on these queries. 
         [Molly][MollyWingate] spoke
@@ -138,7 +139,7 @@ In Attendance: [Ann Daugherty][AnnDaugherty], [Sarah Callbeck][SarahCallbeck], [
         support IMYM youth program with young friends of the meeting having benefit. Friends 
         are encouraged to send any thoughts to [Genie][GenieDurland].
 
-    B.  Would we like to hold a workshop on the Doctrine of Discovery? 
+    1.  Would we like to hold a workshop on the Doctrine of Discovery? 
 
         Boulder meeting is available to conduct workshops on the Doctrine of 
         Discovery and Indigenous People's rights.  Friends should know that 
@@ -172,7 +173,7 @@ reports will be available on line.  Our calendar of events is there also.
 
 Please put events at the meetinghouse on the paper calendar on the bulletin 
 board and let [Lisa Lister][LisaLister] and [Bill Werling][BillWerling] know.  
-[Bill]][BillWerling] is the calendar keeper for now and he will enter it on
+[Bill][BillWerling] is the calendar keeper for now and he will enter it on
 Google calendar so the event will be listed on our website.  You can subscribe 
 to get reminders and updates automatically.  
 
