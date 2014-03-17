@@ -29,13 +29,17 @@ def committee(request,
         committee=committee_)
     committee_membership = sorted(committee_membership,
                                   key=lambda x: x.friend.user.last_name)
+    if not request.user.is_authenticated() and committee == 'MinistryAndOversight':
+        reports = []
+    else:
+        reports = sorted(get_reports(committee))
     return render(request,
                   '{0}.html'.format(committee.lower()),
                   {'category': 'about',
                    'Committee': committee,
                    'section': 'committee',
                    'membership': committee_membership,
-                   'reports': sorted(get_reports(committee))})
+                   'reports': reports})
 
 def history(request,
             topic):
@@ -142,6 +146,8 @@ def report(request,
            committee,
            year,
            month):
+    if not request.user.is_authenticated() and committee == 'MinistryAndOversight':
+        raise Http404
     report_html = get_report(year,
                              month,
                              committee,)
