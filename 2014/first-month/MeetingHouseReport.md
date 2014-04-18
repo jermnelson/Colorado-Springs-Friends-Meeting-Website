@@ -1,4 +1,4 @@
-Date: 2013-01-09T14:30:00
+Date: 2014-01-09T14:30:00
 
 [AnnDaugherty]: /Friends/AnnDaugherty
 [DanielKidney]: /Friends/DanielKidney
@@ -6,7 +6,7 @@ Date: 2013-01-09T14:30:00
 
 # Meetinghouse Committee Minutes
 
-January 9, 2013
+January 9, 2014
 
 In attendance: [Ann Daugherty][AnnDaugherty] and [Molly Wingate][MollyWingate]
 
