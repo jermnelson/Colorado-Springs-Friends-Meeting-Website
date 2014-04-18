@@ -52,11 +52,14 @@ In Attendance: Clerk-[Lisa Lister][LisaLister], Recording Clerk-[Bill Werling][B
         NAME FOR THE EMERGENCY FUND WAS CHANGED TO THE EMERGENCY AND SUFFERINGS FUND.  The Meeting approved the 
         following MINUTE regarding Ministry & Oversight's process for the disbursal of funds from our emergency fund and sufferings fund:
 
+        <div class="alert alert-success" id="minute">
+            <p>
             Since one of the strongest Quaker traditions is that a Friend's word is his/her bond, we do not feel the 
             need to require more than the reason and needed sum. We know that a request from a Friend is not a 
             casual request but one that it is made after all other avenues have been exhausted. We trust that a 
             Friend will come to the Meeting in the spirit of our truth testimony.
-
+            </p>
+            <p>
             The amount awarded will be determined by the request and the balance of the Meeting's budgeted amount. 
             Requests will be awarded on a case by case basis.
             In the case of people who are not Friends the Ministry and Oversight Committee will discern the degree of need, 
@@ -66,6 +69,8 @@ In Attendance: Clerk-[Lisa Lister][LisaLister], Recording Clerk-[Bill Werling][B
             to convene and come to unity in their decision to aware funds. If time is limited, the clerks of the M&O 
             and Finance Committees and the Clerk of the Meeting may confer and come to a decision.
             We emphasize that in all cases attention to the Quaker Testimonies and the dignity of the Friend/non-friend will be preserved.
+            </p>
+        </div>
 
     3.	First Day School - [Molly][MollyWingate] provided an oral report indicating that First Day School is going well 
         and that there is continued work toward starting an ECO Justice class which is likely to include evening events. 
