@@ -1,6 +1,12 @@
 Date: 2014-04-20T11:21:00
 
+[AnnDaugherty]: /Friends/AnnDaugherty
+[BillWerling]: /Friends/BillWerling
+[BillDurland]: /Friends/BillDurland
 [CarltonGamer]: /Friends/CarltonGamer
+[GenieDurland]: /Friends/GenieDurland
+[JeremyNelson]: /Friends/JeremyNelson
+[JonGallenger]: /Friends/JonGallenger
 [LindaSeger]: /Friends/LindaSeger
 [LisaLister]: /Friends/LisaLister
 [MollyWingate]: /Friends/MollyWingate
@@ -12,7 +18,7 @@ Date: 2014-04-20T11:21:00
 ## Colorado Springs Friends Meeting
 ### Fourth Month 2014
 
-Present:[Peter LeVar][PeterLeVar], [Carlton Gamer][CarltonGamer], [Linda Seger][LindaSeger], 
+Present: [Peter LeVar][PeterLeVar], [Carlton Gamer][CarltonGamer], [Linda Seger][LindaSeger], 
 [Molly Wingate][MollyWingate], [Sarah Callbeck][SarahCallbeck]
 [Lisa Lister][LisaLister](clerk), [Jeremy Nelson][JeremyNelson]
 
@@ -40,7 +46,7 @@ Present:[Peter LeVar][PeterLeVar], [Carlton Gamer][CarltonGamer], [Linda Seger][
     3.  Finance Committee (Minutes attached, plus financial reports)
         [Sarah][SarahCallbeck] read the Finance Committee minutes and explained some 
         timing issues of when checks cleared our checking account. She explained her 
-        thinking about why the Meeting has issues regarding cash flow. [Sarah][SarahCalleck]
+        thinking about why the Meeting has issues regarding cash flow. [Sarah][SarahCallbeck]
         suggested we create a permanent travel reserve that would also help around the 
         beginning of the year.  
 
@@ -60,11 +66,11 @@ Present:[Peter LeVar][PeterLeVar], [Carlton Gamer][CarltonGamer], [Linda Seger][
 
         Meeting House Committee was accepted. 
 
-    5.  First Day School
+    5.  First Day School - No report
 
-    6.  Peace and Social Concerns Committee
+    6.  Peace and Social Concerns Committee - No report
 
-    7.  Library
+    7.  Library - No report
 
 4. Old Business
 
@@ -115,7 +121,8 @@ please have them contact [Bill Werling][BillWerling] at william.werling@gmail.co
 Friends are welcome to use the meetinghouse during the week and to open it for Sunday 
 worship. The key to the building is always available in the lock box on the ladies' room door.  
 We have created a one-sheet set of directions for opening and closing the building.  
-Call [Molly][MollyWingate], [Lisa Lister][LisaLister] , Ann Daugherty, [Bill Werling][BillWerling], Peter Le Var or the Durlands for the code to open the lock box.
+Call [Molly][MollyWingate], [Lisa Lister][LisaLister] , [Ann Daugherty][AnnDaugherty], 
+[Bill Werling][BillWerling], [Peter Le Var][PeterLeVar] or the Durlands for the code to open the lock box.
  
 Closed with a moment of silence at 11:56pm
 
