@@ -42,7 +42,7 @@ In Attendance: [Lisa Lister][LisaLister],  [Jeremy Nelson][JeremyNelson],
 
 1.  Announcements
 
-    1.  [Lisa][ListLister] mentioned that she will be out of state for the 
+    1.  [Lisa][LisaLister] mentioned that she will be out of state for the 
         next business meeting.
 
     1.  If people have donations to One Nation Walking, the Meeting will have 
@@ -53,6 +53,7 @@ In Attendance: [Lisa Lister][LisaLister],  [Jeremy Nelson][JeremyNelson],
 
 Submitted in the light,
 
-[Jeremy Nelson]
+[Jeremy Nelson][JeremyNelson]
+
 
 (Acting Recording Clerk for Bill Werling)
