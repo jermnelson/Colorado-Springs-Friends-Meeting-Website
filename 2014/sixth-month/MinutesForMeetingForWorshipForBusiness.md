@@ -2,7 +2,7 @@ Date: 2014-06-22T11:27:00
 
 [JeremyNelson]: /Friends/JeremyNelson
 [LisaLister]: /Friends/LisaLister
-[Maria]: /Friends/MariaMelendez
+[MariaKelson]: /Friends/MariaMelendez
 [SarahCallbeck]: /Friends/SarahCallbeck
 
 # Minutes for Meeting for Worship with a Concern for Business
@@ -11,7 +11,7 @@ Date: 2014-06-22T11:27:00
 ### Twenty-second day of the sixth month
 
 In Attendance: [Lisa Lister][LisaLister],  [Jeremy Nelson][JeremyNelson], 
-[Maria][Maria], [Sarah Callbeck][SarahCallbeck]
+[Maria Kelson][MariaKelson], [Sarah Callbeck][SarahCallbeck]
 
 1.  Opening silence at 11:27am 
     Rebekah on Business
