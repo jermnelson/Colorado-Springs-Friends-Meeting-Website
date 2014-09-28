@@ -15,7 +15,7 @@ Date: 2014-07-20T11:19:00
 ### Twentieth day of the seventh month
 
 In Attendance: [Molly Wingate][MollyWingate], [Bill Durland][BillDurland], [Genie Durland][GenieDurland], 
-[Carleton Gamer][CarletonGamer], [Bill Werling]BillWerling], [Ann Daughtery][AnnDaughtery], 
+[Carlton Gamer][CarltonGamer], [Bill Werling][BillWerling], [Ann Daughtery][AnnDaughtery], 
 [Sarah Callbeck][SarahCallbeck]
 
 1.  Opening silence at 11:19 am 
@@ -72,7 +72,7 @@ In Attendance: [Molly Wingate][MollyWingate], [Bill Durland][BillDurland], [Geni
     
     Friends are welcome to use the meetinghouse during the week and to open it for 
     Sunday worship. The key to the building is always available in the lock box 
-    on the ladies’ room door.  We have created a one-sheet set of directions for 
+    on the ladies' room door.  We have created a one-sheet set of directions for 
     opening and closing the building.  Call [Molly][MollyWingate], [Lisa Lister][LisaLister, 
     [Ann Daugherty][AnnDaugherty] , [Bill Werling][BillWerling], [Peter Le Var][PeterLeVar] or 
     the Durlands for the code to open the lock box.
