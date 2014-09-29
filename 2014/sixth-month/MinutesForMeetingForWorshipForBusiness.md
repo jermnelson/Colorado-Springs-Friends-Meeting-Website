@@ -20,7 +20,7 @@ In Attendance: [Lisa Lister][LisaLister],  [Jeremy Nelson][JeremyNelson],
 
 1.  Committee reports
 
-    Treasurer went over the cash flow report up to the end May. Funds were 
+    A finance committee member went over the cash flow report up to the end May. Funds were 
     transferred from mortgage and utilities reserves to checking. Discussed was
     reducing reducing the Meeting's listing in Friend's Meeting.
 
