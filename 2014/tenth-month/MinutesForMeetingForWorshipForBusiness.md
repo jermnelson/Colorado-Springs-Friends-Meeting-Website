@@ -21,7 +21,7 @@ Nineteenth day of the tenth month
 
 In Attendance: [Jeremy Nelson][JeremyNelson], [Bill Werling][BillWerling], 
 [Sarah Callbeck][SarahCallbeck], [Molly Wingate][MollyWingate], [Bill Durland][BillDurland], 
-[Genie Durland][GenieDurland] and [Nancy Andrew][Nancy Andrew]
+[Genie Durland][GenieDurland] and [Nancy Andrew][NancyAndrew]
 
 1.  Meeting opened with silence at 11:23 followed by the following reading from Faith and
     Practice: *The vitality of our meeting depends upon many and varied gifts of those who 
@@ -73,11 +73,11 @@ In Attendance: [Jeremy Nelson][JeremyNelson], [Bill Werling][BillWerling],
 
         Balances Reported (end of September)
 
-        *.  Checking: **$430.68**
+        *  Checking: **$430.68**
 
-        *   Savings: **$7974.45**
+        *  Savings: **$7974.45**
 
-        *.  Building Fund: **$9348.50**
+        *  Building Fund: **$9348.50**
 
     5.  **Library** - The library committee report was accepted.  [Nancy Andrew][NancyAndrew] 
         reported that all of the Quaker books in the library have been catalogued. She is using 
@@ -109,31 +109,31 @@ In Attendance: [Jeremy Nelson][JeremyNelson], [Bill Werling][BillWerling],
 
 6.  **Announcements**
 
-    *.  Soup and Sharing at 6 PM Sunday, Nov. 9 at the home of [Lisa Lister][LisaLister]
-        [Phil Friesen][PhilFriesen] at 815 Acadia Place. The plan is to share with each 
-        other our thoughts on: Why am I a Quaker/ Why do I come to Meeting, and What has 
-        Quakerism contributed to our Community, and other fundamental queries. If those 
-        who attend conclude, after this session, that it would be well to offer a 
-        two-evening Introduction to Quaker origins, values, processes and practices, 
-        delving deeper into who we are, who we were and where we are going, we will do 
-        it at a later date. At this point we need expressions of interest.
+    *  Soup and Sharing at 6 PM Sunday, Nov. 9 at the home of [Lisa Lister][LisaLister]
+       [Phil Friesen][PhilFriesen] at 815 Acadia Place. The plan is to share with each 
+       other our thoughts on: Why am I a Quaker/ Why do I come to Meeting, and What has 
+       Quakerism contributed to our Community, and other fundamental queries. If those 
+       who attend conclude, after this session, that it would be well to offer a 
+       two-evening Introduction to Quaker origins, values, processes and practices, 
+       delving deeper into who we are, who we were and where we are going, we will do 
+       it at a later date. At this point we need expressions of interest.
 
-    *.  Josh Ruebner will speak about Middle East peace on Monday, November 3
-        7 pm in the Worner Center WES Room at Colorado College.
+    *  Josh Ruebner will speak about Middle East peace on Monday, November 3
+       7 pm in the Worner Center WES Room at Colorado College.
 
-    *.  Friends are welcome to use the meetinghouse during the week and to open it
-        for Sunday worship. The key to the building is always available in the lock box on the 
-        ladies' room door.  We have created a one-sheet set of directions for opening 
-        and closing the building.  It is attached.  Call [Molly][MollyWingate], 
-        [Ann Daugherty][AnnDaugherty], [Bill Werling[BillWerling], Peter Le Var or 
-        the Durlands for the code to open the lock box.
+    *  Friends are welcome to use the meetinghouse during the week and to open it
+       for Sunday worship. The key to the building is always available in the lock box on the 
+       ladies' room door.  We have created a one-sheet set of directions for opening 
+       and closing the building.  It is attached.  Call [Molly][MollyWingate], 
+       [Ann Daugherty][AnnDaugherty], [Bill Werling[BillWerling], Peter Le Var or 
+       the Durlands for the code to open the lock box.
 
-    *.  Please put events at the meetinghouse on the paper calendar on the bulletin
-        board and let [Molly Wingate][MollyWingate] and [Ann Martin][AnnGrantMartin] 
-        know.  [Molly][MollyWingate] will make sure the building is 
-        heated, if needed.  Ann is the calendar keeper, and she will enter it on Google 
-        calendar so the event will be listed on our website.  You can subscribe to get 
-        reminders and updates automatically. 
+    *  Please put events at the meetinghouse on the paper calendar on the bulletin
+       board and let [Molly Wingate][MollyWingate] and [Ann Martin][AnnGrantMartin] 
+       know.  [Molly][MollyWingate] will make sure the building is 
+       heated, if needed.  Ann is the calendar keeper, and she will enter it on Google 
+       calendar so the event will be listed on our website.  You can subscribe to get 
+       reminders and updates automatically. 
 
 **Meeting was closed with silence at 12:42**
 
