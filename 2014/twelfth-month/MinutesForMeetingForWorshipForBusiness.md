@@ -131,23 +131,23 @@ In Attendance: [Bill Durland][BillDurland], Jerry (guest), [Ann Daugherty][AnnDa
 
 7.  Old Business:
 
-Formation of adult education book study and discussion group.  We are 
-proposing that we start with **The Essential Elias Hicks**.  [Bill][BillDurland] 
-and [Genie][GenieDurland] will facilitate the discussion.  We need to determine 
-who is interested, and when and how often we want to meet.  The book is available 
-for $13.50 from Amazon, or $15 from the FGC bookstore. 
+    Formation of adult education book study and discussion group.  We are 
+    proposing that we start with **The Essential Elias Hicks**.  [Bill][BillDurland] 
+    and [Genie][GenieDurland] will facilitate the discussion.  We need to determine 
+    who is interested, and when and how often we want to meet.  The book is available 
+    for $13.50 from Amazon, or $15 from the FGC bookstore. 
 
-[Genie][GenieDurland] recently sent around email about Remax deinvesture. 
+    [Genie][GenieDurland] recently sent around email about Remax divestiture. 
 
-Meeting has responded for Friends request for assistance. 
+    Meeting has responded for Friends request for assistance. 
 
 8.  Announcements:
 
-Christmas Eve festivities at the Meetinghouse. 7-8 p.m.  Join us for singing 
-and potluck treats.  Rebecca Callbeck will play the violin!
+    Christmas Eve festivities at the Meetinghouse. 7-8 p.m.  Join us for singing 
+    and potluck treats.  Rebecca Callbeck will play the violin!
 
-A Community Dialogue on the Legacy of Ferguson, 6-8 p.m. December 22 at 
-Centennial Hall, 200 South Cascade Ave. (Sponsored by Pikes Peak Leadership Solutions).
+    A Community Dialogue on the Legacy of Ferguson, 6-8 p.m. December 22 at 
+    Centennial Hall, 200 South Cascade Ave. (Sponsored by Pikes Peak Leadership Solutions).
 
 
 Respectfully submitted in the light,
