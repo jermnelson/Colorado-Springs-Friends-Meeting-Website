@@ -9,6 +9,7 @@ Date: 2014-12-21T00:00:00
 [JeremyNelson]: /Friends/JeremyNelson
 [JohnGallagher]: /Friends/JohnGallagher
 [LisaLister]: /Friends/LisaLister
+[MariaKelson]: /Friends/MariaKelson
 [NancyAndrew]: /Friends/NancyAndrew
 [MollyWingate]: /Friends/MollyWingate
 [PeterLeVar]: /Friends/PeterLeVar
@@ -30,87 +31,61 @@ In Attendance: [Bill Durland][BillDurland], Jerry (guest), [Ann Daugherty][AnnDa
     one another with a tender hand. Britain yearly meeting Faith and Practice
 
 
-2.  Consideration of November Minutes 
-    please look at the minutes on line at : [http://coloradospringsquakers.org/meetings/Business/2014/11](http://coloradospringsquakers.org/meetings/Business/2014/11)
+2.  The November Minutes were **approved**:   
+    [http://coloradospringsquakers.org/meetings/Business/2014/11](http://coloradospringsquakers.org/meetings/Business/2014/11)
 
 
 3.  Committee Reports:
 
-    1.  Nominating Committee - attached in addition to list of current service 
-        positions. Please note there are still positions that need filling.  
-        Meeting approved Friends for the following positions
+    1.  Nominating Committee - Minutes attached in addition to list of current service 
+        positions.   
+        The Meeting **approved** Friends for the following positions
 
-        *  [Sarah Callbeck][SarahCallbeck] treasurer
-        *  Maria H Contact person for FGC 
-        *  [Phil Friesen][PhilFriesen] meeting house committee
-        *  [Peter Le Var][PeterLeVar]  
+        *  [Sarah Callbeck][SarahCallbeck] - Treasurer
+        *  [Maria Kelson][MariaKelson] - Contact person for FGC 
+        *  [Phil Friesen][PhilFriesen] - Meeting House committee
+        *  [Peter Le Var][PeterLeVar] - Contact person for FCNL  
  
-        Two openings for Finance committee member, and planning committee for Colorado Regional Meeting.
-
-        Nominating committee report accepted.
-
-    1.  Meetinghouse Committee - attached
-        Suggestion to remove signs for Mens and Womens, if we took the signs down we would have to 
-        changes locks and paint door? Report accepted
-
-    1.  Ministry and Oversight Committee - attached
-        Discussed with the subjects of religious education and issue of expansion of Meeting more 
-        attract people to the Meeting. 
-
-        On the question of leaving a brochure 
-
-        Report is accepted by the meeting.
-
-    1.  Finance Committee:
-
-        Financial reports attached (please bring your own copies):
-        Report accepted with gratitude. 
-
-        Finance Committee Minutes
+        Note: There are still two openings that need filling: 1) for Finance committee member, 
+        and 2) planning committee member for Colorado Regional Meeting.
         
-        Budget 2015 Needs approval
-        Revenue $860.00 pledged per month with %23, took revenue projections and adjusted 
-        expenses, set maintenance and other categories, set to 0. If hospitality and office
-        supplies, Friends can donate. Advertising expense reduced $175.00, ad in Friends 
-        dropped to $140.00 with the reduction of one line. Travel expense reduced by 16.6% to 
-        get budget costs down to zero. Important that Friends are realistic, [Molly][MollyWingate] 
-        brought up that when specific needs are identified, Friends are generous in responding and
-        money is raised. 
+        Nominating Committee report was accepted.
 
-        Budget for 2015 is approved by the Business Meeting. [Ann][AnnDaugherty] thanked for work 
-        as Treasurer and Julie's work as recorder on the meeting.  
+    1.  Meetinghouse Committee - attached. Minutes accepted.
 
-        Question about the [Molly][MollyWingate]'s and the Meeting of $300.00 of hats and gloves donation to
-        Urban Peak. Meeting thanks and appreciate this donation. 
+    1.  Ministry and Oversight Committee - Minutes attached. 
+        In the near future, the committee plans to discuss strategies for growing our Meeting. Report is accepted by the meeting.
 
-        Cash Flow report
-        Balance up at the end of the November, able to cover Meeting's obligations, partial 
-        replenish reserve, and have money for local organizations distribution.
+    1.  Finance Committee: Reports attached.  Minutes and reports accepted with gratitude.
 
-        Calculation of funds for disbursement
+            Budget 2015.  Revenue projections include $860.00 pledged per month with an addition of 23% 
+            unpledged monies.  Based on projected expenses, this year's budget will be lean.  If 
+            hospitality items and office supplies are needed, Friends can donate them. Friends Journal 
+            advertising expense will drop to $140.00 with the reduction of one line in the ad. Travel 
+            expense reduced by 16.6% to get budget costs down to zero. Important that Friends are 
+            realistic, [Molly][MollyWingate] brought up that when specific needs are identified, Friends are 
+            generous in responding and money is raised.       
 
-        Distribution of donations to local organizations ACTION: Needs decision and approval
-        
-        First suggestion is to donate to the American Friends Committee of Colorado earmarked
-        for use supporting the Sanctuary. Discussion about Family Visitation Center, dropped 
-        because it is a county department and is not a non-profit. Project Cope for energy 
-        assistance was suggested for donation. 
+            The budget for 2015 is **approved** by the Business Meeting. [Ann D.][AnnDaugherty] was thanked 
+            for her work as Treasurer and Julie for her work as Finance Committee recorder. 
 
-        Meeting approved the following local distributions:
+            Cash Flow report Balance up at the end of the November, able to cover Meeting's obligations, 
+            partial replenish reserve, and have money for local organizations distribution.
 
-        *  $50 for AFC Colorado
-        *  $25 for Project Cope
-        *  $25 for Silver Key 
+            Distribution of donations to local organizations ($100 available): First suggestion is 
+            to donate to the American Friends Committee of Colorado earmarked for use supporting the 
+            Sanctuary. Meeting **approved** the following local distributions:
 
-    1.  No written reports received for:
+                1.  $50 for AFC Colorado
+                1.  $25 for Project Cope
+                1.  $25 for Silver Key
 
-        First Day School continues, [John Gallagher][JohnGallagher] has agreed to be 
+
+
+    1.  First Day School continues, [John Gallagher][JohnGallagher] has agreed to be 
         There is a ready-to-go activity on the table in the basement for young 
         Friends. 
 
-        Peace and Justice Committee
-
-        Library
 
 
 5.  New Business: 
