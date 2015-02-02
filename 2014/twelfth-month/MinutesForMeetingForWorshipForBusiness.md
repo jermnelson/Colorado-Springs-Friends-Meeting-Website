@@ -58,29 +58,27 @@ In Attendance: [Bill Durland][BillDurland], Jerry (guest), [Ann Daugherty][AnnDa
 
     1.  Finance Committee: Reports attached.  Minutes and reports accepted with gratitude.
 
-            Budget 2015.  Revenue projections include $860.00 pledged per month with an addition of 23% 
-            unpledged monies.  Based on projected expenses, this year's budget will be lean.  If 
-            hospitality items and office supplies are needed, Friends can donate them. Friends Journal 
-            advertising expense will drop to $140.00 with the reduction of one line in the ad. Travel 
-            expense reduced by 16.6% to get budget costs down to zero. Important that Friends are 
-            realistic, [Molly][MollyWingate] brought up that when specific needs are identified, Friends are 
-            generous in responding and money is raised.       
+        Budget 2015.  Revenue projections include $860.00 pledged per month with an addition of 23% 
+        unpledged monies.  Based on projected expenses, this year's budget will be lean.  If 
+        hospitality items and office supplies are needed, Friends can donate them. Friends Journal 
+        advertising expense will drop to $140.00 with the reduction of one line in the ad. Travel 
+        expense reduced by 16.6% to get budget costs down to zero. Important that Friends are 
+        realistic, [Molly][MollyWingate] brought up that when specific needs are identified, Friends are 
+        generous in responding and money is raised.       
 
-            The budget for 2015 is **approved** by the Business Meeting. [Ann D.][AnnDaugherty] was thanked 
-            for her work as Treasurer and Julie for her work as Finance Committee recorder. 
+        The budget for 2015 is **approved** by the Business Meeting. [Ann D.][AnnDaugherty] was thanked 
+        for her work as Treasurer and Julie for her work as Finance Committee recorder. 
 
-            Cash Flow report Balance up at the end of the November, able to cover Meeting's obligations, 
-            partial replenish reserve, and have money for local organizations distribution.
+        Cash Flow report Balance up at the end of the November, able to cover Meeting's obligations, 
+        partial replenish reserve, and have money for local organizations distribution.
 
-            Distribution of donations to local organizations ($100 available): First suggestion is 
-            to donate to the American Friends Committee of Colorado earmarked for use supporting the 
-            Sanctuary. Meeting **approved** the following local distributions:
+        Distribution of donations to local organizations ($100 available): First suggestion is 
+        to donate to the American Friends Committee of Colorado earmarked for use supporting the 
+        Sanctuary. Meeting **approved** the following local distributions:
 
-                1.  $50 for AFC Colorado
-                1.  $25 for Project Cope
-                1.  $25 for Silver Key
-
-
+        1.  $50 for AFC Colorado
+        1.  $25 for Project Cope
+        1.  $25 for Silver Key
 
     1.  First Day School continues, [John Gallagher][JohnGallagher] has agreed to be 
         There is a ready-to-go activity on the table in the basement for young 

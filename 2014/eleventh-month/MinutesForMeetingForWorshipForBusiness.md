@@ -7,6 +7,7 @@ Date: 2014-11-16T11:39:00
 [GenieDurland]: /Friends/GenieDurland
 [JeremyNelson]: /Friends/JeremyNelson
 [JohnGallagher]: /Friends/JohnGallagher
+[LisaLister]: /Friends/LisaLister
 [NancyAndrew]: /Friends/NancyAndrew
 [MollyWingate]: /Friends/MollyWingate
 [PeterLeVar]: /Friends/PeterLeVar
@@ -72,7 +73,7 @@ In Attendance: [Lisa Lister][LisaLister], [Bill Werling][BillWerling], [Sarah Ca
 
 4.  Announcements
 
-    1.  The Meeting accepted (with regret) Martha Lutz’s resignation of membership to 
+    1.  The Meeting accepted (with regret) Martha Lutz's resignation of membership to 
         this meeting.
 
     2.  As per the decision made at the 10th month Meeting for Business, the clerk has 
@@ -89,7 +90,7 @@ In Attendance: [Lisa Lister][LisaLister], [Bill Werling][BillWerling], [Sarah Ca
 
     5.  Friends are welcome to use the meetinghouse during the week and to open it for 
         Sunday worship. The key to the building is always available in the lock box on 
-        the ladies’ room door. Call [Molly][MollyWingate], [Ann Daugherty][AnnDaugherty], 
+        the ladies' room door. Call [Molly][MollyWingate], [Ann Daugherty][AnnDaugherty], 
         [Bill Werling][BillWerling], [Peter Le Var][PeterLeVar] or 
         the Durlands for the code to open the lock box.
 
