@@ -8,7 +8,7 @@ Date: 2015-01-18T11:35:00
 [JohnGallagher]: /Friends/JohnGallagher
 [JonathanMcPhee]: /Friends/JonathanMcPhee
 [JohnRobey]: /Friends/JohnRobey
-[NancyAndrew]: /Friends/NancyAndrew
+[LisaLister]: /Friends/LisaLister
 [MollyWingate]: /Friends/MollyWingate
 [PeterLeVar]: /Friends/PeterLeVar
 [PhilFriesen]: /Friends/PhilFriesen
@@ -26,7 +26,7 @@ Meeting opened with silence at 11:35 followed by the following reading from Fait
 *For it is the corporate Truth or Light for which Friends labor together, not 
 the proof or justification of the rightness of any particular position* (Barney Aldrich, p. 119).  
 
-*I always go to the monthly meetings because if I don’t, they usually end up 
+*I always go to the monthly meetings because if I don't, they usually end up 
 doing some darn thing or other.* (Nancy Springer, p. 119).
 
 1.  Acceptance of minutes:
@@ -52,7 +52,7 @@ doing some darn thing or other.* (Nancy Springer, p. 119).
         of the meeting house so that they are easier to operate and more weather proof 
         and redo the foyer.  
 
-    1.  **First Day School** – no report
+    1.  **First Day School** - no report
 
     1.  **Finance Committee**: the minutes and financial reports were accepted with 
         many thanks. [Sarah Callbeck][SarahCallbeck] reviewed year-end financial statements. 
@@ -80,9 +80,9 @@ doing some darn thing or other.* (Nancy Springer, p. 119).
         provide support as needed or standby and await any request for assistance from 
         the NAACP as [Bill Durland][BillDurland] has already contacted them.
 
-1.  Old Business – items listed in the announcements were discussed.
+1.  Old Business - items listed in the announcements were discussed.
 
-1.  New Business – none discussed.
+1.  New Business - none discussed.
 
 1.  Announcements
 
@@ -93,7 +93,7 @@ doing some darn thing or other.* (Nancy Springer, p. 119).
         potluck.
 
     1.  Formation of adult education book study and discussion group.  We are
-	proposing that we start with The Essential Elias Hicks.  [Bill][BillDurland] and [Genie][[GenieDurland]
+	proposing that we start with The Essential Elias Hicks.  [Bill][BillDurland] and [Genie][GenieDurland]
 	will facilitate the discussion.  After an informal poll was taken about
 	best times to meet, it was determined that after meeting on the 2nd Sunday
 	of each month works for most.   The first meeting, therefore, will be
