@@ -28,11 +28,11 @@ Meeting opened with silence at 11:21 followed by the following reading
 from Britain Yearly Meeting's *Quaker Faith and Practice:*
 
     Our method of conducting our meetings for church affairs is an
-    experience which has been tested over three hundred years.  In days of
+    experience which has been tested over three hundred years. In days of
     hot contest and bitter controversy the early Friends, knit together by
     the glorious experience of the Holy Spirit's guidance in all of their
     affairs, came to the simple understanding of how their corporate
-    decisions should be made.  We have learned to eschew lobbying and not to
+    decisions should be made. We have learned to eschew lobbying and not to
     set great store by rhetoric or clever argument. The mere gaining of
     debating points is found to be unhelpful and alien to the spirit of
     worship which should govern the rightly ordered meeting.
@@ -102,8 +102,8 @@ Approval of minutes: Second month, 2015 minutes were approved
     1.  The **adult education book study and discussion group** started
         on March\
         8th (at the rise of meeting) and meet on the 2nd Sunday for
-        several months.  We will start with *The Essential Elias
-        Hicks*.  [Bill][BillDurland] and [Genie][GenieDurland] will facilitate the discussion. The book
+        several months. We will start with *The Essential Elias
+        Hicks*. [Bill][BillDurland] and [Genie][GenieDurland] will facilitate the discussion. The book
         is available for \$13.50 from Amazon, or \$15 from the FGC
         bookstore. Please RSVP to <durlandwe@gmail.com> if you will be
         attending.
@@ -111,7 +111,7 @@ Approval of minutes: Second month, 2015 minutes were approved
     2.  *The Invention of Wings*, the critically acclaimed novel about
         Quaker and abolitionist Sarah Grimke, will be the topic of the 
         **Occasional Book Group** discussion on Sunday, March 29 at the rise
-        of meeting.  The novel is available at any Pikes Peak Library.
+        of meeting. The novel is available at any Pikes Peak Library.
         Bring a lunch.
 
     3.  **Colorado Regional Meeting Spring Gathering**, Sunday, April 26
@@ -122,7 +122,7 @@ Approval of minutes: Second month, 2015 minutes were approved
         followed by a\
         program focused on Developing a Quaker Response to the New Jim
         Crow: How\
-        can we add to the race relations discussion.  Filmmaker, Polly
+        can we add to the race relations discussion. Filmmaker, Polly
         Washburn, an attender at Mountain View Meeting, will be our resource
         person. Junior\
         and Senior Young Friends from all Colorado Regional Meeting
@@ -148,14 +148,14 @@ Approval of minutes: Second month, 2015 minutes were approved
         organization believes that a global grassroots movement can hold
         our leaders accountable to the realities of science and the
         principles of justice. That movement is rising from the bottom
-        up all over the world, and is uniting to create the solutions
+        up all over the world, and is uniting to create the solutions
         that will ensure a better future for all. More information to
         follow.
 
     7.  During the **May 3 potluck** we will be visited by a
         representative AFSC. More to follow.
 
-    8.  The **FGC Gathering** will be at**Â **Western Carolina
+    8.  The **FGC Gathering** will be at Western Carolina
         University, Cullowhee, NC, July 5-11, 2015. More information can
         be found at <http://www.fgcquaker.org/connect/gathering>
 

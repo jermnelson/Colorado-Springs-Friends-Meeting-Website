@@ -1,4 +1,4 @@
-Date: 2015-01-18T11:21:00
+Date: 2015-02-15T11:21:00
 
 [AnnDaugherty]: /Friends/AnnDaugherty
 [BillDurland]: /Friends/BillDurland
@@ -66,7 +66,7 @@ Faith and Practice:
         1.  [Lisa Lister][LisaLister] to join the committee until [Molly Wingate][MollyWingate] 
             can join in July 2015-02-13 through 12/16 
         2.  [Carlton Game][CarltonGamer] to join M&O through 12/16
-        3.  [Ann Daugherty]AnnDaugherty] to serve on the Colorado Regional Planning Committee 
+        3.  [Ann Daugherty][AnnDaugherty] to serve on the Colorado Regional Planning Committee 
     7.  Peace and Justice Committee: No report given.
 3.  Old Business - items listed in the announcements were discussed.
 4.  New Business - none discussed.
