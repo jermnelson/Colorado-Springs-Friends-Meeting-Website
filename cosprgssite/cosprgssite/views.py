@@ -103,15 +103,18 @@ def meeting(request,
             meeting=None):
     if meeting:
         if meeting == 'Business':
-            minutes = OrderedDict()
+            mins = {}
             all_minutes = get_minutes()
             for i,row in enumerate(all_minutes):
                 if i > 0 or i <= len(all_minutes):
                     current_year = row.get('date').year
                     if current_year == all_minutes[i-1].get('date').year:
-                        minutes[current_year].append(row)
+                        mins[current_year].append(row)
                     else:
-                        minutes[current_year] = [row,]
+                        mins[current_year] = [row,]
+            minutes = OrderedDict()
+            for year in sorted(mins, reverse=True):
+                minutes[year] = mins[year]
             return render(request,
                           'business.html',
                           {'category': 'about',

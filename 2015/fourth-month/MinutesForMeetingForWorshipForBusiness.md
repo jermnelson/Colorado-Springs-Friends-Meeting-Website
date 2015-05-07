@@ -13,9 +13,9 @@ Date: 2015-04-19T11:21:00
 [PhilFriesen]: /Friends/PhilFriesen
 [SarahCallback]: /Friends/SarahCallback
 
-# Minutes for Meeting for Worship with a Concern for Business**
+# Minutes for Meeting for Worship with a Concern for Business
 
-Colorado Springs Friends Meeting**
+Colorado Springs Friends Meeting
 
 Nineteenth day of the fourth month, 2015
 
@@ -120,7 +120,7 @@ The minutes from Third month 2015 Meeting for Worship for Business were
 
     1.  The **adult education book study and discussion group**
         continues at the rise of meeting the 2nd Sunday of the month.
-        They are reading *The Essential Elias Hicks*.  [Bill][BillDurland] and 
+        They are reading *The Essential Elias Hicks*. [Bill][BillDurland] and 
         [Genie][GenieDurland]
         will facilitate the discussion. The book is available for
         $13.50 from Amazon, or $15 from the FGC bookstore.
@@ -133,7 +133,7 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         followed by a
         program focused on Developing a Quaker Response to the New Jim
         Crow: How
-        can we add to the race relations discussion. Filmmaker, Polly
+        can we add to the race relations discussion. Filmmaker, Polly
         Washburn,
         an attender at Mountain View Meeting, will be our resource
         person. Junior
@@ -172,7 +172,7 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         join us to explain AFSC's work, activities, advocacy, and how CS
         Friends can become involved.
 
-    8.  The FGC Gathering will be at **Western Carolina University,
+    8.  The FGC Gathering will be at **Western Carolina University,
         Cullowhee, NC, July 5-11, 2015. More information can be found at
         <http://www.fgcquaker.org/connect/gathering>
 
