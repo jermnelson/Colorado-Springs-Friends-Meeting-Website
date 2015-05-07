@@ -10,7 +10,7 @@ Date: 2015-03-15T11:21:00
 [JohnRobey]: /Friends/JohnRobey
 [LindaSegar]: /Friends/LindaSegar
 [LisaLister]: /Friends/LisaLister
-
+[PeterLevar]: /Friends/PeterLevar
 
 ## Minutes for Meeting for Worship with a Concern for Business
 
