@@ -10,6 +10,8 @@ Date: 2015-04-19T11:21:00
 [LindaSegar]: /Friends/LindaSegar
 [LisaLister]: /Friends/LisaLister
 [MollyWingate]: /Friends/MollyWingate
+[PhilFriesen]: /Friends/PhilFriesen
+[SarahCallback]: /Friends/SarahCallback
 
 # Minutes for Meeting for Worship with a Concern for Business**
 
@@ -19,9 +21,11 @@ Nineteenth day of the fourth month, 2015
 
 In Attendance: [Lisa Lister][LisaLister], [Bill Werling][BillWerling], 
 [John Robey][JohnRobey], [Bill Durland][BillDurland],
-[Genie Durland][GenieDurland], Carlton Gamer, Molly Wingate, Ann
-Grant Martin, Phil Friesen, Sarah Callback and Ann Daugherty
+[Genie Durland][GenieDurland], [Carlton Gamer][CarltonGamer], [Molly Wingate][MollyWingate], 
+[Ann Grant Martin][AnnGrantMartin], [Phil Friesen][PhilFriesen], 
+[Sarah Callback][SarahCallback] and [Ann Daugherty][AnnDaugherty]
 
+ 
 Meeting opened with silence at 11:23 followed by the following reading
 from Britain Yearly Meeting's Advices and Queries:
 
@@ -46,9 +50,9 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         1.  **APPROVED**: Friends approved submitting the presented
             proposal to Friends General Conference
 
-        2.  **MINUTE**: ‚ÄúAfter review grant request for the FCG Green
+        2.  **MINUTE**: "After review grant request for the FCG Green
             Meeting House Fund, the Colorado Springs Friends Meeting
-            approved the request for submission.‚Äù
+            approved the request for submission."
 
     3.  **First Day School** - no report
 
@@ -71,7 +75,7 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         the near future, but as of her report there had been no
         resignations.
 
-    7.  **AFSC Liaison:** Genie discussed the efforts being performed by
+    7.  **AFSC Liaison:** [Genie][GenieDurland] discussed the efforts being performed by
         the AFSC in Denver with the New Sanctuary Movement. She also
         discussed that an AFSC representative would be coming to speak
         at the May potluck (announcement below).
@@ -88,7 +92,7 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         We would ask the court to rely on restitution and community
         service as alternatives to a jail sentence.** It was noted that
         we did not know much information on where this case was in the
-        judicial process. Sarah indicated that she would research the
+        judicial process. [Sarah][SarahCallback] indicated that she would research the
         issue further and report back to the clerk.
 
     2.  Molly gave an update on IMYM
@@ -116,7 +120,8 @@ The minutes from Third month 2015 Meeting for Worship for Business were
 
     1.  The **adult education book study and discussion group**
         continues at the rise of meeting the 2nd Sunday of the month.
-        They are reading *The Essential Elias Hicks*.† Bill and Genie
+        They are reading *The Essential Elias Hicks*.† [Bill][BillDurland] and 
+        [Genie][GenieDurland]
         will facilitate the discussion. The book is available for
         $13.50 from Amazon, or $15 from the FGC bookstore.
 
@@ -138,8 +143,9 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         April 25.
 
     3.  **Sunrise Gardens Project**. April 26, 1-4 PM " bring trowels!
-        Let's build a garden in a food desert.¬† If you can, rsvp to
-        Molly by Friday (April 24). If not, just show up. (Molly will be
+        Let's build a garden in a food desert. If you can, rsvp to
+        [Molly][MollyWingate] by Friday (April 24). If not, just show up. (
+        [Molly][MollyWingate] will be
         in Denver that day with a family event, but is happy to answer
         questions or make connections).
 
@@ -156,7 +162,7 @@ The minutes from Third month 2015 Meeting for Worship for Business were
         able to attend:
         <http://doodle.com/yt4ie946zeb7uv73>
 
-    6.  **Tribal Tales** is a play written by Bill Durland and will be
+    6.  **Tribal Tales** is a play written by [Bill Durland][BillDurland] and will be
         presented May 1 & 3, 2015 at the Cottonwood Center for the Arts
         Theatre. This play is a parody about violence in the Old
         Testament and addresses the issue of peace in the Middle East.
