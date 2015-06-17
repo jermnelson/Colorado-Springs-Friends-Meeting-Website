@@ -33,32 +33,24 @@ Budget for 2015:
 
     D.  Travel expense has been reduced by 16.67% to bring the net of revenue less expense as 
         may wish to donate items or funds to meet these needs as they arise. 
+        updated to $48. Additionally, the renewal rate for Western Friend has been reduced to the 
+        "budget" price of $36. 
+        close to zero as possible. Disbursements will be made from funds available in Travel 
+        Reserve, plus any special donations for travel that have been received at the time a request 
+        for assistance is made. 
 
+3.  The 2015 Budget now reflects what the Meeting can spend considering the resources pledged and 
+    donations that can reasonably be expected. 
 
-updated to $48. Additionally, the renewal rate for Western Friend has been reduced to the 
-
-"budget" price of $36. 
-
-close to zero as possible. Disbursements will be made from funds available in Travel 
-
-Reserve, plus any special donations for travel that have been received at the time a request 
-
-for assistance is made. 
-
-3. The 2015 Budget now reflects what the Meeting can spend considering the resources pledged and 
-
-donations that can reasonably be expected. 
-
-Gratitude:  Two of our committee member’s terms expire at the end of this month.  
-
-We thank Ann Daugherty for her dedicated service as Treasurer and her valuable, thoughtful 
-
-contributions to the work of Finance Committee.  We also thank Julie Roten Valdez for her service as 
-
-Recording Clerk and her insightful contributions to Finance Committee meetings in 2013.   Blessings to 
-
-both women in their future pursuits.
+    Gratitude:  Two of our committee member's terms expire at the end of this month.  
+    We thank [Ann Daugherty](/Friends/AnnDaugherty) for her dedicated service as Treasurer and her 
+    valuable, thoughtful contributions to the work of Finance Committee.
+  
+    We also thank [Julie Roten Valdez](/Friends/JulieRotenValdez) for her service as 
+    Recording Clerk and her insightful contributions to Finance Committee meetings in 2013.   
+    Blessings to  both women in their future pursuits.
+   
 
 In the Light,
 
-Lisa Beckrich & Sarah Callbeck
+[Lisa Beckrich](/Friends/LisaBeckrich) & [Sarah Callbeck](/Friends/SarahCallbeck)
