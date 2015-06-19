@@ -14,9 +14,9 @@ Date: 2015-05-17T11:20:00
 [SarahCallback]: /Friends/SarahCallback
 
 
-# Meeting for Worship with a Concern for Business**
+# Meeting for Worship with a Concern for Business
 
-Colorado Springs Friends Meeting
+## Colorado Springs Friends Meeting
 
 17th day of Fifth Month, 2015
 
@@ -187,7 +187,8 @@ The minutes from Fourth Month, 2015 were approved.
 
     1.  The **adult education book study and discussion group** is normally
         held on the 2nd Sunday at the rise of meeting. We are reading *The
-        Essential Elias Hicks*.  Bill and Genie are facilitating the
+        Essential Elias Hicks.* [Bill][BillDurland] and [Genie][GenieDurland]
+         are facilitating the
         discussion. Because of many absences during the summer, we plan to
         postpone the group until fall.
 
@@ -216,9 +217,10 @@ Submitted in the Light,
 
 [Lisa Lister][LisaLister], acting recording clerk
 
-**APPENDICES**
+## APPENDICES
 
-Minutes from [Finance](/ and [Meetinghouse](/ committees follow.
+Minutes from [Finance](/committees/Finance/2015/5) and
+[Meetinghouse](/committees/MeetingHouse/2015/5).
 
 
 

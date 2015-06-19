@@ -1,3 +1,5 @@
+Date: 2014-12-15T12:00:00
+
 Finance Committee Meeting Minutes - December 2014
 
 E-Meeting: Sarah Callbeck, Ann Daugherty, and Lisa Beckrich
