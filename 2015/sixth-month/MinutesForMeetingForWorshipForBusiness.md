@@ -1,4 +1,4 @@
-Date: 2015-01-18T11:30:00
+Date: 2015-06-21T11:30:00
 
 [AnnDaugherty]: /Friends/AnnDaugherty
 [AnnGrantMartin]: /Friends/AnnGrantMartin
@@ -13,7 +13,7 @@ Date: 2015-01-18T11:30:00
 [MollyWingate]: /Friends/MollyWingate
 [PeterLevar]: /Friends/PeterLeVar
 [PhilFriesen]: /Friends/PhilFriesen
-[SarahCallback]: /Friends/SarahCallback
+[SarahCallbeck]: /Friends/SarahCallbeck
 
 # Minutes 
 # Meeting for Worship with a Concern for Business
@@ -82,9 +82,9 @@ Holly for agreeing to take minutes today.
         next local disbursement, which will be during twelfth month meeting for
         business.
 
-    1.  **The Nominating Committee report was accepted
+    1.  **The Nominating Committee report was accepted**
 
-        **The committee advises we are still searching for a recording clerk.
+        The committee advises we are still searching for a recording clerk.
 
 
     1.  **Other reports**
@@ -108,13 +108,13 @@ Holly for agreeing to take minutes today.
 The Meeting now has a P.O. Box at the downtown station. If you are
 mailing checks or important letters, please use this box address:
 
-Colorado Springs Friends Meeting
+    Colorado Springs Friends Meeting
 
-c/o *the name of the person here*
+    c/o *the name of the person here*
 
-P.O. Box 2073
+    P.O. Box 2073
 
-Colorado Springs, CO 80901-2073
+    Colorado Springs, CO 80901-2073
 
 
 Minutes submitted by [Holly Grasso][HollyGrasso]
