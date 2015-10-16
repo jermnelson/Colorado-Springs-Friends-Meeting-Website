@@ -82,17 +82,18 @@
   Our history
   </p>
   <ul>
-{#   <li><a href="/history/origin">George Fox &amp; the First Quakers</a></li>
+{% comment %}<li><a href="/history/origin">George Fox &amp; the First Quakers</a></li>
    <li><a href="/history/ReligiousSocietyOfFriends">Religious Society of Friends</a></li>
    <li><a href="/history/Hicksite">Hicksite Split</a></li>
    <li><a href="/history/AbolitionAndSuffrage">Abolition &amp; Suffrage</a></li>
-   <li><a href="/history/WorldWarsAndConscientiousObjectors">World Wars &amp; Conscientious Objectors</a></li>#}
+   <li><a href="/history/WorldWarsAndConscientiousObjectors">World Wars &amp; Conscientious Objectors</a></li>
+{% endcomment %}
    <li><a href="/history/ColoradoSprings">In Colorado Springs</a></li>
   </ul>
  </div> 
  {# END History #} 
 
- {# 
+ {% comment %}
  <a class="btn btn-primary"
     data-toggle="collapse"
     href="#friends">
@@ -104,8 +105,7 @@
    <a href="/friends/">Friends</a> associated with the Colorado Springs Monthly Meeting.
   </p>
  </div> 
-  #}
-
+{% endcomment %}
  {% if not section == 'calendar' %}
  {# START calendar #}
   <a class="btn btn-primary"

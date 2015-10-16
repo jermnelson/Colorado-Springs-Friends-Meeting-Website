@@ -27,9 +27,9 @@ In attendance: [Lisa Lister][LisaLister], clerk; [Molly Wingate][MollyWingate], 
 
     It is in the silence that we still our hearts and minds so that the
     Spirit of God may enter. This silencing, this waiting in expectancy,
-    this listening for that which is deepest within – this is what Friends
+    this listening for that which is deepest within this is what Friends
     call worship. We seek a gathered stillness in our meetings for worship
-    so that all may feel the power of God’s love leading us and drawing us
+    so that all may feel the power of God's love leading us and drawing us
     together.
 
     How do I prepare myself for worship? Do I set aside time during the week
