@@ -55,7 +55,7 @@ Attenders: [Lisa Lisa][LisaLister], clerk, [Holly Grasso][HollyGrasso], [Jeremy 
     will revisit this to see how it is going. We are grateful to [Holly][HollyGrasso] for
     bringing this to the meeting.
 
-   **Thoughts on Quaker Quest**, and the way forward to continue to
+    **Thoughts on Quaker Quest**, and the way forward to continue to
     internally grow?
 
     It is the feeling of M&O is that we should have a threshing session to
@@ -68,7 +68,7 @@ Attenders: [Lisa Lisa][LisaLister], clerk, [Holly Grasso][HollyGrasso], [Jeremy 
 
 4.  **Committee Reports:**
 
-    1.  **Meetinghouse Committee *(minutes attached)*
+    1.  **Meetinghouse Committee** *(minutes attached)*
 
         accepted
 
