@@ -156,7 +156,7 @@ In attendance: [Lisa Lister][LisaLister], [Carlton Gamer][CarltonGamer], [Sarah 
         We tentatively approve the nominees in the nominating committee report,
         with the request that the terms of service be listed. We would also like
         to make sure that we get regular reports on AFSC and FCNL, wherever that
-        reporting ends up in the meeting’s structure.
+        reporting ends up in the meeting's structure.
 
 6.  **Announcements: **
 
