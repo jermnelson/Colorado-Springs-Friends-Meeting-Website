@@ -106,10 +106,10 @@ In attendance: [Lisa Lister][LisaLister], clerk, [Molly Wingate][MollyWingate], 
         NEWS from the clerk of Finance:
 
         FFC has changed their withdrawal authorization policy to require two
-        authorizations instead of just one.  The second person must be serving
-        as an officer of the meeting (clerk, treasurer, etc.).  There is an
+        authorizations instead of just one. The second person must be serving
+        as an officer of the meeting (clerk, treasurer, etc.). There is an
         Account Authorization Form, to be kept on file at FFC, and a Withdrawal
-        Request Form that must be submitted each time we make a withdrawal.Â The
+        Request Form that must be submitted each time we make a withdrawal.The
         first form needs to be completed and returned to FFC in a timely manner,
         then updated whenever there is a change of officer.
 
@@ -125,17 +125,18 @@ In attendance: [Lisa Lister][LisaLister], clerk, [Molly Wingate][MollyWingate], 
 
 1.  **OTHER**: 
 
-    1.  The meeting received a letter from Ed Ayres (who grew up a
-        Friend) who has written a book titled "Dodging Dystopia: Going On with
-        the Human Journey After Technology Fails Us." He will email the
-        manuscript to anyone interested in reading it and then commenting on why
-        this book would be a good choice for Quaker reading or discussion
-        groups. [Lisa][LisaLister] has his letter and more information if anyone 
-        is interested.
+    The meeting received a letter from Ed Ayres (who grew up a
+    Friend) who has written a book titled "Dodging Dystopia: Going On with
+    the Human Journey After Technology Fails Us." He will email the
+    manuscript to anyone interested in reading it and then commenting on why
+    this book would be a good choice for Quaker reading or discussion
+    groups. [Lisa][LisaLister] has his letter and more information if anyone 
+    is interested.
 
 4. **Announcements:**
 
-    1.  12-**20-2015 Holiday Open House** at Linda & Peter's on Sunday, December
+    1.  12-20-2015 **Holiday Open House** at [Linda][LindaSegar] & 
+        [Peter][PeterLeVar]'s on Sunday, December
         20th, 2-6 pm.
         Bring something to share-- cookies or cheese and crackers or whatever
         sounds good for munchies, or wine or sparkling apple cider or...??? And
