@@ -15,8 +15,8 @@ Date: 2016-01-24T11:20:00
 [SueLauther]: /Friends/SueLauther
 
 # Minutes of Meeting for Worship for Business
-## 24^th^ Day of First month, 2016 
-## (postponed from 17^th^ day of First month, 2016)
+## 24<sup>th</sup> Day of First month, 2016 
+## (postponed from 17<sup>th</sup> day of First month, 2016)
 
 The meeting opened with silence followed by a reading on mutual love
 from Faith & Practice.
@@ -43,7 +43,7 @@ Recording Clerk
 
 <hr>
 
-APPENDICES (Committee meeting minutes)
+# APPENDICES (Committee meeting minutes)
 
 ## Ministry and Oversight Committee Minutes, January 12, 2016
 
@@ -58,7 +58,7 @@ also considered the needs of several Friends and the ways in which we
 can be helpful.
 
 We brought the email list up to date and determined who we would
-individually contact for our yearly Friendly Quaker calls. Ann will
+individually contact for our yearly Friendly Quaker calls. [Ann][AnnGrantMartin] will
 email those Friends we haven't seen in a long while to see if they still
 wish to hear from us.
 
