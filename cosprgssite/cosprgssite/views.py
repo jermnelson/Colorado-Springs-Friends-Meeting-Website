@@ -11,9 +11,9 @@ from django.http import HttpResponse, Http404
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import login, logout, authenticate
-from committees import get_report, get_reports
+from .committees import get_report, get_reports
 from friends.models import Committee, CommitteeMembership
-from meetings import get_minute, get_minutes, QUAKER_MONTHS
+from .meetings import get_minute, get_minutes, QUAKER_MONTHS
 
 
 def calendar(request):
@@ -68,8 +68,8 @@ def json_view(func):
             if 'result' not in response:
                 response['result'] = 'ok'
         except KeyboardInterrupt:
-            raise
-        except Exception,e:
+            raise KeyboardInterrupt()
+        except Exception as e:
             exc_info = sys.exc_info()
             print(exc_info)
             logging.error(exc_info)

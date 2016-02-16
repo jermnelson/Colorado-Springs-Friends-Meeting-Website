@@ -4,8 +4,8 @@ import datetime
 import markdown
 import os
 
-from meetings import MINUTES_ROOT as REPORTS_ROOT
-from meetings import QUAKER_MONTHS
+from .meetings import MINUTES_ROOT as REPORTS_ROOT
+from .meetings import QUAKER_MONTHS
 
 COMMITTEE_REPORT_NAMES = {
     'Finance': 'FinanceReport.md',

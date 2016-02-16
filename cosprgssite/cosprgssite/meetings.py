@@ -7,7 +7,7 @@ import os
 
 from bs4 import BeautifulSoup
 from collections import OrderedDict
-from settings import PROJECT_HOME
+from .settings import PROJECT_HOME
 
 BUSINESS_MINUTE_FILENAME = 'MinutesForMeetingForWorshipForBusiness.md'
 
@@ -39,7 +39,8 @@ def get_minute(year, month, minute='Business'):
                                  minute)
     if os.path.exists(file_path):
         meta_mrkdwn = markdown.Markdown(extensions=['meta'])
-        raw_mrkdwn = open(file_path, 'rb').read()
+        with open(file_path) as fo:
+            raw_mrkdwn = fo.read()
         mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
         return mrkdwn_html
                              
@@ -55,8 +56,9 @@ def get_minutes(year=None):
                                      month,
                                      BUSINESS_MINUTE_FILENAME)
             if os.path.exists(file_path):
-                meta_mrkdwn = markdown.Markdown(extensions=['meta'])
-                raw_mrkdwn = open(file_path, 'rb').read()
+                meta_mrkdwn = markdown.Markdown(extensions=['markdown.extensions.meta'])
+                with open(file_path) as fo:
+                    raw_mrkdwn = fo.read()
                 mrkdwn_html = meta_mrkdwn.convert(raw_mrkdwn)
                 md_date = datetime.datetime.strptime(
                     meta_mrkdwn.Meta.get('date')[0],
