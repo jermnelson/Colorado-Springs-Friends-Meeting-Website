@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block more-breadcrumb-links %}
+{% block more_breadcrumb_links %}
   <li><a href="/testimonies">Testimonies</a> <span class="divider">&raquo;</span></li>
   <li class="active"><a href="#">Simplicity</a></li>
 {% endblock %}
@@ -20,14 +20,14 @@
    {# START jumbotron #}
    <div class="jumbotron">
     <h1>Peace</h1>
-   <p>that we actively work to ‘remove all causes of war’ and the use of 
+   <p>that we actively work to 'remove all causes of war' and the use of 
       violence from this world, whether between individuals, tribes or nations.</p>
    {# END jumbotron #}
    </div>
    {# START quote row#}
    <div class="row">
     <div class="col-md-6 well">
-     <a href="http://fcnl.org"><img src="{{ STATIC_URL }}img/fcnl-logo.png" /></a>
+     <a href="http://fcnl.org"><img src="{{ url_for('static', filename='img/fcnl-logo.png') }}" /></a>
      <p>
       The Friends Committee on National Legislation (FCNL) fields the 
       largest team of registered peace lobbyists in Washington, DC. Founded

@@ -12,10 +12,10 @@
     </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ STATIC_URL }}css/default.css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/default.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
      {% include 'snippets/top-nav.html' %}
     {% endblock %}
 
-    {% block breadcrumb-links %}{% endblock %}
+    {% block breadcrumb_links %}{% endblock %}
 
     {% if messages %}
      <div class="container">
@@ -92,8 +92,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ STATIC_URL }}js/jquery.js"></script>
-    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     {% block more_js %}{% endblock %} 
   </body>
 </html>

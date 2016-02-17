@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
-{% block more-breadcrumb-links %}
-  <li><a href="/meetings">Meetings</a> <span class="divider">&raquo;</span></li>
+{% block more_breadcrumb_links %}
+<li><a href="{{ url_for('meetings') }}">Meetings</a> <span class="divider">&raquo;</span></li>
   <li class="active"><a href="#">{{ meeting.name }}</a></li>
 {% endblock %}
 
@@ -22,22 +22,26 @@
     </p>
    {# END jumbotron #}
    </div>
-   {% for year, listing in minutes.items %}
-     {% if forloop.counter0 == 0 or forloop.counter0 == 4 %}
-     <div class="row">
+   {% for year in minutes %}
+   {% set yearly_mins = minutes[year] %}
+   {% if not loop.index%2 %}
+	 <div class="row">
      {% endif %}
-      <div class="col-md-4">
+      <div class="col-md-6">
         <h3>{{ year }} Minutes</h3>
-        <ul class="list-group">
-        {% for minute in listing %}
-         <li class="list-group-item"><a href="/meetings/Business/{{ minute.date.year }}/{{ minute.date.month }}">{{ minute.date|date:"F d, Y" }}</a></li>
-        {% endfor %}
+		<ul class="list-group">
+				{% for minute in yearly_mins %}
+				<li class="list-group-item">
+				<a href="/meetings/Business/{{ minute.year }}/{{ minute.month }}">
+						{{ minute.strftime("%B %d, %Y") }}</a>
+				</li>
+				{% endfor %}
         </ul>
       </div>
-     {% if forloop.counter0 == 0 or forloop.counter0 == 4 %}
+     {% if not loop.index%4 %}
      </div>
      {% endif %}
-
+    
    {% endfor %}
   </div>
 </div>
@@ -46,7 +50,7 @@
 
 {% block container %}
 {% endblock %}
-{% comment %}
+{#
 {% block second-row %}
 <div class="row">
 {% if meeting.minutes or user.is_superuser %}
@@ -112,4 +116,4 @@
 </div> 
 {% endblock %}
 
-{% endcomment %}
+{% endcomment #}

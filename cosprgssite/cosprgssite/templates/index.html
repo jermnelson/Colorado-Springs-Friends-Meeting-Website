@@ -27,7 +27,7 @@
 
     {# START Meeting Home #}
     <div class="item active">
-      <img class="img-thumbnail" src="{{ STATIC_URL }}img/cosprgs-meeting-house.jpg" alt="">
+      <img class="img-thumbnail" src="{{ url_for('static', filename='img/cosprgs-meeting-house.jpg') }}" alt="">
       <div class="carousel-caption">
         <h3>Meeting House at 950 E. Cimarron Street</h3>
         <p>
@@ -38,7 +38,7 @@
     {# END Meeting Home #}
     </div>
   <div class="item">
-    <img src="{{ STATIC_URL }}img/cosprgs-monthly-meeting-Summer-2012.jpg" >
+    <img src="{{ url_for('static', filename='img/cosprgs-monthly-meeting-Summer-2012.jpg') }}" >
       <div class="carousel-caption">
        <h3>Colorado Springs Friends Summer 2012</h3>
        <p>
@@ -47,7 +47,7 @@
       </div>
   </div>
   <div class="item">
-    <img src="{{ STATIC_URL }}img/George-Fox_by_Lely.jpg" style="margin-left:auto;margin-right:auto;">
+    <img src="{{ url_for('static', filename='img/George-Fox_by_Lely.jpg') }}" style="margin-left:auto;margin-right:auto;">
     <br/>
       <div class="carousel-caption">
       <h4>George Fox (1624-1691)</h4>
@@ -60,7 +60,9 @@
 
     {# START  Home #}
     <div class="item">
-      <img src="{{ STATIC_URL }}img/cosprgs-meeting-house.jpg" alt="">
+
+      <img class="img-thumbnail" src="{{ url_for('static', filename='img/cosprgs-meeting-house.jpg') }}" alt="">
+
       <div class="carousel-caption">
         <h3>Meeting House at 950 E. Cimarron Street</h3>
         <p>
