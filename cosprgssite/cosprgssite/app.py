@@ -100,6 +100,10 @@ def committee_route(name=None):
     except TemplateNotFound:
         abort(404)
 
+@app.route("/Friends/<name>")
+def friend_display(name):
+    abort(401)
+
 @app.route("/history/<path:topic>")
 @app.route("/history")
 def history_route(topic=None):
@@ -145,17 +149,20 @@ def testimony(name=None):
 @app.route("/<path:page>")
 @app.route("/")
 def index(page=None):
+    category=None
     if page is None:
         template_name = "index.html"
+        category = 'home'
     else:
         if page.endswith("/"):
             page = page[:-1]
         template_name = "{}.html".format(page)
     try:
-        return render_template(template_name)
+        return render_template(
+            template_name,
+            category=category)
     except TemplateNotFound:
         abort(404)
 
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001, debug=True)
+
