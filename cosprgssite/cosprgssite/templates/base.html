@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+	<link rel="shortcut icon" href="{{ url_for('static', filename="ico/favicon.png") }}">
 
     <title>Colorado Springs Monthly Meeting of the Religious Society of Friends (the Quakers)
       {% block more_title %}{% endblock %}
     </title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ STATIC_URL }}css/default.css" rel="stylesheet">
+	<link href="{{ url_for('static', filename='css/default.css') }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
      {% include 'snippets/top-nav.html' %}
     {% endblock %}
 
-    {% block breadcrumb-links %}{% endblock %}
+    {% block breadcrumb_links %}{% endblock %}
 
     {% if messages %}
      <div class="container">
@@ -92,8 +92,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ STATIC_URL }}js/jquery.js"></script>
-    <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+	<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     {% block more_js %}{% endblock %} 
   </body>
 </html>

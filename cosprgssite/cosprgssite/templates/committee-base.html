@@ -16,6 +16,7 @@
     {# END jumbotron #}
    </div>
   </div>
+  {% if membership %}
   <div class="row">
   {# START Committee Membership DIV #}
   <div class="col-lg-4">
@@ -32,8 +33,9 @@
      </ul>
   {# END  Committee Membership DIV #}
   </div>
- 
+ {% endif %} 
  {% block reports %} 
+ {% if reports %}
  {# START Reports DIV #}
   <div class="col-lg-4">
      <h2>Reports</h2>
@@ -41,12 +43,13 @@
     <ul class="list-group" >
     {% for report_date in reports %}
       <li class="list-group-item"><a href="/committees/{{ Committee }}/{{ report_date.year }}/{{ report_date.month }}">
-         {{ report_date|date:"F Y" }}</a>
+         {{ report_date.strftime("%B %Y") }}</a>
       </li>
     {% endfor %}
     </ul>
  {# END Reports DIV #}
   </div>
+  {% endif %}
  {% endblock %}
 </div> 
 

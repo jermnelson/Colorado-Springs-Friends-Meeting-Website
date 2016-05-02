@@ -9,4 +9,4 @@ doc/make.bat
 log/
 *.db
 *.cnf
-static/
+*.swp
