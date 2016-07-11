@@ -21,13 +21,13 @@ Date: 2016-05-15T11:20:00
 
 
 # Meeting for Worship for Business
-## 15^th^ Day 5^th^ Month
-## Minutes
+## 15<sup>th</sup> Day 5<sup>th</sup> Month<br>Minutes
+
 
 1.  The Meeting opened with silence followed by a reading about Meeting
     for Business from Philadelphia Yearly Meeting.
 
-2.  Minutes from the Fourth Month were approved with joy and gratitude.
+2.  Minutes from the [Fourth Month](/meetings/Business/2016/4) were approved with joy and gratitude.
 
 3.  Meeting House Committee Report: We are making progress with
     replacing the front and rear doors; grass mowing is scheduled; we
