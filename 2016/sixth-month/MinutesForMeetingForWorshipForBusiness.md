@@ -114,7 +114,7 @@ Recording clerk
 
 A.  **Ministry and Oversight Committee Minutes, May 17, 2016**
 
-Present were Carlton Gamer and Ann Grant Martin, Clerk
+Present were [Carlton Gamer][CarltonGamer] and [Ann Grant Martin][AnnGrantMartin], Clerk
 
 We met at Carlton's house and opened with Spiritual Silence.
 
@@ -124,11 +124,11 @@ be offered in the fall.
 
 We reviewed several Friendly calls that had been made.
 
-Our next meeting will be July 5, 2016, 11:00 at Carlton Gamer's home.
+Our next meeting will be July 5, 2016, 11:00 at [Carlton Gamer][CarltonGamer]'s home.
 
 In the Light,
 
-Ann Grant Martin, Clerk of Ministry and Oversight
+[Ann Grant Martin][AnnGrantMartin], Clerk of Ministry and Oversight
 
 <hr>
 
