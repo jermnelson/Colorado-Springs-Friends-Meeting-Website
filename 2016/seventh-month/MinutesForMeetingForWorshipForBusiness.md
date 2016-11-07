@@ -95,4 +95,48 @@ Respectfully submitted,
 [Julia Roten-Valdez][JulieRotenValdez]
 
 Recording clerk
+<hr>
+
+## Appendix A
+### Meetinghouse committee 7/10/16
+[Ann Daugherty][AnnDaugherty], [Phil Friesen][PhilFriesen], [Sue Lauther][SueLauther], 
+[Molly Wingate][MollyWingate]
+
+1.  Discussed getting the meeting house clean. [Sue Lauther][SueLauther] presented a chore 
+    list idea which time separate the tasks into light, medium, time consuming, hard, or outside work.  
+    Some of the tasks take a minute or two, some take half an hour and some can be done later.  Her 
+    impetus for the organization was that the work would go faster and be more fun if everyone did it together. 
+    We will give it a try and make changes.  To be revised if necessary, later.
+2.  Drainage project.  We never finished getting the drainage to the street. We had several ideas for how 
+    to accomplish the task but we ran out of money. We have not approached the city about permits or anything. 
+    First step will be to talk to the city to see if we can do the work ourselves and if we can run the water in the street.
+3.  The front door. Because Tony's repair has made the back door functional, we feel we can focus on replacing 
+    the front door only. [Molly][MollyWingate] has asked Tony to provide a full bid for the labor. Ask Tony about glass 
+    on the sides being breakable and make sure then door is fiberglass. We recognize that there may be issues that crop up 
+    and will try to have the contract reflect the need for a little flexibility.  
+4.  Next time we need to talk about touch up painting the windows and painting the soffits.
+5.  We would like to explore means for creating a permanent way to fund maintenance; perhaps a percentage of 
+    donations or a line item in the budget.
+
+Closed as meeting for worship gathered.
+
+[Molly Wingate][MollyWingate]
+
+For the  Meetinghouse Committee
+
+## Appendix B
+### Ministry and Oversight Committee Minutes, July 5, 2016
+
+Present were: [Carlton Gamer][CarltonGamer], [Jeremy Nelson][JeremyNelson] and 
+[Ann Grant Martin][AnnGrantMartin], Clerk
+
+We met at 11:00 in the home of [Carlton Gamer][CarltonGamer].
+After a short period of Spiritual Silence we had our individual check-in.  
+The majority of our meeting was spent discussing the import of several Friendly Quaker calls.
+
+Our next meeting will be September 6, 2016 at 11:00 at [Carlton Gamer's][CarltonGamer] home.
+
+In the Light,                
+
+[Ann Grant Martin][AnnGrantMartin], Clerk
 
