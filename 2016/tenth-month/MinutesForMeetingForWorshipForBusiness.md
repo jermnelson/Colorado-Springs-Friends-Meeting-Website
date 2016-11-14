@@ -27,7 +27,7 @@ Date: 2016-10-16T11:30:00
 
 # Meeting for Worship for Business
 
-## 17<sup>th</sup> Day 10^th Month
+## 17<sup>th</sup> Day 10<sup>th</sup> Month
 
 ## Minutes
 
