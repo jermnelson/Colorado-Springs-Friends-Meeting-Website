@@ -18,6 +18,7 @@ Date: 2016-11-20T00:00:00
 [PeterLeVar]: /Friends/PeterLeVar
 [JuliaRotenValdez]: /Friends/JuliaRotenValdez
 [KenMcKay]: /Friends/KenMcKay
+[KelseyKennedy]: /Friends/KelseyKennedy
 [MollyWingate]: /Friends/MollyWingate
 [NancyAndrews]: /Friends/NancyAndrews
 [PhilFriesen]: /Friends/PhilFriesen
@@ -72,7 +73,7 @@ Date: 2016-11-20T00:00:00
 
 11. Old Business: Please respond to email regarding including your contact information in 
     Yearly Meetings data base.  Colorado Springs Meeting directory needs to be updated 
-    (Ann will handle). Our Post Office Box number is P.O. Box # 2073  CS, CO 80901. Please 
+    ([Ann][AnnGrantMartin] will handle). Our Post Office Box number is P.O. Box # 2073  CS, CO 80901. Please 
     do not send checks or money in the mail as the mailbox is not secure. 
 
 12. The Meeting closed in silence.
