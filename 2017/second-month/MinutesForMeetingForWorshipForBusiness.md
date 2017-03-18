@@ -51,7 +51,7 @@ Business meeting minutes for first month were approved
     LED lights in place, covers for chairs cleaned, sewer may need scoping,
     looking for solution to wind catching door. Report accepted.
 
-*   M&am;O Committee: [Ann Grant-Martin][AnnGrantMartin] is drafting the State of the 
+*   M&O Committee: [Ann Grant-Martin][AnnGrantMartin] is drafting the State of the 
     Meeting report, input is welcome. Soup and Sharing will be on 
     April 12 @ 6:00 p.m. at [Phil][PhilFriesen] and [Lisa][LisaLister]’s unless it 
     is too crowded. Meeting discussed an interest in assisting [John Robey][JohnRobey] 
