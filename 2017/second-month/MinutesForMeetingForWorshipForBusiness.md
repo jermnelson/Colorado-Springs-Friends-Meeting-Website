@@ -47,11 +47,11 @@ for worship for business from British Faith and Practice. Present were:
 
 Business meeting minutes for first month were approved
 
-*.  Meeting House Committee: Storm drainage and painting plans are ongoing.
+*   Meeting House Committee: Storm drainage and painting plans are ongoing.
     LED lights in place, covers for chairs cleaned, sewer may need scoping,
     looking for solution to wind catching door. Report accepted.
 
-*.  M&am;O Committee: [Ann Grant-Martin][AnnGrantMartin] is drafting the State of the 
+*   M&am;O Committee: [Ann Grant-Martin][AnnGrantMartin] is drafting the State of the 
     Meeting report, input is welcome. Soup and Sharing will be on 
     April 12 @ 6:00 p.m. at [Phil][PhilFriesen] and [Lisa][LisaLister]’s unless it 
     is too crowded. Meeting discussed an interest in assisting [John Robey][JohnRobey] 
@@ -59,16 +59,16 @@ Business meeting minutes for first month were approved
     yet certain. [Ann Grant-Martin][AnnGrantMartin] feels called to teach 
     Quakerism 101 in September using Phillip Kenworthy’s book. Report accepted.
 
-*.  Peace and Social Justice Committee: We will have a letter writing
+*   Peace and Social Justice Committee: We will have a letter writing
     project on March 5, 2017 after Meeting and potluck to provide out input
     to our congressional representatives. [Ellen][EllenCooney] reported on the immigration
     meeting in Pueblo. There were several volunteers to poll other
     organizations to learn about their level of involvement.
 
-*.  Finance committee: No report secondary to medical problems, but our
+*   Finance committee: No report secondary to medical problems, but our
     finances are healthy.
 
-*.  IMYM Representatives Committee: [John Gallagher][JohnGallagher] 
+*   IMYM Representatives Committee: [John Gallagher][JohnGallagher] 
     reported the Arrangements Committee met in January. 
     Representatives Committee met in February. Representatives 
     Committee is recommending that IMYM use a "pay as led"
