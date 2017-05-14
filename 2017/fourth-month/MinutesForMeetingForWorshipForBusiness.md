@@ -55,7 +55,7 @@ Present were: [Ellen Cooney][EllenCooney], [Jeremy Nelson][JeremyNelson],
 3.  Meeting House Committee Report: We have a new hydraulic latch on the
     back door, initial phase of sewer repair expected this week- full
     extent of repair to be determined, cleaning this month changed to
-    Friday because of Colorado Regional Meeting being held here on 4^th^
+    Friday because of Colorado Regional Meeting being held here on 4<sup>th</sup>
     Sunday, smaller projects on hold at this time, grant request for
     help with sewer cost submitted to Friends General Conference, sewer
     clean out will be located near curb so as not to interfere with
