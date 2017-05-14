@@ -64,7 +64,7 @@ Present were: [Ellen Cooney][EllenCooney], [Jeremy Nelson][JeremyNelson],
 4.  Ministry & Oversight: held a clearness committee for [Jonathan McFee][JonathanMcFee]
     and [Chris Paradise][ChrisParadise] regarding their marriage under the care of
     the meeting. All Quakers from this Meeting are invited. RSVPs are
-    requested by Wednesday, April 19^th^. Deb Gimbleson, clerk of Kapiti
+    requested by Wednesday, April 19<sup>th</sup>. Deb Gimbleson, clerk of Kapiti
     Friends Meeting in New Zealand and a former member here, is
     requesting that we be sister meetings with them. If interested, we
     will request a letter form Deb as clerk. Next M&O meeting May
