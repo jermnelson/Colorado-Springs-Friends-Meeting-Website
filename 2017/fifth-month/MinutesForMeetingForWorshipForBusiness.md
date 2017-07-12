@@ -41,7 +41,7 @@ Date: 2017-05-21T00:11:25
 Present were: [Ellen Cooney][EllenCooney], [Jeremy Nelson][JeremyNelson], 
 [Lisa Lister][LisaLister], [Phil Friesen][PhilFriesen], [Julie Roten-Valdez][JuliaRotenValdez], 
 [Claire Seriden][ClaireSheridan], [Molly Wingate][MollyWingate], [Kelsey Kennedy][KelseyKennedy],
-[Austin Hawk][AustinHawk], [Brianna Hawk][BriannaHawk], [John Robey][JohnRobey], [Sarah Callbeck[SarahCallback].
+[Austin Hawk][AustinHawk], [Brianna Hawk][BriannaHawk], [John Robey][JohnRobey], [Sarah Callbeck][SarahCallback].
 
 1.  The Meeting opened with silence and a query from IMYM gathering
     regarding how our traditional testimonies guide us on stewarding
