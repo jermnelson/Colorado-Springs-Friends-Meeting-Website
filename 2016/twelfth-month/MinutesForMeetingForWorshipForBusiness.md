@@ -156,7 +156,7 @@ An organization,
 [www.interfaithpowerandlight.org/](http://www.interfaithpowerandlight.org/)
 has been brought to our attention. Their “mission is to be faithful
 stewards of Creation by responding to global warming through the
-promotion of energy conservation.” M&O proposes that the Peace and
+promotion of energy conservation. M&O proposes that the Peace and
 Social Concerns Committee contact the local chapter, Colorado Interfaith
 Power and Light to see how we can, as a Meeting get involved.
 http://www.coloradoipl.org/contact-us/
