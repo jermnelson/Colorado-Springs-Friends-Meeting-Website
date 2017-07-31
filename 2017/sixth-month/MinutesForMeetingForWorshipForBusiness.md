@@ -107,6 +107,6 @@ Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin],
 
 Respectfully submitted,
 
-[Julia Roten-Valdez](JuliaRotenValdez]
+[Julia Roten-Valdez](JuliaRotenValdez)
 
 Recording clerk
