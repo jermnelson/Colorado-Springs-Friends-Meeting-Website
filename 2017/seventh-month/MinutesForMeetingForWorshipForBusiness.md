@@ -38,10 +38,10 @@ Date: 2017-07-16T11:30:00
 ## 2017 Minutes
 
 Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin], 
-[Lisa Lister][LisaLister], [Phil Frieze][PhilFrieze], [Julie Roten-Valdez][JulieRotenValdez], 
+[Lisa Lister][LisaLister], [Phil Friesen][PhilFriesen], [Julie Roten-Valdez][JuliaRotenValdez], 
 [Kelsey Kennedy][KelseyKennedy], [Claire Sheridan][ClaireSheridan],  [Sue Lauther][SueLauther], 
-[Molly Wingate][MollyWingate], [Linda Seager][LindaSeager], [Peter Levar][PeterLevar], 
-[Sarah Callbeck][SarahCallbeck].
+[Molly Wingate][MollyWingate], [Linda Seger][LindaSegar], [Peter Levar][PeterLevar], 
+[Sarah Callback][SarahCallback].
 
 1.  The Meeting opened with silence and a reading from “What is our Business Meeting?”. 
 2.  Minutes from the fifth month business meeting were approved with two corrections. 
@@ -89,4 +89,5 @@ Respectfully submitted,
 
 
 [Julia Roten- Valdez][JuliaRotenValdez]
+
 Recording clerk
