@@ -4,6 +4,7 @@ Date: 2017-09-17T00:00:00
 [AnnGrantMartin]: /Friends/AnnGrantMartin
 [AustinHawk]: /Friends/AustinHawk
 [BarbCromwell]: /Friends/BarbCromwell
+[BrianMurphy]: /Friends/BrianMurphy
 [BrianSojourner]: /Friends/BrianSojourner
 [BriannaHawk]: /Friends/BriannaHawk
 [CarltonGamer]: /Friends/CarltonGamer
@@ -42,7 +43,7 @@ Minutes
 Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin], 
 [Molly Wingate][MollyWingate], [Ann Daugherty][AnnDaugherty], 
 [Peter LeVar][PeterLeVar], [Sarah Callbeck][SarahCallback], [JeremyNelson][JeremyNelson], 
-[Lisa Joy Samson][LisaJoySamson], Brian Murphy, [Carlton Gamer][CarltonGamer]
+[Lisa Joy Samson][LisaJoySamson], [Brian Murphy][BrianMurphy], [Carlton Gamer][CarltonGamer]
 
 
 1.  The Meeting opened with silence and the query: Are we able to unite
@@ -64,7 +65,7 @@ Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin],
     and painting of sills, furnace maintenance. Landscaping, [Lisa][LisaLister]
     overseeing, implement some work before November, the rest in the
     spring. Gratitude expressed for those who care for the building on
-    4^th^ Sundays. Concern about drainage expressed. Looking into WIFI
+    4<sup>th</sup> Sundays. Concern about drainage expressed. Looking into WIFI
     and voiceover internet for telephone which will be brought before
     next Business Meeting. Gratitude expressed by [Molly][MollyWingate] for the good
     work of the committee.
@@ -77,9 +78,9 @@ Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin],
     
 
 6.  Finance Committee Report: Minutes read. Discussion of forming a 501
-    (c) (3) led by Brian whereby misunderstandings were dispelled – the
+    (c) (3) led by [Brian][BrianMurphy] whereby misunderstandings were dispelled - the
     meeting is a corporation, CO Non-Profit, a tax exempt organization,
-    and a church that holds a distinction according to the 1^st^
+    and a church that holds a distinction according to the 1<sup>st</sup>
     Amendment of the US Constitution. Discussion of tax exemption,
     further looking into the Short Form, the ongoing reporting
     requirements, child protection policy and background checks ensued.
@@ -88,7 +89,7 @@ Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin],
     all. [Sarah][SarahCallback] expressed gratitude to all who have helped on projects
     large and small, including sewers, Meeting House purchase, and
     refinancing. Date for next Finance Committee Meeting set for the
-    2^nd^ Tuesday in October, the 10^th^. [Sarah][SarahCallback] reported we are nicely
+    2<sup>nd</sup> Tuesday in October, the 10<sup>th</sup>. [Sarah][SarahCallback] reported we are nicely
     solvent. Cash Flow Report: donations are up, with bank account now
     around 2,000.00 we can now reserve for insurance deductible, reserve
     for Friends' fiduciary at 1,800.00, save for new addition by adding
@@ -100,7 +101,7 @@ Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin],
     gratitude.
 
 7.  Announcements: Sanctuary Committee will be held at the First
-    Congregational Church on Tuesday, September 19^th^, from 6 - 8 pm.
+    Congregational Church on Tuesday, September 19<sup>th</sup>, from 6 - 8 pm.
     Discussed Elmer's deportation, possible transfer to Denver, and
     current needs for his living situation and by his attorney. The
     meeting closed in silence.
