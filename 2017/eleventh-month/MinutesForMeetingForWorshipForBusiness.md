@@ -11,7 +11,7 @@ Date: 2017-11-19T11:30:00
 [ClaireSheridan]: /Friends/ClaireSheridan
 [ConstanceGale]: /Friends/ConstanceGale
 [ChrisParadise]: /Friends/ChrisParadise
-[DeneenCrandel]: /Friends/DeneenCrandell
+[DeneenCrandell]: /Friends/DeneenCrandell
 [EllenCooney]: /Friends/EllenCooney
 [HollyGrasso]: /Friends/HollyGrasso
 [JeremyNelson]: /Friends/JeremyNelson
