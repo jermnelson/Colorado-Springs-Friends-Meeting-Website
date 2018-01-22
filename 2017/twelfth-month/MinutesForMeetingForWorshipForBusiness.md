@@ -43,7 +43,7 @@ Date: 2017-12-17T12:20:00
 
 ## Minutes
 
-Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin]AnnGrantMartin], 
+Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin], 
 [Julie Zavage][JulieZavage], [Julie Roten-Valdez][JuliaRotenValdez], 
 [John Robey][JohnRobey], [Jeremy Nelson][JeremyNelson], [Sarah Callbeck][SarahCallback].
 
