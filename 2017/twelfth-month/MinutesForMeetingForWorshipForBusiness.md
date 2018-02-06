@@ -39,7 +39,7 @@ Date: 2017-12-17T12:20:00
 
 # MEETING FOR WORSHIP FOR BUSINESS
 
-## 17th Day of Twelveth Month, 2017
+## 17th Day of Twelfth Month, 2017
 
 ## Minutes
 
