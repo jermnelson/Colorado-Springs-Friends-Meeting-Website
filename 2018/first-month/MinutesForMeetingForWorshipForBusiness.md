@@ -34,7 +34,7 @@ Date: 2018-01-21T11:30:00
 [MariaMelendez]: /Friends/MariaMelendez
 [NancyAndrews]: /Friends/NancyAndrews
 [PhilFriesen]: /Friends/PhilFriesen
-[SarahCallback]: /Friends/SarahCallback
+[SarahCallbeck]: /Friends/SarahCallbeck
 [SherryMacMahon]: /Friends/SherryMacMahon]
 [SueLauther]: /Friends/SueLauther
 [SueLathrop]: /Friends/SueLathrop
@@ -45,7 +45,7 @@ Date: 2018-01-21T11:30:00
 ## Twenty-First Day of First Month 2018
 
 **Present**: [Ann-Grant Martin][AnnGrantMartin] (acting clerk), [Carlton Gamer][CarltonGamer], 
-[Kate Holbrook][KateHolbrook], [Sarah Callbeck][SarahCallback] and [Lisa Lister][LisaLister] (recording clerk).
+[Kate Holbrook][KateHolbrook], [Sarah Callbeck][SarahCallbeck] and [Lisa Lister][LisaLister] (recording clerk).
 
 Ann read the following advice and queries from Intermountain Yearly
 Meeting Faith and Practice:
@@ -251,7 +251,7 @@ Recording Clerk
 ## Ministry and Oversight Committee Minutes: January 15, 2018
 
 Present: [Carlton Gamer][CarltonGamer], [Peter LeVar][PeterLeVar] and 
-[Ann Martin][AnnMartin] clerk.
+[Ann Martin][AnnGrantMartin] clerk.
 
 We opened with Spiritual Silence at 11:30 and a brief check-in.
 
@@ -345,7 +345,7 @@ Representative Committee representative to Colorado Regional:
 
 Nominating Committee for CRM: [Maria Kelson][MariaKelson] (until July 1, 2018)
 
-Nominating Committee for IMYM: [Sarah Callbeck][SarahCallback] (until after IMYM 2019)
+Nominating Committee for IMYM: [Sarah Callbeck][SarahCallbeck] (until after IMYM 2019)
 
 **General Service to the Meeting** (Volunteer, non-appointed positions)
 
