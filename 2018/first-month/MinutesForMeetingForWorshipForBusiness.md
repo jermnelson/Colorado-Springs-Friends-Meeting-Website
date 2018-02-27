@@ -20,7 +20,7 @@ Date: 2018-01-21T11:30:00
 [JohnRobey]: /Friends/JohnRobey
 [JudithMcKay]: /Friends/JudithMcKay
 [JulieZavage]: /Friends/JulieZavage
-[LindaSegar]: /Friends/LindaSegar
+[LindaSeegar]: /Friends/LindaSeegar
 [LisaJoySamson]: /Friends/LisaJoySamson
 [LisaLister]: /Friends/LisaLister
 [PeterLeVar]: /Friends/PeterLeVar
