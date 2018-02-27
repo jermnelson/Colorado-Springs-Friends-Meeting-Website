@@ -43,7 +43,7 @@ Present were: [Ellen Cooney][EllenCooney], [Ann Grant-Martin][AnnGrantMartin],
 [Molly Wingate][MollyWingate], [Linda Seger][LindaSegar], [Peter Levar][PeterLevar], 
 [Sarah Callback][SarahCallback].
 
-1.  The Meeting opened with silence and a reading from “What is our Business Meeting?”. 
+1.  The Meeting opened with silence and a reading from "What is our Business Meeting?". 
 2.  Minutes from the fifth month business meeting were approved with two corrections. 
 3.  Meeting House Committee Report: We are working on the South window, fire extinguishers 
     need recharging, recently the back door was left open and a window was left unlocked. 
