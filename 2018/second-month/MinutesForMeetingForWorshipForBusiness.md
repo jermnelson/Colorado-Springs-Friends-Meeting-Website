@@ -379,7 +379,7 @@ business meeting so that we can present our ideas at business meeting.
 [Claire][ClaireSheridan] will look into the book,*Fit for Freedom, not Fit for
 Friendship*. [Ann][AnnDaugherty] will look into a book about housing discrimination,
 [Molly][MollyWingate] will look into an AFSC program titled "39 Questions", and 
-[Austin][AustinHawk] will look into the movie, *I'm Not Your Negro*.
+[Austin][AustinHawk] will look into the movie, *I'm Not Your Negro*.
 
 Also, [Molly][MollyWingate] said she would get in touch with her friend Jodie Alyn, the
 consultant who does diversity training nationally, to get an idea of
