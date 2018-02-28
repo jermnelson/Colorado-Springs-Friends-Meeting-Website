@@ -45,7 +45,8 @@ Date: 2018-01-21T11:30:00
 ## Twenty-First Day of First Month 2018
 
 **Present**: [Ann-Grant Martin][AnnGrantMartin] (acting clerk), [Carlton Gamer][CarltonGamer], 
-[Kate Holbrook][KateHolbrook], [Sarah Callbeck][SarahCallbeck] and [Lisa Lister][LisaLister] (recording clerk).
+[Kate Holbrook][KateHolbrook], [Sarah Callbeck][SarahCallbeck] and 
+[Lisa Lister][LisaLister] (recording clerk).
 
 Ann read the following advice and queries from Intermountain Yearly
 Meeting Faith and Practice:
