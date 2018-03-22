@@ -1,6 +1,5 @@
-Django RST Bug
---------------
+Colorado Springs Friends Monthly Meeting
+----------------------------------------
+Source code for Colorado Springs Monthly Meeting Religious Society of Friends 
+website and authoritiative information.
 
-1. In django.contrib.admindocs.utils module, comment out the line
-
-   docutils.parsers.rst.roles.DEFAULT_INTERPRETED_ROLE = 'cmsreference'
