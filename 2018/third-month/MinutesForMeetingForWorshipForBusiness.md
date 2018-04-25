@@ -45,7 +45,7 @@ Date: 2018-03-18T11:20:00
 
 ## Colorado Springs Friends Meeting
 
-**Eighteenth Day of Second Month 2018**
+**Eighteenth Day of Third Month 2018**
 
 **Present:** [Ellen Cooney][EllenCooney] (Clerk), [Linda Seger][LindaSeegar], 
 [Molly Wingate][MollyWingate], [Phil Friesen][PhilFriesen], 
