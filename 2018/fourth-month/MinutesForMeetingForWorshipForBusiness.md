@@ -61,7 +61,7 @@ Minutes of the Third Month Meeting for Worship with a Concern for
 Business were approved with the correction of Eighteenth Day of Second
 Month to Eighteenth Day of Third Month.
 
-## COMMITTEE REPORTS**
+## COMMITTEE REPORTS
 
 ### The Meeting House Committee
 Minutes were accepted. The Exterior Trim
