@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}{% endblock %}
+
+{% block container %}
+{# START main row #}
+<div class="row">
+  {# START Left Nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END Left Nav #}
+  </div>
+  {# START meeting contents #}
+  <div class="col-md-9">
+    <div class="well">
+    <h1>Quaker Meetings</h1>
+    <h2>Meeting for Worship</h2>
+   <p>Quakerism offers a spirituality based on experiencing a loving inward presence, or Inner Light, which opens 
+       us to truth, freedom and peace. Our weekly Meeting for Worship is at 
+       10 am each First Day (Sunday). In our Meeting for Worship, we gather 
+       together in prayerful silence for one hour, opening ourselves to this 
+       experience. All are welcome.</p>
+     <h2>Business Meeting</h2>
+     <p>
+        We also have a monthly Business Meeting after worship on the third 
+        First Day of each month, where consensus decisions are made 
+        concerning the Meeting's financial, spiritual, and physical 
+        matters.
+     </p>
+    </div>
+  {# END meetings contents #}
+  </div>
+{# END main row #}
+</div>
+{% endblock %}

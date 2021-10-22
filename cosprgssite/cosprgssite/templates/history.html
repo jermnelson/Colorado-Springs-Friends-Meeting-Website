@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block jumbotron %}{% endblock %}
+
+{% block container %}
+{# START main row #}
+<div class="row">
+  {# START Left Nav #}
+  <div class="col-md-3">
+   {% include 'snippets/left-nav.html' %}
+  {# END Left Nav #}
+  </div>
+  {# START minute contents #}
+  <div class="col-md-9">
+   <div class="well">
+    <h1>History</h1>
+    <em>excerpt from Friends General Conference <a href="https://www.fgcquaker.org/discover/faqs-about-quakers#start">website</a></em>
+    <dl>
+        <dt>How did the Quaker movement begin?</dt>
+        <dd>It began during a period of much religious upheaval in England during the mid-1600s, as people questioned the 
+            established church and sought new ways to understand Christianity. The emerging faith community gathered around 
+            the leadership of George Fox and others who encouraged people to be guided by a direct, firsthand encounter with 
+            the Spirit. These Quakers were seeking an authentic return to "primitive Christianity," as 
+            practiced by the followers of Jesus in the first century.</dd>
+    </dl>
+
+ 
+   </div>
+  {# END minute contents #}
+  </div>
+{# END main row #}
+</div>
+{% endblock %}

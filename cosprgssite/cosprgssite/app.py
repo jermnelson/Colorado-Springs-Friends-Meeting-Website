@@ -11,7 +11,12 @@ from jinja2.exceptions import TemplateNotFound
 
 app = Flask(__name__)
 
+# Sets Flask Freeze destination directory
+
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__)).split("cosprgssite")[0]
+
+# Sets Flask Freeze destination directory
+app.config["FREEZER_DESTINATION"] = f"{PROJECT_ROOT}/docs"
 
 BUSINESS_MINUTE_FILENAME = 'MinutesForMeetingForWorshipForBusiness.md'
 
@@ -88,7 +93,7 @@ def _get_minute(year, month):
     return abort(404)
 
 @app.route("/committees/<path:name>")
-@app.route("/committees")
+@app.route("/committees/")
 def committee_route(name=None):
     if name is None:
         return render_template("committee-base.html")
@@ -100,12 +105,8 @@ def committee_route(name=None):
     except TemplateNotFound:
         abort(404)
 
-@app.route("/Friends/<name>")
-def friend_display(name):
-    abort(401)
-
 @app.route("/history/<path:topic>")
-@app.route("/history")
+@app.route("/history/")
 def history_route(topic=None):
     if topic is not None:
         if topic.endswith("/"):
@@ -114,16 +115,21 @@ def history_route(topic=None):
             return render_template("{}.html".format(topic))
         except TemplateNotFound:
             pass
-    abort(404)
+    else:
+        return render_template("history.html")
 
 @app.route("/meetings/<name>/<year>/<path:month>")
 @app.route("/meetings/<name>/<path:year>")
 @app.route("/meetings/<path:name>")
-@app.route("/meetings")
+@app.route("/meetings/")
 def meetings(name=None, year=None, month=None):
+    if name is None:
+        return render_template("meetings.html", section="meeting")
     if name.lower().startswith("worship"):
         return render_template("worship.html")
     if name and year and month:
+        if month.endswith("/"):
+            month = month[:-1]
         return render_template(
             'minute.html',
             category = 'about',
@@ -133,14 +139,16 @@ def meetings(name=None, year=None, month=None):
         minutes=get_minutes(year),
         section="meeting")
 
-@app.route("/testimonies/<name>")
-@app.route("/testimonies")
+@app.route("/testimonies/<path:name>")
+@app.route("/testimonies/")
 def testimony(name=None):
     if name is None:
         return render_template(
             "testimonies.html",
 			category='about',
 			section='testimonies')
+    if name.endswith("/"):
+        name = name[:-1]
     return render_template(
         '{0}.html'.format(name.lower()),
         category='about',
